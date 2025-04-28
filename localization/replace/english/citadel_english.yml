@@ -1,0 +1,483 @@
+﻿l_english:
+
+banefort_legacy_track_name: "Banefort"
+banefort_legacy_track_desc: "Welcome Strangers"
+banefort_legacy_1_name: "The Hooded Kings"
+banefort_legacy_2_name: "Black Dungeons of the Fort"
+banefort_legacy_3_name: "Welcome The Guests!"
+banefort_legacy_4_name: "Marchers of Ironman Bay"
+banefort_legacy_5_name: "Shadow Kings Once More"
+
+BANEFORT_THE_HOODED_KINGS_NO_BULLETTAB:0 "The Baneforts were petty First Men kings of the Age of Heroes, claiming descent from the Hooded Man, a terrifying necromancer-king hailing from the Westerlands."
+BANEFORT_BLACK_DUNGEONS_OF_THE_FORT:0 "It is said that in the deepest dungeons of the Banefort, the Hooded kings of old practiced powerful necromantic spells to raise the dead and use them as soldiers. Whether those rumours are true, or the dungeons are merely torture chambers; it is known only to the lords of the Banefort.\n#weak Some Baneforts tend to become [GetTrait('sadistic').GetName( GetNullCharacter )]."
+BANEFORT_WELCOME_THE_GUESTS:0 "Despite their ominous appearance, House Banefort's words are 'Welcome Stranger'. Guest rights are highly respected and honoured under their roof, and peace banners are revered and adhered to.\n#weak Some Baneforts tend to become [GetTrait('gregarious').GetName( GetNullCharacter )]."
+BANEFORT_MARCHERS_OF_IRONMAN_BAY:0 "House Banefort have fought off Ironborn reavers for centuries. While they possess no impressive naval presence, the Baneforts have thrown the Ironborn back to the sea many times. Many Ironborn have also found themselves unfortunate enough to land in the Banefort dungeons."
+BANEFORT_SHADOW_KINGS_ONCE_MORE:0 "We have overthrown our petty overlords and now, under our hood, the realm is covered in prosperous shadow. Kings once more, both terrible and glorious. All who live beneath us shall serve loyally, or be consumed by the man beneath the hood."
+
+cargyll_legacy_track_name: "Cargyll"
+cargyll_legacy_track_desc: "Golden Loyalty, Golden Duty"
+cargyll_legacy_1_name: "First Men Origins"
+cargyll_legacy_2_name: "The Golden Goose"
+cargyll_legacy_3_name: "Knights of Honor and Duty"
+cargyll_legacy_4_name: "Good Mead for a Good Flock"
+cargyll_legacy_5_name: "Golden Loyalty, Golden Duty"
+
+CARGYLL_FIRST_MEN_ORIGINS:0 "House Cargyll descend from the First Men lords that that ruled [GetTitleByKey('c_strongmead').GetNameNoTier] prior to the Andal Invasion. \n#weak Ages have passed, but we still remember who we are."
+CARGYLL_THE_GOLDEN_GOOSE:0 "According to legend, the legendary Golden Goose was the one who first brought eggs to Westeros."
+CARGYLL_KNIGHTS_OF_HONOR_AND_DUTY:0 "House Cargyll has produced many exemplary knights and warriors. Though their lands are small, their prowess is revered and their loyalty is well-known. Knights of the Kingsguard such as Ser [GetScriptedCharacterByHistoryID('Cargyll_12').GetFirstName] and Ser [GetScriptedCharacterByHistoryID('Cargyll_11').GetFirstName] Cargyll stand as the greatest of examples of such prowess.\n#weak Some Cargylls tend to become [GetTrait('loyal').GetName( GetNullCharacter )]"
+CARGYLL_GOOD_MEAD_FOR_A_GOOD_FLOCK:0 "It's not always war and struggle. The ancestral Cargyll seat of [GetTitleByKey('c_strongmead').GetNameNoTier] is well renowned for its production of strong meads. Such mead rivals even the dark ale of Aleport or the sharp cider of Cider Hall."
+CARGYLL_GOLDEN_LOYALTY_GOLDEN_DUTY:0 "We are the Cargylls. That name carries great weight. Those of small stature yet those who cast a large shadow. We are always present in the greatest of events yet few pay us heed. We excell in our small part.\n#weak Some Cargylls tend to become [GetTrait('brave').GetName( GetNullCharacter )]"
+
+frey_legacy_track_name: "Frey"
+frey_legacy_track_desc: "Stand Together"
+frey_legacy_1_name: "Family Matters"
+frey_legacy_2_name: "So-Called 'Upstarts'"
+frey_legacy_3_name: "Trident Toll Collectors"
+frey_legacy_4_name: "Crannogman Rivalry"
+frey_legacy_5_name: "Plans Of Our Own"
+
+FREY_FAMILY_MATTERS:0 "House Frey is an incredibly young house by Riverlander standards, especially amongst those of the Green Fork. Their explosive rise to prominence is largely due to their immense familial cooperation, making use of the combined brainpower and manpower of their entire dynasty. This reputation has become synonymous with notions of fertility.\n#weak Some Freys tend to become [GetTrait('fecund').GetName( GetNullCharacter )]"
+FREY_SO_CALLED_UPSTARTS:0 "House Frey's relevantly recent rise to such lordly stature has made them very unpopular amongst the Westerosi highborn. If anything however, this acridity serves only to motivate the scions of House Frey, whose lofty ambitions bring them from one machination to another.\n#weak Some Freys tend to become [GetTrait('ambitious').GetName( GetNullCharacter )]"
+FREY_TRIDENT_TOLL_COLLECTORS:0 "House Frey hails from the keep of [GetTitleByKey('c_arganbrook').GetNameNoTier], a fortified seat situated on the western bank of the Green Fork. Their newest seat, known colloquially as [GetTitleByKey('c_the_twins').GetNameNoTier], occupies as an incredibly strategic position as a major crossing across the Trident. From this position, House Frey exacts toll on any and all that would seek to use their fortified bridge, and as such they have become incredibly wealthy and opulent, surpassing even the Tullys of Riverrun.\n#weak Some Freys tend to become [GetTrait('greedy').GetName( GetNullCharacter )]. "
+FREY_CRANNOGMAN_RIVALRY:0 "House Frey's deep hatred for their Crannogman neighbours to the north is well-documented. Often referring to them as 'frog-eaters' or 'mud-men', the hatred has become instiutionalised among the Frey coterie. For this reason, the majority of House Frey's martial endeavours are centered around this anti-Crannogman dogma."
+FREY_PLANS_OF_OUR_OWN:0 "House Frey has risen to such stature that they have far surpassed the wealth of and claim dominion over larger lands than their liege lords. The house can marshal more men than almost any other house in the Riverlands, surpassed only by the Mallisters of Seagard to the west. For this reason, the rulers of House Frey often find themselves taking any stance they can to further their own position within the realm.\n#weak Some Freys tend to become [GetTrait('deceitful').GetName( GetNullCharacter )]."
+
+strong_legacy_track_name: "Strong"
+strong_legacy_track_desc: "True To Name"
+strong_legacy_1_name: "Eponymous Physiques"
+strong_legacy_2_name: "A House Of Hands"
+strong_legacy_3_name: "Stewards of Harrenhal"
+strong_legacy_4_name: "Ear of the Crown"
+strong_legacy_5_name: "Power Among the Rivers"
+
+STRONG_EPONYMOUS_PHYSIQUES:0 "House Strong is an old and storied house of the Riverlands, often boasting of their First Men descent. This First Men blood runs thick through their veins, and has blessed many a Strong lord with a robust and powerful physique. Ser [GetScriptedCharacterByHistoryID('Strong_30').GetFirstName] Strong was often regarded as the most physically imposing and strongest knight in the Seven Kingdoms, and this reputation precedes and succeeds even him.\n#weak Some Strongs tend to become [GetTrait('strong').GetName( GetNullCharacter )] or [GetTrait('physique_good_2').GetName( GetNullCharacter )]."
+STRONG_A_HOUSE_OF_HANDS:0 "House Strong has a legacy of proud and loyal servitude to the Crown, and many of its members have had the honour of serving as Hand of the King. The most legendary example was Lord [GetScriptedCharacterByHistoryID('Strong_7').GetFirstName] Strong, the Hand to King [GetScriptedCharacterByHistoryID('Targaryen_27').GetFirstName] I, 'the Conqueror'. Lord-Hand Osmund was the man responsible for the construction of the walls around King's Landing, and surely many more Strong lords are destined to continue his legacy of loyal and diligent servitude.\n#weak Some Strongs tend to become [GetTrait('loyal').GetName( GetNullCharacter )] or [GetTrait('diligent').GetName( GetNullCharacter )]."
+STRONG_STEWARDS_OF_HARRENHAL:0 "To many, receiving the Lordship of Harrenhal is as good as a death sentence. House Strong, however, has so far shirked this superstition, and has continued to further their position from their new seat at Harrenhal. As high lords of both the lordship of [GetTitleByKey('d_harrenhal').GetNameNoTier] and the [GetTitleByKey('d_three_forks').GetNameNoTier], House Strong maintains a position as the most powerful bannerman to House Tully. This position does not come without its drawbacks, however. Harrenhal is still in disrepair, even with the reconstruction efforts of its various lords, and repair projects are incredibly costly, both in gold and sanity."
+STRONG_EAR_OF_THE_CROWN:0 "Due to their regional power and their reputation as loyal and competent servants, House Strong often finds itself in very good graces with the monarchs of King's Landing. In recent times, it has become a very rare sight to see a Small Council named without a sitting Lord Strong, and an even rarer sight to find a king without a Strong advisor somewhere amongst his court. For this reason, it is very simple for the lords of Harrenhal to influence realm politics, and even easier to manipulate the decisionmaking of the presiding kings and queens."
+STRONG_POWER_AMONG_THE_RIVERS:0 "Due to their huge domains and densely-populated lands, House Strong is able to marshal an incredibly large army, and posture it among the sprawling grounds of Harrenhal."
+
+graceford_legacy_track_name: "Graceford"
+graceford_legacy_track_desc: "Work Her Will"
+graceford_legacy_1_name: "Andal Origins"
+graceford_legacy_2_name: "Benefactors of the Sage Kings"
+graceford_legacy_3_name: "Work Her Will"
+graceford_legacy_4_name: "Great Septs of Holyhall"
+graceford_legacy_5_name: "Lords of Peace and Prosperity"
+
+GRACEFORD_ANDAL_ORIGINS:0 "House Graceford trace their lineage back to the adventurers of the Andal Invasion. This house carries the seven-pointed star more proudly than most, and many even go to the lengths of branding or carving the symbol into their skin."
+GRACEFORD_BENEFACTORS_OF_THE_SAGE_KINGS:0 "After the Gardener Kings converted to the Faith of the Seven, House Graceford were recognised for their piety, and were rewarded justly with lands and wives by the Three Sage Kings."
+GRACEFORD_WORK_HER_WILL:0 "The Mother is one of the seven aspects of the Faith of the Seven, and represents mercy, peace, fertility and childbirth. House Graceford took the Mother for their sigil, and her teachings as their doctrine, and so she rewards them in kind.\n#weak Some Gracefords tend to become [GetTrait('zealous').GetName( GetNullCharacter )]."
+GRACEFORD_GREAT_SEPTS_OF_HOLYHALL:0 "House Graceford are the builders and keepers of the Great Sept at Holyhall, one of the largest septs in the Seven Kingdoms. The sept is a frequent target for pilgrimages, and many lords, clergymen and travellers pay patronage to its marble walls."
+GRACEFORD_LORDS_OF_PEACE_AND_PROSPERITY:0 "House Graceford is not a martial nor subversive house, and yet the house remains strong, navigating skilfully through many troubled times. Dutifully adherent to their faith and its teachings, the house often remains a safe patron for all acolytes of the Seven, and as such, their lands prosper in peace.\n#weak Some Gracefords tend to become [GetTrait('content').GetName( GetNullCharacter )] or [GetTrait('humble').GetName( GetNullCharacter )]."
+
+mallister_legacy_track_name: "Mallister"
+mallister_legacy_track_desc: "Above The Rest"
+mallister_legacy_1_name: "Proud Lineage"
+mallister_legacy_2_name: "Harder Than Iron"
+mallister_legacy_3_name: "Defenders of Seagard"
+mallister_legacy_4_name: "Eagle-Blazoned Warriors"
+mallister_legacy_5_name: "Legacy of Defiance"
+
+MALLISTER_PROUD_LINEAGE:0 "House Mallister claims an even prouder and more storied lineage than their Riverman peers or their Tully overlords. Their indigo cloaks and winged helms are noted across many chapters in many history books, and their great deeds of martial ingenuity and supremacy are well-documented.\n#weak Some Mallisters tend to become [GetTrait('brave').GetName( GetNullCharacter )]."
+MALLISTER_HARDER_THAN_IRON:0 "The [GetTitleByKey('d_cape_of_eagles').GetNameNoTier], current lordship of House Mallister, was historically ruled by the ironborn. The Mallisters conquered the territory from King Torgon Greyiron of the Isles, and have managed to maintain their conquered lands for the centuries since. To this day, the Mallisters frequently find themselves at odds with the Ironborn, and frequently have they thrown them back into the sea."
+MALLISTER_DEFENDERS_OF_SEAGARD:0 "House Mallister rules over the significant walled city of [GetTitleByKey('c_seagard').GetNameNoTier], the third largest city in the Riverlands, behind Fairmarket and Maidenpool. As its protectors and lords, the Mallisters maintain strong relationships with its people and masters, and their subjects are rightfully loyal in kind."
+MALLISTER_EAGLE_BLAZONED_WARRIORS:0 "May the Seven give their blessing to any warrior unfortunate enough to face a man draped in indigo."
+MALLISTER_LEGACY_OF_DEFIANCE:0 "Ironborn reavers. Storm Kings. Crannogman raiders. Andal invaders. All have fallen at the end of Mallister spears. The Mallister name commands respect and servitude, and there are few houses that may claim such authority or prestige.\n#weak Some Mallisters tend to become [GetTrait('ambitious').GetName( GetNullCharacter )] or [GetTrait('authoritative').GetName( GetNullCharacter )]."
+
+oakheart_legacy_track_name: "Oakheart"
+oakheart_legacy_track_desc: "Our Roots Go Deep"
+oakheart_legacy_1_name: "First Men Origins"
+oakheart_legacy_2_name: "Sired on Giantesses"
+oakheart_legacy_3_name: "Gardener Marshals"
+oakheart_legacy_4_name: "Unyielding as the Oak"
+oakheart_legacy_5_name: "Lords on the Ocean Road"
+
+OAKHEART_FIRST_MEN_ORIGINS:0 "House Oakheart claims a distant and deeply rooted First Men ancestry, with their progenitor a son of the legendary Garth Greenhand."
+OAKHEART_SIRED_ON_GIANTESSES:0 "The founder of House Oakheart, the mythical John the Oak, was said to be sired on a Giantess of the Reach by Garth Greenhand. While mostly regarded as folklore or oral tradition, the robust build and large frames of Oakheart warriors certainly lend some credibility to such a theory...\n#weak Some Oakhearts tend to become [GetTrait('giant').GetName( GetNullCharacter )] or [GetTrait('strong').GetName( GetNullCharacter )]."
+OAKHEART_GARDENER_MARSHALS:0 "House Oakheart has a storied history of martial mastery. Under the Gardener Kings, the position of Grand Marshal was oftentimes occupied by an Oakheart lord, even until the very end, when the Oakhearts led the left flank during the fateful Field of Fire."
+OAKHEART_UNYIELDING_AS_THE_OAK:0 "Members of House Oakheart are commonly compared to the old oaks from which they hail, often described as stubborn, unwavering, or dogmatic. They are set in their ways, and not even the strongest storms break their ways.\n#weak Some Oakhearts tend to become [GetTrait('stubborn').GetName( GetNullCharacter )] or [GetTrait('just').GetName( GetNullCharacter )]."
+OAKHEART_LORDS_ON_THE_OCEAN_ROAD:0 "The Oakheart dynasty at [GetTitleByKey('c_old_oak').GetNameNoTier] sits along the [GetTitleByKey('d_the_ocean_road').GetNameNoTier], a highly important thoroughfare along the western coast of the Reach. This road connects the southern Westerlands to the Northmarches, and feeds directly into the settlements along the mouth of the Mander. House Oakheart has presided over and protected this route for millenia."
+
+peake_legacy_track_name: "Peake"
+peake_legacy_track_desc: "We Three Stand"
+peake_legacy_1_name: "First Men Origins"
+peake_legacy_2_name: "Legacy of Florys the Fox"
+peake_legacy_3_name: "Victors of the Ancient Rivalry"
+peake_legacy_4_name: "Keepers of Three Castles"
+peake_legacy_5_name: "Surpassing the Rest"
+
+PEAKE_FIRST_MEN_ORIGINS:0 "Like many of the other ancient Reachman houses, House Peake claims its lineage back to the legendary Garth Greenhand, a mythical figure and King of the Reach among the First Men."
+PEAKE_LEGACY_OF_FLORYS_THE_FOX:0 "Like Houses Florent and Ball, House Peake's founder is said to be descended from one of the husbands of the legendary Florys the Fox, the conniving and shrewd daughter of Garth Greenhand. Her personality and machinations have permeated much of House Peake's history, and its lords are often described in her image.\n#weak Some Peakes tend to become [GetTrait('shrewd').GetName( GetNullCharacter )] or [GetTrait('deceitful').GetName( GetNullCharacter )]."
+PEAKE_VICTORS_OF_THE_ANCIENT_RIVALRY:0 "The dynastic feud between House Peake and House Manderly is the most famous and well-documented among any in the Seven Kingdoms, including those of the Marcher lords of the Red Mountains. The most recent major victory in this feud was scored centuries ago, when House Peake used its subversive and manipulative tactics to the most, and successfully schemed to exile House Manderly from the Reach.\n#weak Some Peakes tend to become [GetTrait('ambitious').GetName( GetNullCharacter )] or [GetTrait('disloyal').GetName( GetNullCharacter )]."
+PEAKE_KEEPERS_OF_THREE_CASTLES:0 "House Peake, as its sigil proudly shows, rules over three impressive strongholds: [GetTitleByKey('c_starpike').GetNameNoTier], their ancestral seat; [GetTitleByKey('c_whitegrove').GetNameNoTier], their second castle; and [GetTitleByKey('c_dunstonbury').GetNameNoTier], the former seat of House Manderly, and the newest and proudest possession of House Peake. Due to this, the house has become experts in the maintenance, expansion and protection of such holdings."
+PEAKE_SURPASSING_THE_REST:0 "House Peake is destined for greater things even still. Woe betide any who would dare to suggest otherwise."
+
+connington_legacy_track_name: "Connington"
+connington_legacy_track_desc: "To New Heights"
+connington_legacy_1_name: "Andal Origins"
+connington_legacy_2_name: "Griff-in to Win It"
+connington_legacy_3_name: "A Massive Wingspan"
+connington_legacy_4_name: "Legacy of Roy Connington"
+connington_legacy_5_name: "Out for Blood"
+
+CONNINGTON_ANDAL_ORIGINS:0 "Like many other noble houses of the Stormlands, House Connington traces its roots to the adventurers of the Andal Invasion. House Connington places a strong emphasis on its knights and its faith."
+CONNINGTON_GRIFFIN_TO_WIN_IT:0 "House Connington under the Targaryen regime was an incredibly powerful house, marshalling the most men in the Stormlands and accruing wealth comparable even to House Tarth. Their armies were the most feared of all the Stormlander forces, surpassing those of House Swann or Dondarrion, and their warriors often found themselves among the Kingsguard or the Baratheon household for their skill and prowess.\n#weak Some Conningtons tend to become [GetTrait('brave').GetName( GetNullCharacter )]."
+CONNINGTON_A_MASSIVE_WINGSPAN:0 "The lands of House Connington exptend many leagues north, east, south and west of [GetTitleByKey('c_griffins_roost').GetNameNoTier], encompassing farmlands, forest, hills and mountains alike. Their holdings are vast and proud, and their subjects are loyal and diligent."
+CONNINGTON_LEGACY_OF_ROY_CONNINGTON:0 "The young Lord [GetScriptedCharacterByHistoryID('Connington_27').GetFirstName] Connington was a historic companion of Princess [GetScriptedCharacterByHistoryID('Targaryen_51').GetFirstName] Targaryen, and was often well-regarded for his beauty and his swordplay. He was eventually exiled when this companionship came to life, and it is said he drank himself to death, a fate that has befallen many Conningtons.\n#weak Some Conningtons tend to become [GetTrait('beauty_good_2').GetName( GetNullCharacter )] or [GetTrait('drunkard').GetName( GetNullCharacter )]."
+CONNINGTON_OUT_FOR_BLOOD:0 "Though not marcher lords by culture or tradition, the history of House Connington is not too unlike that of those along the Stoneway or Prince's Pass. Many Connington scions and soldiers have perished in the Dornish sands or along the Red Mountains, and House Connington holds that grudge with a vengeance.\n#weak Some Conningtons tend to become [GetTrait('vengeful').GetName( GetNullCharacter )]."
+
+kenning_legacy_track_name: "Kenning"
+kenning_legacy_track_desc: "Bring Your Storm"
+kenning_legacy_1_name: "First Men Origins"
+kenning_legacy_2_name: "Legacy of Herrock Kenning"
+kenning_legacy_3_name: "Brutal History"
+kenning_legacy_4_name: "Loyal to the Rock"
+kenning_legacy_5_name: "Blood of Black and Gold Alike"
+
+KENNING_FIRST_MEN_ORIGINS:0 "Like all ironborn, and many westermen, House Kenning trace their origins back to the First Men lords and petty kings that ruled Westeros before the Andal Invasion."
+KENNING_LEGACY_OF_HERROCK_KENNING:0 "House Kenning of Kayce was founded in a peculiar way. The house was first born when [GetScriptedCharacterByHistoryID('KenningK_4').GetFirstName] Kenning, an ironborn warrior from the island of [GetTitleByKey('d_harlaw').GetNameNoTier], took the town of Kayce not for the kings of salt and sea, but for the King of the Rock. He blew the legendary Horn of Herrock, signalling the whores of Kayce- to whom he had become somewhat of a local hero- to open a postern gate, allowing the Westerman army besieging the city to capture it for House Lannister.\n#weak Some Kennings tend to become [GetTrait('deceitful').GetName( GetNullCharacter )]."
+KENNING_BRUTAL_HISTORY:0 "Like all ironborn, House Kenning of Kayce's lineage have partaken in many particularly brutal excursions, serving in many raids. Unlike most ironborn however, these raids were in the name of the Kingdom of the Rock, not the captains, lords or kings of the Iron Isles. For this reason, House Kenning has developed a unique aptitude for raiding amongst its Westerman allies.\n#weak Some Kennings tend to become [GetTrait('wrathful').GetName( GetNullCharacter )]."
+KENNING_LOYAL_TO_THE_ROCK:0 "After forsaking their previous Ironborn overlords, House Kenning of Kayce has been wholly loyal to the kings, and now lords, of [GetTitleByKey('c_casterly_rock').GetNameNoTier], and no Kenning has yet forsaken these new vows.\n#weak Some Kennings tend to become [GetTrait('loyal').GetName( GetNullCharacter )]."
+KENNING_BLOOD_OF_BLACK_AND_GOLD_ALIKE:0 "A unique mixture of Ironborn brutality and Westerman acumen, the members of House Kenning of Kayce are truly unique among the other Westerosi mainlanders, and as such, they benefit from the best of both cultures."
+
+harlaw_legacy_track_name: "Harlaw"
+harlaw_legacy_track_desc: "Reap the Chaff"
+harlaw_legacy_1_name: "Old Kings"
+harlaw_legacy_2_name: "Vices and Plagues"
+harlaw_legacy_3_name: "Richest of the Poor"
+harlaw_legacy_4_name: "Wit as Sharp as Blade"
+harlaw_legacy_5_name: "Iron Sailors"
+
+HARLAW_OLD_KINGS:0 "House Harlaw were elected Kings of the Iron Isles many times before the Greyjoys ended the kingsmoot."
+HARLAW_VICES_AND_PLAGUES:0 "House Harlaw has had a history of fighting disease and resisting overindulgence when things seem too good to be true.\n#weak Some Harlaws tend to become [GetTrait('temperate').GetName( GetNullCharacter )]."
+HARLAW_RICHEST_OF_THE_POOR:0 "Iron Islanders are not known for their wealth; at least not what they obtain through their own means. House Harlaw has often been an outlier in that regard. The mines of the island and their proximity to the coasts of the Riverlands, The Finger, and the Westerlands have allowed them to become profitable traders."
+HARLAW_WIT_AS_SHARP_AS_BLADE:0 "Throughout their history, Harlaws have possessed a foresight and innovation that has made them more progressive than others of their ilk.\n#weak Some Harlaws tend to become [GetTrait('shrewd').GetName( GetNullCharacter )]."
+HARLAW_IRON_SAILORS:0 "Outfitted with the iron mined on their own island, paired with the inhabitant’s faith in the Drowned God, Harlaw sailors tend to fight with unmatched zeal and ferocity."
+
+goodbrother_legacy_track_name: "Goodbrother"
+goodbrother_legacy_track_desc: "Heed the Call"
+goodbrother_legacy_1_name: "Blood of the Grey King's Brother"
+goodbrother_legacy_2_name: "Mines of the Hills"
+goodbrother_legacy_3_name: "The Badbrother's Legacy"
+goodbrother_legacy_4_name: "Iron Kings of Old"
+goodbrother_legacy_5_name: "Kings of Wyk"
+
+GOODBROTHER_BLOOD_OF_THE_GREY_KINGS_BROTHER:0 "House Goodbrother claims descent from the Grey King’s leal elder brother, awarding them a proud lineage that demands respect and loyalty."
+GOODBROTHER_MINES_OF_THE_HILLS:0 "House Goodbrother’s power comes not from the sea, but from their vast mines within the [GetTitleByKey('d_hardstone_hills').GetNameNoTier], giving them wealth and resources unmatched on Great Wyk."
+GOODBROTHER_THE_BADBROTHERS_LEGACY:0 "Urrathon IV, known as the 'Badbrother', ruled the Iron Islands with cruelty and fear. His savage reign, though short-lived, left a lasting mark on House Goodbrother’s reputation for ruthlessness.\n#weak Some Goodbrothers tend to become [GetTrait('wrathful').GetName( GetNullCharacter )]."
+GOODBROTHER_IRON_KINGS_OF_OLD:0 "House Goodbrother has produced many High Kings in the kingsmoots of old, second only to the Greyirons.\n#weak Some Goodbrothers tend to become [GetTrait('authoritative').GetName( GetNullCharacter )]."
+GOODBROTHER_KINGS_OF_WYK:0 "The Goodbrothers reclaim their place as rulers of Great Wyk, their mines funding an ironborn resurgence, and their might growing from the stone beneath their feet."
+
+blacktyde_legacy_track_name: "Blacktyde"
+blacktyde_legacy_track_desc: "Salt the Wound"
+blacktyde_legacy_1_name: "Blood of the Cruel Kings"
+blacktyde_legacy_2_name: "Maidensbane's Reavers"
+blacktyde_legacy_3_name: "Ruthless Seafarers"
+blacktyde_legacy_4_name: "Ironborn Royalty"
+blacktyde_legacy_5_name: "Black Kings' Return"
+
+BLACKTYDE_BLOOD_OF_THE_CRUEL_KINGS:0 "The Blacktydes are said to descend from Qhored the Cruel and Joron Maidensbane, High Kings known for their brutal reigns. Their bloodline is tainted with cruelty, a legacy that strikes fear into their enemies.\n#weak Some Blacktydes tend to become [GetTrait('sadistic').GetName( GetNullCharacter )]."
+BLACKTYDE_MAIDENSBANES_REAVERS:0 "Joron I Blacktyde earned the name 'Maidensbane' for his infamous raids on the Arbor, carrying off many women. The fear his name instilled still lingers in the Reach.\n#weak Some Blacktydes tend to become [GetTrait('callous').GetName( GetNullCharacter )]."
+BLACKTYDE_RUTHLESS_SEAFARERS:0 "The Blacktydes, like all ironborn, are feared on the seas. Their sailors and raiders are hardened by centuries of bloody conquest."
+BLACKTYDE_IRONBORN_ROYALTY:0 "House Blacktyde was a frequent victor in kingsmoots, challenging the dominance of the Greyirons and Hoares. Their strength in both arms and influence made them a key power in the Iron Islands.\n#weak Some Blacktydes tend to become [GetTrait('arrogant').GetName( GetNullCharacter )]."
+BLACTYDE_BLACK_KINGS_RETURN:0 "Once independent, House Blacktyde will reclaim their cruel legacy. With their raiders at full strength and their enemies in fear, they become the most feared Ironborn once more."
+
+reed_legacy_track_name: "Reed"
+reed_legacy_track_desc: "Beware Our Bite"
+reed_legacy_1_name: "First Men Origins"
+reed_legacy_2_name: "Seeing What Others Cannot"
+reed_legacy_3_name: "Lords of the Crannogmen"
+reed_legacy_4_name: "Loyal to the Winter King"
+reed_legacy_5_name: "The Impassable Neck"
+
+REED_SEEING_WHAT_OTHERS_CANNOT:0 "\n#weak Some Reeds tend to possess [GetTrait('greensight').GetName( GetNullCharacter )] or become [GetTrait('inquisitive').GetName( GetNullCharacter )]."
+REED_LORDS_OF_THE_CRANNOGMEN:0 "\n#weak Some Reeds tend to become [GetTrait('shy').GetName( GetNullCharacter )]."
+REED_LOYAL_TO_THE_WINTER_KING:0 "\n#weak Some Reeds tend to become [GetTrait('loyal').GetName( GetNullCharacter )]."
+
+darry_legacy_track_name: "Darry"
+darry_legacy_track_desc: "Hard Work, Loyal Service"
+darry_legacy_1_name: "First Men Origins"
+darry_legacy_2_name: "Plow the Land"
+darry_legacy_3_name: "Loyalty is its Own Reward"
+darry_legacy_4_name: "Well Stocked for Winter and War"
+darry_legacy_5_name: "On the Mouth of the Trident"
+
+DARRY_FIRST_MEN_ORIGINS:0 "House Darry traces their rule to the days when the Andals cast down the First Men. During the coming of the Andals, three members of House Darry and their retinues held back the Andal warriors of Ser Vorian Vypren at the Battle of [GetTitleByKey('b_widows_ford').GetNameNoTier] before being slain."
+DARRY_PLOW_THE_LAND:0 "Few men and even fewer houses have mastered their land as House Darry has. They know when to plow, when to sow, and when to harvest. In turn, their techniques provide the richest and highest quality agricultural goods.\n#weak Some Darrys tend to become [GetTrait('diligent').GetName( GetNullCharacter )]."
+DARRY_LOYALTY_IS_ITS_OWN_REWARD:0 "House Darry are true to their words. They offer unwavering loyalty and dutiful service, in whatever role they shall be given. Uncommonly however, House Darry values its vows to the Crown more highly than its vows to its liege lords in Riverrun.\n#weak Some Darrys tend to become [GetTrait('loyal').GetName( GetNullCharacter )] or [GetTrait('content').GetName( GetNullCharacter )]."
+DARRY_WELL_STOCKED_FOR_WINTER_AND_WAR:0 "The lands of House Darry are amongst the most fertile in the realm. The sprawling granaries and towering silos constructed by the Lords Darry of times past protect their harvest and ensure they always have enough food to last any campaign, or any winter.\n#weak Some Darrys tend to become [GetTrait('temperate').GetName( GetNullCharacter )]."
+DARRY_ON_THE_MOUTH_OF_THE_TRIDENT:0 "Like the Mootons of [GetTitleByKey('c_maidenpool').GetNameNoTier] to the south, House Darry's holdings sit at the mouth of the Trident, an incredibly lucrative hub for trade and transport. The goods passing through here have allowed towns like [GetTitleByKey('b_saltpans').GetNameNoTier] and [GetTitleByKey('b_fangfoss').GetNameNoTier] to flourish."
+
+
+
+the_stepstones_expeditionaries_name:0 "The Stepstones Expeditionaries"
+nick_the_heir_for_a_day:0 "The Heir for a Day"
+
+building_type_tarbeck_hall_01:0 "Seat of House Tarbeck"
+building_tarbeck_hall_01:0 "Tarbeck Hall"
+building_tarbeck_hall_02:0 "Hall of the Seven Pointed Star"
+building_tarbeck_hall_03:0 "Grand Hall of the Gilded Star"
+building_tarbeck_hall_01_desc:0 "Tarbeck Hall is the seat of House Tarbeck, a house of ancient lineage and even more ancient zeal. It boasts a curtain wall, grand halls, stables, and four large turreted towers."
+
+building_type_sunflower_hall_01:0 "Sunflower Hall"
+building_sunflower_hall_01:0 "Sunflower Hall"
+building_sunflower_hall_01_desc:0 "Sunflower Hall is the seat of House Cuy, from where they rule their vast holdings."
+
+building_type_three_towers_01:0 "The Three Towers"
+building_three_towers_01:0 "The Three Towers"
+building_three_towers_01_desc:0 "The Three Towers are the seat of House Costayne, from where they rule their vast holdings."
+
+building_type_turrkeep_01:0 "Turrkeep"
+building_turrkeep_01:0 "Turrkeep"
+building_turrkeep_01_desc:0 "Turrkeep is the seat of House Mullendore, from where they rule their vast holdings."
+
+building_type_ramsgate_01:0 "Ramsgate"
+building_ramsgate_01:0 "Ramsgate"
+building_ramsgate_01_desc:0 "Ramsgate is the seat of House Woolfield, from where they rule their vast holdings."
+
+building_type_oldcastle_01:0 "Oldcastle"
+building_oldcastle_01:0 "Oldcastle"
+building_oldcastle_01_desc:0 "Oldcastle is the seat of House Locke, from where they rule their vast holdings."
+
+building_type_crakehall_crakehall_01:"Crakehall" 
+building_crakehall_crakehall_01:0 "Crakehall" 
+building_crakehall_crakehall_01_desc:0 "Crakehall, the seat of House Crakehall, stands as a fierce stronghold along the Searoad, bordering the vast expanse of the Sunset Sea. Strategically positioned between Lannisport to the north and Old Oak to the south, this formidable stronghold is vital to the defense of the southwestern Westerlands.\n\nThe castle itself, renowned for its robust architecture and sprawling grounds, serves as a bulwark against the tumultuous sea winds. Surrounded by lush, dense forests that teem with wildlife, Crakehall offer both bounty and beauty."
+
+crakehall_brindled_boars:0 "Brindled Boars"
+crakehall_brindled_boars_flavor:0 "The Brindled Boars, the spearmen of House Crakehall, are as formidable as their namesake suggests. Clad in armor emblazoned with the boar sigil of their sworn house, these warriors are renowned across the Westerlands for their unyielding strength and fierce loyalty. They are particularly adept at navigating the dense forests surrounding their home, using the terrain to their advantage in battles."
+
+building_type_city_of_lannisport_01:"City of Lannisport"
+building_city_of_lannisport_01:"Lanniskeep at Lannisport"
+building_city_of_lannisport_01_desc:"Lannisport is a walled city in the Westerlands located less than a mile south of Casterly Rock, the seat of House Lannister. Lannisport is located along the coast of the Sunset Sea where the River Road, the Gold Road, and the Ocean Road meet. It is one of the major ports of the Seven Kingdoms and is the largest settlement in the Westerlands. Lannisport is smaller than King's Landing or Oldtown, but larger than Gulltown or White Harbor."
+
+building_type_dustonbury_01:"Dunstonbury Castle"
+building_dustonbury_01:"Dunstonbury Castle"
+building_dustonbury_01_desc:"Dunstonbury was once a castle of House Manderly when they lived along the Mander in the Kingdom of the Reach. When the Manderlys fled the Reach a thousand years before the War of Conquest, Dunstonbury passed to their rivals, House Peake."
+
+building_type_old_oak_01:"Heart of the Oak"
+building_old_oak_01:"Old Oak"
+building_old_oak_01_desc:"Old Oak is the seat of House Oakheart. It is located in the west of the Reach near the Sunset Sea, along the Ocean Road which links Highgarden and Lannisport."
+
+building_type_oakenshield_bastion_01:"Oakenshield Bastion"
+building_oakenshield_bastion_01:"Bastion of the Mander"
+building_oakenshield_bastion_01_desc:"The largest and most formidable castle in the Shield Islands, and ancestral seat of House Hewett. With formidable earthworks, a dockyard to service a small coastal flotilla, thick stone walls and accompanying siege weapons, the Bastion of the Mander is the first line of defence against any would-be coastal enemy."
+
+building_type_grand_markets_of_ashford_01:"Ashford Markets"
+building_grand_markets_of_ashford_01:"Grand Markets of Ashford"
+building_grand_markets_of_ashford_01_desc:"Ashford is an appealing market town whose whitewashed houses have thatched roofs. One of the largest towns under the yolk of the Kingdom of the Reach, very few Reacher traders can claim legitimacy without having worked a hardy day at market among the picturesque streets of Ashford Town."
+
+building_type_sept_at_holyhall_01:"The Sept at Holyhall"
+building_sept_at_holyhall_01:"The Sept at Holyhall"
+building_sept_at_holyhall_01_desc:"One of the largest personal septs in the Seven Kingdoms, the Sept at Holyhall, the ancestral seat of the pious House Graceford, serves faithfully the lords, ladies, and households of Holyhall, and has done for hundreds of years."
+
+building_type_great_orchard_of_ashford_01:"Great Eastern Orchards"
+building_great_orchard_of_ashford_01:"Great Orchard of Ashford"
+building_great_orchard_of_ashford_01_desc:"The largest of the three great eastern orchards of the Reach, the Great Orchard of Ashford produces fresh apples of every variety, ripe for the picking, and ripe for the sale to all corners of the Seven Kingdoms. It would be a rare sight indeed to fail to find a stall selling fresh produce from the Great Orchard at the nearby market towns."
+
+building_type_great_orchard_of_appleton_01:"Great Eastern Orchards"
+building_great_orchard_of_appleton_01:"Great Orchard of Appleton"
+building_great_orchard_of_appleton_01_desc:"The source of House Appleton's historic income, and the source of the main ingredient in the cider produced at Cider Hall and New Barrel. Perfected over centuries, the apples of Appleton Orchard possess every necessary quality for the perfect cider."
+
+building_type_great_maids_orchard_01:"Great Eastern Orchards"
+building_great_maids_orchard_01:"Great Maid's Orchard"
+building_great_maids_orchard_01_desc:"The smallest of the great eastern orchards of the Reach, and the newest to be cultivated. Interestingly, House Tavott uses the apples and pears of this orchard to pay part of their tax dues to their Lordly House, House Appleton."
+
+building_type_lieras_pressery_01:"Cider Hall Presseries"
+building_lieras_pressery_01:"Liera's Pressery"
+building_lieras_pressery_01_desc:"The largest and most profitable of the massive complex of cider presseries at Cider Hall is Liera's Pressery, built by the late Liera Fossoway. Famous for its sharp flavour and clean taste, cider from this particular pressery is never amiss even at the finest of banquets."
+
+building_type_city_of_foxes_01:"Mythical Brunner"
+building_city_of_foxes_01:"The City of Foxes"
+building_city_of_foxes_01_desc:"A notorious den of thieves, sellswords, brigands, mercanaries and cutthroats. Built in the shadow of the magnificent Brightwater Keep, Brunner, known amongst the smallfolk as the City of Foxes for both its huge population of foxes and the sly nature of its denizens alike, bares stark contrast to the safety and elegant architecture of the seat of House Florent. Nonetheless, the underworld in Brunner is profitable to its masters, and as long as the money eventually rests in the pockets of House Florent, its noble retainers are unlikely to stamp it out."
+
+building_type_shermer_ironworks_01:"Shermer Ironworks"
+building_shermer_ironworks_01:"Shermer Ironworks"
+building_shermer_ironworks_01_desc:"The Shermer Ironworks, built and patroned by the eponymous House Shermer, has served the houses of Goldengrove and their high house, House Rowan, for centuries. Forging some of the finest weapons and armour in the Reach, it is rare to see a sword on the waist of a Rowan lord or knight forged outside of Coppercast."
+
+building_type_bloody_caltrops_inn_01:"Bloody Caltrops Inn"
+building_bloody_caltrops_inn_01:"The Bloody Caltrops Inn"
+building_bloody_caltrops_inn_01_desc:"A lavish inn, just off the road through the Treadlight Valley. Frequented by nobles, merchants, and luckier smallfolk alike, surely this inn will remain mostly unremarkable for all of Westerosi history..."
+
+building_type_goldcloaks_rest_01:"Goldcloak's Rest"
+building_goldcloaks_rest_01:"Goldcloak's Rest"
+building_goldcloaks_rest_01_desc:"Located roughly along the midpoint of the Gold Road between King's Landing and Casterly Rock, this inn marks the extent Goldcloaks have been known to pursue their targets before leaving them to the petty lords of the Reach and the Westerlands. Whether bound by duty, orders or sheer laziness, it matters not; you will always find a troop of Goldcloaks enjoying the ale and revelry at Goldcloak's Rest on Wiseman's Hill."
+
+building_type_merryweather_vaults_01:"Fullharvest's Future"
+building_merryweather_vaults_01:"Merryweather Vaults"
+building_merryweather_vaults_01_desc:"For decades, House Merryweather have maintained the Merryweather Vaults, a series of fortified granaries, silos, and farmhouses, designed to store the harvest of surrounding towns, villages and keeps for long periods of time. As the most fertile region of the Reach, the Lordship of Fullharvest is responsible for stocking the war chest of House Tyrell; not with gold, but with wheat and salted meats, to sustain the longest of campaigns."
+
+building_type_honeyholt_apiaries_01:"The Honey Capital of Westeros"
+building_honeyholt_apiaries_01:"Honeyholt Apiaries"
+building_honeyholt_apiaries_01_desc:"What started as a pet hobby of the lords and ladies of House Beesbury has blossomed over the years into a fully fledged industrial operation. Merchants, beekeepers and labourers find themselves at a constant conflux in the north of Oldtown's reach, at the estate of House Beesbury, to produce and export the golden Honeyholt honey to all corners of the world."
+
+building_type_grassfield_florestries_01:"Grassfield Florestries"
+building_grassfield_florestries_01:"Grassfield Florestries"
+building_grassfield_florestries_01_desc:"House Meadows, regarded as one of the most elegant houses in the Reach, often sponsors and offers patronage to budding gardeners and florests from across the Reach and the Stormlands. The works of the Grassfield Florestries; wreaths, bouquets and arrangements, can be seen from Storm's End, to Casterly Rock, and the Eyrie. Challenged only by the artisans of Highgarden, the florests of Grassfield have made themselves a good living, and House Meadows reaps the rewards."
+
+building_type_ocean_roadhouses_01:"Watchers on the Ocean Road"
+building_ocean_roadhouses_01:"The Ocean Roadhouses"
+building_ocean_roadhouses_01_desc:"The Ocean Roadhouses sit on the coastly stretches of the Ocean Road, just after the fortified expanses of the Northmarch. After entering the Reach from the northwest, any traveller is subject to toll at the Ocean Roadhouses. As a natural meeting point for merchants, pilgrims and travellers, many inns and shops have sprung up around the tollhouse, and it is not uncommon to find sellswords and hedge knights offering their service to passing nobles."
+
+building_type_plankytown_01:"Chief Harbour of Dorne"
+building_plankytown_01:"Plankytown"
+building_plankytown_01_desc:"The Plankytown is the largest and most populous settlement in Dorne, and the closest thing the Dornish have to a true city. The town is the chief harbor of Dorne. The town sits at the mouth of the Greenblood, with planks instead of streets lending to its name. The Plankytown is a settlement that floats upon the river. The houses, halls, and shops are made of poleboats, barges, and merchant ships, lashed together with hempen rope and floating on the tide. The trading galleys of the Free Cities are known to call upon the Planky Town. The orphans of the Greenblood trade with merchants from across the narrow sea at the Plankytown."
+
+building_type_stinkwater_01:"Next Port Along the Rhoyne"
+building_stinkwater_01:"Stinkwater Port"
+building_stinkwater_01_desc:"The Stinkwater Port, the next port along the Rhoyne for traders heading up the river, serves dozens of merchant ships every day, and serves as the ancestral seat for House Wade, a noble house ever loyal to House Martell."
+
+building_type_blackmont_mines_01:"Red Mountain Mining Towns"
+building_blackmont_mines_01:"Blackmont Mining Settlement"
+building_blackmont_mines_02:"The Blackmont Mines"
+building_blackmont_mines_03:"Large Blackmont Mines"
+building_blackmont_mines_04:"Blackmont Mining Complex"
+
+building_type_westroost_mines_01:"Red Mountain Mining Towns"
+building_westroost_mines_01:"Westroost Mining Settlement"
+building_westroost_mines_02:"The Westroost Mines"
+building_westroost_mines_03:"Large Westroost Mines"
+building_westroost_mines_04:"Westroost Mining Complex"
+
+building_type_widewatch_mines_01:"Red Mountain Mining Towns"
+building_widewatch_mines_01:"Widewatch Mining Settlement"
+building_widewatch_mines_02:"The Widewatch Mines"
+building_widewatch_mines_03:"Large Widewatch Mines"
+building_widewatch_mines_04:"Wideway Widewatch Complex"
+
+building_type_the_starport_01:"Port at Starfall"
+building_the_starport_01:"The Starport"
+building_the_starport_01_desc:"The Starport serves as the principle harbour of western Dorne, serving all merchant ships that pass the Torrentine. With frequent patronage from the Garden Coast, Oldtown and the Arbor, the Starport provides a modest yet lucrative stream of income to its masters and House Dayne of Starfall."
+
+building_type_ruins_of_hellgate_hall_01:"Hall of the Brimstone Kings"
+building_ruins_of_hellgate_hall_01:"Ruins of Hellgate Hall"
+building_ruins_of_hellgate_hall_01_desc:"Hellgate Hall was the seat of House Dryland, who ruled as Kings of the Brimstone in Dorne prior to Nymeria's War. Now, the keep stands a ruin, and it is common to see brigands and bandits make camp among the sprawling broken stone."
+building_ruins_of_hellgate_hall_02:"Hellgate Hall Restored"
+building_ruins_of_hellgate_hall_02_desc:"Restored to its former glory, Hellgate Hall may finally stand as the seat of Brimstone Kings yet again."
+
+building_type_kingsgrave_keep_01:"Grave of the Slain Garden King"
+building_kingsgrave_keep_01:"Kingsgrave Keep"
+building_kingsgrave_keep_01_desc:"Kingsgrave takes its name from when the founder of House Manwoody slew a king of the Reach in the distant past."
+
+building_type_heart_of_the_kingswood_01:"Heart of the Kingswood"
+building_heart_of_the_kingswood_01:"The Heart of the Kingswood"
+building_heart_of_the_kingswood_01_desc:"The kingswood is a large forest that lies across the Blackwater Rush from King's Landing. It is in the southern crownlands and the northern stormlands and is traversed by the kingsroad. House Fell, lords of the Kingswood, rule the expanse of forest from Felwood Castle, known by many as the 'Heart of the Kingswood', due to its central importance to all royal and noble hunting excursions into the woodland."
+
+building_type_broken_shield_inn_01:"Broken Shield Inn"
+building_broken_shield_inn_01:"Broken Shield Inn"
+building_broken_shield_inn_01_desc:"The Broken Shield is one of the largest inns in the Stormlands, and the largest in Cape Wrath. Known for its huge open plan design, one can spend an entire evening drinking without drank at every table."
+
+building_type_weeping_town_01:"Market Capital of Cape Wrath"
+building_weeping_town_01:"Weeping Town"
+building_weeping_town_01_desc:"The Weeping Town is a market town in the stormlands. Lying on the southern shore of Cape Wrath, along the Sea of Dorne, it has a thriving port which handles much of the stormlands' trade. The town has stout wooden walls, peaked roofs, and crooked alleys. Fortified by a loyal and incorruptible city watch and multiple garrisons and watchtowers, the city acts as a strong defence against pirates and coastal threats from the Sea of Dorne."
+
+building_type_red_watch_garrison_01:"Red Watch Garrison"
+building_red_watch_garrison_01:"Red Watch Garrison"
+building_red_watch_garrison_01_desc:"House Swann has ruled over and protected the Red Watch, the inner core of the Stormlander-Dornish marches, for centuries. To further secure their ancestral heartlands around Stonehelm, House Swann and its bannermen have erected a series of fortifications along the mountainside at Swellcrest, and maintain a permanent force there, should the Dornish raiders ever make it past Blackhaven."
+
+building_type_maiden_motherhouse_01:"Motherhouse on the Isle"
+building_maiden_motherhouse_01:"Maiden Motherhouse"
+building_maiden_motherhouse_01_desc:"The Maiden Motherhouse, situated on the largest of the Estermont Isles, provides a safe haven for Silent Sisters and religious adherents of the Faith of the Seven to live out their devout lives. The motherhouse does wonders for the local smallfolk and passersby, and it is traditional for the lords and ladies of the Isles to make small contributions whenever their coffers allow."
+
+building_type_wendwater_docks_01:"Mouth of the Wendwater"
+building_wendwater_docks_01:"Wendwater Docks"
+building_wendwater_docks_01_desc:"The Wendwater Docks find themselves situated at the mouth of their namesake, the Wendwater River. Situated at the foot of Parchments, the seat of House Penrose, many a vessel from Tarth, Storm's End, or the Free Cities make port before continuing north through the Straits of Tarth, or further up the Wendwater to the Crownlands."
+
+building_type_brindlewood_markets_01:"Brindlewood Markets"
+building_brindlewood_markets_01:"Brindlewood Markets"
+building_brindlewood_markets_01_desc:"Nestled amongst the picturesque valleys, rivers and forests of Hayford is the market village of Brindlewood. Appearances are often deceiving however, and there are fewer towns in the Crownlands with a worse reputation for thievery and skullduggery than the streets of Brindlewood on market day."
+
+building_type_ruin_of_hollard_castle_01:"Fort at the Junction"
+building_ruin_of_hollard_castle_01:"Ruins of Hollard Castle"
+building_ruin_of_hollard_castle_01_desc:"House Hollard's castle was a small fortification built at the junction of roads connecting Duskendale, Maidenpool, and Crackclaw Point. The walls were made of grey granite, as were the triple towers of the main keep. The merlons of the keep were yellow sandstone. Although only rusted iron hinges remain of the door to the keep, its roof is still sound. Stone from the castle's walls is strewn among the roads."
+building_ruin_of_hollard_castle_02:"Hollard Castle Restored"
+building_ruin_of_hollard_castle_02_desc:"Hollard Castle has been restored to its former stature, and now sits as an important fortification along the important merchant roads north of Duskendale."
+
+building_type_old_stone_bridge_01:"Old Stone Bridge"
+building_old_stone_bridge_01:"Old Stone Bridge"
+building_old_stone_bridge_01_desc:"The Old Stone Bridge is an inn nestled along the riverbanks north of King's Landing, within the realm of House Rosby. It is often the first stop on the travels of all folk who seek a comfortable journey through the northeasternmost gate of the capital."
+
+building_type_sharp_point_beacon_01:"Seat of Bar Emmon"
+building_sharp_point_beacon_01:"The Sharp Point Beacon"
+building_sharp_point_beacon_01_desc:"The Sharp Point Beacon is the largest lightouse along Massey's Coast and the Gullet, and the fortified watchtower seat of House Bar Emmon. Guiding hundreds of ships to safety, many sailors and captains make contributions to the Lords of Sharp Point, so that the beacon atop stays burning, and the way remains lit and safe to sail."
+
+building_type_bechester_motherhouse_01:"Motherhouse along the Rivers"
+building_bechester_motherhouse_01:"Motherhouse at Bechester"
+building_bechester_motherhouse_01_desc:"The Motherhouse at Bechester, situated along the border between House Vance and the Reach, provides a safe haven for Silent Sisters and religious adherents of the Faith of the Seven to live out their devout lives. The motherhouse does wonders for the local smallfolk and passersby, and it is traditional for the lords and ladies of Atranta to make small contributions whenever their coffers allow."
+
+building_type_briarwhite_holdfast_01:"Briarwhite Holdfast"
+building_briarwhite_holdfast_01:"Briarwhite Holdfast"
+building_briarwhite_holdfast_01_desc:"Briarwhite is a holdfast in the southeastern riverlands. Situated at the south of the God's Eye, the Holdfast serves as a border keep with the Crownland territories of House Hayford to the South, and a guardian keep of the road network heading north through the Riverlands from King's Landing."
+
+building_type_high_heart_01:"High Heart Hills"
+building_high_heart_01:"High Heart Hills"
+building_high_heart_01_desc:"The High Heart Hills describe a series of hills in the central Riverlands, within the historic land of House Bracken. Around the crown of each hill stands rings of Weirwood trees. Due to their elevation and incline, the terrain is incredibly naturally defensible, and approaching unseen is an impossible task."
+
+building_type_ruins_of_oldforge_01:"The Ancient Forge"
+building_ruins_of_oldforge_01:"Ruins of the Old Forge"
+building_ruins_of_oldforge_01_desc:"Located in the epicentre of Blackwood-Bracken border skirmishes, the Old Forge at the ironically named Oldforge holdfast once stood as the greatest forge in the Riverlands. However, the feud between Brackens and Blackwoods has all but reduced the forgery to ruin, and the forges fires remain quenched. Perhaps, however, the victorious house could restore it to its former glory."
+building_ruins_of_oldforge_02:"The Old Forge Restored"
+building_ruins_of_oldforge_02_desc:"The fires relit, the casts restocked, the smiths retrained and reinvigorated, the Old Forge once stands anew, ready to serve its overlord with the finest steel a Riverlander could forge."
+building_ruins_of_oldforge_03:"The Old Forge Expanded"
+building_ruins_of_oldforge_03_desc:"The Old Forge has now almost tripled in size, with blacksmiths, tanners, leatherworkers, and joiners working for hundreds of metres. Now one of the greatest forges in Westeros, rivalled only by the winding complex of the Street of Steel in King's Landing, its ruling house reaps the benefits, in both gold and steel."
+
+building_type_fairmarket_01:"City of Fairmarket"
+building_fairmarket_01:"Fairmarket"
+building_fairmarket_01_desc:"Fairmarket is the largest city in the Riverlands, far surpassing Saltpans and Lord Harroway's Town. Important for traders from all corners of the Seven Kingdoms, the city is constantly bustling with activity, and provides the vast majority of House Shawney's wealth."
+
+building_type_city_of_seagard_01:"City of Seagard"
+building_city_of_seagard_01:"Seagard"
+building_city_of_seagard_01_desc:"Seagard is a city in the northern Riverlands, and its castle is the seat of House Mallister. Located on the western coast along Ironman's Bay, Seagard is sheltered by the Cape of Eagles and is nestled near the headwaters of the Blue Fork. It is southwest of the Twins and northwest of Oldstones."
+
+building_type_stonedance_keep_01:"Seat of House Massey"
+building_stonedance_keep_01:"Stonedance Keep"
+building_stonedance_keep_01_desc:"Stonedance Keep is the historic seat of the storied House Massey. For many reigns, the office of the Master of Laws has passed to a son of House Massey, and time and time again, the Masseys have demonstrated their judicidal magic. Warriors in the scriptorium and on the field of battle, the Massey men-at-arms have proven themselves victorious against many foes, from the kings of the Stormlandds to the pirates of the Narrow Sea."
+
+building_type_hearts_home_01:"Seat of House Corbray"
+building_hearts_home_01:"Heart's Home"
+building_hearts_home_01_desc:"Heart's Home is a castle in the Vale of Arryn and is the seat of House Corbray, a vassal house holding fealty to House Arryn of the Eyrie. It is located on the northern shore where a glacial river flows into a narrow bay of the narrow sea. Upriver to the west is Strongsong, while directly north is a forest. Snakewood is located to the northeast along the bay, while the Eyrie is south across a mountain range."
+
+building_type_longbow_hall_01:"Seat of House Hunter"
+building_longbow_hall_01:"Longbow Hall"
+building_longbow_hall_01_desc:"Longbow Hall is the seat of House Hunter in the Vale of Arryn. It is located south of the Fingers, east of Heart's Home, and north of Old Anchor."
+
+building_type_ninestars_01:"Ninestars"
+building_ninestars_01:"Castle Ninestars"
+building_ninestars_01_desc:"The seat of the most powerful house of landed knights in the Seven Kingdoms, House Templeton of Ninestars. Capable of raising one of the most formidable armies in the Vale, House Templeton has served the Arryns of the Eyrie faithfully and truly for centuries."
+
+building_type_snakewood_forest_01:"Snakewood Forest"
+building_snakewood_forest_01:"Snakewood Forest"
+building_snakewood_forest_01_desc:"The snakewood is a forest in the north of the Vale of Arryn. House Lynderly have the title 'Lord of the Snakewood' and rule from their castle, which is also called Snakewood. The lumber industry in the Snakewood Forest is incredibly lucrative, and the timber often finds its way to keeps across the Vale through the port at Proud Town."
+
+building_type_proud_town_guilds_01:"Valemen Burghers' Pride"
+building_proud_town_guilds_01:"Proud Town Guildhalls"
+building_proud_town_guilds_01_desc:"The guildhalls of Proud Town are respected throughout the Vale for their enterprise and oppurtunity for real merchant entrepreunialship. While outclassed by the merchants and guilds of Gulltown, those found in Proud Town are not to be understated; the lumber and stonemason guilds especially."
+
+building_type_witch_isle_01:"Witch Isle"
+building_witch_isle_01:"Witch Isle"
+building_witch_isle_01_desc:"While the honourable mind knows valour, the dishonourable mind knows ambition."
+
+building_type_blueburn_mills_01:0 "Great Broadwood Lumber Yards"
+building_blueburn_mills_01:0 "Blueburn Mills"
+building_blueburn_mills_01_desc:0 "The heart of the Broadwood, one of the largest hardwood forests south of the Neck, sits just east of Grassy Vale, the seat of House Meadows. Centuries ago, the Broadwood expanded much further westward, well into the domain of Blueburn. Today, that forest has since been mostly depleted by the great Broadwood lumber yards. \n\nEven still, whilst trees remain, they will be harvested, and their prized hardwood purposed for construction across Blueburn and the greater northeastern Reach."
+
+building_type_wyverns_rest_keep_01:0 "Seat of House Vyrwel"
+building_wyverns_rest_keep_01:0 "Keep of Wyvern's Rest"
+building_wyverns_rest_keep_01_desc:0 "House Vyrwel has a storied history of servitude to Highgarden. Over the years, House Vyrwel has dedicated its talents to providing spies, spymasters and captains to House Tyrell, and as such, they have grown to prominence comparative to other houses of their size and wealth."
+
+building_type_first_kiss_armouries_01:0 "Swords of the Chequy Lion"
+building_first_kiss_armouries_01:0 "First Kiss Armouries"
+building_first_kiss_armouries_01_desc:0 "The First Kiss Armouries are an independent guild of smiths, armourers, instructors and men-at-arms in service of House Osgrey. The guild was once one of the most influential of its kind, but since the decline of House Osgrey, it has fallen from grace. Either way, the blades smithed in the First Kiss Armouries are just as sharp, and the instructors just as shrewd."
+
+building_type_dosk_market_village_01:0 "Markets on the Chequy Field"
+building_dosk_market_village_01:0 "Dosk Market Village"
+building_dosk_market_village_01_desc:0 "Dosk is the name of a mostly unremarkable market village sat among the Chequy Fields. However, the village has hosted many an Osgrey lord and lady over the centuries, and their presence is both revered and welcomed. The Osgrey name may no longer cast the shadow it once did upon the highborn, but their subjects love them still, as if history was no matter."
+
+building_type_stonewealth_mines_01:0 "The Stonewealth Mines"
+building_stonewealth_mines_01:0 "Stonewealth Mining Settlement"
+building_stonewealth_mines_02:0 "The Stonewealth Mines"
+building_stonewealth_mines_03:0 "Large Stonewealth Mines"
+building_stonewealth_mines_04:0 "Stonewealth Mining Complex"
+
+building_type_white_harbor_land_magistrates_01:0 "Court of the Landed Knights"
+building_white_harbor_land_magistrates_01:0 "Harborman Land Magistrates"
+building_white_harbor_land_magistrates_01_desc:0 "House Manderly rules over the largest and most populous contiguous holdings in the North. This huge dominion does not come without its drawbacks, however. True to its Reachman origins, House Manderly suffers from an institutional infatuation with landholder politics. The hundreds of landed knights and petty lords in service to the house all demand their own exemptions, and this manifests more often than not as tax liens. In return, these houses tend to contribute more men to the army of White Harbor."

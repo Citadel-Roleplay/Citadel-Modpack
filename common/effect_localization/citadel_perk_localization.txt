@@ -1,0 +1,437 @@
+banefort_legacy_1_effect = {
+	global = BANEFORT_THE_HOODED_KINGS_NO_BULLETTAB
+	first = BANEFORT_THE_HOODED_KINGS_NO_BULLETTAB
+	third = BANEFORT_THE_HOODED_KINGS_NO_BULLETTAB
+}
+
+banefort_legacy_2_effect = {
+	global = BANEFORT_BLACK_DUNGEONS_OF_THE_FORT
+	first = BANEFORT_BLACK_DUNGEONS_OF_THE_FORT
+	third = BANEFORT_BLACK_DUNGEONS_OF_THE_FORT
+}
+
+banefort_legacy_3_effect = {
+	global = BANEFORT_WELCOME_THE_GUESTS
+	first = BANEFORT_WELCOME_THE_GUESTS
+	third = BANEFORT_WELCOME_THE_GUESTS
+}
+
+banefort_legacy_4_effect = {
+	global = BANEFORT_MARCHERS_OF_IRONMAN_BAY
+	first = BANEFORT_MARCHERS_OF_IRONMAN_BAY
+	third = BANEFORT_MARCHERS_OF_IRONMAN_BAY
+}
+
+banefort_legacy_5_effect = {
+	global = BANEFORT_SHADOW_KINGS_ONCE_MORE
+	first = BANEFORT_SHADOW_KINGS_ONCE_MORE
+	third = BANEFORT_SHADOW_KINGS_ONCE_MORE
+}
+
+cargyll_legacy_1_effect = {
+	global = CARGYLL_FIRST_MEN_ORIGINS
+	first = CARGYLL_FIRST_MEN_ORIGINS
+	third = CARGYLL_FIRST_MEN_ORIGINS
+}
+
+cargyll_legacy_2_effect = {
+	global = CARGYLL_THE_GOLDEN_GOOSE
+	first = CARGYLL_THE_GOLDEN_GOOSE
+	third = CARGYLL_THE_GOLDEN_GOOSE
+}
+
+cargyll_legacy_3_effect = {
+	global = CARGYLL_KNIGHTS_OF_HONOR_AND_DUTY
+	first = CARGYLL_KNIGHTS_OF_HONOR_AND_DUTY
+	third = CARGYLL_KNIGHTS_OF_HONOR_AND_DUTY
+}
+
+cargyll_legacy_4_effect = {
+	global = CARGYLL_GOOD_MEAD_FOR_A_GOOD_FLOCK
+	first = CARGYLL_GOOD_MEAD_FOR_A_GOOD_FLOCK
+	third = CARGYLL_GOOD_MEAD_FOR_A_GOOD_FLOCK
+}
+
+cargyll_legacy_5_effect = {
+	global = CARGYLL_GOLDEN_LOYALTY_GOLDEN_DUTY
+	first = CARGYLL_GOLDEN_LOYALTY_GOLDEN_DUTY
+	third = CARGYLL_GOLDEN_LOYALTY_GOLDEN_DUTY
+}
+
+frey_legacy_1_effect = {
+	global = FREY_FAMILY_MATTERS
+	first = FREY_FAMILY_MATTERS
+	third = FREY_FAMILY_MATTERS
+}
+
+frey_legacy_2_effect = {
+	global = FREY_SO_CALLED_UPSTARTS
+	first = FREY_SO_CALLED_UPSTARTS
+	third = FREY_SO_CALLED_UPSTARTS
+}
+
+frey_legacy_3_effect = {
+	global = FREY_TRIDENT_TOLL_COLLECTORS
+	first = FREY_TRIDENT_TOLL_COLLECTORS
+	third = FREY_TRIDENT_TOLL_COLLECTORS
+}
+
+frey_legacy_4_effect = {
+	global = FREY_CRANNOGMAN_RIVALRY
+	first = FREY_CRANNOGMAN_RIVALRY
+	third = FREY_CRANNOGMAN_RIVALRY
+}
+
+frey_legacy_5_effect = {
+	global = FREY_PLANS_OF_OUR_OWN
+	first = FREY_PLANS_OF_OUR_OWN
+	third = FREY_PLANS_OF_OUR_OWN
+}
+
+strong_legacy_1_effect = {
+	global = STRONG_EPONYMOUS_PHYSIQUES
+	first = STRONG_EPONYMOUS_PHYSIQUES
+	third = STRONG_EPONYMOUS_PHYSIQUES
+}
+
+strong_legacy_2_effect = {
+	global = STRONG_A_HOUSE_OF_HANDS
+	first = STRONG_A_HOUSE_OF_HANDS
+	third = STRONG_A_HOUSE_OF_HANDS
+}
+
+strong_legacy_3_effect = {
+	global = STRONG_STEWARDS_OF_HARRENHAL
+	first = STRONG_STEWARDS_OF_HARRENHAL
+	third = STRONG_STEWARDS_OF_HARRENHAL
+}
+
+strong_legacy_4_effect = {
+	global = STRONG_EAR_OF_THE_CROWN
+	first = STRONG_EAR_OF_THE_CROWN
+	third = STRONG_EAR_OF_THE_CROWN
+}
+
+strong_legacy_5_effect = {
+	global = STRONG_POWER_AMONG_THE_RIVERS
+	first = STRONG_POWER_AMONG_THE_RIVERS
+	third = STRONG_POWER_AMONG_THE_RIVERS
+}
+
+graceford_legacy_1_effect = {
+	global = GRACEFORD_ANDAL_ORIGINS
+	first = GRACEFORD_ANDAL_ORIGINS
+	third = GRACEFORD_ANDAL_ORIGINS
+}
+
+graceford_legacy_2_effect = {
+	global = GRACEFORD_BENEFACTORS_OF_THE_SAGE_KINGS
+	first = GRACEFORD_BENEFACTORS_OF_THE_SAGE_KINGS
+	third = GRACEFORD_BENEFACTORS_OF_THE_SAGE_KINGS
+}
+
+graceford_legacy_3_effect = {
+	global = GRACEFORD_WORK_HER_WILL
+	first = GRACEFORD_WORK_HER_WILL
+	third = GRACEFORD_WORK_HER_WILL
+}
+
+graceford_legacy_4_effect = {
+	global = GRACEFORD_GREAT_SEPTS_OF_HOLYHALL
+	first = GRACEFORD_GREAT_SEPTS_OF_HOLYHALL
+	third = GRACEFORD_GREAT_SEPTS_OF_HOLYHALL
+}
+
+graceford_legacy_5_effect = {
+	global = GRACEFORD_LORDS_OF_PEACE_AND_PROSPERITY
+	first = GRACEFORD_LORDS_OF_PEACE_AND_PROSPERITY
+	third = GRACEFORD_LORDS_OF_PEACE_AND_PROSPERITY
+}
+
+mallister_legacy_1_effect = {
+	global = MALLISTER_PROUD_LINEAGE
+	first = MALLISTER_PROUD_LINEAGE
+	third = MALLISTER_PROUD_LINEAGE
+}
+
+mallister_legacy_2_effect = {
+	global = MALLISTER_HARDER_THAN_IRON
+	first = MALLISTER_HARDER_THAN_IRON
+	third = MALLISTER_HARDER_THAN_IRON
+}
+
+mallister_legacy_3_effect = {
+	global = MALLISTER_DEFENDERS_OF_SEAGARD
+	first = MALLISTER_DEFENDERS_OF_SEAGARD
+	third = MALLISTER_DEFENDERS_OF_SEAGARD
+}
+
+mallister_legacy_4_effect = {
+	global = MALLISTER_EAGLE_BLAZONED_WARRIORS
+	first = MALLISTER_EAGLE_BLAZONED_WARRIORS
+	third = MALLISTER_EAGLE_BLAZONED_WARRIORS
+}
+
+mallister_legacy_5_effect = {
+	global = MALLISTER_LEGACY_OF_DEFIANCE
+	first = MALLISTER_LEGACY_OF_DEFIANCE
+	third = MALLISTER_LEGACY_OF_DEFIANCE
+}
+
+oakheart_legacy_1_effect = {
+	global = OAKHEART_FIRST_MEN_ORIGINS
+	first = OAKHEART_FIRST_MEN_ORIGINS
+	third = OAKHEART_FIRST_MEN_ORIGINS
+}
+
+oakheart_legacy_2_effect = {
+	global = OAKHEART_SIRED_ON_GIANTESSES
+	first = OAKHEART_SIRED_ON_GIANTESSES
+	third = OAKHEART_SIRED_ON_GIANTESSES
+}
+
+oakheart_legacy_3_effect = {
+	global = OAKHEART_GARDENER_MARSHALS
+	first = OAKHEART_GARDENER_MARSHALS
+	third = OAKHEART_GARDENER_MARSHALS
+}
+
+oakheart_legacy_4_effect = {
+	global = OAKHEART_UNYIELDING_AS_THE_OAK
+	first = OAKHEART_UNYIELDING_AS_THE_OAK
+	third = OAKHEART_UNYIELDING_AS_THE_OAK
+}
+
+oakheart_legacy_5_effect = {
+	global = OAKHEART_LORDS_ON_THE_OCEAN_ROAD
+	first = OAKHEART_LORDS_ON_THE_OCEAN_ROAD
+	third = OAKHEART_LORDS_ON_THE_OCEAN_ROAD
+}
+
+peake_legacy_1_effect = {
+	global = PEAKE_FIRST_MEN_ORIGINS
+	first = PEAKE_FIRST_MEN_ORIGINS
+	third = PEAKE_FIRST_MEN_ORIGINS
+}
+
+peake_legacy_2_effect = {
+	global = PEAKE_LEGACY_OF_FLORYS_THE_FOX
+	first = PEAKE_LEGACY_OF_FLORYS_THE_FOX
+	third = PEAKE_LEGACY_OF_FLORYS_THE_FOX
+}
+
+peake_legacy_3_effect = {
+	global = PEAKE_VICTORS_OF_THE_ANCIENT_RIVALRY
+	first = PEAKE_VICTORS_OF_THE_ANCIENT_RIVALRY
+	third = PEAKE_VICTORS_OF_THE_ANCIENT_RIVALRY
+}
+
+peake_legacy_4_effect = {
+	global = PEAKE_KEEPERS_OF_THREE_CASTLES
+	first = PEAKE_KEEPERS_OF_THREE_CASTLES
+	third = PEAKE_KEEPERS_OF_THREE_CASTLES
+}
+
+peake_legacy_5_effect = {
+	global = PEAKE_SURPASSING_THE_REST
+	first = PEAKE_SURPASSING_THE_REST
+	third = PEAKE_SURPASSING_THE_REST
+}
+
+connington_legacy_1_effect = {
+	global = CONNINGTON_ANDAL_ORIGINS
+	first = CONNINGTON_ANDAL_ORIGINS
+	third = CONNINGTON_ANDAL_ORIGINS
+}
+
+connington_legacy_2_effect = {
+	global = CONNINGTON_GRIFFIN_TO_WIN_IT
+	first = CONNINGTON_GRIFFIN_TO_WIN_IT
+	third = CONNINGTON_GRIFFIN_TO_WIN_IT
+}
+
+connington_legacy_3_effect = {
+	global = CONNINGTON_A_MASSIVE_WINGSPAN
+	first = CONNINGTON_A_MASSIVE_WINGSPAN
+	third = CONNINGTON_A_MASSIVE_WINGSPAN
+}
+
+connington_legacy_4_effect = {
+	global = CONNINGTON_LEGACY_OF_ROY_CONNINGTON
+	first = CONNINGTON_LEGACY_OF_ROY_CONNINGTON
+	third = CONNINGTON_LEGACY_OF_ROY_CONNINGTON
+}
+
+connington_legacy_5_effect = {
+	global = CONNINGTON_OUT_FOR_BLOOD
+	first = CONNINGTON_OUT_FOR_BLOOD
+	third = CONNINGTON_OUT_FOR_BLOOD
+}
+
+kenning_legacy_1_effect = {
+	global = KENNING_FIRST_MEN_ORIGINS
+	first = KENNING_FIRST_MEN_ORIGINS
+	third = KENNING_FIRST_MEN_ORIGINS
+}
+
+kenning_legacy_2_effect = {
+	global = KENNING_LEGACY_OF_HERROCK_KENNING
+	first = KENNING_LEGACY_OF_HERROCK_KENNING
+	third = KENNING_LEGACY_OF_HERROCK_KENNING
+}
+
+kenning_legacy_3_effect = {
+	global = KENNING_BRUTAL_HISTORY
+	first = KENNING_BRUTAL_HISTORY
+	third = KENNING_BRUTAL_HISTORY
+}
+
+kenning_legacy_4_effect = {
+	global = KENNING_LOYAL_TO_THE_ROCK
+	first = KENNING_LOYAL_TO_THE_ROCK
+	third = KENNING_LOYAL_TO_THE_ROCK
+}
+
+kenning_legacy_5_effect = {
+	global = KENNING_BLOOD_OF_BLACK_AND_GOLD_ALIKE
+	first = KENNING_BLOOD_OF_BLACK_AND_GOLD_ALIKE
+	third = KENNING_BLOOD_OF_BLACK_AND_GOLD_ALIKE
+}
+
+harlaw_legacy_1_effect = {
+	global = HARLAW_OLD_KINGS
+	first = HARLAW_OLD_KINGS
+	third = HARLAW_OLD_KINGS
+}
+
+harlaw_legacy_2_effect = {
+	global = HARLAW_VICES_AND_PLAGUES
+	first = HARLAW_VICES_AND_PLAGUES
+	third = HARLAW_VICES_AND_PLAGUES
+}
+
+harlaw_legacy_3_effect = {
+	global = HARLAW_RICHEST_OF_THE_POOR
+	first = HARLAW_RICHEST_OF_THE_POOR
+	third = HARLAW_RICHEST_OF_THE_POOR
+}
+
+harlaw_legacy_4_effect = {
+	global = HARLAW_WIT_AS_SHARP_AS_BLADE
+	first = HARLAW_WIT_AS_SHARP_AS_BLADE
+	third = HARLAW_WIT_AS_SHARP_AS_BLADE
+}
+
+harlaw_legacy_5_effect = {
+	global = HARLAW_IRON_SAILORS
+	first = HARLAW_IRON_SAILORS
+	third = HARLAW_IRON_SAILORS
+}
+
+goodbrother_legacy_1_effect = {
+	global = GOODBROTHER_BLOOD_OF_THE_GREY_KINGS_BROTHER
+	first = GOODBROTHER_BLOOD_OF_THE_GREY_KINGS_BROTHER
+	third = GOODBROTHER_BLOOD_OF_THE_GREY_KINGS_BROTHER
+}
+
+goodbrother_legacy_2_effect = {
+	global = GOODBROTHER_MINES_OF_THE_HILLS
+	first = GOODBROTHER_MINES_OF_THE_HILLS
+	third = GOODBROTHER_MINES_OF_THE_HILLS
+}
+
+goodbrother_legacy_3_effect = {
+	global = GOODBROTHER_THE_BADBROTHERS_LEGACY
+	first = GOODBROTHER_THE_BADBROTHERS_LEGACY
+	third = GOODBROTHER_THE_BADBROTHERS_LEGACY
+}
+
+goodbrother_legacy_4_effect = {
+	global = GOODBROTHER_IRON_KINGS_OF_OLD
+	first = GOODBROTHER_IRON_KINGS_OF_OLD
+	third = GOODBROTHER_IRON_KINGS_OF_OLD
+}
+
+goodbrother_legacy_5_effect = {
+	global = GOODBROTHER_KINGS_OF_WYK
+	first = GOODBROTHER_KINGS_OF_WYK
+	third = GOODBROTHER_KINGS_OF_WYK
+}
+
+blacktyde_legacy_1_effect = {
+	global = BLACKTYDE_BLOOD_OF_THE_CRUEL_KINGS
+	first = BLACKTYDE_BLOOD_OF_THE_CRUEL_KINGS
+	third = BLACKTYDE_BLOOD_OF_THE_CRUEL_KINGS
+}
+
+blacktyde_legacy_2_effect = {
+	global = BLACKTYDE_MAIDENSBANES_REAVERS
+	first = BLACKTYDE_MAIDENSBANES_REAVERS
+	third = BLACKTYDE_MAIDENSBANES_REAVERS
+}
+
+blacktyde_legacy_3_effect = {
+	global = BLACKTYDE_RUTHLESS_SEAFARERS
+	first = BLACKTYDE_RUTHLESS_SEAFARERS
+	third = BLACKTYDE_RUTHLESS_SEAFARERS
+}
+
+blacktyde_legacy_4_effect = {
+	global = BLACKTYDE_IRONBORN_ROYALTY
+	first = BLACKTYDE_IRONBORN_ROYALTY
+	third = BLACKTYDE_IRONBORN_ROYALTY
+}
+
+blacktyde_legacy_5_effect = {
+	global = BLACTYDE_BLACK_KINGS_RETURN
+	first = BLACTYDE_BLACK_KINGS_RETURN
+	third = BLACTYDE_BLACK_KINGS_RETURN
+}
+
+reed_legacy_2_effect = {
+	global = REED_SEEING_WHAT_OTHERS_CANNOT
+	first = REED_SEEING_WHAT_OTHERS_CANNOT
+	third = REED_SEEING_WHAT_OTHERS_CANNOT
+}
+
+reed_legacy_3_effect = {
+	global = REED_LORDS_OF_THE_CRANNOGMEN
+	first = REED_LORDS_OF_THE_CRANNOGMEN
+	third = REED_LORDS_OF_THE_CRANNOGMEN
+}
+
+reed_legacy_4_effect = {
+	global = REED_LOYAL_TO_THE_WINTER_KING
+	first = REED_LOYAL_TO_THE_WINTER_KING
+	third = REED_LOYAL_TO_THE_WINTER_KING
+}
+
+darry_legacy_1_effect = {
+	global = DARRY_FIRST_MEN_ORIGINS
+	first = DARRY_FIRST_MEN_ORIGINS
+	third = DARRY_FIRST_MEN_ORIGINS
+}
+
+darry_legacy_2_effect = {
+	global = DARRY_PLOW_THE_LAND
+	first = DARRY_PLOW_THE_LAND
+	third = DARRY_PLOW_THE_LAND
+}
+
+darry_legacy_3_effect = {
+	global = DARRY_LOYALTY_IS_ITS_OWN_REWARD
+	first = DARRY_LOYALTY_IS_ITS_OWN_REWARD
+	third = DARRY_LOYALTY_IS_ITS_OWN_REWARD
+}
+
+darry_legacy_4_effect = {
+	global = DARRY_WELL_STOCKED_FOR_WINTER_AND_WAR
+	first = DARRY_WELL_STOCKED_FOR_WINTER_AND_WAR
+	third = DARRY_WELL_STOCKED_FOR_WINTER_AND_WAR
+}
+
+darry_legacy_5_effect = {
+	global = DARRY_ON_THE_MOUTH_OF_THE_TRIDENT
+	first = DARRY_ON_THE_MOUTH_OF_THE_TRIDENT
+	third = DARRY_ON_THE_MOUTH_OF_THE_TRIDENT
+}

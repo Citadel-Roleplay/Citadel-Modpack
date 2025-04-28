@@ -1,0 +1,1361 @@
+﻿l_english:
+#BLACKWOOD
+blackwood_legacy_track_name: "Blackwood"
+blackwood_legacy_track_desc: "Never Forgive, Never Forget"
+blackwood_legacy_1_name: "Never Forgive"
+blackwood_legacy_2_name: "Black Raven, Green Dreams"
+blackwood_legacy_3_name: "Never Forget"
+blackwood_legacy_4_name: "As the Raven Flies"
+blackwood_legacy_5_name: "Birds Sing, Ravens Watch"
+ 
+BLACKWOOD_VENGEFUL_TRAIT_FOR_BLOODLINE_NO_BULLETTAB:0 "Peace can last half a century. But then some fresh quarrel breaks out, and the old wounds opens and begins to bleed again. There will never be an end to it. \n#weak After centuries of feuding with the Brackens, some Blackwoods are predisposed towards becoming [GetTrait('vengeful').GetName( GetNullCharacter )]."
+BLACKWOOD_GENETIC_TRAIT_FOR_BLOODLINE_NO_BULLETTAB:0 "Cunning and foresightly as their charge; some Blackwoods take after the Greenseers of old. \n#weak The blood of the First Men runs thick in Blackwood veins, and some are predisposed towards having [GetTrait('greensight').GetName( GetNullCharacter )]."
+BLACKWOOD_LEGACY_DYNASTY_SEND_TO_NIGHTSWATCH:0 "Centuries after being expelled from the North by the Starks, the Blackwoods have yet to forget their old traditions.\n#weak Some things are not easily forgotten."
+BLACKWOOD_BOWMEN:0 "The bowmen of the Blackwood Vale are a light and agile force, able to react to changing conditions on the battlefield and punish enemy infantry formations for any misstep.\n#weak As the Raven Flies, so does the arrows." #\n#weak As the Raven Flies, so does the arrows.\nEnables recruitment of [GetMaA('blackwood_blackwood_vale_bowmen').GetName] as [men_at_arms|E].#!
+RAVENTREE_HALL_ROOKERY:0 "#weak Little birds may sing, but the raven watches. \nThe Lord of Blackwood Vale is kept abreast of many songs, from the whispers in the back alleys of Flea Bottom to the hushed tones spoken at court in the Red Keep."
+
+building_type_raventree_hall_rookery_01:"Raventree Rookery" 
+building_raventree_hall_rookery_01:0 "Raventree Rookery" 
+building_raventree_hall_rookery_01_desc:0 "There being no shortage of ravens at Raventree Hall, the nearby rookery ensures that the Maesters serving House Blackwood are able to keep up their correspondence. \n#weak The Lord of Blackwood Vale is kept abreast of the latest research from the Citadel in Oldtown." 
+
+building_raventree_hall_rookery_02:0 "Raventree Rookery" 
+building_raventree_hall_rookery_02_desc:0 "The latest news from court and neatly penned letters from the Reach. \n#weak The Lord of Blackwood Vale is involved in many diplomatic dealings from the constant flow of ravens carrying news from across the Seven Kingdoms." 
+
+building_raventree_hall_rookery_03:0 "Raventree Rookery" 
+building_raventree_hall_rookery_03_desc:0 "One of the most impressive rookeries in all of Westeros, only rivaled by the ravenry on the Isle of Ravens located inside the Citadel in Oldtown. \n#weak The Lord of Blackwood Vale is nothing if not well informed on many matters, ranging from the latest scientific discoveries to the coming and goings of lords and ladies."
+
+blackwood_blackwood_vale_bowmen:0 "Blackwood Vale Bowmen"
+blackwood_blackwood_vale_bowmen_flavor:0 "The Blackwood Vale is home to some of the finest archers and bowmen in all of Westeros."
+
+vs_weirwood_bow_name:0 "Ravenflight"
+vs_weirwood_bow_description:0 "A well carved Weirwood Longbow crafted in the lumber yards and workshops of [GetTitleByKey('b_winterfell').GetNameNoTier]. The white Weirwood bow is eerily similar to the Longbow once wield by [GetScriptedCharacterByHistoryID('Targaryen_96').GetCharacterViewNameNicknamed]."
+
+#BRACKEN
+bracken_legacy_track_name: "Bracken"
+bracken_legacy_track_desc: "Thoroughbreds True"
+bracken_legacy_1_name: "Unbridled Rivalry"
+bracken_legacy_2_name: "Stone Hedge Stables"
+bracken_legacy_3_name: "Prized Stallions"
+bracken_legacy_4_name: "Horsing Around"
+bracken_legacy_5_name: "Thoroughbred Steeds"
+
+BRACKEN_VENGEFUL_TRAIT_FOR_BLOODLINE_NO_BULLETTAB:0 "Peace can last half a century. But then some fresh quarrel breaks out, and the old wounds opens and begins to bleed again. There will never be an end to it. \n#weak After centuries of feuding with the Blackwoods, some Brackens are predisposed towards becoming [GetTrait('vengeful').GetName( GetNullCharacter )]."
+BRACKEN_STONE_HEDGE_STABLES_NO_BULLETTAB:0 "Stone Hedge can boast the Riverlands fineste stables. The Brackens have fostered an environment where mounted combat is paramount.\n#weak Enables recruitment of [GetMaA('bracken_stone_hedge_knights').GetName] as [men_at_arms|E].#!"
+BRACKEN_FERTILITY_NO_BULLETTAB:0 "Bracken lads are popular lads, often compared to their prized stallions. \n#weak It's either mount or be mounted in Stone Hedge."
+BRACKEN_HORSING_AROUND_NO_BULLETTAB:0 "It's not always rivalry and serious business in Southstone. \n#weak The Brackens also know how to be silly, relax and unwind."
+BRACKEN_TH_STEEDS_NO_BULLETTAB:0 "The best steeds in the Riverlands are bred in Stone Hedge. \n#weak House Bracken often has an edge in mounted combat."
+
+building_type_stone_hedge_stables_01:"Stone Hedge Stables" 
+building_stone_hedge_stables_01:0 "Stone Hedge Stables" 
+building_stone_hedge_stables_01_desc:0 "Stone Hedge boasts the finest stables in all of the Riverlands; in turn letting House Bracken field some of the regions best cavalry. \n#weak The Lord of Southstone have tougher horses than most. They are just bred differently." 
+
+building_stone_hedge_stables_02:0 "Stone Hedge Stables" 
+building_stone_hedge_stables_02_desc:0 "Only the fineste mares and stallions are good enough for the Bracken stables in Stone Hedge. Yet still, the stable is full. \n#weak The Lord of Southstone have more horses than most, and can field larger retinues of riders." 
+
+building_stone_hedge_stables_03:0 "Stone Hedge Stables" 
+building_stone_hedge_stables_03_desc:0 "Renowned horse breeders, House Bracken can often turn a profit on a good horse, sometimes going for at least 750 silver stags. \n#weak The Lord of Southstone profits from the magnificent stables at Stone Hedge."
+
+bracken_stone_hedge_knights:0 "Stone Hedge Knights"
+bracken_stone_hedge_knights_flavor:0 "The Knights of Stone Hedge are almost without equal in the Riverlands."
+
+#VYPREN
+vypren_legacy_track_name: "Vypren"
+vypren_legacy_track_desc: "Leap Further"
+vypren_legacy_1_name: "Andal Origins"
+vypren_legacy_2_name: "Legacy of Vorian Vypren"
+vypren_legacy_3_name: "Societal Leapfrogs"
+vypren_legacy_4_name: "Fenfolk"
+vypren_legacy_5_name: "Poisonous Toads"
+
+VYPREN_ANDAL_ORIGINS_NO_BULLETTAB:0 "House Vypren hails from Andalos in western Essos. They came to Westeros as tall and fair-haired warriors who carried steel weapons and the seven-pointed star of their gods painted on their bodies. \n#weak The clergy tend to have a higher [opinion|E] of those descended from the zealous Andal [culture|E]; as long as they remain true to the [GetReligionByKey('faith_of_the_seven_religion').GetName] that is."
+VYPREN_LEGACY_OF_VORIAN_VYPREN_NO_BULLETTAB:0 "During the Andal Invasion, Vorian Vypren was one of the many warlords that conquered [GetGeographicalRegion('world_westeros_the_riverlands').GetName]. At the [GetTitleByKey('b_widows_ford').GetNameNoTier], Vypren and his knights were held back by three sons of Lord Darry for a day and a night before being victorious. \n#weak The blood of Vorian Vypren still runs thick in Vypren veins."
+VYPREN_SOCIETAL_LEAPFROGS_NO_BULLETTAB:0 "House Vypren, true to their words, #high Leap Further#!, are not opposed to leapfrog over others to get what they deem theirs by right. \n#weak Some Vyprens tend to be [GetTrait('ambitious').GetName( GetNullCharacter )]."
+VYPREN_FENFOLK_NO_BULLETTAB:0 "Accustomed to life in the fens around [GetTitleByKey('c_stillfen').GetNameNoTier] and [GetTitleByKey('c_wayleroot').GetNameNoTier], the Vyprens are no strangers to fighting in what others might consider unfavourable terrain. \n#weak Vypren troops tend to perform well in [GetTerrain('wetlands').GetName].\n#weak Enables recruitment of [GetMaA('vypren_fenfolk').GetName] as [men_at_arms|E].#!"
+VYPREN_POISONOUS_TOADS_NO_BULLETTAB:0 "Never afraid of backing up their ambition with a knife in the dark, or perhaps a vial of poison sourced from one of the many creatures lurking in the reeds of the fens. \n#weak Members of House Vypren tend to do well in matters of [intrigue|E]."
+
+building_type_stillfen_lily_pad_pond_01:"Stillfen Lily Pad Pond" 
+building_stillfen_lily_pad_pond_01:0 "Stillfen Lily Pad Pond" 
+building_stillfen_lily_pad_pond_01_desc:0 "Local legends tell of a Fen-woman that once managed to get into the castle grounds, and appeared naked before Lord Vypren in the pond, trying to gift him a sword. \nThe Lord was fortunately of sound mind, and knew better than engaging with strange women lying in ponds distributing swords. The deserts of Dorne would freeze before a Vypren would let some moistened bint lob a scimitar at him in some farcical aquatic ceremony. \n#weak The Ladies do tend to love a good pond though." 
+
+building_stillfen_lily_pad_pond_02:0 "Stillfen Lily Pad Pond" 
+building_stillfen_lily_pad_pond_02_desc:0 "The fineste swans are brought in from the Reach to populate the pond. \n#weak The Lord of Stillfen enjoys the quiet moments sitting by the pond, relaxing and pondering the many myseries of life." 
+
+building_stillfen_lily_pad_pond_03:0 "Stillfen Lily Pad Pond" 
+building_stillfen_lily_pad_pond_03_desc:0 "Visitors marvel at this magnificent pond, for its like is not to be found. At least not in Westeros. \n#weak Visiting Lord and Ladies alike tend to be impressed by the ponds beauty. It even seems to have a calming effect on the otherwise rowdy, unwashed masses."
+
+vypren_fenfolk:0 "Fenfolk"
+vypren_fenfolk_flavor:0 "The local warriors of the fens around Stillfen and Wayleroot know marshland combat like few others."
+
+#VANCE
+vance_legacy_track_name: "Vance"
+vance_legacy_track_desc: "Ever Watchful"
+vance_legacy_1_name: "Andal Origins"
+vance_legacy_2_name: "Legacy of Armistead Vance"
+vance_legacy_3_name: "Watchful Warriors"
+vance_legacy_4_name: "Advance the Vance"
+vance_legacy_5_name: "Vance's Lances"
+
+VANCE_ANDAL_ORIGINS_NO_BULLETTAB:0 "House Vance hails from Andalos in western Essos. They came to Westeros as tall and fair-haired warriors who carried steel weapons and the seven-pointed star of their gods painted on their bodies. \n#weak The clergy tend to have a higher [opinion|E] of those descended from the zealous Andal [culture|E]; as long as they remain true to the [GetReligionByKey('faith_of_the_seven_religion').GetName] that is."
+VANCE_LEGACY_OF_ARMISTEAD_VANCE_NO_BULLETTAB:0 "During the Andal Invasion, Armistead Vance was the mightiest of the Andal warlords that invaded [GetGeographicalRegion('world_westeros_the_riverlands').GetName]. Armistead was one of the Andal warlords who defeated Tristifer IV Mudd, King of the [GetTitleByKey('e_the_riverlands').GetName]. \nAfterwards he gained the allegiance of House Tully, and granted them the lands at the juncture of the Red Fork and the Tumblestone where they later raised [GetTitleByKey('c_riverrun').GetNameNoTier]. \n#weak The blood of Armistead Vance still runs thick in Vance veins and some Vances tend to be [GetTrait('authoritative').GetName( GetNullCharacter )]."
+VANCE_WATCHFUL_WARRIORS_NO_BULLETTAB:0 "Renowned warriors, but still no strangers to [intrigue|E]; House Vance hold true to their words, #high Ever Watchful#!. \n#weak Members of House Vance tend to be watchful."
+VANCE_ADVANCE_THE_VANCE_NO_BULLETTAB:0 "It is time to recognise that we are one house united. \nHouse Vance of [GetTitleByKey('c_wayfarers_rest').GetNameNoTier] and House Vance of [GetTitleByKey('c_atranta').GetNameNoTier] both have the same blood flowing in our veins. \n#weak This enables the decision #high Reunite House Vance#! if you are controlling both the [GetTitleByKey('d_wayfarers_rest').GetName] and the [GetTitleByKey('d_atranta').GetName]."
+VANCE_VANCES_LANCES_NO_BULLETTAB:0 "The old Andal tradition of [heavy_cavalry|E] warfare has not been forgotten at Warfarer's Rest. \n#weak Lord Vance's lances are renowned for their efficiency and prowess in battle.\n#weak Enables recruitment of [GetMaA('vance_vances_lances').GetName] as [men_at_arms|E].#!"
+
+building_type_wayfarers_rest_armisteads_tomb_01:"Tomb of Armistead Vance" 
+building_wayfarers_rest_armisteads_tomb_01:0 "Warlord's Rest" 
+building_wayfarers_rest_armisteads_tomb_01_desc:0 "The final resting place of the legendary Armistead Vance, the mightiest of the invading Andal warlords. It is known that Tristifer IV Mudd, First Man King of the Rivers and Hills fought one hundred battles, winning ninety-nine and losing only one. The one battle Tristifer lost was his last, where seven Andal kings attacked simultaneously, the greatest of which was the conqueror Armistead Vance. \n#weak What an honor to have susch a prestigious and renowned forebear." 
+
+building_type_atranta_atranta_01:"Atranta" 
+building_atranta_atranta_01:0 "Atranta" 
+building_atranta_atranta_01_desc:0 "Atranta, standing at the confluence of two tributaries of the Trident, is the seat of House Vance of Atranta. It's high walls and a central keep are flanked by towers displaying the Vance banners.\nInside, the Great Hall, adorned with historic tapestries, serves as the heart of the castle, hosting feasts and councils.\nAtranta is not only a military bastion but also a center of culture and diplomacy in the Riverlands."
+
+house_reunion_tooltip:0 "This dynasty has fractured into several houses, but due to its renowned history and recent developments can be reunited." 
+has_dynasty_perk:0 "You have the required [dynasty_perk|E]" 
+vance_reunion_decision:0 "Reunite House Vance" 
+vance_reunion_decision_desc:0 "House Vance traces its lineage back to [GetScriptedCharacterByHistoryID('Vance_Wayfarers_Rest_11').GetName], the mightiest of the Andal warlords that invaded [GetGeographicalRegion('world_westeros_the_riverlands').GetName].\n\nSince that time, House Vance have seperated in two houses, House [GetDynastyByID('dynn_Vance').GetName] of [GetTitleByKey('c_wayfarers_rest').GetNameNoTier] and House [GetDynastyHouseByID('house_VanceA').GetName] of [GetTitleByKey('c_atranta').GetNameNoTier]. Perhaps it is time to reunite these two houses, with myself as its head." 
+vance_reunion_decision_confirm:0 "Ever Watchful"
+
+vance_vances_lances:0 "Vance's Lances"
+vance_vances_lances_flavor:0 "The sound of the thundering hoofs of the charging Vance's Lances is enough to terrify nobles and smallfolk alike."
+
+vs_warlords_will_name:0 "Warlord's Will"
+vs_warlords_will_description:0 "With each swing, this blade clawed through the armor of its foes, as ferocious and unyielding as the warlord who wielded it. The sword extended the will of Armistead Vance across the battlefields, bending friend and foe alike to the warlord’s indomitable will."
+
+#ROWAN
+rowan_legacy_track_name: "Rowan"
+rowan_legacy_track_desc: "Unwithering Resolve"
+rowan_legacy_1_name: "Green Seedlings"
+rowan_legacy_2_name: "Legacy of Rowan Gold-Tree"
+rowan_legacy_3_name: "Marshalls of the Northmarch"
+rowan_legacy_4_name: "Bountiful Orchards"
+rowan_legacy_5_name: "Resolute Riders"
+
+ROWAN_GREEN_ORIGINS_NO_BULLETTAB:0 "House Rowan can trace their descent from the legendary [GetScriptedCharacterByHistoryID('Gardener_1').GetCharacterViewNameNicknamed], through his daughter [GetScriptedCharacterByHistoryID('Rowan_6').GetFirstNameNicknamed]. \n#weak To claim descent from a mythical High King of the First Men is neat, but then again, so do several other major Reach houses on both sides of the Mander."
+ROWAN_LEGACY_OF_ROWAN_GOLD_TREE_NO_BULLETTAB:0 "According to legend, [GetScriptedCharacterByHistoryID('Rowan_6').GetFirstName] was so bereft when her lover left her for a rich rival that she wrapped an apple in her golden hair and planted it upon a hill. From the apple grew a tree whose bark, leaves and fruit were yellow gold. House Rowan traces its roots to Rowan's daughters. \n#weak Abandoned for richer rivals nevermore. A few Rowans even try to emulate Rowan Gold-Tree, and if they succeed are seen as a [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )]."
+ROWAN_MARSHALLS_OF_THE_NORTHMARCH_NO_BULLETTAB:0 "House Rowans dominions extend all along the Reach' northern borders. The Rowans were made Marshall of the Northmarch to replace the declining House Osgrey, now their bannermen. \n#weak House Rowan guards the border with Unwithering Resolve."
+ROWAN_BOUNTIFUL_ORCHARDS_NO_BULLETTAB:0 "Goldengrove has blessed house Rowan with fruits from the orchards, and fruits of the loin for generation. \n#weak The often golden-haired lads and lasses of house Rowan are, much like their lands, fertile soil."
+ROWAN_RESOLUTE_RIDERS_NO_BULLETTAB:0 "The Summer Knights of Goldengrove is known for both bravery in battle and their chivalrous nature. \n#weak [heavy_cavalry|E] is king in the fertile fields of the Reach.\n#weak Enables recruitment of [GetMaA('rowan_knights_of_the_golden_apple').GetName] as [men_at_arms|E].#!"
+
+building_type_goldengrove_golden_orchard_01:"The Golden Orchard" 
+building_goldengrove_golden_orchard_01:0 "The Golden Orchard" 
+building_goldengrove_golden_orchard_01_desc:0 "According to legend Rowan Gold-Tree wrapped an apple in her golden hair and planted it upon a hill. From the apple grew a tree whose bark, leaves and fruit were yellow gold. The Apple Hills have many orchards, but some seem to produce more fruit than others. \n#weak Good soil or magic apples, who knows what's causing it. The end result is more coin in the Rowan coffers."
+building_goldengrove_golden_orchard_02:0 "The Golden Orchard" 
+building_goldengrove_golden_orchard_02_desc:0 "A large and bountiful orchard, providing not only lucrative fruit that sells well at market, but also impressing visiting Lord and Ladies alike. \n#weak "
+building_goldengrove_golden_orchard_03:0 "The Golden Orchard" 
+building_goldengrove_golden_orchard_03_desc:0 "This magnificent orchard is truly a sight to behold. The finest fruits are reserved for the Rowan household. \n#weak An apple a day keeps the silverlink-chained Maester away."
+
+rowan_knights_of_the_golden_apple:0 "Knights of the Golden Apple"
+rowan_knights_of_the_golden_apple_flavor:0 "The Knights of the Golden Apple is Goldengrove's finest elite cavalry."
+
+#TARLY
+tarly_legacy_track_name: "Tarly"
+tarly_legacy_track_desc: "First in Battle"
+tarly_legacy_1_name: "Green Seedlings"
+tarly_legacy_2_name: "Legacy of Harlon and Herndon"
+tarly_legacy_3_name: "Marcher Lords"
+tarly_legacy_4_name: "Hunting High and Low"
+tarly_legacy_5_name: "Born to Battle"
+
+TARLY_GREEN_ORIGINS_NO_BULLETTAB:0 "House Tarly can trace their descent from the legendary [GetScriptedCharacterByHistoryID('Gardener_1').GetCharacterViewNameNicknamed], through his twin sons [GetScriptedCharacterByHistoryID('Tarly_8').GetCharacterViewNameNicknamed] and [GetScriptedCharacterByHistoryID('Hunt_8').GetCharacterViewNameNicknamed]. \n#weak To claim descent from a mythical High King of the First Men is neat, but then again, so do several other major Reach houses on both sides of the Mander."
+TARLY_LEGACY_OF_HARLON_AND_HERNDON_NO_BULLETTAB:0 "[GetScriptedCharacterByHistoryID('Hunt_8').GetCharacterViewNameNicknamed] and his twin brother [GetScriptedCharacterByHistoryID('Tarly_8').GetCharacterViewNameNicknamed] built their castle atop [GetTitleByKey('b_horn_hill').GetNameNoTier] and took to wife the beautiful woods witch, [GetScriptedCharacterByHistoryID('Tarly_rs_1').GetCharacterViewNameNicknamed], who dwelled there, sharing her favors for a hundred years. The brothers did not age so long as they had intercourse with her whenever the moon was full. \n#weak Hunting is a fact of life at Horn Hill. Tarlys tend to be trained as [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )]s from a ridiculously early age."
+TARLY_MARCHER_LORDS_NO_BULLETTAB:0 "The Marcher lords have proudly defended the realms of the Storm Kings and Kings of the Reach against incursions from Dorne in ages past. Many ballads and tales praise the valor and skill at arms of the Marcher lords and their longbowmen. \n#weak House Tarly is reckoned among the Marcher lords."
+TARLY_HUNTING_HIGH_AND_LOW_NO_BULLETTAB:0 "The woods around Horn Hill are teeming with game, and the Tarlys employ huntsmen and hounds during their hunts. During the time of [GetScriptedCharacterByHistoryID('Tarly_22').GetCharacterViewNameNicknamed], the Tarlys employed the legendary huntsman Harket, resulting in the Tarlys hunting high and low, for quite some time. \nThe huntsman famously and repeatedly exclaimed:\n'Take me on!' and 'There's no end to the lengths I'll go', in an attempt to challenge others to competitive hunts. \n#weak At least The Sun Always Shines on Horn Hill."
+TARLY_BORN_TO_BATTLE_NO_BULLETTAB:0 "True to their words, House Tarly are, with some exceptions, a house of warriors. \n#weak First in Battle!\n#weak Enables recruitment of [GetMaA('tarly_the_first').GetName] as [men_at_arms|E].#!"
+
+building_type_horn_hill_hunting_grounds_01:"Horn Hill Hunting Grounds" 
+building_horn_hill_hunting_grounds_01:0 "Horn Hill Hunting Grounds" 
+building_horn_hill_hunting_grounds_01_desc:0 "A rather small hunting ground, nothing too impressive. \n#weak These hunting grounds are rather small, but still provide plentiful game."
+building_horn_hill_hunting_grounds_02:0 "Horn Hill Hunting Grounds" 
+building_horn_hill_hunting_grounds_02_desc:0 "A large hunting reserve, excellent for felling bucks and boars. \n#weak Better watch out for those boars, even Kings can be murdered by a pig."
+building_horn_hill_hunting_grounds_03:0 "Horn Hill Hunting Grounds" 
+building_horn_hill_hunting_grounds_03_desc:0 "The woods around Horn Hill are teeming with game, and the Tarlys employ huntsmen and hounds during their hunts. Like the legendary Harket the Huntsman of old. \n#weak A more bountiful hunting ground is not known in all of the Reach."
+
+tarly_the_first:0 "The First"
+tarly_the_first_flavor:0 "House Tarly's elite regiment of dismounted knights. The knights, like the house they are sworn to, prides themselves with being 'First in Battle'."
+
+#OSGREY
+osgrey_legacy_track_name: "Osgrey"
+osgrey_legacy_track_desc: "Stand Fast, Stand Firm"
+osgrey_legacy_1_name: "Former Marshalls"
+osgrey_legacy_2_name: "Legacy of the Little Lion"
+osgrey_legacy_3_name: "Chequered Lions"
+osgrey_legacy_4_name: "Sharing is Caring"
+osgrey_legacy_5_name: "Formidable Fortifiers"
+
+OSGREY_FORMER_MARSHALLS_NO_BULLETTAB:0 "House Osgrey was established at least 1,000 years before the Conquest. The family used to be Marshalls of the Northmarch under House Gardener. \n#weak Even though the Rowans were made Marshall of the Northmarch, House Osgrey, now their bannermen, still do their duty to safeguard the borderlands."
+OSGREY_LEGACY_OF_SER_WILBERT_THE_LITTLE_LION_NO_BULLETTAB:0 "During a battle, [GetScriptedCharacterByHistoryID('Osgrey_12').GetCharacterViewNameNicknamed], came face to face with [GetScriptedCharacterByHistoryID('Lannister_59').GetFullName]. The king had a Valyrian steel greatsword, Brightroar, and chopped the Little Lion to bits, but as Wilbert was dying, he drove his dagger into a gap in the king's armor and killed him. \n#weak Little Lions, big deeds. Osgreys tend to be [GetTrait('brave').GetName( GetNullCharacter )]."
+OSGREY_CHEQUERED_PAST_NO_BULLETTAB:0 "The lion may be chequered, but it Stands Fast and Firm. \n#weak Some Osgreys tend to be [GetTrait('diligent').GetName( GetNullCharacter )]."
+OSGREY_SHARING_IS_CARING_NO_BULLETTAB:0 "House Osgrey have been able to settle feuds and reconcile with former rivals, even if it means sharing a castle. \n#weak Some times it's best to just get along."
+OSGREY_FORMIDABLE_FORTIFIERS_NO_BULLETTAB:0 "Perwyn Osgrey, also known as Perwyn the Proud, was head of House Osgrey prior to Aegon's Conquest. He built the greatest of the Osgrey holds, Coldmoat. \n#weak The blood of Perwyn the Proud still runs thick in Osgrey veins.\n#weak Enables recruitment of [GetMaA('osgrey_steadfast_spears').GetName] as [men_at_arms|E].#!"
+
+building_type_coldmoat_outworks_01:"Coldmoat Outworks" 
+building_coldmoat_outworks_01:0 "Coldmoat Outworks" 
+building_coldmoat_outworks_01_desc:0 "Small outworks providing some defensive measures. \n#weak It will probably slow would-be besiegers somewhat."
+building_coldmoat_outworks_02:0 "Coldmoat Outworks" 
+building_coldmoat_outworks_02_desc:0 "An extensive arrangement of outworks adding to Coldmoats defendability. \n#weak It's not Storm's End, but it will definitely aid in Coldmoat's defense. Perwyn would be proud."
+building_coldmoat_outworks_03:0 "Coldmoat Outworks" 
+building_coldmoat_outworks_03_desc:0 "An impressive collection of nearly impregnable outworks, arranged in such a way that any attacker would be drawn out in a longer siege. \n#weak Not even ten good men with some climbing spikes could impregnate this bitch."
+
+osgrey_steadfast_spears:0 "Steadfast Spears"
+osgrey_steadfast_spears_flavor:0 "The Steadfast spearmen of Standfast and Coldmoat will defend their Lords keep to the last man."
+
+#OPINION MODIFIERS
+reachman_opinion:0 "$reachman$ Opinion"
+marcher_opinion:0 "$marcher$ Opinion"
+honeywiner_opinion:0 "$honeywiner$ Opinion"
+vineman_opinion:0 "$vineman$ Opinion"
+shieldman_opinion:0 "$shieldman$ Opinion"
+old_gods_south_opinion:0 "$old_gods_south$ Opinion"
+old_gods_vale_opinion:0 "$old_gods_vale$ Opinion"
+barrowman_opinion:0 "$barrowman$ Opinion"
+hill_clansman_opinion:0 "$hill_clansman$ Opinion"
+wolfswood_clansman_opinion:0 "$wolfswood_clansman$ Opinion"
+crannogman_opinion:0 "$crannogman$ Opinion"
+skagosi_opinion:0 "$skagosi$ Opinion"
+northman_opinion:0 "$northman$ Opinion"
+valeman_opinion:0 "$valeman$ Opinion"
+mountain_clansman_opinion:0 "$mountain_clansman$ Opinion"
+westerosi_valyrian_opinion:0 "$westerosi_valyrian$ Opinion"
+essosi_valyrian_opinion:0 "$essosi_valyrian$ Opinion"
+volantene_opinion:0 "$volantene$ Opinion"
+lyseni_opinion:0 "$lyseni$ Opinion"
+myrish_opinion:0 "$myrish$ Opinion"
+pentoshi_opinion:0 "$pentoshi$ Opinion"
+valyrian_opinion:0 "$valyrian$ Opinion"
+sisterman_opinion:0 "$sisterman$ Opinion"
+clawman_opinion:0 "$clawman$ Opinion"
+crownlander_opinion:0 "$crownlander$ Opinion"
+
+#ROYCE
+royce_legacy_track_name: "Royce"
+royce_legacy_track_desc: "We Remember"
+royce_legacy_1_name: "First Men Origins"
+royce_legacy_2_name: "Legacy of Robar II Royce"
+royce_legacy_3_name: "Runesworn"
+royce_legacy_4_name: "Bronzed Business"
+royce_legacy_5_name: "Bronze Kings"
+
+ROYCE_FIRST_MEN_ORIGINS_NO_BULLETTAB:0 "House Royce descend from the most powerful First Men monarchs of the Vale in antiquity. \n#weak We Remember, and so do many others."
+ROYCE_LEGACY_OF_ROBAR_ROYCE_NO_BULLETTAB:0 "Robar II Royce was a Bronze King of [GetTitleByKey('k_runestone').GetNameNoTier] who united the houses and clans of the First Men of [GetGeographicalRegion('world_westeros_the_vale').GetName] and became High King of [GetTitleByKey('k_fingersTK').GetNameNoTier] and [GetTitleByKey('e_the_vale').GetNameNoTier], and nearly held back the coming of the Andals, before he was ultimately slain in the Battle of the [GetTitleByKey('b_seven_stars').GetNameNoTier].\n#weak The blood of Robar II Royce still runs thick in Royce veins. Royces tend to be [GetTrait('strong').GetName( GetNullCharacter )]."
+ROYCE_RUNESWORN_NO_BULLETTAB:0 "Since the Age of the Bronze Kings, House Royce has fielded some of the Vales finest footmen. Most formidable among them; the Runesworn, personally sworn to the Lord of [GetTitleByKey('d_runestone').GetNameNoTier]. \n#weak It's a dreadful sight for the enemy when the host of Royce Rolls down the hill. \nEnables recruitment of [GetMaA('royce_runesworn').GetName] as [men_at_arms|E].#!"
+ROYCE_BRONZED_BUSINESS_NO_BULLETTAB:0 "The Royces control several ports, most profitable of which is [GetTitleByKey('b_runeport').GetNameNoTier]. Luckily they do not have to depend on [GetTitleByKey('c_gulltown').GetNameNoTier] for its commerce. \n#weak Any port in a storm, except [GetTitleByKey('c_gulltown').GetNameNoTier]."
+ROYCE_BRONZE_KINGS_NO_BULLETTAB:0 "Yorwyck VI Royce defeated the Shetts in several battles and drove them inside their town walls. Osgood Shett unfortunately turned to the Andals, thus securing a victory against King Yorwyck. \n#weak Alas poor Yorwyck! Nevertheless we must strive to be like the Bronze Kings of old.\nEnables the [decision|E] [GetDecisionWithKey('create_kingdom_of_runestone_decision').GetName]."
+
+building_type_runeport_docks_01:"Runeport Docks" 
+building_runeport_docks_01:0 "Runeport" 
+building_runeport_docks_01_desc:0 "These small docks support somewhat localized trade. \n#weak Trinkets from the Crownlands and grain from the Riverlands."
+building_runeport_docks_02:0 "Runeport" 
+building_runeport_docks_02_desc:0 "Trade is growing. Merchants and traders arrive from further north and south alike. \n#weak Wine from the Arbor and pelts from Skagos."
+building_runeport_docks_03:0 "Runeport" 
+building_runeport_docks_03_desc:0 "An impressive set of docks. The smell of spices and herbs fill the cold air that blows down from the mountains and mixes with the salt from the sea. Merchants shout and holler, speaking with accents denoting Myrish, Volantene, Lyseni and Pentoshi origin. \n#weak Carpets from Myr and strange meat from the plains of Essos. Even casks of spiced rum from the Summer Isles."
+
+royce_runesworn:0 "Runesworn"
+royce_runesworn_flavor:0 "Since the Age of the Bronze Kings, House Royce has fielded some of the Vales finest footmen. Most formidable among them; the Runesworn, sworn personally to Lord Royce."
+
+vs_runic_armor_name:0 "Runic Armour"
+vs_runic_armor_description:0 "An ancient bronze plate armour inscribed with runes that are thought to make their wearers immune to injury."
+
+##Proclaim the Kingdom of Runestone
+create_kingdom_of_runestone_decision:0 "Restore the Kingdom of Runestone"
+create_kingdom_of_runestone_desc:0 "Centuries past, before we bowed to [GetScriptedCharacterByHistoryID('Arryn_15').GetCharacterViewNameNicknamed], we ruled as Bronze Kings from our seat in [GetTitleByKey('c_runestone').GetNameNoTier].\n\nIt is time we took back what is ours by right, and restore our rule of the entire [GetTitleByKey('k_runestone').GetName]. \n\nIf we were to regain control over enough of our old core territories, perhaps [GetTitleByKey('e_the_iron_throne').GetHolder.GetShortUINameNoFormat] could be persuaded to acknowledge our right if we became [friends|E]. If not, perhaps we should apply pressure with a [strong_hook|E]. If all else fails, we must become [independent|E], and take the matter entirely into our own hands."
+create_kingdom_of_runestone_tooltip:0 "Restore the Kingdom of Runestone."
+create_kingdom_of_runestone_decision_confirm:0 "We Remember!"
+
+#GRAFTON
+k_fingersTK:0 "The Fingers"
+
+dynn_Grafton_motto:0 "Prosper and Persevere" #non-canon
+
+grafton_legacy_track_name: "Grafton"
+grafton_legacy_track_desc: "Prosper and Persevere"
+grafton_legacy_1_name: "Andal Origins"
+grafton_legacy_2_name: "Legacy of Ser Gerold Grafton"
+grafton_legacy_3_name: "Shrewd Gulltowners"
+grafton_legacy_4_name: "Gulltown Mariners"
+grafton_legacy_5_name: "Beloved Backstabbers"
+
+GRAFTON_ANDAL_ORIGINS_NO_BULLETTAB:0 "House Grafton hails from Andalos in western Essos. They came to Westeros as tall and fair-haired warriors who carried steel weapons and the seven-pointed star of their gods painted on their bodies. \n#weak The clergy tend to have a higher [opinion|E] of those descended from the zealous Andal [culture|E]; as long as they remain true to the [GetReligionByKey('faith_of_the_seven_religion').GetName] that is."
+GRAFTON_LEGACY_OF_SER_GEROLD_GRAFTON_NO_BULLETTAB:0 "Ser Gerold Grafton was an Andal knight from Andalos who established the rule of House Grafton over [GetTitleByKey('d_gulltown').GetNameNoTier]. Gulltown rose against King Gerold, who brutally put down the protests, executing men, women and children and having their bodies thrown in the bay to feed the crabs. \n#weak The blood of Gerold Grafton still runs thick in Grafton veins and some Graftons tend to be [GetTrait('ambitious').GetName( GetNullCharacter )]."
+GRAFTON_SHREWD_GULLTOWNERS_NO_BULLETTAB:0 "After putting down the rebellion House Grafton's rule was uncontested, for King Gerold proved to be a sage and clever ruler, making [GetTitleByKey('d_gulltown').GetNameNoTier] prosper enough to grow into the first and only city in [GetGeographicalRegion('world_westeros_the_vale').GetName].\n#weak Over the centuries the Graftons have become metropolitan; accustomed to trade and city life, and as a result some Graftons become [GetTrait('shrewd').GetName( GetNullCharacter )]."
+GRAFTON_GULLTOWN_MARINERS_NO_BULLETTAB:0 "Gulltown's extensive merchant navy needs protection on both longer and shorter voyages. \n#weak The Gulltown Mariners is a capable fighting force, used aboard ships and on land. \nEnables recruitment of [GetMaA('grafton_gulltown_mariners').GetName] as [men_at_arms|E].#!"
+GRAFTON_BELOVED_BACKSTABBERS_NO_BULLETTAB:0 "Ser Gerold Grafton aided King Osgood Shett defeating Bronze King Yorwyck VI Royce, but afterwards it was rumored that he struck down his good-father. After returning to Gulltown, Gerold claimed Osgood's crown and confined Osgood's heir to his bedchambers until he had gotten Gerold's daughter with child. Afterward the prince vanished from history. \n#weak The Graftons are a duplicitous bunch, but as long as the city flourishes and coins are filling the coffers, they are loved by the local Gulltowners."
+
+building_type_gulltown_customs_house_01:"Port of Arryn Customs House" 
+building_gulltown_customs_house_01:0 "Port of Arryn Customs House" 
+building_gulltown_customs_house_01_desc:0 "This small customs house tries to tax all the incoming trade in the Port of Arryn. \n#weak Not very effective, but it does results in some coin in the coffers."
+building_gulltown_customs_house_02:0 "Port of Arryn Customs House" 
+building_gulltown_customs_house_02_desc:0 "A large customs office, teeming and buzzing with officials, counting coins and issuing writs. \n#weak All the trade pouring into the port is very profitable for House Arryn of Gulltown."
+building_gulltown_customs_house_03:0 "Port of Arryn Customs House" 
+building_gulltown_customs_house_03_desc:0 "An impressive customs house, occupying a commanding space near the docks in the Port of Arryn. Merchants come and go and bureaucrats scurry around like rats. The whole place reeks of profit. \n#weak Being the only proper city in the region, Gulltown and the Port of Arryn profits extremly well from all the trade flowing from the sea and into the Vale."
+
+grafton_gulltown_mariners:0 "Gulltown Mariners"
+grafton_gulltown_mariners_flavor:0 "Gulltown's extensive merchant navy needs protection on both longer and shorter voyages. The Gulltown Mariners is a capable fighting force, used aboard ships and on land."
+
+##Proclaim the Kingdom of Gulltown (Grafton)
+create_kingdom_of_gulltown_decision:0 "Restore the Kingdom of Gulltown"
+create_kingdom_of_gulltown_desc:0 "Centuries past we took [GetTitleByKey('c_gulltown').GetNameNoTier] from the [GetDynastyByID('dynn_Shett').GetName]s, who ruled there as Kings of the True Men. If they could be Kings in Gulltown, so can we!\n\nWe must establish our rule of the entire [GetTitleByKey('k_gulltownTK').GetName]. \n\nIf we were to gain control over both [GetTitleByKey('d_gulltown').GetNameNoTier] and [GetTitleByKey('d_strongstone').GetNameNoTier], perhaps [GetTitleByKey('e_the_iron_throne').GetHolder.GetShortUINameNoFormat] could be persuaded to acknowledge our right if we became [friends|E]. If not, perhaps we should apply pressure with a [strong_hook|E]. If all else fails, we must become [independent|E], and take the matter entirely into our own hands."
+create_kingdom_of_gulltown_tooltip:0 "Restore the Kingdom of Gulltown."
+create_kingdom_of_gulltown_decision_confirm:0 "Prosper and Persevere!"
+
+#SHETT
+k_gulltownTK:0 "Gulltown"
+
+shett_legacy_track_name: "Shett"
+shett_legacy_track_desc: "Flight Takes Distance"
+shett_legacy_1_name: "First Men Origins"
+shett_legacy_2_name: "Legacy of Osgood III Shett"
+shett_legacy_3_name: "Gullmen"
+shett_legacy_4_name: "True Friends"
+shett_legacy_5_name: "Kings of the True Men"
+
+SHETT_FIRST_MEN_ORIGINS_NO_BULLETTAB:0 "House Shett descend from the First Men Kings that that ruled [GetTitleByKey('d_gulltown').GetNameNoTier] prior to the Andal Invasion. \n#weak Ages have passed, but we still remember who we are."
+SHETT_LEGACY_OF_OSGOOD_SHETT_NO_BULLETTAB:0 "Osgood III Shett was a First Man king of [GetTitleByKey('k_gulltownTK').GetNameNoTier] during the early stages of the Andal Invasion. Osgood turned to the Graftons of Andalos for help in recovering lands lost to the Bronze King Yorwyck VI Royce of [GetTitleByKey('k_runestone').GetNameNoTier]. Even converting to the [GetReligionByKey('faith_of_the_seven_religion').GetName] in the process. \nKing Osgood won his victory, but did not survive the battle with the Bronze King. It was rumored that Ser Gerold Grafton himself struck him down, for upon his return, the Andal knight claimed his good-father's crown for his own, dispossessing Osgood's lawful heir. \n#weak No good ending for good old Osgood."
+SHETT_GULLMEN_NO_BULLETTAB:0 "Consisting mostly of local fishermen from the peninsula of [GetTitleByKey('c_gullview').GetNameNoTier], the [light_cavalry|E] of House Shett, affectionately named [GetMaA('shett_gullmen').GetName] by locals, is known for their skill with the spear and the use of fishing nets while on horseback. \n#weak A novel concept not seen many other places in Westeros. \nEnables recruitment of [GetMaA('shett_gullmen').GetName] as [men_at_arms|E].#!"
+SHETT_TRUE_FRIENDS_NO_BULLETTAB:0 "House Shett is known for placing high value on [friend|E]ships. \n#weak Some Shetts tend to become [GetTrait('gregarious').GetName( GetNullCharacter )]."
+SHETT_KINGS_OF_THE_TRUE_MEN_NO_BULLETTAB:0 "The Shetts used to rule as Kings of True Men in [GetTitleByKey('k_gulltownTK').GetNameNoTier], but are now merely bannermen to House Royce. They have however, not forgotten their past. \n#weak Never forget who we were, and we could be again."
+
+building_type_gullview_osgoods_tomb_01:"Tomb of the last King of the True Men" 
+building_gullview_osgoods_tomb_01:0 "Tomb of Osgood III Shett" 
+building_gullview_osgoods_tomb_01_desc:0 "Overlooking the Bay of Crabs, a tomb is carved into the rugged cliffs with meticulous craftsmanship, this ancient sepulcher serves as the final resting place of Osgood III Shett, the last King of the True Men. \n\nIn quiet dignity, the tomb bears silent witness to the enduring legacy of House Shett, casting its solemn gaze over the waters below for generations to come." 
+
+shett_gullmen:0 "Gullmen"
+shett_gullmen_flavor:0 "Consisting mostly of local fishermen from the peninsula of Gullview, the light cavalry of House Shett, affectionately named Gullmen by locals, is known for their skill with the spear and the use of fishing nets while on horseback. A novel concept not seen many other places in Westeros."
+
+##Proclaim the Kingdom of Gulltown (Shett)
+create_kingdom_of_the_true_men_decision:0 "Restore the Kingdom of Gulltown"
+create_kingdom_of_the_true_men_desc:0 "Centuries past we ruled as Kings of True Men from our seat in [GetTitleByKey('c_gulltown').GetNameNoTier], before it was stolen from us by the [GetDynastyByID('dynn_Grafton').GetName]s.\n\nIt is time we took back what is ours by right, and restore our rule of the entire [GetTitleByKey('k_gulltownTK').GetName]. \n\nIf we were to regain control over all our old lands, perhaps [GetTitleByKey('e_the_iron_throne').GetHolder.GetShortUINameNoFormat] could be persuaded to acknowledge our right if we became [friends|E]. If not, perhaps we should apply pressure with a [strong_hook|E]. If all else fails, we must become [independent|E], and take the matter entirely into our own hands."
+create_kingdom_of_the_true_men_tooltip:0 "Restore the Kingdom of Gulltown."
+create_kingdom_of_the_true_men_decision_confirm:0 "Flight Takes Distance!"
+
+#MANDERLY
+manderly_legacy_track_name: "Manderly"
+manderly_legacy_track_desc: "No Currents Mightier"
+manderly_legacy_1_name: "First Men Origins"
+manderly_legacy_2_name: "Voracious Mermen"
+manderly_legacy_3_name: "Sworn to the Wolf"
+manderly_legacy_4_name: "Shields of the Faith"
+manderly_legacy_5_name: "Wardens of the White Knife"
+
+MANDERLY_FIRST_MEN_ORIGINS_NO_BULLETTAB:0 "House Manderly are an ancient house who once lived along the banks of the mighty river Mander in [GetGeographicalRegion('world_westeros_the_reach').GetName], and some even claim the river was named after them. \n#weak A noble house of great lords descended from the First Men."
+MANDERLY_VORACIOUS_MERMEN_NO_BULLETTAB:0 "The Manderlys are known for their voracious appetite and festive feasts; securing good deals with local purveyors of meat, wine, ale and all that you would need for a merry evening at the Merman's Court. \n#weak Manderlys tend to become [GetTrait('gluttonous').GetName( GetNullCharacter )]."
+MANDERLY_SWORN_TO_THE_WOLF_NO_BULLETTAB:0 "The Manderlys originated from [GetTitleByKey('c_dunstonbury').GetNameNoTier] in [GetGeographicalRegion('world_westeros_the_reach').GetName], but were forced into exile by House Gardener. The Kings of Winter, House Stark of Winterfell, accepted the Manderlys in [GetGeographicalRegion('world_westeros_the_north').GetName] and granted them the [GetTitleByKey('b_wolfs_den').GetNameNoTier], where the newcomers developed the prosperous city of [GetTitleByKey('b_white_harbor').GetNameNoTier]. A thousand years before the Conquest, a promise was made, and oaths were sworn in the Wolf's Den before the old gods and the new. When we were sore beset and friendless, hounded from our homes and in peril of our lives, the wolves took us in and nourished us and protected us against our enemies. The city is built upon the land they gave us. In return we swore that we should always be their men. Stark men! \n#weak Manderlys tend be [GetTrait('loyal').GetName( GetNullCharacter )]. \nEnables recruitment of [GetMaA('manderly_house_manderly_guards').GetName] as [men_at_arms|E].#!."
+MANDERLY_SHIELDS_OF_THE_FAITH_NO_BULLETTAB:0 "Shield of the Faith is an honorary title claimed by the Lord of House Manderly of [GetTitleByKey('d_white_harbor').GetNameNoTier]. It showcases House Manderly's allegiance to the [GetReligionByKey('faith_of_the_seven_religion').GetName]. \n#weak Being exiles from the Reach, the Manderlys are the most prominent of the few houses of the north who adhere to the Faith. Most northern followers of the Faith live in the south of the region."
+MANDERLY_WARDENS_OF_THE_WHITE_KNIFE_NO_BULLETTAB:0 "Warden of the White Knife is a title used by House Manderly of [GetTitleByKey('d_white_harbor').GetNameNoTier]. The predecessor of the [GetTitleByKey('b_white_harbor').GetName], the castle of the [GetTitleByKey('b_wolfs_den').GetNameNoTier], was raised by King Jon Stark to guard the mouth of the White Knife at the Bite. After being expelled from the Reach, the Manderlys received the Wolf's Den from House Stark in return for loyally defending the river for their new liege lords in [GetTitleByKey('c_winterfell').GetNameNoTier]. \n#weak #high Unlocks the ability to sail in Major Rivers#."
+
+building_type_white_harbor_woodhollys_bakery_01:"Poul Woodholly's Bakery" 
+building_white_harbor_woodhollys_bakery_01:0 "Poul Woodholly's Bakery" 
+building_white_harbor_woodhollys_bakery_01_desc:0 "The small bakery of the famed Northern baker Poul Woodholly, Lord Manderly's favourite purveyor of baked goods and official tender of the Lord of White Harbor's sweet tooth. Lauded for his marvelous breads, pasties and pastries. \n#weak You'll never find a soggy bottom at Woodholly's bakery."
+building_white_harbor_woodhollys_bakery_02:0 "Poul Woodholly's Bakery" 
+building_white_harbor_woodhollys_bakery_02_desc:0 "Woodholly's Bakery have expanded, much to the enjoyment of both local Lords and peasants alike. Overflowing with sweet delights, visitors from all over the North, from Last Hearth to the Neck, come to enjoy the now famed bakes of Woodholly. \n#weak The finest loaves and tarts are set aside and sent up to New Castle and the Merman's Court."
+building_white_harbor_woodhollys_bakery_03:0 "The Great Northern Bake-Off Tent" 
+building_white_harbor_woodhollys_bakery_03_desc:0 "Lord Manderly has decided to construct a large baking-tent on the outskirts of White Harbor. From the tent Woodholly will lead and judge the Great Northern Bake Off, a grand tournament in which the best of the North's bakers will compete for prizes. \n#weak Lord Manderly will of course also be judging and sampling the contestant's bakes, to ensure that only the best baker will win."
+
+manderly_house_manderly_guards:0 "House Manderly Guards"
+manderly_house_manderly_guards_flavor:0 "House Manderly Guards are guardsmen in the service of House Manderly of White Harbor. The guards of the New Castle wield silver tridents and their woolen cloaks are blue-green in color. The commander of the castle's garrison, wears silver armor and a Merling King helm."
+
+#VELARYON
+velaryon_legacy_track_name: "Velaryon"
+velaryon_legacy_track_desc: "The Old, the True, the Brave"
+velaryon_legacy_1_name: "Blood of Old Valyria"
+velaryon_legacy_2_name: "Legacy of the Sea Snake"
+velaryon_legacy_3_name: "Sworn to the Dragon"
+velaryon_legacy_4_name: "Narrow Sea Traders"
+velaryon_legacy_5_name: "Lords of the Tides"
+
+VELARYON_VALYRIAN_ORIGINS_NO_BULLETTAB:0 "House Velaryon is an ancient and proud house, with the blood of old Valyria in its veins. A noble house with a storied Valyrian lineage, the Velaryons came to Westeros even before the Targaryens, if their family histories can be believed.\n#weak The people of the old Valyrian colonies tend to have a higher [opinion|E] of those descended from Old Valyria itself."
+VELARYON_LEGACY_OF_THE_SEA_SNAKE_NO_BULLETTAB:0 "Corlys Velaryon, also known as the Sea Snake, rose to fame with his many voyages across the seas of the world. Corlys became the first man from Westeros to sail to Yi Ti, returning rich with spices, silks, and other treasures. He accumulated so much wealth that House Velaryon became the richest house in the realm, and himself the wealthiest man in the Seven Kingdoms, waxing even greater than the Lannisters or Hightowers. Because their ancestral castle, [GetTitleByKey('b_castle_driftmark').GetNameNoTier], was damp and crowded, Corlys constructed a new seat for the Velaryons, [GetTitleByKey('b_high_tide').GetNameNoTier].\n#weak The blood of the Sea Snake still flow in our veins and some Velaryons tend to be [GetTrait('ambitious').GetName( GetNullCharacter )]."
+VELARYON_SWORN_TO_THE_DRAGON_NO_BULLETTAB:0 "Though never dragonriders, the Velaryons has for centuries remained the oldest and closest allies of the Targaryens. \n#weak Some Velaryons tend be [GetTrait('loyal').GetName( GetNullCharacter )]."
+VELARYON_MASTERS_OF_DRIFTMARK_NO_BULLETTAB:0 "House Velaryon allied early with House Targaryen from Dragonstone and House Celtigar from Claw Isle, both houses of Valyrian descent; while the Velaryons and Celtigars dominated the middle reaches of the narrow sea with their ships, the Targaryens ruled the skies with their dragons.\n#weak Their close proximity to the Gullet enables the Velaryons to fill their coffers from the passing trade in the narrow sea and Blackwater Bay."
+VELARYON_LORDS_OF_THE_TIDES_NO_BULLETTAB:0 "The Velaryons have long been a strong naval power in Blackwater Bay. The positions of master of ships and lord admiral are often filled by a member of House Velaryon, as the family provides most of the royal fleet.\n#weak Enables recruitment of [GetMaA('velaryon_driftmark_marksmen').GetName] as [men_at_arms|E].#!."
+
+building_type_high_tide_driftwood_throne_01:"Driftwood Throne" 
+building_high_tide_driftwood_throne_01:0 "Driftwood Throne" 
+building_high_tide_driftwood_throne_01_desc:0 "According to legend, the throne was given by the Merling King as part of a pact with the Velaryons, who had settled in Westeros before the Targaryens. \n\nLord Corlys Velaryon moved the Driftwood Throne from Driftmark to High Tide prior to the Dance of the Dragons.\n#weak An old and worthy seat, for The Old, the True, the Brave."
+
+building_type_hull_docks_01:"Hull Docks" 
+building_hull_docks_01:0 "Hull Docks" 
+building_hull_docks_01_desc:0 "These small docks support somewhat localized trade. \n#weak Trinkets from the Crownlands and grain from the Riverlands."
+building_hull_docks_02:0 "Hull Docks" 
+building_hull_docks_02_desc:0 "Trade is growing. Merchants and traders arrive from further north and south alike. \n#weak Wine from the Arbor and pelts from Skagos."
+building_hull_docks_03:0 "Hull Docks" 
+building_hull_docks_03_desc:0 "An impressive set of docks. The smell of spices and herbs fill the cold air that blows across Blackwater Bay and mixes with the salt from the sea. Merchants shout and holler, speaking with accents denoting Myrish, Volantene, Lyseni and Pentoshi origin. \n#weak Carpets from Myr and strange meat from the plains of Essos. Even casks of spiced rum from the Summer Isles."
+
+velaryon_driftmark_marksmen:0 "Driftmark Marksmen"
+velaryon_driftmark_marksmen_flavor:0 "House Velaryon's trusted regiment of crossbowmen, known to fight well both on land and in naval battles."
+
+#GAME RULES
+rule_agot_buildings_mhf:0 "#Y AGOT Minor House Flavour:#! #W Special Buildings#!"
+setting_agot_buildings_mhf_enabled:0 "Enabled"
+setting_agot_buildings_mhf_enabled_desc:0 "[special_buildings|E] added by AGOT: Minor House Flavour is enabled"
+setting_agot_buildings_mhf_disabled:0 "Disabled"
+setting_agot_buildings_mhf_disabled_desc:0 "[special_buildings|E] added by AGOT: Minor House Flavour is disabled"
+
+rule_agot_buildings_high_tide_mhf:0 "#Y AGOT Minor House Flavour:#! COW-AGOT Compatibility"
+setting_agot_buildings_high_tide_mhf_enabled:0 "Prioritize COW-AGOT"
+setting_agot_buildings_high_tide_mhf_enabled_desc:0 "Prioritizes [special_buildings|E] added by COW-AGOT: 3D Models & New Mechanics"
+setting_agot_buildings_high_tide_mhf_disabled:0 "Prioritize MHF"
+setting_agot_buildings_high_tide_mhf_disabled_desc:0 "Prioritizes [special_buildings|E] added by AGOT: Minor House Flavour"
+
+#Strong Seed
+trait_eye_bags:0 ""
+
+#BRICKER
+dynn_Bricker:0 "Bricker" #non-canon
+dynn_Bricker_motto:0 "Built to Last" #non-canon
+
+Line_of_Bartimos:0 "Line of Bartimos" #non-canon
+Line_of_Morgan:0 "Line of Morgan" #non-canon
+
+bricker_legacy_track_name: "Bricker"
+bricker_legacy_track_desc: "Built to Last"
+bricker_legacy_1_name: "Andal Origins"
+bricker_legacy_2_name: "Like the Brick Wall"
+bricker_legacy_3_name: "Stubborn Miners"
+bricker_legacy_4_name: "Armed and Faithful"
+bricker_legacy_5_name: "Brick Knights"
+
+BRICKER_ANDAL_ORIGINS_NO_BULLETTAB:0 "House Bricker hails from Andalos in western Essos. They came to Westeros as tall and fair-haired warriors who carried steel weapons and the seven-pointed star of their gods painted on their bodies. \n#weak The clergy tend to have a higher [opinion|E] of those descended from the zealous Andal [culture|E]; as long as they remain true to the [GetReligionByKey('faith_of_the_seven_religion').GetName] that is."
+BRICKER_LIKE_A_BRICK_WALL_NO_BULLETTAB:0 "Ser [GetScriptedCharacterByHistoryID('Bricker_49').GetFirstNameNicknamed] was an Andal knight in the service of [GetScriptedCharacterByHistoryID('Vance_Wayfarers_Rest_11').GetFullNameRegnal], the mightiest of the Andal warlords that invaded [GetGeographicalRegion('world_westeros_the_riverlands').GetName].\nBellos established the rule of House Bricker over [GetTitleByKey('d_rivers_head').GetNameNoTier], and brutally struck down any resistance from those opposing Andal rule. Every young Bricker lad with a wooden sword in hand wants to be like [GetScriptedCharacterByHistoryID('Bricker_49').GetNickname].\n#weak Some Brickers are predisposed towards becoming [GetTrait('brave').GetName( GetNullCharacter )]."
+BRICKER_SHREWD_MINERS_NO_BULLETTAB:0 "When House [GetDynastyByID('dynn_Fletcher').GetName] ousted House Bricker from [GetTitleByKey('c_whitebricks').GetNameNoTier] and the Riverlands centuries ago, the landless [GetScriptedCharacterByHistoryID('Bricker_h_22').GetFullName] found service as a Mining Foreman for [GetScriptedCharacterByHistoryID('Lannister_59').GetFullName]. His eldest son, [GetScriptedCharacterByHistoryID('Bricker_22').GetFirstName], was enfeoffed with lands along the border to the Riverlands, where he raised [GetBuilding('brixworth_mines_01').GetName]. The wealth of House Bricker comes from the silver ore they stubbornly dig from deep in their mines, making both their seat of [GetTitleByKey('b_brixhall').GetNameNoTier], and the nearby city of [GetTitleByKey('b_brixworth').GetNameNoTier] prosper.\n#weak Some Brickers tend to become [GetTrait('stubborn').GetName( GetNullCharacter )]."
+BRICKER_BITTER_FEUDS_NO_BULLETTAB:0 "During the Faith Militant uprising, the Brickers under [GetScriptedCharacterByHistoryID('Bricker_13').GetCharacterViewNameNicknamed], vehemently supported the [GetFaithByKey('warring_star').GetName], and rose up against [GetScriptedCharacterByHistoryID('Targaryen_31').GetCharacterViewNameNicknamed].\n#weak Some Brickers tend to become [GetTrait('zealous').GetName( GetNullCharacter )]."
+BRICKER_LEGACY_OF_SER_BELLOS_BRICKER_NO_BULLETTAB:0 "House Bricker continued the Andal mounted tradition, fielding some of the sturdiest knights in all of [GetGeographicalRegion('world_westeros_the_westerlands').GetName]. The few men who has survived a full on charge by the [GetMaA('bricker_brick_knights').GetName], has aptly described it as 'being hit by a brick wall'.\n#weak Enables recruitment of [GetMaA('bricker_brick_knights').GetName] as [men_at_arms|E].#!"
+
+building_type_brixworth_mines_01:0 "Brixhall"
+building_type_brixworth_mines_01_desc:0 "The mines of Brixworth produce silver in astonishing quantities."
+building_brixworth_mines_01:0 "Brixhall"
+building_brixworth_mines_01_desc:0 "Brixhall stands proudly along the bustling Gold Road as the fortified hall of House Bricker. Constructed with the typical mud-red bricks made along the Red Fork, the Hall exudes a sense of resilience and tradition by the House that was once expelled from the Riverlands. \n\nPositioned strategically to profit from the trade that flows along the road, while within its halls, the Bricker family governs their domain and oversees the operations of the silver mine that lies beneath their feet."
+building_brixworth_mines_02:0 "Brixhall"
+building_brixworth_mines_02_desc:1 "Brixhall teem with activity as the workforce of House Bricker toils in the depths of the silver mine. Simple yet sturdy dwellings line the nearby forrest's edge, providing shelter for miners and their families. \n\nAmidst the clang of pickaxes and the rumble of carts, the miners extract precious silver ore from the earth, their labor fueling the prosperity of Brixworth and House Bricker."
+building_brixworth_mines_03:0 "Brixhall"
+building_brixworth_mines_03_desc:0 "At the heart of the mine, the Smelter's Forge roars to life with the intense heat of molten metal. Here, skilled craftsmen transform raw silver ore into gleaming ingots, ready to be transported and traded across the realm. \n\nThe air is thick with the acrid scent of smelted metal, as workers tirelessly tend to the furnaces and molds, ensuring a steady supply of refined silver for House Bricker's coffers."
+building_brixworth_mines_04:0 "Brixhall"
+building_brixworth_mines_04_desc:0 "Delving deep into the bowels of the earth, the Deep Veins represent the lifeblood of Brixhall's silver mine. Here, miners brave treacherous tunnels and precarious shafts in search of the richest veins of silver ore. \n\nIlluminated only by flickering torchlight, these depths hold both untold riches and unseen dangers, as House Bricker's miners risk life and limb in pursuit of wealth and prosperity beneath the surface."
+
+building_type_wallwood_bellos_tomb_01:"Tomb of Bellos Bricker" 
+building_wallwood_bellos_tomb_01:0 "The Brick Tomb" 
+building_wallwood_bellos_tomb_01_desc:0 "Surrounded by trees on the edge of the Wallwood, The Brick Tomb remains a reminder of a bygone era, where Andal knights and First Men warriors once clashed amidst the winding rivers and muddy fields of the Riverlands. The final resting place of the Andal knight Bellos 'the Brick Wall' who established the rule of House Bricker in the borderlands between the Riverlands and the Westerlands, and brutally struck down any resistance from the local First Men opposing Andal rule. \n\nThough the tales of Bellos Bricker may fade into legend, his memory endures within the hallowed halls of his eternal resting place, a silent testament to the tumultuous arrival of the Andals in the Riverlands."
+
+building_type_justbrick_quiver_keep_01:"Quiver Keep" 
+building_justbrick_quiver_keep_01:0 "Quiver Keep" 
+building_justbrick_quiver_keep_01_desc:0 "Amidst the rustic landscape of Whitebricks in the Riverlands, Quiver Keep stands as the modest stronghold of House Fletcher. Quiver Keep is a simple yet sturdy tower house castle, its stone walls weathered by time and fortified by the resilience of its inhabitants.\n\nOverlooking the surrounding hills and forests, Quiver Keep serves as both a defensive bastion and a symbol of House Fletcher's humble strength. From its narrow windows, archers wielded their bows with precision, defending their Lord and land against whatever threats may arise. Within its modest halls, the banners of House Fletcher flutter in the breeze, reminding all who behold it of the enduring legacy of the Fletchers in the Riverlands."
+
+building_type_truthmine_mines_01:0 "The Truthmine"
+building_type_truthmine_mines_01_desc:0 "The Truthmine in Wishere has long supplied the Riverlords with iron."
+building_truthmine_mines_01:0 "Truthmine Mining Settlement"
+building_truthmine_mines_01_desc:0 "$building_castamere_mines_01_desc$"
+building_truthmine_mines_02:0 "The Truthmine"
+building_truthmine_mines_02_desc:1 "$building_castamere_mines_02_desc$"
+building_truthmine_mines_03:0 "Large Truthmine"
+building_truthmine_mines_03_desc:0 "$building_castamere_mines_03_desc$"
+building_truthmine_mines_04:0 "Truthmine Mining Complex"
+building_truthmine_mines_04_desc:0 "$building_castamere_mines_04_desc$"
+
+bricker_brick_knights:0 "Brick Knights"
+bricker_brick_knights_flavor:0 "The few men who has survived a full on charge by the Brick Knights has aptly described it as 'being hit by a brick wall."
+
+vs_silverlight_name:0 "Faith's Edge"
+vs_silverlight_description:0 "Faith's Edge is the Valyrian steel longsword belonging to House [GetDynastyByID('dynn_Bricker').GetName]. The sword was bestowed upon [GetScriptedCharacterByHistoryID('Bricker_13').GetFirstNameNicknamed] by [GetScriptedCharacterByHistoryID('333000653').GetNameNicknamed], the hedge knight who led the Poor Fellows during the early days of the Faith Militant uprising. The sword was lost [GetGeographicalRegion('world_westeros_beyond_the_wall').GetName] with the disappearance of [GetScriptedCharacterByHistoryID('Bricker_31').GetFirstNameNicknamed]."
+vs_silverlight_recovered_description:0 "[newly_created_artifact.GetDesc]\n\nFaith's Edge was recovered on the [GetCurrentDate.GetString] by the adventurer [explorer.GetFullName] during an expedition funded by [ROOT.Char.GetFullName]."
+
+d_rivers_head:0 "River's Head"
+
+##Legends
+legend_bellos_bricker: "Blood of Ser Bellos 'the Brick Wall'"
+legend_bellos_bricker_desc: "Ser Bellos Bricker was an Andal knight in the service of Armistead Vance, the mightiest of the Andal warlords that invaded [GetGeographicalRegion('world_westeros_the_riverlands').GetName].\n\nDuring one of the countless battles fought between the invading Andals and the First Men, a voice carried out across river and field and shouted:\n\n#bold 'Look men, there stands Ser Bellos like a brick wall. Rally behind the Brickers!'#!\n\nThe name stuck, and brick by brick a legend was 'Built to Last'."
+legend_andal_heritage: "Andal Origin"
+legend_andal_heritage_desc: "We descend from the Andals. They came to Westeros as tall and fair-haired warriors who carried steel weapons and the seven-pointed star of their gods painted on their bodies."
+legend_first_man_heritage: "First Man Origin"
+legend_first_man_heritage_desc: "We descend from the First Men who came with bronze swords and great leathern shields, riding horses, as the men settled in the new land, carving out holdfasts and farms."
+
+##Legendary people
+bellos_bricker: "Ser Bellos Bricker"
+
+##Reforming the High Lordship of River's Head decision
+create_high_lordship_of_rivers_head_decision:0 "Restore the High Lordship of River's Head"
+create_high_lordship_of_rivers_head_desc:0 "During the Coming of the Andals, [GetScriptedCharacterByHistoryID('Bricker_49').GetCharacterViewNameNicknamed], an Andal knight in service of [GetScriptedCharacterByHistoryID('Vance_Wayfarers_Rest_11').GetName], was granted dominion over the borderlands between [GetGeographicalRegion('world_westeros_the_riverlands').GetName] and [GetGeographicalRegion('world_westeros_the_westerlands').GetName].\n\nThe land was named [GetTitleByKey('d_rivers_head').GetNameNoTier] due to it being the headwaters for the Red Fork of the Trident, as well as for the Blackwater Rush.\n\nThough House [GetDynastyByID('dynn_Bricker').GetName]'s rule of the land is centuries past, the placenames still bear witness to what once was; [GetTitleByKey('c_whitebricks').GetNameNoTier], [GetTitleByKey('b_justbrick').GetNameNoTier], and the [GetTitleByKey('c_wallwood').GetNameNoTier]. The latter named after [GetScriptedCharacterByHistoryID('Bricker_49').GetNickname] himself.\n\n[GetTitleByKey('d_rivers_head').GetNameNoTier] is our ancestral lands, and it is time to once again assert our rule over these headwaters."
+create_high_lordship_of_rivers_head_tooltip:0 "Restore the High Lordship of River's Head, uniting the ancestral lands of House Bricker."
+create_high_lordship_of_rivers_head_decision_confirm:0 "Make it Built to Last"
+
+##Moving capital of The Gold Road from Worthmark to Brixworth decision
+make_brixworth_dejure_capital_decision:0 "Move the Dejure Capital of The Gold Road"
+make_brixworth_dejure_capital_decision_desc:0 "Having supplanted House [GetDynastyByID('dynn_Payne').GetName] as Lords of [GetTitleByKey('d_the_gold_road').GetNameNoTier], it's time we make [GetTitleByKey('c_brixworth').GetNameNoTier] and [GetTitleByKey('b_brixhall').GetNameNoTier] the [capital|E] of these lands.\n\nThis bold move will certainly cause some upset, and drain our [legitimacy|E], but in the long run, it will surely be worth it."
+make_brixworth_dejure_capital_tooltip:0 "Move the dejure capital of The Gold Road, and the attached Duchy Building slot from Worthmark to Brixworth."
+make_brixworth_dejure_capital_decision_tooltip_1:0 "[GetTitleByKey('c_brixworth').GetNameNoTier] becomes the new dejure capital of [GetTitleByKey('d_the_gold_road').GetNameNoTier]"
+make_brixworth_dejure_capital_decision_tooltip_2:0 "The [duchy_building|E] slot will be moved from [GetTitleByKey('b_payne_hall').GetNameNoTier] to [GetTitleByKey('b_brixhall').GetNameNoTier]"
+make_brixworth_dejure_capital_decision_confirm:0 "Make a capital Built to Last"
+
+#TRAVEL
+TRAVEL_POINT_OF_INTEREST_TT_poi_exploration_target_MHF:0 "Interesting Area"
+TRAVEL_POINT_OF_INTEREST_TT_poi_exploration_target_tombs_MHF:0 "Famous Tomb"
+TRAVEL_POINT_OF_INTEREST_TT_agot_poi_castle_stewardship_MHF:0 "[PROVINCE.Custom('CastleNameMHF')]"
+
+TRAVEL_POINT_OF_INTEREST_TT_agot_poi_historical_battle_MHF:0 "Site of the [PROVINCE.Custom('HistoricalBattleMHF')]"
+agot_poi_historical_battle.visit_MHF:0 "Visited the location of the [province.Custom('HistoricalBattleMHF')]"
+agot_poi_historical_battle.visit_MHF.tt:0 "[province.Custom('HistoricalBattleMHFDesc')]"
+
+historical_battle_butcher_at_boneroot:0 "Butcher at Boneroot"
+historical_battle_butcher_at_boneroot_desc:0 "A great victory for the First Men over that of the Andals. The Andals began to invade the westerlands after they conquered the Vale and the riverlands, but Tybolt Lannister, the King of the Rock, defeated the first Andal warlord, and the next few attacks were also successfully repelled. During the Butcher at Boneroot, Ser Baros Bricker was struck down by the King of the Rock, and House Bricker's heirloom Valyrian steel sword was lost."
+
+poi_notable_castle_visit_MHF:0 "Visited [province.Custom('CastleNameMHF')]"
+poi_notable_castle_visit_MHF.tt:0 "[province.Custom('CastleMHFDesc')]"
+
+agot_visited_crypts_MHF:0 "Visited Brixhall's Mausoleum"
+agot_visited_crypts_MHF_desc:0 "This character visited Brixhall's mausoleum and is inspired by the famous Brickers that are entombed there."
+agot_visited_mines_MHF:0 "Visited Brixhall's Silver Mines"
+agot_visited_mines_MHF_desc:0 "This character visited Brixhall's silver mines and studied its engineering."
+agot_artifact_silver_nugget:0 "Silver Nugget"
+agot_artifact_silver_nugget_desc:0 "A beautiful silver nugget from the silver mines of Brixhall."
+
+agot_visited_warlords_rest_MHF:0 "Visited Warlord's Rest"
+agot_visited_warlords_rest_MHF_desc:0 "This character visited Warlord's Rest, the final resting place of the legendary Armistead Vance, and is inspired by the Andal warlord entombed there."
+
+brixhall_name:0 "Brixhall"
+brixhall_desc:0 "Brixhall stands proudly along the bustling Gold Road as the fortified hall of House Bricker. Brixhall teem with activity as miners toil in the depths of its silver mine, braving treacherous tunnels and precarious shafts in search of the richest veins of silver ore."
+
+#FORRESTER 
+forrester_legacy_track_MHF_name: "Forrester"
+forrester_legacy_track_MHF_desc: "Iron from Ice"
+forrester_legacy_1_MHF_name: "First Men Origins"
+forrester_legacy_2_MHF_name: "Legacy of Gerhard the Tall"
+forrester_legacy_3_MHF_name: "Stewards of the Ironwood"
+forrester_legacy_4_MHF_name: "Renowned Craftsmen"
+forrester_legacy_5_MHF_name: "Defender of the Ironwood Groves"
+
+FORRESTER_FIRST_MEN_ORIGINS_NO_BULLETTAB:0 "House Forrester is seated in [GetTitleByKey('c_ironrath').GetNameNoTier] in the [GetTitleByKey('d_the_wolfswood').GetNameNoTier], and descend from the First Men of [GetGeographicalRegion('world_westeros_the_north').GetName]. \n#weak A noble house of lords descended from the First Men."
+FORRESTER_LEGACY_OF_GERHARD_THE_TALL_NO_BULLETTAB:0 "House Forrester was founded fifty generations ago by [GetScriptedCharacterByHistoryID('Forrester_9').GetCharacterViewNameNicknamed].\n#weak The blood of Gerhard the Tall still run thick in Forrester veins. Forresters tend to be [GetTrait('physique_good_2').GetName( GetNullCharacter )]."
+FORRESTER_STEWARDS_OF_THE_IRONWOOD_NO_BULLETTAB:0 "Since the days of [GetScriptedCharacterByHistoryID('Forrester_11').GetShortUINameNoFormat] and his triplet sons who founded [GetTitleByKey('c_ironrath').GetNameNoTier], the stronghold of the house, the Forresters have been able to outfit their soldiers with quality arms of Ironwood.\n#weak Enables recruitment of [GetMaA('forrester_ironwoodshieldmen').GetName] as [men_at_arms|E].#!"
+FORRESTER_WITH_NEIGHBORS_LIKE_THIS_NO_BULLETTAB:0 "The Forresters have become renowned for their preservation and craftsmanship of the rare ironwood trees that grow in the Wolfswood, particularly around [GetTitleByKey('c_ironrath').GetNameNoTier].\n#weak Their knowledge and possession of the Ironwood has allowed the family to enrich themselves."
+FORRESTER_DEFENDER_OF_THE_IRONWOOD_GROVES_NO_BULLETTAB:0 "The Lord of Ironrath also holds the title Defender of the Ironwood Groves.\n#weak The Forresters hold true to their title."
+
+forrester_ironwoodshieldmen:0 "Ironwood Shieldmen"
+forrester_ironwoodshieldmen_flavor:0 "House Forrester's owning and production of Ironwood shields and weapons give them a combat advantage over their enemies."
+
+#BOOKMARK RELATIONS
+BOOKMARK_RELATION_RIVAL:0 "(Rival)"
+BOOKMARK_RELATION_COUSIN_AND_HEIR: "(Cousin and Heir)"
+BOOKMARK_RELATION_BROTHER_AND_HEIR: "(Brother and Heir)"
+BOOKMARK_RELATION_DAUGHTER_AND_HEIR: "(Daughter and Heir)"
+BOOKMARK_RELATION_GRANDSON_AND_HEIR: "(Grandson and Heir)"
+BOOKMARK_RELATION_BASTARD_BROTHER:0 "(Bastard Brother)"
+
+#BOLTON
+bolton_legacy_track_name: "Bolton"
+bolton_legacy_track_desc: "Our Blades Are Sharp"
+bolton_legacy_1_name: "First Men Origins"
+bolton_legacy_2_name: "Legacy of Belthasar Bolton"
+bolton_legacy_3_name: "Flayed Men"
+bolton_legacy_4_name: "Dreadful Business"
+bolton_legacy_5_name: "Red Kings"
+
+BOLTON_FIRST_MEN_ORIGINS_NO_BULLETTAB:0 "House Bolton descend from powerful First Men Kings, however the family has a reputation for being dishonorable, cruel, and cunning, as such, their ancestry garners them little in ways of repute. \n#weak It matters not, because Our Blades Are Sharp."
+BOLTON_LEGACY_OF_BELTHASAR_BOLTON_NO_BULLETTAB:0 "According to The Chronicles of Longsister, the Pink Pavilion was the personal pavilion of Belthasar Bolton, a member of House Bolton who took part in the Rape of [GetTitleByKey('d_the_sisters').GetNameNoTier]. It was allegedly made from the flayed skins of one hundred Sistermen. Northern accounts of the war do not mention this, nor other numerous atrocities alleged in accounts of the war written by men from the Vale.\n#weak The blood of Belthasar Bolton still run thick in Bolton veins. Boltons tend to be [GetTrait('sadistic').GetName( GetNullCharacter )]."
+BOLTON_FLAYED_MEN_NO_BULLETTAB:0 "The Flayed Men cavalry are clad in heavy plate armor and their horses are equally armored in thick barding. Only the toughest and largest horses can withstand the great weight put upon them by all that steel. While they might not be the fastest cavalry unit, they are certainly the hardiest. And their own war flails make enemy defenses seem pointless as the spiked balls wrap around limbs or curve over shields. \n#weak Enables recruitment of [GetMaA('bolton_flayed_men').GetName] as [men_at_arms|E].#!"
+BOLTON_DREADFUL_NO_BULLETTAB:0 "The Boltons have a sinister reputation because of their tradition of flaying their enemies.\n#weak It is said that the skins of their enemies are hung in a room of the Dreadfort. Vassals know it's better to pay up."
+BOLTON_RED_KINGS_NO_BULLETTAB:0 "The Boltons are an ancient and powerful house of the north who once ruled as Red Kings from [GetTitleByKey('c_the_dreadfort').GetNameNoTier], with their land reaching from the [GetTitleByKey('c_last_river').GetNameNoTier] and the [GetTitleByKey('c_white_knife').GetNameNoTier] to the [GetTitleByKey('c_sheepshead_hills').GetNameNoTier].\n#weak It has even been suggested that the legendary Night's King was a Bolton.
+
+bolton_flayed_men:0 "Flayed Men"
+bolton_flayed_men_flavor:0 "The Flayed Men cavalry are clad in heavy plate armor and their horses are equally armored in thick barding."
+
+building_type_wraithfeld_the_silent_grounds_01:"The Silent Grounds" 
+building_wraithfeld_the_silent_grounds_01:0 "The Silent Grounds" 
+building_wraithfeld_the_silent_grounds_01_desc:0 "A deceptive, serene garden that doubles as a mass grave for the Boltons' victims. The grounds are meticulously maintained, hiding their grim purpose from unsuspecting eyes."
+
+vs_flayed_man_armor_name:0 "Flayed Man Armour"
+vs_flayed_man_armor_description:0 "The Flayed Man Armour, a dreadful suit of dark red steel with grooves and embossed patterns mimicking the flayed skin of House Bolton's enemies. The sight alone will unsettle the staunchest of foes."
+
+#CLEGANE
+clegane_legacy_track_name: "Clegane"
+clegane_legacy_track_desc: "Gamebred"
+clegane_legacy_1_name: "Smallfolk Origins"
+clegane_legacy_2_name: "Legacy of Clegane the Kennelmaster"
+clegane_legacy_3_name: "Clegane's Brigands"
+clegane_legacy_4_name: "Adept Hunters"
+clegane_legacy_5_name: "Give a Dog His Bone"
+
+CLEGANE_RECENT_ORIGINS_NO_BULLETTAB:0 "Many of the great houses of Westeros can trace their lineage back millenias. As far as noble houses go, House Clegane is a more of a recent arrival, leading many a Lord, Lady and Ser to turn up their nose. \n#weak Smallfolk yesterday, a Ser with lands and towerhouse today? What are we, the Free folk?"
+CLEGANE_LEGACY_OF_CLEGANE_THE_KENNELMASTER_NO_BULLETTAB:0 "The first Clegane of House Clegane was kennelmaster at Casterly Rock. During one autumn year he saved Lord Tytos Lannister from a lioness, although he lost a leg and three dogs while doing so.\n#weak Much like the Kennelmaster, some Cleganes tend to be [GetTrait('brave').GetName( GetNullCharacter )]." 
+CLEGANE_SWORN_TO_THE_LION_NO_BULLETTAB:0 "Lord Tytos Lannister rewarded Clegane the Kennelmaster with lands and a towerhouse. Ser Clegane's son was placed in Tytos's service as his squire. House Clegane has been sworn to the Lion ever since, doing House Lannisters bidding, often in an unsavoury manner.\n#weak Enables recruitment of [GetMaA('clegane_cleganes_brigands').GetName] as [men_at_arms|E].#!"
+CLEGANE_ADEPT_HUNTERS_NO_BULLETTAB:0 "The crisp morning air, the cacophony of the sounding horn, the thundering of hooves and howling of hounds. \n#weak Hunting is a fact of life at Fang Hill, and Cleganes tend to be trained as [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )]s from a ridiculously early age."
+CLEGANE_WHO_LET_THE_HOUNDS_OUT_NO_BULLETTAB:0 "House Clegane does not have many bannermen to speak of, but the few they do have, know that it's best to pay up, when the taxes are due. \n#weak It is always best to just a give a dog his bone."
+
+clegane_cleganes_brigands:0 "Clegane's Brigands"
+clegane_cleganes_brigands_flavor:0 "Clegane's Brigands have little thirst for a fair fight. These fast, light armored cavalry, are set to spread chaos and pick on scattering enemies."
+
+building_type_fang_hill_kennel_01:"Clegane's Keep Kennel" 
+building_fang_hill_kennel_01:0 "Clegane's Keep Kennel" 
+building_fang_hill_kennel_01_desc:0 "This small kennel houses a few hounds, suitable for hunting."
+building_fang_hill_kennel_02:0 "Clegane's Keep Kennel" 
+building_fang_hill_kennel_02_desc:0 "This large kennel holds dogs of many different breeds."
+building_fang_hill_kennel_03:0 "Clegane's Keep Kennel" 
+building_fang_hill_kennel_03_desc:0 "An impressive kennel filled with ferocious hounds."
+
+#REYNE AND VIKARY
+reyne_legacy_track_name: "Reyne"
+reyne_legacy_track_desc: "Long And Sharp"
+reyne_legacy_1_name: "First Men Origins"
+reyne_legacy_2_name: "Legacy of Reynard Reyne"
+reyne_legacy_3_name: "Digging Deep"
+reyne_legacy_4_name: "Miner Militia"
+reyne_legacy_5_name: "Cat of a Different Coat"
+
+REYNE_FIRST_MEN_ORIGINS_NO_BULLETTAB:0 "House Reyne was an ancient line, dating back to the days of the First Men.\n#weak The Reynes became a power in the westerlands, and in time styled themselves as the Lords of Castamere."
+REYNE_LEGACY_OF_REYNARD_REYNE_NO_BULLETTAB:0 "Reynard Reyne was quick to see the value buried deep in the earth, and established House Reyne's subterranean seat at Castamere, around a rich system of mines, caves, and tunnels.\n#weak The blood of Reynard Reyne still runs thick in Reyne veins and some Reynes tend to be [GetTrait('intellect_good_1').GetName( GetNullCharacter )]."
+REYNE_DIGGING_DEEP_NO_BULLETTAB:0 "The wealth of House Reyne comes from their intricate system of mines, both in [GetTitleByKey('c_castamere').GetNameNoTier] and the nearby [GetTitleByKey('c_pendric_hills').GetNameNoTier]. The mine's silver and gold made them wealthy, much like the Lannisters of Casterly Rock.\n#weak Their ever-increasing wealth makes for some covetous Lions, and some Reynes become [GetTrait('greedy').GetName( GetNullCharacter )]."
+REYNE_MINER_MILITIA_NO_BULLETTAB:0 "The Miner Militia consists of hardy men from [GetTitleByKey('c_castamere').GetNameNoTier] and the [GetTitleByKey('c_pendric_hills').GetNameNoTier]. With their strong arms, and accustomed to the harsh conditions of the mines, these men can dig for ore and skewer Knights with equal skill.\n#weak Enables recruitment of the [GetMaA('reyne_miner_militia').GetName] as [men_at_arms|E].#!"
+REYNE_REIGN_OF_CASTAMERE_NO_BULLETTAB:0 "For too long [GetTitleByKey('c_casterly_rock').GetNameNoTier] and the Lannisters have dominated [GetGeographicalRegion('world_westeros_the_westerlands').GetName]. It is time for a cat of a different coat, and for the Red Lion to supplant the Golden Lion.\n#weak The time has come to turn the Rains of Castamere into the Reign of Castamere."
+
+reyne_miner_militia:0 "Miner Militia"
+reyne_miner_militia_flavor:0 "The Miner Militia consists of hardy men from Castamere and the Pendric Hills. With their strong arms, and accustomed to the harsh conditions of the mines, these men can dig for ore and skewer Knights with equal skill."
+
+building_type_vikary_house_docks_01:"Vikary House Docks" 
+building_vikary_house_docks_01:0 "Vikary House Docks" 
+building_vikary_house_docks_01_desc:0 "These small docks support somewhat localized trade. \n#weak Mainly fish and game from Fair Isle."
+building_vikary_house_docks_02:0 "Vikary House Docks" 
+building_vikary_house_docks_02_desc:0 "Trade is growing. Merchants and traders arrive from further north and south alike. \n#weak Wine and grain from the Arbor goes in, ores and minerals from the Westerlands goes out."
+building_vikary_house_docks_03:0 "Vikary House Docks" 
+building_vikary_house_docks_03_desc:0 "An large dock, able to support quite a number of ship.\n#weak Fishermen and traders alike flock to Vikary House."
+
+building_type_reynes_port_smelting_hut_01:0 "Reyne's Port Smelting Hut"
+building_type_reynes_port_smelting_hut_01_desc:0 "Most of the ore from the mines of Castamere and the Pendric Hills gets processed at the smelting hut in Reyne's Port."
+building_reynes_port_smelting_hut_01:0 "Reyne's Port Smelting Hut"
+building_reynes_port_smelting_hut_01_desc:0 "Ore from the mines of Casteremere gets shipped in by cart, keeping the smelters busy."
+building_reynes_port_smelting_hut_02:0 "Reyne's Port Smelting Hut"
+building_reynes_port_smelting_hut_02_desc:1 "Ore from the further afar Pendric Hills get carted into the bustling port town."
+building_reynes_port_smelting_hut_03:0 "Reyne's Port Smelting Hut"
+building_reynes_port_smelting_hut_03_desc:0 "This large smelting hut handles most of ore from several mines surrounding Castamere. It has become one of the busiest smelting huts in all of the Westerlands."
+building_reynes_port_smelting_hut_04:0 "Reyne's Port Smelting Complex"
+building_reynes_port_smelting_hut_04_desc:0 "The massive furnaces of the Reyne's Port Smelting Complex burn red hot day and night, a high seat of industry."
+
+#CELTIGAR
+celtigar_legacy_track_name: "Celtigar"
+celtigar_legacy_track_desc: "Our Grasp is Tight"
+celtigar_legacy_1_name: "Taxing the Clawmen"
+celtigar_legacy_2_name: "Masters of Coin"
+celtigar_legacy_3_name: "Serving the Dragon"
+celtigar_legacy_4_name: "Narrow Sea Traders"
+celtigar_legacy_5_name: "Avaricious Crabs"
+
+CELTIGAR_TAXING_THE_CLAWMEN_NO_BULLETTAB:0 "The Celtigars claim dominion over [GetTitleByKey('d_crackclaw_point').GetNameNoTier], but the inhabitants do not acknowledge their claim. When they surrendered peacefully to Queen Visenya Targaryen during the Aegon's Conquest, the people of Crackclaw were officially freed from pledging fealty to anyone but the Iron Throne. The Celtigars occasionally send men there to collect taxes.\n#weak If Lord Celtigar sends enough collectors, a few come back to him. Some Celtigars tend to be [GetTrait('greedy').GetName( GetNullCharacter )]."
+CELTIGAR_MASTERS_OF_COIN_NO_BULLETTAB:0 "Often servering as Master of coin, the chief financial adviser to the king, many Celtigars have spent an extended amount of time in [GetTitleByKey('c_kings_landing').GetNameNoTier], making the Celtigars well versed in city life. The Celtigars were never really popular with the general populace of the city though, and the smallfolk tended to make up scornful rhymes about the Lords of [GetTitleByKey('c_claw_isle').GetNameNoTier].\n#weak *Crab people! Crab people! Taste like crab, talk like people!*"
+CELTIGAR_SERVING_THE_DRAGON_NO_BULLETTAB:0 "Though never dragonriders themselves, the Celtigars has for centuries remained fiercely loyal to the Targaryens. \n#weak Some Celtigars tend be [GetTrait('loyal').GetName( GetNullCharacter )]."
+CELTIGAR_NARROW_SEA_TRADERS_NO_BULLETTAB:0 "House Celtigar allied early with House Targaryen from Dragonstone and House Velaryon from Driftmark, both houses of Valyrian descent; while the Velaryons and Celtigars dominated the middle reaches of the narrow sea with their ships, the Targaryens ruled the skies with their dragons.\n#weak Their close proximity to the Gullet enables the Celtigars to fill their coffers from the passing trade in the narrow sea and Blackwater Bay."
+CELTIGAR_AVARICIOUS_CRABS_NO_BULLETTAB:0 "The Lords of [GetTitleByKey('c_claw_isle').GetNameNoTier] above all else, desire coin. To this end they employ their own retinue of tax collectors, no more than brigands and ruffians, some would say, to hoard some extra coin for the coffers at [GetTitleByKey('b_crabs_return').GetNameNoTier].\n#weak Enables recruitment of [GetMaA('celtigar_crabmen_tax_collectors').GetName] as [men_at_arms|E]."
+
+celtigar_crabmen_tax_collectors:0 "Crabmen Tax Collectors"
+celtigar_crabmen_tax_collectors_flavor:0 "The Crabmen Tax Collectors employed by the Celtigars specialize in squeezing just one more coin out of lowly smallfolk."
+
+building_type_claw_isle_crabs_return_01:"Crab's Return" 
+building_claw_isle_crabs_return_01:0 "Crab's Return" 
+building_claw_isle_crabs_return_01_desc:0 "The Celtigars' castle is rumored to hold fabulous treasures that bear witness to their wealth. Among Lord Celtigar's property there are Myrish carpets, Volantene glass, gold and silver plate, jeweled cups, magnificent hawks, a trained sea eagle, an axe of Valyrian steel, chests of rubies, a horn said to summon krakens from under the sea, and many fine wines." 
+
+k_the_claw:0 "the Claw"
+
+##Establishing the Kingdom of the Claw
+create_kingdom_of_the_claw_decision:0 "Subjugate the Clawmen"
+create_kingdom_of_the_claw_desc:0 "For years we have sent our men to [GetTitleByKey('d_crackclaw_point').GetNameNoTier] to collect taxes, but the Clawmen refuse to acknowledge our right. When they surrendered peacefully to Queen [GetScriptedCharacterByHistoryID('Targaryen_28').GetFirstNameOrMe] during [GetScriptedCharacterByHistoryID('Targaryen_27').GetFirstNamePossessiveOrMy] Conquest, the people of the Crackclaw were officially freed from pledging fealty to anyone but [GetTitleByKey('e_the_iron_throne').GetNameNoTier]. \n\nIt is time we took our right by force, and established our undisputed dominion of the entirety of [GetTitleByKey('k_the_claw').GetNameNoTier]. \n\nIf we were to subjugate the Clawmen, perhaps [GetTitleByKey('e_the_iron_throne').GetHolder.GetShortUINameNoFormat] could be persuaded to acknowledge our right if we became [friends|E]. If not, perhaps we should apply pressure with a [strong_hook|E]. If all else fails, we must become [independent|E], and take the matter entirely into our own hands."
+create_kingdom_of_the_claw_tooltip:0 "Establish the Kingdom of the Claw and subjugate the Clawmen."
+create_kingdom_of_the_claw_decision_confirm:0 "Our Grasp is Tight!"
+
+#SCALES
+scales_legacy_track_name: "Scales"
+scales_legacy_track_desc: "The Weight of Justice"
+scales_legacy_1_name: "The Scales of Justice"
+scales_legacy_2_name: "Scaling the Ladder"
+scales_legacy_3_name: "Serving the Crab"
+scales_legacy_4_name: "Narrow Sea Traders"
+scales_legacy_5_name: "Justice Must be Served"
+
+SCALES_THE_SCALES_OF_JUSTICE_NO_BULLETTAB:0 "House Scales have for centuries hosted the Maritime Court, a judicial seat in the Blackwater Bay, aiming to resolve disputes between merchants plying their trade in the bay.\n#weak There is no tipping the scales in the Maritime Court.\nSome Scales tend to be [GetTrait('just').GetName( GetNullCharacter )]."
+SCALES_SCALING_THE_LADDER_NO_BULLETTAB:0 "House Scales may be a minor house, but they do not lack in want. While more prominent houses feud, House Scales seek to exploit the ensuing chaos.\n#weak What is chaos, if not a ladder that needs to be scaled? \nSome Scales tend be [GetTrait('ambitious').GetName( GetNullCharacter )]."
+SCALES_SERVING_THE_CRAB_NO_BULLETTAB:0 "House Scales has for centuries remained one of the principal bannermen of House Celtigar. \n#weak As justice must be served, so must the Crab Lord be served."
+SCALES_NARROW_SEA_TRADERS_NO_BULLETTAB:0 "House Scales has benefited from the close bonds between the Valyrian descended houses of Blackwater Bay; while the Velaryons and Celtigars dominated the middle reaches of the narrow sea with their ships, the Targaryens ruled the skies with their dragons, and the Scales could pick up the scraps.\n#weak Their close proximity to the Gullet enables the Scales to fill their coffers from the passing trade in the narrow sea and Blackwater Bay."
+SCALES_REMEMBERING_THE_PAST_NO_BULLETTAB:0 "The constant pursuit of justice can take its toll, but justice must be served.\n#weak Enables recruitment of [GetMaA('scales_vallscale_bailiffs').GetName] as [men_at_arms|E].#!"
+
+scales_vallscale_bailiffs:0 "Vallscale Bailiffs"
+scales_vallscale_bailiffs_flavor:0 "The Vallscale Bailiffs serve the Maritime Court of Vallscale and House Scales alike. Their pursuit of justice is relentless."
+
+building_type_vallscale_maritime_court_01:"The Maritime Court of Vallscale" 
+building_vallscale_maritime_court_01:0 "The Maritime Court of Vallscale" 
+building_vallscale_maritime_court_01_desc:0 "The Maritime Court of Vallscale is the judicial seat of the Blackwater Bay, aiming to resolve disputes between merchants plying their trade in the bay. There is no tipping the scales in the Maritime Court, where justice will always be served.
+
+#SUNGLASS
+sunglass_legacy_track_name: "Sunglass"
+sunglass_legacy_track_desc: "By Seven Stars"
+sunglass_legacy_1_name: "Andal Origins"
+sunglass_legacy_2_name: "Sound of Silence"
+sunglass_legacy_3_name: "All in Moderation"
+sunglass_legacy_4_name: "Sweetport Zealots"
+sunglass_legacy_5_name: "Pious Patrons"
+
+SUNGLASS_ANDAL_ORIGINS_NO_BULLETTAB:0 "House Sunglass hails from Andalos in western Essos. They came to Westeros as tall and fair-haired warriors who carried steel weapons and the seven-pointed star of their gods painted on their bodies. \n#weak The clergy tend to have a higher [opinion|E] of those descended from the zealous Andal [culture|E]; as long as they remain true to the [GetReligionByKey('faith_of_the_seven_religion').GetName] that is."
+SUNGLASS_PRAYER_AND_LABOR_NO_BULLETTAB:0 "Known for their dedication to prayer and study, House Sunglass' worship of the Seven is absolute. During study hours, not a soul is seen walking the narrow streets of cobblestone of Sweetport Sound.\n#weak Many a Sunglass have spent countless hours pouring over old text pertaining to the Seven, and some of them end up becoming quite [GetTrait('zealous').GetName( GetNullCharacter )]."
+SUNGLASS_ALL_IN_MODERATION_NO_BULLETTAB:0 "House Sunglass' strong faith teaches them not to overindulge in food and drink, but rather enjoy things in moderation.\n#weak No Sunglass has ever needed a breastplate stretcher!\nMembers of House Sunglass tend to be [GetTrait('temperate').GetName( GetNullCharacter )]."
+SUNGLASS_SWEETPORT_ZEALOTS_NO_BULLETTAB:0 "Sweetport Sept's regular sermons are mandatory by decree of Lord Sunglass. His retainers listen to the Septon with reverence, his words instilling them with zeal for upcoming battles.\n#weak Enables recruitment of [GetMaA('sunglass_sweetport_zealots').GetName] as [men_at_arms|E].#!"
+SUNGLASS_PIOUS_PATRONS_NO_BULLETTAB:0 "The Lord of Sweetport Sound is a staunch defender of the faith of the Seven, who donates to both the Faith and the poor.\n#weak Septons and Smallfolk alike appreciate his alms."
+
+building_type_sweetport_sweetport_sept_01:"The Sweetport Sept" 
+building_sweetport_sweetport_sept_01:0 "Sweetport Sept" 
+building_sweetport_sweetport_sept_01_desc:0 "The Sweetport Sept is House Sunglass' own dedicated place of prayer and worship to the Seven."
+
+sunglass_sweetport_zealots:0 "Sweetport Zealots"
+sunglass_sweetport_zealots_flavor:0 "The warriors of House Sunglass regularly attends sermons, instilling them with bravery and zeal for upcoming battles."
+
+#DAYNE
+dayne_legacy_track_MHF_name: "Dayne"
+dayne_legacy_track_MHF_desc: "Dawn Brings Light!"
+dayne_legacy_1_MHF_name: "First Men Origins"
+dayne_legacy_2_MHF_name: "Race for the Morning"
+dayne_legacy_3_MHF_name: "Starfall Outriders"
+dayne_legacy_4_MHF_name: "First Rays"
+dayne_legacy_5_MHF_name: "Kings of the Torrentine"
+
+DAYNE_FIRST_MEN_ORIGINS_NO_BULLETTAB:0 "House Dayne is one of the most ancient houses in the Seven Kingdoms.\n#weak Descending from First Men, dating back ten thousand years to the Dawn of days."
+DAYNE_RACE_FOR_THE_MORNING_NO_BULLETTAB:0 "Within the halls of [GetTitleByKey('b_starfall').GetNameNoTier], the knights of House Dayne compete to be the one to take up the mantle of the next Sword of the Morning and wield the fabled sword Dawn.\n#weak This competitive rivalry instilled in them from birth has led to House Dayne producing some of the greatest knights that Westeros has ever known, and results in members of this [dynasty|E] recieving better $trait_education_martial_prowess$ [trait|E]s and tend to become [GetTrait('brave').GetName( GetNullCharacter )]"
+DAYNE_KNIGHTS_OF_STARFALL_NO_BULLETTAB:0 "Known for their excellent horsemanship, house Dayne's [GetMaA('dayne_starfall_outriders').GetName] shine at swooping in to save the day! Their purple robes are a welcome sign in the desert sun for House Dayne's allies.\n#weak Enables recruitment of [GetMaA('dayne_starfall_outriders').GetName] as [men_at_arms|E].#!"
+DAYNE_FIRST_RAYS_NO_BULLETTAB:0 "Our lands are sparsely populated and underdeveloped.\n#weak We must develop the Torrentine."
+DAYNE_TORRENTINE_KINGS_NO_BULLETTAB:0 "The first Dayne is said to have raised [GetTitleByKey('b_starfall').GetNameNoTier] on an island at the mouth of the Torrentine, having tracked a falling star there and found a stone of magical powers. His descendants became Kings of the Torrentine and Lords of Starfall.\n#weak This perk, in addition to being an [independent_ruler|E], is required to take the [decision|E] [GetDecisionWithKey('create_kingdom_of_the_torrentine_decision').GetName]."
+
+dayne_starfall_outriders:0 "Starfall Outriders"
+dayne_starfall_outriders_flavor:0 "Known for their excellent horsemanship, house Dayne's Starfall Outriders shine at swooping in to save the day."
+
+k_torrentine_mhf:0 "the Torrentine"
+
+##Reforming the Kingdom of the Torrentine
+create_kingdom_of_the_torrentine_decision:0 "Restore the Kingdom of the Torrentine"
+create_kingdom_of_the_torrentine_desc:0 "We of House [GetDynastyByID('dynn_Dayne').GetName] are an ancient family, that can trace our origin to the Dawn of Days. At the mouth of the Torrentine, we raised our seat of [GetTitleByKey('b_starfall').GetNameNoTier], and subsequently ruled over the Torrentine and western Red Mountains for centuries as Kings of the Torrentine and Lords of Starfall.\n\nDuring Nymeria's War, [GetScriptedCharacterByHistoryID('Nymeros_1').GetName] and [GetScriptedCharacterByHistoryID('Martell_23').GetName] declared their supremacy over all of [GetGeographicalRegion('world_westeros_dorne').GetName]. The Martells soon met the Kings of the Torrentine in war, facing against King [GetScriptedCharacterByHistoryID('Dayne_17').GetCharacterViewNameNicknamed], considered to be the greatest knight in Dorne. However, Vorian was defeated and forced to bend the knee. Vorian was subsequently sent to the Wall to join the Night's Watch, alongside the other conquered kings. Alas, we were Kings no more.\n\nNow the time has come to be free of both [GetDynastyByID('dynn_Martell').GetName]s and [GetDynastyByID('dynn_Targaryen').GetName]s alike, and once again rule as Kings of the [GetTitleByKey('k_torrentine').GetNameNoTier]."
+create_kingdom_of_the_torrentine_tooltip:0 "Restore the Kingdom of the Torrentine"
+create_kingdom_of_the_torrentine_decision_confirm:0 "Dawn has come again!"
+
+building_type_radiant_cliffs_lighthouse_01:"Radiant Cliffs Lighthouse" 
+building_radiant_cliffs_lighthouse_01:0 "Radiant Cliffs Lighthouse" 
+building_radiant_cliffs_lighthouse_01_desc:0 "Like Dawn Brings Light, so does this magnificent lighthouse; lighting the way for merchant vessels venturing up and down the Torrentine."
+
+#WYL
+wyl_legacy_track_name: "Wyl"
+wyl_legacy_track_desc: "Black Heart, True Purpose"
+wyl_legacy_1_name: "First Men Origins"
+wyl_legacy_2_name: "Legacy of Wylla of Wyl"
+wyl_legacy_3_name: "Boneway Ambushers"
+wyl_legacy_4_name: "Black Heart"
+wyl_legacy_5_name: "True Purpose"
+
+WYL_FIRST_MEN_ORIGINS_NO_BULLETTAB:0 "House Wyl descend from the First Men, however the family has a reputation for being sadistic and cruel, as such, their ancestry garners them little in ways of repute. \n#weak It matters not, our hearts may be black, but our purpose is true."
+WYL_LEGACY_OF_WYLLA_OF_WYL_NO_BULLETTAB:0 "[GetScriptedCharacterByHistoryID('Wyl_14').GetName] was a warrior-maid who fought besides [GetScriptedCharacterByHistoryID('Yronwood_8').GetName] against [GetScriptedCharacterByHistoryID('Durrandon_8').GetName] at the Battle by [GetTitleByKey('b_the_bloody_pool').GetNameNoTier] and was turned back.\n#weak The blood of Wylla of Wyl still run thick in Wyl veins."
+WYL_BONEWAY_AMBUSHERS_NO_BULLETTAB:0 "The Boneway has stony slopes and narrow, twisting passes, and Dornishmen have carved steps into the mountainside at its steepest parts. Well suited for ambushes.\n#weak Enables recruitment of [GetMaA('wyl_boneway_ambushers').GetName] as [men_at_arms|E].#!"
+WYL_BLACK_HEART_NO_BULLETTAB:0 "The most infamous act of the First Dornish War was committed by [GetScriptedCharacterByHistoryID('Wyl_21').GetName], when he showed up at the wedding of [GetScriptedCharacterByHistoryID('Cafferen_13').GetFullName] and [GetScriptedCharacterByHistoryID('Oakheart_19').GetFullName], castrating the groom, having the bride be sullied by his men and sold into slavery, and slaying [GetScriptedCharacterByHistoryID('Oakheart_15').GetName] and most of the guests.\n#weak The blood of Wyl of Wyl still courses through the Wyl's Black Hearts. Some Wyls tend to be [GetTrait('sadistic').GetName( GetNullCharacter )]."
+WYL_TRUE_PURPOSE_NO_BULLETTAB:0 "The Wyls know their purpose, and live up to their words.\n#weak Black Heart, True Purpose. Some Wyls tend to be [GetTrait('ambitious').GetName( GetNullCharacter )]."
+
+building_type_wyl_wyl_castle_01:"Wyl Castle" 
+building_wyl_wyl_castle_01:0 "Wyl Castle" 
+building_wyl_wyl_castle_01_desc:0 "House Wyl has long fought against the marcher lords of the Dornish Marches to the north. The family has tunneled beneath their castle to link caverns for greater defense."
+
+wyl_boneway_ambushers:0 "Boneway Ambushers"
+wyl_boneway_ambushers_flavor:0 "The Boneway has stony slopes and narrow, twisting passes, and Dornishmen have carved steps into the mountainside at its steepest parts. Well suited for ambushes."
+
+#YRONWOOD
+yronwood_legacy_track_name: "Yronwood"
+yronwood_legacy_track_desc: "We Guard the Way"
+yronwood_legacy_1_name: "First Men Origins"
+yronwood_legacy_2_name: "Legacy of Yoren Yronwood"
+yronwood_legacy_3_name: "Knights of the Portcullis"
+yronwood_legacy_4_name: "Wardens of the Stone Way"
+yronwood_legacy_5_name: "Bloodroyal"
+
+YRONWOOD_FIRST_MEN_ORIGINS_NO_BULLETTAB:0 "An ancient family of First Men origin, the Yronwoods built [GetTitleByKey('b_yronwood').GetNameNoTier] in the foothills of the Red Mountains and controlled the Stone Way, one of the two great passes into Dorne.\n#weak The valuable land allowed the Yronwoods to rule much of northern Dorne."
+YRONWOOD_LEGACY_OF_YOREN_YRONWOOD_NO_BULLETTAB:0 "At the Battle by [GetTitleByKey('b_the_bloody_pool').GetNameNoTier], [GetScriptedCharacterByHistoryID('Yronwood_8').GetName] fought alongside the warrior-maid [GetScriptedCharacterByHistoryID('Wyl_14').GetName], and was turned back by [GetScriptedCharacterByHistoryID('Durrandon_8').GetName].\n#weak The blood of Yoren Yronwood still run thick in Yronwood veins."
+YRONWOOD_KNIGHTS_OF_THE_GATE_NO_BULLETTAB:0 "Consisting of the best mounted warriors from [GetTitleByKey('d_yronwood').GetNameNoTier], this elite [heavy_cavalry|E] is named the [GetMaA('yronwood_knights_of_the_gate').GetName] by locals, both for their proudly displaying of the Yronwood sigil, as well as their sworn task to guard the 'Gates' into Dorne.\n#weak Enables recruitment of [GetMaA('yronwood_knights_of_the_gate').GetName] as [men_at_arms|E].#!"
+YRONWOOD_WARDENS_OF_THE_STONE_WAY_NO_BULLETTAB:0 "Warden of the Stone Way is a warden title traditionally conferred upon the head of House Yronwood. The title dates to the time House Yronwood ruled in their own right as kings after the coming of the Andals. The earliest known Warden of the Stone Way is [GetScriptedCharacterByHistoryID('Yronwood_16').GetName]; during the earlier time of the First Men, Yronwood kings styled themselves Lords of the Stone Way.\n#weak House Yronwood still Guards the Way!"
+YRONWOOD_BLOODROYAL_NO_BULLETTAB:0 "The Bloodroyal is an ancient title traditionally held by the head of House Yronwood. Prior to Nymeria's War, the Yronwoods were rulers of an independent kingdom in Dorne, styling themselves High Kings of Dorne, among many other titles. When the Yronwoods bent the knee to House Martell, they were allowed to keep their title of the Bloodroyal.\n#weak What once was, could perhaps be again."
+
+building_type_blood_town_blood_town_bazaar_01:"Blood Town Bazaar" 
+building_blood_town_blood_town_bazaar_01:0 "Blood Town Bazaar" 
+building_blood_town_blood_town_bazaar_01_desc:0 "The Blood Town Bazaar is a bustle of merchants from all over Dorne; exchanging trade goods and sharing stories from their travels."
+
+yronwood_knights_of_the_gate:0 "Knights of the Portcullis"
+yronwood_knights_of_the_gate_flavor:0 "The Boneway has stony slopes and narrow, twisting passes, and Dornishmen have carved steps into the mountainside at its steepest parts. Well suited for ambushes."
+
+#ULLER
+uller_legacy_track_name: "Uller"
+uller_legacy_track_desc: "Deserts of Fire"
+uller_legacy_1_name: "Andal Origins"
+uller_legacy_2_name: "Half-Mad"
+uller_legacy_3_name: "Legacy of Uthor Uller"
+uller_legacy_4_name: "Brimstone Bowmen"
+uller_legacy_5_name: "Fires of the Hellholt"
+
+ULLER_ANDAL_ORIGINS_NO_BULLETTAB:0 "House Uller hails from Andalos in western Essos. They came to Westeros as tall and fair-haired warriors who carried steel weapons and the seven-pointed star of their gods painted on their bodies. \n#weak The clergy tend to have a higher [opinion|E] of those descended from the zealous Andal [culture|E]; as long as they remain true to the [GetReligionByKey('faith_of_the_seven_religion').GetName] that is."
+ULLER_HALF_MAD_NO_BULLETTAB:0 "A Dornish saying is "Half of the Ullers are half-mad, and the other half are worse."\n#weak Some Ullers tend to become [GetTrait('lunatic_1').GetName( GetNullCharacter )]s."
+ULLER_LEGACY_OF_UTHOR_ULLER_NO_BULLETTAB:0 "[GetScriptedCharacterByHistoryID('Uller_19').GetFullName] was head of House Uller during the First Dornish War. [GetScriptedCharacterByHistoryID('Targaryen_29').GetFullName] and Meraxes both died at the Hellholt in 10 AC.\nThe queen's body was never recovered by the Targaryens, however, and some said she survived her fall and was tortured by the Ullers.\n#weak The blood of [GetScriptedCharacterByHistoryID('Uller_19').GetFullName] still flows in Uller veins, and some Ullers tend to be [GetTrait('wrathful').GetName( GetNullCharacter )]."
+ULLER_BRIMSTONE_BOWMEN_NO_BULLETTAB:0 "Accustomed to life in the deserts around [GetTitleByKey('c_hellholt').GetNameNoTier], the soldiers of House Uller are no strangers to fighting in what others might consider an unhospitable climate.\n#weak House Uller's [men_at_arms|E] tend to perform well in [GetTerrain('desert').GetName].\n#weak Enables recruitment of [GetMaA('uller_brimstone_bowmen').GetName] as [men_at_arms|E].#!"
+ULLER_FIRES_OF_HELLHOLT_NO_BULLETTAB:0 "The [GetTitleByKey('b_hellholt').GetNameNoTier] was founded during the coming of the Andals to Dorne by the Ullers, who were Andal adventurers. The castle is named after an event in which Lord Uller invited his rivals to a feast and then had them burned to death after locking them within his hall.\n#weak Some Ullers tend to be [GetTrait('callous').GetName( GetNullCharacter )]."
+
+building_type_hellholt_the_hellholt_01:"The Hellholt" 
+building_hellholt_the_hellholt_01:0 "The Hellholt" 
+building_hellholt_the_hellholt_01_desc:0 "The Hellholt was founded during the coming of the Andals to Dorne by the Ullers, who were Andal adventurers. The castle is named after an event in which Lord Uller invited his rivals to a feast and then had them burned to death after locking them within his hall.\n\nQueen Rhaenys Targaryen and Meraxes both died at the Hellholt in 10 AC. The queen's body was never recovered by the Targaryens, however, and some said she survived her fall and was tortured by the Ullers. During the Dragon's Wroth, four consecutive Lords of the Hellholt were murdered for the Iron Throne's ransom on their heads."
+
+uller_brimstone_bowmen:0 "Brimstone Bowmen"
+uller_brimstone_bowmen_flavor:0 "The Brimstone Bowmen are the hard-living soldiers that scout the deserts of Dorne. They are highly mobile and can use their skirmisher’s bows to exhaust their enemies."
+
+#REDWYNE
+redwyne_legacy_track_name: "Redwyne"
+redwyne_legacy_track_desc: "Fruit of the Vine"
+redwyne_legacy_1_name: "Green Seedlings"
+redwyne_legacy_2_name: "Legacy of Gilbert of the Vines"
+redwyne_legacy_3_name: "Red Red Arbor"
+redwyne_legacy_4_name: "Grapes of Wrath"
+redwyne_legacy_5_name: "The Redwyne Fleet"
+
+REDWYNE_GREEN_ORIGINS_NO_BULLETTAB:0 "House Redwyne can trace their descent from the legendary [GetScriptedCharacterByHistoryID('Gardener_1').GetCharacterViewNameNicknamed], through his son [GetScriptedCharacterByHistoryID('Redwyne_11').GetCharacterViewNameNicknamed]. \n#weak To claim descent from a mythical High King of the First Men is neat, but then again, so do several other major Reach houses on both sides of the Mander."
+REDWYNE_LEGACY_OF_GILBERT_OF_THE_VINES_NO_BULLETTAB:0 "[GetScriptedCharacterByHistoryID('Redwyne_11').GetCharacterViewNameNicknamed] was a legendary son of [GetScriptedCharacterByHistoryID('Gardener_1').GetCharacterViewNameNicknamed] and the founder of House [GetDynastyByID('dynn_Redwyne').GetName]. He taught the men of [GetTitleByKey('d_the_arbor').GetNameNoTier] to make wine. \n#weak The wine has flowed freely in the Arbor ever since, some Redwynes tend to overindulge and become [GetTrait('drunkard').GetName( GetNullCharacter )]s."
+REDWYNE_RED_RED_ARBOR_NO_BULLETTAB:0 "The Arbor is known for making the best wine in [GetGeographicalRegion('world_westeros').GetName], especially a terrific red one and a gold wine. Wine from the Arbor is usually sweeter than wine from [GetGeographicalRegion('world_westeros_dorne').GetName], and can sweeten the mood of the dourest of ladies. Vineman traders often sails as far as Qarth, fetching good prices for Arbor Red, making The Arbor among the richest places in all of Westeros, and filling the coffers of House Redwyne in the process. \n#weak In taverns all across Westeros, Minstrels can be heard singing the ballad 'Red Red Arbor', once made famous by the local Arbor troubadour Amyria of [GetTitleByKey('b_winehouse').GetNameNoTier] and her travelling band, the Forty Upbeat Bandits;\n'Red red Arbor,\nGoes to my head,\nMakes me forget that I,\nStill need her so.'"
+REDWYNE_GRAPES_OF_WRATH_NO_BULLETTAB:0 "The Wine of the Arbor may be sweet, but there are also Grapes of Wrath on the island. The Knights of the Vine are the household [heavy_cavalry|E] of Lord Redwyne, known for the ferocity and wrath in battle.\n#weak Enables recruitment of [GetMaA('redwyne_knights_of_the_vine').GetName] as [men_at_arms|E].#!"
+REDWYNE_THE_ARBOR_FLEET_NO_BULLETTAB:0 "The Redwyne Fleet is a fleet in the service of House Redwyne of the Arbor. The Redwynes have one of the three most powerful fleets of the Seven Kingdoms, the others being the Iron Fleet of the Iron Islands and the royal fleet of the Iron Throne. It is the largest fleet in Westeros.\n#weak Also serving the Redwynes are five times as many merchant carracks, wine cogs, trading galleys, and whalers.\nEnables the [decision|E] [GetDecisionWithKey('create_kingdom_of_the_arbor_decision').GetName].#!"
+
+redwyne_knights_of_the_vine:0 "Knights of the Vine"
+redwyne_knights_of_the_vine_flavor:0 "The Knights of the Vine are the household cavalry of Lord Redwyne, known for the ferocity and wrath in battle."
+
+building_type_wynegarde_estates_01:"Seat of the Arbor"
+building_wynegarde_estates_01:"Wynegarde Estates"
+building_wynegarde_estates_01_desc:"The beating heart of the merchant empire of the Arbor, the Wynegarde Estates consist of sprawling fields of red and purple grapevines, manor houses, fermentation houses and guilds. The mercantile capital of the Reach and seat of House Redwyne, no southern house can boast a greater economic core than the Wynegarde Estates."
+
+building_type_ryamsport_01:"Ryamsport" 
+building_ryamsport_01:0 "Ryamsport" 
+building_ryamsport_01_desc:0 "Bustling with activity and commerce, the Merchant's Quarter of Ryamsport hums with the energy of trade and enterprise. \n\nHere, merchants from across the known world converge to buy and sell goods, while warehouses brim with exotic wares and commodities. The streets are lined with bustling markets, taverns, and workshops, creating a vibrant tapestry of commerce and culture."
+building_ryamsport_02:0 "Ryamsport" 
+building_ryamsport_02_desc:0 "In the heart of Ryamsport's harbor lies Whaler's Haven, where House Redwyne commands its whaling fleet. Sturdy ships set sail to hunt the Sunset Sea's leviathans, returning with prized catches. \n\nAmidst the scent of salt and whale oil, craftsmen process the bounty into valuable commodities. \n\nHere, the ancient tradition of whaling thrives, providing livelihoods and sustenance to the Arbor's denizens."
+building_ryamsport_03:0 "Ryamsport" 
+building_ryamsport_03_desc:0 "Within the protective embrace of Ryamsport's harbor lies the Anchorage, the beating heart of the Redwyne Fleet. \n\nHouse Redwyne uses Ryamsport as the home docks for the formidable naval forces of the Arbor. Here, warships of all sizes are moored, their sails billowing in the sea breeze as crews conduct drills and maintenance. \n\nWith its strategic location and formidable defenses, the Anchorage ensures the security of Ryamsport and the supremacy of House Redwyne's naval power in the Sunset Sea."
+
+building_type_golden_vines_the_golden_vineyard_01:"The Golden Vineyard" 
+building_golden_vines_the_golden_vineyard_01:0 "The Golden Vineyard" 
+building_golden_vines_the_golden_vineyard_01_desc:0 "Nestled in the picturesque Golden Vines in the Arbor, The Golden Vineyard is the renowned estate of House Goldwyne. Known for both its production of exquisite Arbor Gold and its stunning vistas, this vineyard is a symbol of wealth and refinement in the Seven Kingdoms.\n\nWith meticulously tended grapevines, opulent manor houses, and lavish gatherings, The Golden Vineyard epitomizes the timeless allure of fine wine and noble luxury amidst the intricate politics of Westeros."
+
+k_the_arbor_mhf:0 "the Arbor"
+
+##Reforming the Kingdom of the Arbor
+create_kingdom_of_the_arbor_decision:0 "Restore the Kingdom of the Arbor"
+create_kingdom_of_the_arbor_desc:0 "King of the Arbor was the title held by the head of House [GetDynastyByID('dynn_Redwyne').GetName] when we ruled the island of the Arbor as independent kings in ages past. The last King of the Arbor was lost at sea, allowing his cousin, [GetScriptedCharacterByHistoryID('Gardener_45').GetFullName], to annex the island into his domain.\n\nWe are more than capable of ruling ourselves on our island, and we now have the fleet to ensure our control of the Redwyne Straits. The time has come to be free from [GetTitleByKey('k_the_reach').GetNameNoTier], and the influence of [GetTitleByKey('b_highgarden').GetNameNoTier], and once again rule as Kings of the [GetTitleByKey('k_the_arbor').GetNameNoTier]."
+create_kingdom_of_the_arbor_tooltip:0 "Restore the Kingdom of the Arbor"
+create_kingdom_of_the_arbor_decision_confirm:0 "Let's reap the Fruits of our Labour!"
+
+#HIGHTOWER
+k_oldtown_mhf:0 "Oldtown"
+king_oldtown:0 "King of the High Tower"
+queen_oldtown:0 "Queen of the High Tower"
+
+hightower_legacy_track_name: "Hightower"
+hightower_legacy_track_desc: "We Light the Way"
+hightower_legacy_1_name: "First Men Origins"
+hightower_legacy_2_name: "Legacy of Peremore Hightower"
+hightower_legacy_3_name: "The Tower Guard"
+hightower_legacy_4_name: "Patrons of the Faith"
+hightower_legacy_5_name: "Bank of Oldtown"
+
+HIGHTOWER_FIRST_MEN_ORIGINS_NO_BULLETTAB:0 "An ancient family, existing since the dawn of days when they were petty-kings. While most scholars believe they descend from the First Men, some posits they descend from the seafarers and traders that settled at the top of the Whispering Sound in an earlier time, men who came to [GetGeographicalRegion('world_westeros').GetName] before the First Men and seem to have founded the original incarnation of [GetTitleByKey('b_oldtown').GetNameNoTier].\n#weak Whatever the truth, the Hightowers resided in the ancient black stone fortress of Battle Isle at the mouth of the Honeywine before the [GetTitleByKey('b_the_hightower').GetNameNoTier] of stone was built."
+HIGHTOWER_LEGACY_OF_PEREMORE_HIGHTOWER_NO_BULLETTAB:0 "[GetScriptedCharacterByHistoryID('Hightower_20').GetFullName], known as [GetScriptedCharacterByHistoryID('Hightower_20').GetNameNicknamed], was the second son of King [GetScriptedCharacterByHistoryID('Hightower_18').GetFirstNameNicknamedOrMeRegnal]. Peremore was a sickly boy born with a withered arm and twisted back. He was bedridden for much of his short life but had an insatiable thirst for knowledge about the world, so he turned to wise men, teachers, priests, healers, and singers, as well as wizards, alchemists and sorcerers. When Peremore died, his brother, King [GetScriptedCharacterByHistoryID('Hightower_19').GetFirstNameNicknamedOrMeRegnal], bequeathed a large tract of land beside the Honeywine to "Peremore's pets", that they might establish and continue in their quest for knowledge.\n#weak Thus [GetTitleByKey('b_the_citadel').GetNameNoTier] and the order of maesters was established."
+HIGHTOWER_THE_TOWER_GUARD_NO_BULLETTAB:0 "[GetMaA('hightower_the_tower_guard').GetName] are an elite force of [spearmen|E] sworn to protect the interests and holdings of House Hightower. Trained in the bustling streets and narrow alleys of [GetTitleByKey('b_oldtown').GetNameNoTier], the Tower Guard excel in [GetTerrain('urban').GetName] warfare. They are adept at navigating tight spaces and utilizing the terrain to their advantage, making them particularly effective in defending fortified positions within cities and castles.\n#weak Enables recruitment of [GetMaA('hightower_the_tower_guard').GetName] as [men_at_arms|E].#!"
+HIGHTOWER_PATRONS_OF_THE_FAITH_NO_BULLETTAB:0 "During the coming of the Andals, both House [GetDynastyByID('dynn_Hightower').GetName] and House [GetDynastyByID('dynn_Gardener').GetName] allied with the newcomers. Thus they were able to keep their wealth, lands and privileges. Protected by the might of [GetTitleByKey('d_highgarden').GetNameNoTier], the lords of [GetTitleByKey('d_oldtown').GetNameNoTier] turned their eyes to trade and commerce and grew with every generation to become one of the richest and most powerful noble families in Westeros. \nThe Hightowers were also one of the first great lords to accept the [GetReligionByKey('faith_of_the_seven_religion').GetName] and thus gave their patronage to the establishment of the office of High Septon and the building of [GetTitleByKey('b_the_starry_sept').GetNameNoTier] as the center of the Faith.\n#weak Faith and commerce would shape the destiny of House Hightower and the prosperity of Oldtown for generations to come."
+HIGHTOWER_VOICE_OF_OLDTOWN_NO_BULLETTAB:0 "The Bank of Oldtown is a bank run by House Hightower. After the Rogare Bank collapsed in 136 AC, [GetScriptedCharacterByHistoryID('Rogare_10').GetFullName] was taken up by Lady [GetScriptedCharacterByHistoryID('Tarly_28').GetFullName], paramour and step-mother of [GetScriptedCharacterByHistoryID('Hightower_102').GetFullName]. House Hightower had not entrusted its gold to the bank, and remained one of the wealthiest Houses of Westeros.\n#weak Lady Samantha wished to learn how to invest better, and founded the Bank of Oldtown, which made House Hightower even richer.\nEnables the [decision|E] [GetDecisionWithKey('create_kingdom_of_oldtown_decision').GetName]."
+
+hightower_the_tower_guard:0 "Tower Guard"
+hightower_the_tower_guard_flavor:0 "Trained in the bustling streets and narrow alleys of Oldtown, the Tower Guard excel in urban warfare. They are adept at navigating tight spaces and utilizing the terrain to their advantage, making them particularly effective in defending fortified positions within cities and castles."
+
+building_type_oldtown_quill_and_tankard_01:"The Quill and Tankard" 
+building_oldtown_quill_and_tankard_01:0 "The Quill and Tankard" 
+building_oldtown_quill_and_tankard_01_desc:0 "The Quill and Tankard is located on an island in the Honeywine. It is a tall, timbered building that leans toward the south and has a common room and a torchlit terrace. There is an apple tree by the river. The island connects to the rest of the city with an old plank bridge. \n\nThe inn is renowned for its fearsomely strong cider. Novices from the Citadel go there to drink. Some serving wenches also entertain men. In six hundred years, the Quill and Tankard has never closed.\n#weak 'I dreamt of Oldtown, Sam. I was young again and my brother Egg was with me, with that big knight he served. We were drinking in the old inn where they make the fearsomely strong cider.'"
+
+##Proclaim the Kingdom of Oldtown
+create_kingdom_of_oldtown_decision:0 "Restore the Kingdom of Oldtown"
+create_kingdom_of_oldtown_desc:0 "Centuries past, before we bowed to the [GetDynastyByID('dynn_Gardener').GetName]s, we ruled as Kings of the High Tower from our seat in [GetTitleByKey('b_the_hightower').GetNameNoTier]. We were brought into the fold of the [GetTitleByKey('e_the_reach').GetNameNoTier] when [GetScriptedCharacterByHistoryID('Gardener_17').GetCharacterViewNameNicknamed] put aside his own wives to marry [GetScriptedCharacterByHistoryID('Hightower_25').GetCharacterViewNameNicknamed]s daughter, [GetScriptedCharacterByHistoryID('Hightower_26').GetCharacterViewNameNicknamed]. Lymond in turn married [GetScriptedCharacterByHistoryID('Gardener_19').GetCharacterViewNameNicknamed], the daughter of Garland.\n\nNow the Gardeners are long gone, and it is perhaps time we took back what is ours by right, and restore our rule of the entire [GetTitleByKey('k_oldtown').GetName]. \n\nIf we were to regain control over enough of our old territories, perhaps [GetTitleByKey('e_the_iron_throne').GetHolder.GetShortUINameNoFormat] could be persuaded to acknowledge our right if we became [friends|E]. If not, perhaps we should apply pressure with a [strong_hook|E]. If all else fails, we must become [independent|E], and take the matter entirely into our own hands."
+create_kingdom_of_oldtown_tooltip:0 "Restore the Kingdom of Oldtown."
+create_kingdom_of_oldtown_decision_confirm:0 "We Light the Way!"
+
+#FLORENT
+florent_legacy_track_name: "Florent"
+florent_legacy_track_desc: "Masked in Cunning"
+florent_legacy_1_name: "Green Seedlings"
+florent_legacy_2_name: "Legacy of Florys the Fox"
+florent_legacy_3_name: "Brightwater Swifts"
+florent_legacy_4_name: "A Cunning Plan"
+florent_legacy_5_name: "Masked in Cunning"
+
+FLORENT_GREEN_ORIGINS_NO_BULLETTAB:0 "House Florent can trace their descent from the legendary [GetScriptedCharacterByHistoryID('Gardener_1').GetCharacterViewNameNicknamed], through his daughter [GetScriptedCharacterByHistoryID('Gardener_2').GetFirstNameNicknamed], and [GetScriptedCharacterByHistoryID('Florent_17').GetFullName]. \n#weak To claim descent from a mythical High King of the First Men is neat, but then again, so do several other major Reach houses on both sides of the Mander."
+FLORENT_LEGACY_OF_FLORYS_THE_FOX_NO_BULLETTAB:0 "[GetScriptedCharacterByHistoryID('Gardener_2').GetFirstNameNicknamed] was the legendary daughter of [GetScriptedCharacterByHistoryID('Gardener_1').GetCharacterViewNameNicknamed] and the cleverest of his children. According to myth, she kept three husbands, each ignorant of the existence of the other two. Her sons became the founders of House [GetDynastyByID('dynn_Florent').GetName], House [GetDynastyByID('dynn_Ball').GetName] and House [GetDynastyByID('dynn_Peake').GetName]. In some tales of the Reach, [GetScriptedCharacterByHistoryID('Lannister_29').GetFirstNameNicknamed] was a bastard born to Florys or her sister, [GetScriptedCharacterByHistoryID('Rowan_6').GetFirstNameNicknamed].\n#weak Some Florents are [GetTrait('shrewd').GetName( GetNullCharacter )] as a fox."
+FLORENT_BRIGHTWATER_SWIFTS_NO_BULLETTAB:0 "The Brightware Swifts, House Florent's light cavalry, renowned for their speed and agility, moving across the battlefield with the grace and swiftness of a fox in pursuit. \n#weak Enables recruitment of [GetMaA('florent_brightwater_swifts').GetName] as [men_at_arms|E].#!"
+FLORENT_A_CUNNING_PLAN_NO_BULLETTAB:0 "Florents often have a very, very, very cunning plan. One could say it is as cunning as a fox that used to be Maester of Cunning at [GetTitleByKey('b_the_citadel').GetNameNoTier] but has moved on and is now working for the High Septon at the High Commission of Cunning Planning. \n#weak That's very cunning indeed."
+FLORENT_MASKED_IN_CUNNING_NO_BULLETTAB:0 "Their words, Masked in Cunning, encapsulates the sophisticated and shrewd nature of House Florent's political maneuvering. Known for their adeptness in concealing their true intentions behind a veil of charm and manipulation, members of House Florent are masterful tacticians in the realm of intrigue and diplomacy.\n#weak House Florent's influence extends far beyond Brightwater Keep."
+
+building_type_brightwater_keep_brightwater_keep_01:"Brightwater Keep" 
+building_brightwater_keep_brightwater_keep_01:0 "Brightwater Keep" 
+building_brightwater_keep_brightwater_keep_01_desc:0 "Standing proudly near the source of the Honeywine, Brightwater Keep exemplifies the prominence of House Florent in the Reach. Its walls rise elegantly, with towers that reflect the esteemed heritage and enduring influence of the Florents."
+
+florent_brightwater_swifts:0 "Brightwater Swifts"
+florent_brightwater_swifts_flavor:0 "The Brightware Swifts, House Florent's light cavalry, renowned for their speed and agility, moving across the battlefield with the grace and swiftness of a fox in pursuit."
+
+#ROXTON
+roxton_legacy_track_name: "Roxton"
+roxton_legacy_track_desc: "The First Cut"
+roxton_legacy_1_name: "Andal Origins"
+roxton_legacy_2_name: "Legacy of Ser Lorence Roxton"
+roxton_legacy_3_name: "Hillfolk"
+roxton_legacy_4_name: "Roxton's Riders"
+roxton_legacy_5_name: "Dirt and Daughters"
+
+ROXTON_ANDAL_ORIGINS_NO_BULLETTAB:0 "House Roxton hails from Andalos in western Essos. They came to Westeros as tall and fair-haired warriors who carried steel weapons and the seven-pointed star of their gods painted on their bodies. \n#weak The clergy tend to have a higher [opinion|E] of those descended from the zealous Andal [culture|E]; as long as they remain true to the [GetReligionByKey('faith_of_the_seven_religion').GetName] that is."
+ROXTON_LEGACY_OF_SER_LORENCE_ROXTON_NO_BULLETTAB:0 "Ser [GetScriptedCharacterByHistoryID('Roxton_42').GetFullName] was a knight from House Roxton and a member of [GetTitleByKey('d_kingsguard').GetNameNoTier] during the reign of [GetScriptedCharacterByHistoryID('Targaryen_35').GetTitledFirstNameNicknamedRegnal]. Lorence was skilled at arms, and renowned for his chivalry and valor. In the War for the White Cloaks in which hundreds of knights competed for the honor of serving in the Kingsguard, Ser Lorence Roxton was one of the five champions given the white cloak of the Kingsguard, being the only victor from a lordly house.\n#weak Some Roxtons tend to be [GetTrait('brave').GetName( GetNullCharacter )]."
+ROXTON_HILLFOLK_NO_BULLETTAB:0 "House Roxton dwell amidst the ancient Oldhills, the foothills of the towering mountains that mark the boundary between the Reach and Dorne.\n#weak Over the centuries the Roxtons have become accustomed to combat in the hilly slopes of the Red mountains."
+ROXTON_ROXTONS_RIDERS_NO_BULLETTAB:0 "Adorned in vibrant sky-blue and gold livery, [GetMaA('roxton_roxtons_riders').GetName] strike with the speed and precision of a tempest. They are known for their thunderous charges and unyielding bravery.\n#weak Enables recruitment of [GetMaA('roxton_roxtons_riders').GetName] as [men_at_arms|E].#!"
+ROXTON_DIRT_AND_DAUGHTERS_NO_BULLETTAB:0 "Ages ago, when the disunited Andals reached the realm of the [GetDynastyByID('dynn_Gardener').GetName]s, they were welcomed and granted lands, lordships, and integrated through marriages and service. Families formed by the intermarriage of First Men and Andal nobles include Houses [GetDynastyByID('dynn_Cuy').GetName], [GetDynastyByID('dynn_Graceford').GetName], [GetDynastyByID('dynn_Leygood').GetName], [GetDynastyByID('dynn_Orme').GetName], [GetDynastyByID('dynn_Roxton').GetName], [GetDynastyByID('dynn_Uffering').GetName], and [GetDynastyByID('dynn_Varner').GetName]. As the centuries passed the noble houses of First Men and Andals intermarried so freely that it became impossible to tell them apart.\n#weak 'They gave us seven gods, we gave them dirt and daughters, and our sons and grandsons shall be as brothers.' – [GetScriptedCharacterByHistoryID('Gardener_43').GetTitledFirstNameNicknamedRegnal]"
+
+building_type_the_ring_the_ring_01:"The Ring" 
+building_the_ring_the_ring_01:0 "The Ring" 
+building_the_ring_the_ring_01_desc:0 "Amidst the rolling foothills of the mountains that separate the Reach from Dorne, The Ring stands as a testament to the resilience of House Roxton. True to its name, this circular castle is a formidable sight to behold, its towering walls of weathered stone encircling a central keep like a protective embrace.\n\nThe Ring surveys the surrounding lands with unwavering watchfulness, its battlements and towers offering a strategic advantage against would-be invaders. Within its sturdy walls, the halls echo with the proud history of House Roxton, the descendants of Andal settlers who made their home in the Reach centuries ago."
+
+roxton_roxtons_riders:0 "Roxton's Riders"
+roxton_roxtons_riders_flavor:0 "Roxton's Riders are the distinguished heavy cavalry of House Roxton. Adorned in vibrant sky-blue and gold livery, they strike with the speed and precision of a tempest."
+
+#RYSWELL
+ryswell_legacy_track_name: "Ryswell"
+ryswell_legacy_track_desc: "On Horseback"
+ryswell_legacy_1_name: "First Men Origins"
+ryswell_legacy_2_name: "Legacy of the Seventy-Nine Sentinels"
+ryswell_legacy_3_name: "Riders of the Rills"
+ryswell_legacy_4_name: "Brook-Bound Barter"
+ryswell_legacy_5_name: "On Horseback"
+
+RYSWELL_FIRST_MEN_ORIGINS_NO_BULLETTAB:0 "House Ryswell is seated in [GetTitleByKey('c_grailheart').GetNameNoTier] in [GetTitleByKey('d_the_rills').GetNameNoTier], and descend from the First Men of [GetGeographicalRegion('world_westeros_the_north').GetName].\n#weak A noble house of lords descended from the First Men."
+RYSWELL_LEGACY_OF_79_SENTINELS_NO_BULLETTAB:0 "According to the story, seventy-nine deserters of the [GetGovernmentType('nights_watch_government').GetName] abandoned their posts at [GetTitleByKey('b_the_nightfort').GetNameNoTier], a fortification on the Wall, and went south, becoming outlaws. One was [GetScriptedCharacterByHistoryID('Ryswell_18').GetFullName], youngest son of Lord [GetScriptedCharacterByHistoryID('Ryswell_14').GetFullName].\nWhen the deserters reached the lands of House Ryswell, they sought shelter with its lord, but instead they were captured and returned to [GetTitleByKey('k_the_wall').GetNameNoTier]. As punishment, holes were cut into the Wall and each of the deserters were placed in their own hole with spears and horns. The holes were then sealed up with the men inside.\nLater when he was dying, Lord Ryswell had himself carried to the Wall to take the black so he could stand beside the son that he had condemned to certain death.\n#weak They left their posts in life, so in death their watch goes on forever. Like [GetScriptedCharacterByHistoryID('Ryswell_14').GetFullName], some Ryswells tend to be [GetTrait('just').GetName( GetNullCharacter )]."
+RYSWELL_RIDERS_OF_THE_RILLS_NO_BULLETTAB:0 "Unmatched in Northern cavalry warfare, the fast-moving heavy cavalry of House Ryswell excel in hit-and-run tactics, running down fleeing enemies with ease.\n#weak Enables recruitment of [GetMaA('ryswell_rillriders').GetName] as [men_at_arms|E].#!"
+RYSWELL_BROOK_BOUND_BARTER_NO_BULLETTAB:0 "[GetTitleByKey('d_the_rills').GetNameNoTier] is filled with streams and brooks, and the Ryswells enjoy increased income from river-based trading routes, thanks to superior navigation skills and maintenance of waterways."
+RYSWELL_ON_HORSEBACK_NO_BULLETTAB:0 "The Ryswells, true to their words, spend most of their time on horseback.\n#weak They are taught to ride from an early age, and their mounted combat skills are unparalleled in the North."
+
+building_type_grailheart_redmane_stables_01:"Redmane Stables" 
+building_grailheart_redmane_stables_01:0 "Redmane Stables" 
+building_grailheart_redmane_stables_01_desc:0 "The Redmane Stables are the crown jewel of House Ryswell. The stables are adorned with bronze accents and surrounded by walls that feature intricately engraved horse motifs, reflecting the house's heritage. Expert horse-masters and smiths work in harmony to train and equip both horse and rider for the rigors of Northern cavalry warfare."
+
+ryswell_rillriders:0 "Rillriders"
+ryswell_rillriders_flavor:0 "Fast-moving heavy cavalry that excel in hit-and-run tactics, running down fleeing enemies with ease."
+
+#DUSTIN
+dustin_legacy_track_name: "Dustin"
+dustin_legacy_track_desc: "The First-Crowned"
+dustin_legacy_1_name: "First Men Origins"
+dustin_legacy_2_name: "Legacy of Roddy the Ruin"
+dustin_legacy_3_name: "Dismounted Barrow Knights"
+dustin_legacy_4_name: "Descendants of the First King"
+dustin_legacy_5_name: "Barrow Kings"
+
+DUSTIN_FIRST_MEN_ORIGINS_NO_BULLETTAB:0 "The Dustins claim descent from [GetScriptedCharacterByHistoryID('Dustin_12').GetFirstName] of the First Men and the [GetScriptedCharacterByHistoryID('Dustin_13').GetFirstName] who ruled after him.\n#weak House Dustin's claims of shared blood and descent from the Barrow Kings is regarded as truth."
+DUSTIN_LEGACY_OF_RODDY_THE_RUIN_NO_BULLETTAB:0 "[GetScriptedCharacterByHistoryID('Dustin_28').GetName], known as Roddy [GetScriptedCharacterByHistoryID('Dustin_28').GetNickname], was the Lord of [GetTitleByKey('c_barrowton').GetNameNoTier] and the head of House [GetDynastyByID('dynn_Dustin').GetName] during the [GetDynastyByID('dynn_Targaryen').GetName] civil war known as the Dance of the Dragons.\nBy the start of the Dance of the Dragons, Roderick was an old and hoary warrior. Despite his advanced age, he was still considered a savage combatant on the battlefield.\nRoderick died during the First Battle of [GetTitleByKey('c_tumbleton').GetNameNoTier] while leading his [GetMaA('winter_wolves').GetName] against [GetScriptedCharacterByHistoryID('Hightower_92').GetFullName] Although Ser [GetScriptedCharacterByHistoryID('Hightower_96').GetFullName] chopped off Roderick's shield arm, the frenzied Lord Dustin was able to slay both Hightowers before dying himself.\n#weak The blood of [GetScriptedCharacterByHistoryID('Dustin_28').GetFirstNameNicknamed] still runs thick in Dustin veins, and some Dustins tend to become [GetTrait('strong').GetName( GetNullCharacter )]."
+DUSTIN_DISMOUNTED_BARROW_KNIGHTS_NO_BULLETTAB:0 "The [GetMaA('dustin_dismounted_barrow_knights').GetName] of House Dustin are formidable [heavy_infantry|E], wielding swords and longaxes with devastating effect. Renowned for their disciplined formations, these knights excel in breaking enemy lines and defending strategic positions. Their prowess in battle reinforces House Dustin's reputation in the North.\n#weak Enables recruitment of [GetMaA('dustin_dismounted_barrow_knights').GetName] as [men_at_arms|E].#!"
+DUSTIN_DESCENDANTS_OF_THE_FIRST_KING_NO_BULLETTAB:0 "[GetScriptedCharacterByHistoryID('Dustin_12').GetFirstName] was a sovereign who once reigned supreme over all First Men and led them to [GetGeographicalRegion('world_westeros').GetName], according to legends from [GetGeographicalRegion('world_westeros_the_north').GetName]. His given name is unknown. It was under the First King's leadership that the First Men traveled across the now [GetTitleByKey('d_broken_arm').GetNameNoTier] of [GetGeographicalRegion('world_westeros_dorne').GetName] from [GetGeographicalRegion('world_essos').GetName] to [GetGeographicalRegion('world_westeros').GetName]. According to folklore [GetBuilding('agot_barrow_keep_01').GetName] in [GetTitleByKey('c_barrowton').GetNameNoTier] contains the grave of the First King or a King of the Giants.\n#weak A more prestigious forebear can hardly be found in all of Westeros."
+DUSTIN_BARROW_KINGS_NO_BULLETTAB:0 "The Barrow Kings were a dynasty of kings from [GetTitleByKey('d_the_barrowlands').GetNameNoTier]. They claimed to have been monarchs over all First Men and called themselves Kings of the First Men. Some Barrow Kings allied with Marsh Kings against southron invaders who tried to pass [GetTitleByKey('d_the_neck').GetNameNoTier].\nSingers claim the Barrow Kings fought against the Kings of Winter, the [GetDynastyByID('dynn_Stark').GetName]s of [GetTitleByKey('c_winterfell').GetNameNoTier], north of the barrowlands, in the Thousand Years War, but runes of the First Men indicates the conflict lasted about two hundred years. When the last Barrow King submitted to Winterfell, the Stark king received his daughter in marriage.\n#weak The Dustins of Barrowton claim descent from the First King and the Barrow Kings alike."
+
+world_essos:0 "Essos"
+
+building_type_barrowton_barrowton_01:"Barrowton" 
+building_barrowton_barrowton_01:0 "Barrowton" 
+building_barrowton_barrowton_01_desc:0 "Barrowton, occasionally called Barrowtown, is a prominent town in the north. Barrowton is centered around the large hill Great Barrow, on which was built House Dustin's castle, Barrow Hall.\n\nThe wooden town has wooden walls and broad straight streets, including one lined with elms. One of its inns has a wheat sheaf painted on its sign. Barrowtown also has a heart tree. Outside of the town are rolling plains which the wind howls over."
+
+dustin_dismounted_barrow_knights:0 "Dismounted Barrow Knights"
+dustin_dismounted_barrow_knights_flavor:0 "Formidable infantry, wielding swords and longaxes with devastating effect. Renowned for their disciplined formations, these knights excel in breaking enemy lines and defending strategic positions."
+
+#MORMONT
+mormont_legacy_track_name: "Mormont"
+mormont_legacy_track_desc: "Here We Stand"
+mormont_legacy_1_name: "First Men Origins"
+mormont_legacy_2_name: "Strong as the Bear"
+mormont_legacy_3_name: "Deadliest Catch"
+mormont_legacy_4_name: "Island Defenders"
+mormont_legacy_5_name: "Here We Stand"
+
+MORMONT_FIRST_MEN_ORIGINS_NO_BULLETTAB:0 "House Mormont is seated in [GetTitleByKey('b_mormont_keep').GetNameNoTier] on [GetTitleByKey('d_bear_island').GetNameNoTier], and descend from the First Men of [GetGeographicalRegion('world_westeros_the_north').GetName].\n#weak A noble house of lords descended from the First Men."
+MORMONT_STRONG_AS_THE_BEAR_NO_BULLETTAB:0 "Known as fierce warriors, the Mormonts are formidable opponents in any battle.\n#weak Some Mormonts tend to be [GetTrait('physique_good_2').GetName( GetNullCharacter )]."
+MORMONT_DEADLIEST_CATCH_NO_BULLETTAB:0 "The [GetMaA('mormont_bay_of_ice_fishermen').GetName] are rugged [skirmishers|E] from [GetTitleByKey('d_bear_island').GetNameNoTier], composed of the hardiest fishermen accustomed to the perilous conditions of the Bay of Ice.\nThese resourceful warriors utilize their fishing tools as weapons; nets to entangle, hooks to snag, and weighted lines to strike at their foes. Their intimate knowledge of the treacherous coastal waters allows them to maneuver swiftly and unpredictably, much like the icy currents they brave daily to haul their deadliest catch. Perfectly attuned to their icy environment, they use the terrain to their advantage, making them unexpectedly deadly in combat.\n#weak Enables recruitment of [GetMaA('mormont_bay_of_ice_fishermen').GetName] as [men_at_arms|E].#!"
+MORMONT_ISLAND_DEFENDERS_NO_BULLETTAB:0 "According to northern histories, [GetScriptedCharacterByHistoryID('Stark_35').GetFullName], gave [GetTitleByKey('d_bear_island').GetNameNoTier] to the Mormonts after winning the isle in a wrestling match from a driftwood king of the ironborn.\nThe Mormonts have defended the island ever since.\n#weak Bear Island knows no king but the King in the North, whose name is STARK."
+MORMONT_HERE_WE_STAND_NO_BULLETTAB:0 "It is not just a motto but a declaration of their steadfast dedication to defend their home and lord, no matter the odds. True to their words, Mormont fighters hold their ground with unparalleled tenacity in the face of adversity.\n#weak Some Mormonts are fiercely [GetTrait('loyal').GetName( GetNullCharacter )]."
+
+building_type_bearstone_bearstone_woods_01:"Bearstone Woods" 
+building_bearstone_bearstone_woods_01:0 "Bearstone Woods" 
+building_bearstone_bearstone_woods_01_desc:0 "Bearstone Woods is a dense forest on Bear Island, known for its significant bear population. The woods are filled with large pines, and at the heart of a secluded glade lies a giant rune-carved stone, telling ancient tales of valor. This odd stone attracts the bears of the woods, who often gather around it."
+
+mormont_bay_of_ice_fishermen:0 "Ice-Bay Fishermen"
+mormont_bay_of_ice_fishermen_flavor:0 "Hardy fishermen from Bear Island, accustomed to the deadly waters of the Bay of Ice."
+
+#HORNWOOD
+hornwood_legacy_track_name: "Hornwood"
+hornwood_legacy_track_desc: "Righteous in Wrath"
+hornwood_legacy_1_name: "First Men Origins"
+hornwood_legacy_2_name: "Legacy of Mad Hallis"
+hornwood_legacy_3_name: "Hornwood Rangers"
+hornwood_legacy_4_name: "Timbered Business"
+hornwood_legacy_5_name: "Righteous in Wrath"
+
+HORNWOOD_FIRST_MEN_ORIGINS_NO_BULLETTAB:0 "House Hornwood is seated in [GetTitleByKey('c_hornwood').GetNameNoTier], and descend from the First Men of [GetGeographicalRegion('world_westeros_the_north').GetName]. \n#weak A noble house of lords descended from the First Men."
+HORNWOOD_LEGACY_OF_MAD_HALLIS_NO_BULLETTAB:0 "[GetScriptedCharacterByHistoryID('Hornwood_22').GetCharacterViewNameNicknamed], was a member of House Hornwood during the Dance of the Dragons. Hallis accompanied [GetScriptedCharacterByHistoryID('Stark_86').GetShortUINameNoFormat] [GetScriptedCharacterByHistoryID('Stark_86').GetDynastyName] south to [GetTitleByKey('c_kings_landing').GetNameNoTier] during the Dance of the Dragons. After war's end, Hal and [GetScriptedCharacterByHistoryID('Flint_37').GetNameNicknamed] founded the Wolf Pack, a free company which sailed from Westeros for the Free Cities.\n#weak The legacy of Mad Hal the mercenary still lives on in House Hornwood."
+HORNWOOD_HORNWOOD_RANGERS_NO_BULLETTAB:0 "Unmatched scouts, the [GetMaA('hornwood_hornwood_rangers').GetName] patrol the dense, shadowy expanses of Hornwood Forest. Skilled in navigating through the thick underbrush and ancient trees with silent footsteps, they serve as the eyes and ears of House [GetDynastyByID('dynn_Hornwood').GetName], ever vigilant against threats lurking in the wilderness. These [archers|E] are not only protectors but also custodians of the forest's secrets.\n#weak Enables recruitment of [GetMaA('hornwood_hornwood_rangers').GetName] as [men_at_arms|E].#!"
+HORNWOOD_TIMBERED_BUSINESS_NO_BULLETTAB:0 "The Hornwoods have become renowned for their preservation and craftsmanship of the timber from the Hornwood. A very lucrative business.\n#weak The timber has allowed the family to enrich themselves."
+HORNWOOD_RIGHTEOUS_IN_WRATH_NO_BULLETTAB:0 "True to their words, the Hornwoods can rise in anger, their justice swift and decisive.\n#weak Some Hornwoods tend to be [GetTrait('wrathful').GetName( GetNullCharacter )]."
+
+building_type_hornwood_hornwood_forest_01:"The Hornwood" 
+building_hornwood_hornwood_forest_01:0 "The Hornwood" 
+building_hornwood_hornwood_forest_01_desc:0 "The expansive Hornwood Forest, a dense thicket teeming with towering ancient trees and a quiet, almost mystical atmosphere. This serene woodland is famed for its roaming moose, whose impressive antlers blend seamlessly with the tangled branches overhead. The forest not only serves as a crucial natural resource for the surrounding lands but also as a haven for these majestic creatures of the North."
+
+hornwood_hornwood_rangers:0 "Hornwood Rangers"
+hornwood_hornwood_rangers_flavor:0 "Unmatched scouts, the Hornwood Rangers patrol the dense, shadowy expanses of Hornwood Forest. Skilled in navigating through the thick underbrush and ancient trees with silent footsteps, they serve as the eyes and ears of House Hornwood."
+
+#UMBER
+umber_legacy_track_MHF_name: "Umber"
+umber_legacy_track_MHF_desc: "Break the Chains!"
+umber_legacy_1_MHF_name: "First Men Origins"
+umber_legacy_2_MHF_name: "Legacy of the Drunken Giant"
+umber_legacy_3_MHF_name: "Last Stand Berserkers"
+umber_legacy_4_MHF_name: "Northern Grit"
+umber_legacy_5_MHF_name: "Giant’s Might"
+
+UMBER_FIRST_MEN_ORIGINS_NO_BULLETTAB:0 "House Umber is an ancient house who once ruled as First Men kings. After many struggles, the Umbers were reduced from royals to vassals of House [GetDynastyByID('dynn_Stark').GetName], the Kings of Winter.\n#weak Umbers tend to be [GetTrait('physique_good_1').GetName( GetNullCharacter )], [GetTrait('physique_good_2').GetName( GetNullCharacter )], or [GetTrait('physique_good_3').GetName( GetNullCharacter )]."
+UMBER_LEGACY_OF_THE_DRUNKEN_GIANT_NO_BULLETTAB:0 "[GetScriptedCharacterByHistoryID('Umber_53').GetCharacterViewNameNicknamed], was a Lord of the [GetTitleByKey('c_last_hearth').GetNameNoTier] and head of House Umber during the reign of [GetScriptedCharacterByHistoryID('Targaryen_110').GetCharacterViewNameNicknamed]. When [GetScriptedCharacterByHistoryID('Forester_15').GetCharacterViewNameNicknamed] and the his free folk army went over [GetTitleByKey('k_the_wall').GetNameNoTier] and marched south, Lord Harmond joined with [GetScriptedCharacterByHistoryID('Stark_115').GetFullName] with the intent to meet them. Harmond and Lord Willam caught the wildling army between them and [GetTitleByKey('c_long_lake').GetNameNoTier], defeating the host in battle.\n#weak Some Umbers overindulge in ale, and become [GetTrait('drunkard').GetName( GetNullCharacter )]s."
+UMBER_LAST_STAND_BERSERKERS_NO_BULLETTAB:0 "The [GetMaA('umber_last_stand_berserkers').GetName] are the last line of defense for House Umber, these [heavy_infantry|E] warriors fight with a desperate, frenzied strength that makes them deadly at the brink of defeat.\n#weak Enables recruitment of [GetMaA('umber_last_stand_berserkers').GetName] as [men_at_arms|E].#!"
+UMBER_NORTHERN_GRIT_NO_BULLETTAB:0 "Forged in the merciless cold of the North, the Umbers stand resolute and unyielding, undimmed by the harshest conditions.\n#weak Their remarkable hardiness ensures that they thrive where others falter, resisting disease and hardship with unmatched vigor."
+UMBER_GIANTS_MIGHT_NO_BULLETTAB:0 "The Umbers, towering figures of strength in the North, are renowned for embodying the legendary might of giants, channeling formidable power and resilience that echo through their ancestral lands.\n#weak Umbers tend to be [GetTrait('strong').GetName( GetNullCharacter )]."
+
+building_type_last_hearth_last_hearth_01:"Last Hearth" 
+building_last_hearth_last_hearth_01:0 "Last Hearth" 
+building_last_hearth_last_hearth_01_desc:0 "Last Hearth, sometimes called the Last Hearth, is the seat of House Umber in the north. With the exception of the castles of the Night's Watch, Last Hearth is the northernmost major castle of the Seven Kingdoms."
+
+umber_last_stand_berserkers:0 "Last Stand Berserkers"
+umber_last_stand_berserkers_flavor:0 "As the last line of defense for House Umber, these warriors fight with a desperate, frenzied strength that makes them deadly at the brink of defeat."
+
+#FLINT
+flint_legacy_track_name: "Flint"
+flint_legacy_track_desc: "Aged and Wisened"
+flint_legacy_1_name: "First Men Origins"
+flint_legacy_2_name: "Legacy of Rodrik Flint"
+flint_legacy_3_name: "The Quarrymen"
+flint_legacy_4_name: "Mountain Clan"
+flint_legacy_5_name: "Aged and Wisened"
+
+FLINT_FIRST_MEN_ORIGINS_NO_BULLETTAB:0 "House Flint is an old house descend from the First Men of [GetGeographicalRegion('world_westeros_the_north').GetName].\n#weak A noble house descended from the First Men."
+FLINT_LEGACY_OF_RODRIK_FLINT_NO_BULLETTAB:0 "[GetScriptedCharacterByHistoryID('Flint_20').GetCharacterViewNameNicknamed] was a member of House Flint who as Lord Commander of the Night's Watch attempted to make himself King-Beyond-the-Wall, and his efforts almost destroyed the Night's Watch. He is considered one of the worst commanders the Night's Watch has ever had.\n#weak Despite not being direct descendants, House Flint still carries the shame of Lord Commander Rodrik Flint's disastrous attempt to crown himself King-Beyond-the-Wall, a dark legacy that tarnished the honor of their house."
+FLINT_THE_QUARRYMEN_NO_BULLETTAB:0 "The [GetMaA('flint_quarrymen').GetName] are as tough and unyielding as the stones in the quarry they are named after. Expertly wielding pickaxes and hammers, these [heavy_infantry|E] excel in breaking enemy lines, just as they shatter rock. The Quarrymen select from among themselves a Quarry Master. The most famous being Yohn Blackbird, originally from [GetTitleByKey('b_liverground').GetNameNoTier], but rose to leadership among the Quarrymen, and once fought for The Flint himself, as his champion in a tourney.\n#weak Enables recruitment of [GetMaA('flint_quarrymen').GetName] as [men_at_arms|E].#!"
+FLINT_MOUNTAIN_CLAN_NO_BULLETTAB:0 "House [GetDynastyByID('dynn_Flint').GetName] of the mountains, alternatively House Flint of the hills, is one of the mountain clans of the north. The Flints inhabit the high mountains north of the wolfswood. They like to be called the First Flints since House [GetDynastyHouseByID('house_FlintWW').GetName] of [GetTitleByKey('c_widows_watch').GetNameNoTier] and House [GetDynastyHouseByID('house_FlintFF').GetName] of [GetTitleByKey('c_flints_finger').GetNameNoTier] are cadet branches of the family.\n#weak The quarrelsome clans of the rugged northwest are a hardy people ."
+FLINT_AGED_AND_WISENED_NO_BULLETTAB:0 "An ancient lineage steeped in the annals of Northern history, House Flint holds a wealth of knowledge passed down through generations, their deep understanding of the past shaping the wisdom and strategies that guide them.\n#weak Aged and Wisened, indeed."
+
+flint_quarrymen:0 "Quarrymen"
+flint_quarrymen_flavor:0 "Tough and unyielding as the stones in the quarry they are named after. Expertly wielding pickaxes and hammers, these heavy infantry excel in breaking enemy lines, just as they shatter rock."
+
+building_type_breakstone_hill_breakstone_quarry_01:"Breakstone Quarry" 
+building_breakstone_hill_breakstone_quarry_01:0 "Breakstone Quarry" 
+building_breakstone_hill_breakstone_quarry_01_desc:0 "A vast expanse of exposed stone and sheer cliffs, Breakstone Quarry is critical to House Flint's stronghold constructions. Here, skilled quarrymen extract sturdy stone, vital for building the formidable defenses that protect their lands. The quarry provides essential materials that reinforce their domain against both the elements and enemies."
+
+building_type_widows_watch_widows_watch_01:"Widow's Watch" 
+building_widows_watch_widows_watch_01:0 "Widow's Watch" 
+building_widows_watch_widows_watch_01_desc:0 "Perched precariously at the end of a windswept peninsula, Widow's Watch stands between the churning waters of the Shivering Sea and the Bite. The castle, seat of House Flint of Widow's Watch, is buffeted by relentless gales and pounding surf, a steadfast guardian against the harsh elements and any who dare approach its shores. Its towering walls and weathered battlements have witnessed countless storms, serving as both a beacon of northern resilience, and as the name suggests, a somber reminder of the perils of the sea."
+
+building_type_flints_finger_flints_finger_01:"Flint's Finger" 
+building_flints_finger_flints_finger_01:0 "Flint's Finger" 
+building_flints_finger_flints_finger_01_desc:0 "Flint's Finger is the seat of House Flint of Flint's Finger. Flint's Finger was once held by ironborn. A weak High King of the Iron Islands lost Flint's Finger in the century after Gerold Lannister, King of the Rock, raided the Iron Islands."
+
+flint_reunion_decision:0 "Reunite House Flint" 
+flint_reunion_decision_desc:0 "Seeking to consolidate power and enhance unity among the diverse branches of their house, the [dynast|E] of House Flint proposes a grand council to discuss the reunification of the different Flint houses.\n\nThis pivotal decision invites leaders from each Flint stronghold, from the rugged cliffs of [GetTitleByKey('c_widows_watch').GetNameNoTier] to the strategic bastion of [GetTitleByKey('c_flints_finger').GetNameNoTier], to deliberate on forging a stronger, more unified front.\n\nThis assembly will aim to combine their varied strengths and resources, bolstering their collective presence in the North and creating a formidable force capable of navigating the complex political landscape of Westeros.\n\nThis move could mark the beginning of a renewed era of strength and solidarity for the Flints."
+flint_reunion_decision_confirm:0 "Aged and Wisened"
+
+#DARKLYN
+darklyn_legacy_track_name: "Darklyn"
+darklyn_legacy_track_desc: "Beneath Dusk's Dim Light"
+darklyn_legacy_1_name: "First Men Origins"
+darklyn_legacy_2_name: "Legacy of Darkrobin"
+darklyn_legacy_3_name: "Shadow Shields"
+darklyn_legacy_4_name: "Bay Traders"
+darklyn_legacy_5_name: "Dusk Kings"
+
+DARKLYN_FIRST_MEN_ORIGINS_NO_BULLETTAB:0 "House Darklyn descend from First Men who ruled as petty kings during the Age of Heroes.\n#weak Kings Beneath Dusk's Dim Light."
+DARKLYN_LEGACY_OF_DARKROBIN_NO_BULLETTAB:0 "[GetScriptedCharacterByHistoryID('Darklyn_9').GetCharacterViewNameNicknamed] was chosen by Queen [GetScriptedCharacterByHistoryID('Targaryen_28').GetFirstNameOrMe] to be one of the first [GetTrait('knight').GetName( GetNullCharacter )]s of [GetTitleByKey('d_kingsguard').GetNameNoTier] when the order was founded in 10 AC by King [GetScriptedCharacterByHistoryID('Targaryen_27').GetFirstNameNicknamed].\n#weak Robin was the first of many Darklyns who served in the Kingsguard.
+DARKLYN_SHADOW_SHIELDS_NO_BULLETTAB:0 "The [GetMaA('darklyn_shadow_shields').GetName] are the formidable [heavy_infantry|E] of House Darklyn, their shields emblazoned with the Darklyn fusily black and gold. Trained specifically to defend the walls of [GetTitleByKey('b_duskendale').GetNameNoTier].\n#weak Enables recruitment of [GetMaA('darklyn_shadow_shields').GetName] as [men_at_arms|E].#!"
+DARKLYN_BAY_TRADERS_NO_BULLETTAB:0 "The Darklyns profit greatly from the trade going in and out of Blackwater Bay.\n#weak Ships arrive in [GetTitleByKey('b_duskendale').GetNameNoTier] from dawn to dusk."
+DARKLYN_DUSK_KINGS_NO_BULLETTAB:0 "The Darklyns used to rule as Dusk Kings in the Age of Heros, but are now reduced to merely Lords. They have however, not forgotten their past. \n#weak Beneath Dusk's Dim Light we could be Dusk Kings again.\nEnables the [decision|E] [GetDecisionWithKey('create_kingdom_of_duskendale_decision').GetName]."
+
+building_type_duskendale_duskendale_01:"Duskendale" 
+building_duskendale_duskendale_01:0 "Duskendale" 
+building_duskendale_duskendale_01_desc:0 "Duskendale spreads out around its harbor and has cobbled streets. The gatehouse opens to a market square. The castle that overlooks the port is the Dun Fort, a squat square stone castle with big drum towers. Duskendale is surrounded by strong walls which shimmer palely in predawn, on which guardsmen wield spears and wear chain mail hauberks. The largest inn in Duskendale is the Seven Swords, and the city contains multiple septs.\n\nSouth of the town is a rocky headland that shelters the harbor from the storms of the narrow sea and north of it rise chalk cliffs. The Duskendale road runs northeast beside the shore between the grey-green sea and low limestone hills. Fishing villages dot the road for miles. The Rosby road connects King's Landing to Duskendale."
+
+building_type_duskendale_dun_fort_01:"Dun Fort" 
+building_duskendale_dun_fort_01:0 "Dun Fort" 
+building_duskendale_dun_fort_01_desc:0 "The Dun Fort is a large castle that overlooks the town of Duskendale. It has a large square keep and big drum towers."
+
+building_type_shadowshield_shadowshield_01:"Shadowshield" 
+building_shadowshield_shadowshield_01:0 "Shadowshield" 
+building_shadowshield_shadowshield_01_desc:0 "Once built as an outpost for the [GetMaA('darklyn_shadow_shields').GetName] during the Darklyn campaigns against the Clawmen, it now serves as the seat of house Darke."
+
+building_type_darkwood_the_darkwood_01:"The Darkwood" 
+building_darkwood_the_darkwood_01:0 "The Darkwood" 
+building_darkwood_the_darkwood_01_desc:0 "The Darkwood is a treacherous forest, shrouded in mystery and fraught with peril, where shadows linger and danger hides in every whispering branch."
+
+darklyn_shadow_shields:0 "Shadow Shields"
+darklyn_shadow_shields_flavor:0 "The Shadow Shields are the formidable heavy infantry of House Darklyn, their shields emblazoned with the fusily black and gold. Trained specifically to defend the walls of Duskendale."
+
+##Proclaim the Kingdom of Duskendale
+create_kingdom_of_duskendale_decision:0 "Restore the Kingdom of Duskendale"
+create_kingdom_of_duskendale_desc:0 "Centuries past, before we bowed to Storm Kings, River Kings, Ironborn or Dragon Lords, we ruled as Dusk Kings from our seat in [GetTitleByKey('c_duskendale').GetNameNoTier]. We sometimes even claimed the mouth of the Blackwater Rush and Crackclaw Point, but were unable to consolidate control.\n\nNevertheless, it is time we took back what is ours by right, and restore our rule of the entire [GetTitleByKey('k_duskendale').GetName]. \n\nIf we were to regain control over all our old lands, perhaps [GetTitleByKey('e_the_iron_throne').GetHolder.GetShortUINameNoFormat] could be persuaded to acknowledge our right if we became [friends|E]. If not, perhaps we should apply pressure with a [strong_hook|E]. If all else fails, we must become [independent|E], and take the matter entirely into our own hands."
+create_kingdom_of_duskendale_tooltip:0 "Restore the Kingdom of Duskendale."
+create_kingdom_of_duskendale_decision_confirm:0 "Beneath Dusk's Dim Light!"
+
+#DONDARRION
+dondarrion_legacy_track_name: "Dondarrion"
+dondarrion_legacy_track_desc: "Strike Twice, Strike True"
+dondarrion_legacy_1_name: "Marcher Lords"
+dondarrion_legacy_2_name: "Legacy of the Messenger"
+dondarrion_legacy_3_name: "Lightning Lancers"
+dondarrion_legacy_4_name: "You Shall Not Pass"
+dondarrion_legacy_5_name: "Strike Twice, Strike True"
+
+DONDARRION_MARCHER_LORDS_NO_BULLETTAB:0 "The Marcher lords have proudly defended the realms of the Storm Kings and Kings of the Reach against incursions from Dorne in ages past. Many ballads and tales praise the valor and skill at arms of the Marcher lords and their longbowmen. \n#weak House Dondarrion is reckoned among the Marcher lords."
+DONDARRION_LEGACY_OF_THE_MESSENGER_NO_BULLETTAB:0 "The Dondarrion line was founded when a messenger from the Storm King was ambushed by two Dornishmen while riding on a stormy night. An arrow killed his horse and his sword broke when he fell. When he thought he was doomed, a bright purple lightning bolt struck the Dornishmen, killing both. The man was thus able to deliver his crucial message on time.\n#weak For this, the Storm King raised him to lordship, and he became the first Dondarrion.\nSome Dondarrions tend to be [GetTrait('brave').GetName( GetNullCharacter )]."
+DONDARRION_LIGHTNING_LANCERS_NO_BULLETTAB:0 "Swift and precise, the [GetMaA('dondarrion_lightning_lancers').GetName] [spearmen|E] of House Dondarrion strike with the speed and suddenness of a lightning bolt.\n#weak Enables recruitment of [GetMaA('dondarrion_lightning_lancers').GetName] as [men_at_arms|E].#!"
+DONDARRION_YOU_SHALL_NOT_PASS_NO_BULLETTAB:0 "Blackhaven, the castle of these great marcher lords, is located in the Dornish Marches near the Boneway, controlling the pass to Dorne.\n#weak The Dondarrions have defended the pass for ages, and non shall pass if not by the will of the Lightning Lord."
+DONDARRION_STRIKE_TWICE_STRIKE_TRUE_NO_BULLETTAB:0 "As Marcher Lords, House Dondarrion is martial house if there ever was one. \n#weak Rather safe than sorry, the Dondarrions Strike Twice, and they Strike True."
+
+dondarrion_lightning_lancers:0 "Lightning Lancers"
+dondarrion_lightning_lancers_flavor:0 "Swift and precise, these spear wielders strike with the speed and suddenness of a lightning bolt."
+
+building_type_greyhawk_greyhawk_tower_01:"Greyhawk Tower" 
+building_greyhawk_greyhawk_tower_01:0 "Greyhawk Tower"
+building_greyhawk_greyhawk_tower_01_desc:0 "The tallest tower of Castle Greyhawk where sentinels and trained hawks keep an eye on the surrounding lands, ensuring early warnings to the Marcher Lords of approaching threats."
+
+#CARON
+caron_legacy_track_name: "Caron"
+caron_legacy_track_desc: "No Song So Sweet"
+caron_legacy_1_name: "First Men Origins"
+caron_legacy_2_name: "Legacy of Ellyn Caron"
+caron_legacy_3_name: "Singing Arrows"
+caron_legacy_4_name: "Lord of the Marches"
+caron_legacy_5_name: "Warriors and Singers"
+
+CARON_FIRST_MEN_ORIGINS_NO_BULLETTAB:0 "House Caron of Nightsong is one of the principal noble houses in the stormlands, and descend from the First Men.\n#weak The [GetDynastyByID('dynn_Caron').GetName]s and [GetDynastyByID('dynn_Swann').GetName]s both claim to be the oldest of the Marcher Lords."
+CARON_LEGACY_OF_ELLYN_CARON_NO_BULLETTAB:0 "[GetScriptedCharacterByHistoryID('Caron_19').GetCharacterViewNameNicknamed] was the Lady of the Marches, and the head of House [GetDynastyByID('dynn_Caron').GetName] during the early reign of [GetScriptedCharacterByHistoryID('Targaryen_30').GetCharacterViewNameNicknamed].\nWhen [GetScriptedCharacterByHistoryID('5000555').GetCharacterViewNameNicknamed] raided the Dornish Marches in the Second Dornish War, he led half of his host against [GetTitleByKey('c_nightsong').GetNameNoTier] and [GetTitleByKey('c_horn_hill').GetNameNoTier].\nThe outlaw "king" was unable to capture Nightsong and abandoned the siege, marching his army west. However, Lady Ellyn sallied forth behind him and joined her strength with a strong force led by [GetScriptedCharacterByHistoryID('Dondarrion_12').GetName]. Meanwhile, [GetScriptedCharacterByHistoryID('Tarly_22').GetCharacterViewNameNicknamed] joined the battle athwart the Dornish line of march. Although [GetScriptedCharacterByHistoryID('5000555').GetNickname]'s army was twice the size of his three foes combined, his host shattered when surrounded by armored knights.\n#weak Afterward, Ellyn was one of the many nobles rewarded by a grateful King Aenys I Targaryen with gold, offices, and honors.\nSome Carons tend to be [GetTrait('brave').GetName( GetNullCharacter )]."
+CARON_SINGING_ARROWS_NO_BULLETTAB:0 "The [GetMaA('caron_singing_arrows').GetName] are House Caron's elite [archers|E], renowned for the whistling sound their arrows make as they slice through the air, striking fear into the hearts of any Dornishman.\n#weak Enables recruitment of [GetMaA('caron_singing_arrows').GetName] as [men_at_arms|E].#!"
+CARON_LORD_OF_THE_MARCHES_NO_BULLETTAB:0 "Lord of the Marches is a title claimed by House Caron of Nightsong. Despite the styling, the Carons do not have dominion over the entirety of the marches. The Marcher lords have proudly defended the realms of the Storm Kings and Kings of the Reach against incursions from Dorne in ages past. Many ballads and tales praise the valor and skill at arms of the Marcher lords and their longbowmen. \n#weak House Caron is reckoned among the Marcher lords."
+CARON_WARRIORS_AND_SINGERS_NO_BULLETTAB:0 "The Carons date back to the Age of Heroes, and they are a family known for creating warriors and singers, like [GetScriptedCharacterByHistoryID('Caron_45').GetCharacterViewNameNicknamed] who was a renowned singer and harper, and a skilled tourney knight. He was as skilled with the high harp as he was with a lance. The Carons claim their nightingale sigil has been in a thousand battles.\n#weak Some Carons become singers and [GetTrait('poet').GetName( GetNullCharacter )]s."
+
+caron_singing_arrows:0 "Singing Arrows"
+caron_singing_arrows_flavor:0 "The Singing Arrows are House Caron's elite archers, renowned for the whistling sound their arrows make as they slice through the air, striking fear into the hearts of any Dornishman."
+
+building_type_nightingale_nightingales_nock_01:"Nightingale's Nock" 
+building_nightingale_nightingales_nock_01:0 "Nightingale's Nock"
+building_nightingale_nightingales_nock_01_desc:0 "A training ground where Caron archers refine their skills, and the arrows fly as swiftly as a bird's flight."
+
+#DROX
+drox_legacy_track_name: "Drox"
+drox_legacy_track_desc: "Hand In Hand"
+drox_legacy_1_name: "Andal Origins"
+drox_legacy_2_name: "Legacy of Donnel Drox"
+drox_legacy_3_name: "Longbolt Quarrellers"
+drox_legacy_4_name: "Marksmen"
+drox_legacy_5_name: "Hand In Hand"
+
+DROX_ANDAL_ORIGINS_NO_BULLETTAB:0 "House Drox hails from Andalos in western Essos. They came to Westeros as tall and fair-haired warriors who carried steel weapons and the seven-pointed star of their gods painted on their bodies. \n#weak The clergy tend to have a higher [opinion|E] of those descended from the zealous Andal [culture|E]; as long as they remain true to the [GetReligionByKey('faith_of_the_seven_religion').GetName] that is."
+DROX_LEGACY_OF_DONNEL_DROX_NO_BULLETTAB:0 "[GetScriptedCharacterByHistoryID('Drox_19').GetCharacterViewNameNicknamed] was the head of House Drox  and supporter of the #bold;color:{0.55,0.71,0.00} Greens#!, the queen's party, during the Dance of the Dragons. He fought at the Battle at Acorn Hall in 130 AC, were he was slain while serving under his commander, Ser [GetScriptedCharacterByHistoryID('Tarbeck_19').GetCharacterViewNameNicknamed].\n#weak As the westermen marched east toward [GetTitleByKey('c_harrenhal').GetNameNoTier], they were confronted at [GetTitleByKey('b_acorn_hall').GetNameNoTier] by blacks led by [GetScriptedCharacterByHistoryID('Smallwood_21').GetCharacterViewNameNicknamed], the lord of the castle, and [GetScriptedCharacterByHistoryID('Piper_26').GetFullName]. Petyr died during the battle, as did Donnel Drox." 
+DROX_LONGBOLT_QUARRELLERS_NO_BULLETTAB:0 "Hailing from the town of [GetTitleByKey('b_longbolt').GetNameNoTier] in the Westerlands, the [GetMaA('drox_longbolt_quarrelers').GetName] are House Drox's elite [archers|E], known for their unparalleled range and deadly precision. Their formidable bolts can pierce through the thickest armor, making them a feared presence on any battlefield.\n#weak Enables recruitment of [GetMaA('drox_longbolt_quarrelers').GetName] as [men_at_arms|E].#!"
+DROX_MARKSMEN_NO_BULLETTAB:0 "As their sigil might suggest, House Drox is renowned throughout the Westerlands for their exceptional marksmanship, mastering the crossbow with a precision that few can match.\n#weak The most skilled among them can thread a bolt through narrow slits and distant targets, earning them a fearsome reputation in both siege warfare and open battle."
+DROX_HAND_IN_HAND_NO_BULLETTAB:0 "House Drox was formed by the union of First Men and Andal nobles during the coming of the Andals.\n#weak As their words suggest, they are able to go Hand In Hand."
+
+building_type_drox_castle_the_quarrel_quarters_01:"The Quarrel Quarters" 
+building_drox_castle_the_quarrel_quarters_01:0 "The Quarrel Quarters" 
+building_drox_castle_the_quarrel_quarters_01_desc:0 "The Quarrel Quarters serves as the heart of crossbow innovation for both House Drox and the neighboring town of Longbolt. This bustling workshop is where master fletchers and engineers collaborate to forge some of the most advanced crossbows and bolts in the Westerlands. Its strategic importance not only bolsters the defensive capabilities of Drox Castle but also supports the local economy of Longbolt."
+
+drox_longbolt_quarrelers:0 "Longbolt Quarrelers"
+drox_longbolt_quarrelers_flavor:0 "Hailing from the town of Longbolt in the Westerlands, the Longbolt Quarrelers are known for their unparalleled range and deadly precision. Their formidable bolts can pierce through the thickest armor, making them a feared presence on any battlefield."
+
+vs_crossbow_name:0 "Longbolt"
+vs_crossbow_description:0 "The ancestral heirloom crossbow of House [GetDynastyByID('dynn_Drox').GetName]. An exquisite crossbow made with exotic wood from the jungles of the [GetTitleByKey('k_disputed_lands').GetNameNoTier]. The crossbow is a marvel of Myrish engineering and craftsmanship."
+vs_crossbow_recovered_description:0 "[newly_created_artifact.GetDesc]\nLongbolt was give to [ROOT.Char.GetFullName] on the [GetCurrentDate.GetString] by the adventurer [bowyer.GetFullName] after an expedition to [GetGeographicalRegion('world_essos').GetName] in search of exotic wood. The crossbow was crafted, by the grace of [GetTitleByKey('c_myr').GetHolder.GetName] who supplied the workshops and engineering expertise found in the [GetTitleByKey('b_southern_market').GetNameNoTier] of the magnificent city of [GetTitleByKey('c_myr').GetNameNoTier]."
+
+#Lydden
+lydden_legacy_track_name: "Lydden"
+lydden_legacy_track_desc: "Never Tiring"
+lydden_legacy_1_name: "Andal Origins"
+lydden_legacy_2_name: "The Man Who Would Be King"
+lydden_legacy_3_name: "Highland Harriers"
+lydden_legacy_4_name: "In Highlands And Hills"
+lydden_legacy_5_name: "Never Tiring"
+
+LYDDEN_ANDAL_ORIGINS_NO_BULLETTAB:0 "House Lydden hails from Andalos in western Essos. They came to Westeros as tall and fair-haired warriors who carried steel weapons and the seven-pointed star of their gods painted on their bodies. \n#weak The clergy tend to have a higher [opinion|E] of those descended from the zealous Andal [culture|E]; as long as they remain true to the [GetReligionByKey('faith_of_the_seven_religion').GetName] that is."
+LYDDEN_THE_MAN_WHO_WOULD_BE_KING_NO_BULLETTAB:0 "Ser [GetScriptedCharacterByHistoryID('Lydden_8').GetFirstName], an Andal knight of House Lydden, was married to the only daughter of [GetScriptedCharacterByHistoryID('Lannister_40').GetFullName], who was of First Men ancestry. When the king died without male issue, Joffrey was crowned by a council and took the name of House [GetDynastyByID('dynn_Lannister').GetName].\n#weak Some Lyddens tend to be [GetTrait('ambitious').GetName( GetNullCharacter )]."
+LYDDEN_HIGHLAND_HARRIERS_NO_BULLETTAB:0 "The [GetMaA('lydden_highland_harriers').GetName] of House Lydden are specialized [skirmisher|E]s, adept at maneuvering through the rugged hills and highlands that surround Deep Den. Their mastery of the terrain allows them to launch swift, unexpected strikes against any foes, making them a formidable force in defending their house's lands.\n#weak Enables recruitment of [GetMaA('lydden_highland_harriers').GetName] as [men_at_arms|E].#!"
+LYDDEN_IN_HIGHLANDS_AND_HILLS_NO_BULLETTAB:0 "In the hills and highlands that characterize their domain, House Lydden has flourished, mastering the art of survival and warfare in this demanding landscape.\n#weak The terrain's natural fortifications and the strategic use of high ground have enabled them to safeguard their holdings effectively."
+LYDDEN_NEVER_TIRING_NO_BULLETTAB:0 "House Lydden embodies a profound work ethic, deeply ingrained in their culture and reflected in their words. This steadfast diligence ensures that whether they are mining the depths for precious ores, fortifying their defenses, or cultivating their lands, they do so with unyielding perseverance.\n#weak Some Lyddens tend to be [GetTrait('diligent').GetName( GetNullCharacter )]."
+
+building_type_deep_den_deep_den_01:0 "Deep Den"
+building_type_deep_den_deep_den_01_desc:0 "The tunnels of Deep Den produce silver in astonishing quantities."
+building_deep_den_deep_den_01:0 "Deep Den"
+building_deep_den_deep_den_01_desc:0 "Deep Den, the stronghold of House Lydden, stands as a fortress carved into the rocky hills of the Westerlands. Beneath its imposing battlements lie vast, sprawling caverns and winding subterranean crevices, rich with veins of gold and silver.\n\nBeing situated along the bustling Gold Road has not only bolstered the fortunes of House Lydden but has also made Deep Den a coveted and strategically valuable seat."
+building_deep_den_deep_den_02:0 "Deep Den"
+building_deep_den_deep_den_02_desc:1 "Beneath the sturdy foundations of Deep Den, the miners of House Lydden labor tirelessly, their days marked by the rhythmic clinking of metal against rock. In the dimly lit tunnels, these dedicated workers excavate valuable veins of gold and silver, each strike of the pickaxe echoing through the vast caverns.\n\nThis backbreaking work sustains the wealth of their house, as they like badgers burrow deeper into the hillside."
+building_deep_den_deep_den_03:0 "Deep Den"
+building_deep_den_deep_den_03_desc:0 "The air in the tunnels is thick with dust and the sharp scent of freshly unearthed minerals. As they carve out their livelihood from the depths, the miners of House Lydden are supported by intricate scaffolding and the faint glow of lanterns that cast long shadows against the rocky walls.\n\nAbove ground, the fruits of their labor enhance the prosperity and stature of House Lydden, forging strong bonds among the miners who share in the hard-won bounty." 
+building_deep_den_deep_den_04:0 "Deep Den"
+building_deep_den_deep_den_04_desc:0 "In the shadows of Deep Den, the tunnels pulse with activity, echoing the prosperity they bring to House Lydden and enhancing trade along the Gold Road. This vital artery of commerce sees caravans laden with Lydden gold and silver, which travels to markets far and wide, bolstering the economy and influence of the Westerlands.\n\nAs House Lydden capitalizes on its deep veined fortune, it also enriches the region, making Deep Den a cornerstone of trade and tradition in the Highlands."
+
+lydden_highland_harriers:0 "Highland Harriers"
+lydden_highland_harriers_flavor:0 "The Highland Harriers of House Lydden are specialized skirmishers, adept at maneuvering through the rugged hills and highlands that surround Deep Den. Their mastery of the terrain allows them to launch swift, unexpected strikes against any foes, making them a formidable force in defending their house's lands."
+
+#FARMAN
+farman_legacy_track_name: "Farman"
+farman_legacy_track_desc: "The Wind Our Steed"
+farman_legacy_1_name: "First Men Origins"
+farman_legacy_2_name: "Legacy of Elissa Farman"
+farman_legacy_3_name: "Fair Isle Mariners"
+farman_legacy_4_name: "Shield of the Western Coast"
+farman_legacy_5_name: "Kings of Fair Isle"
+
+FARMAN_FIRST_MEN_ORIGINS_NO_BULLETTAB:0 "House Farman descend from First Men who ruled as petty kings during the Age of Heroes.\n#weak We ruled as Kings of Fair Isle."
+FARMAN_LEGACY_OF_ELISSA_FARMAN_NO_BULLETTAB:0 "[GetScriptedCharacterByHistoryID('Farman_23').GetCharacterViewNameNicknamed] was known for her spirited nature and adventurous soul. With striking blue eyes and long flaxen hair, she was sharp of wit and skilled in many arts, from archery to sailing, often spending more time at sea than on land. Elissa's passion for the ocean led her to extensive voyages across known and unknown waters, journeying from [GetTitleByKey('d_bear_island').GetNameNoTier] to [GetTitleByKey('d_the_arbor').GetNameNoTier] and developing a close bond with [GetScriptedCharacterByHistoryID('Targaryen_32').GetCharacterViewNameNicknamed] and her circle, dubbed 'the Four-Headed Beast'.\nAfter the death of her father, [GetScriptedCharacterByHistoryID('Farman_21').GetCharacterViewNameNicknamed], she defied her brother [GetScriptedCharacterByHistoryID('Farman_22').GetFirstNamePossessive] commands to remain on [GetTitleByKey('d_fair_isle').GetNameNoTier], choosing instead to follow her heart and the sea. Elissa's adventures culminated in the daring theft of three dragon eggs from the [GetTitleByKey('c_dragonstone').GetNameNoTier] hatcheries, funding her ultimate voyage with the gold obtained from selling these eggs to the Sealord of Braavos. Setting sail on her ship, the Sun Chaser, Elissa ventured into the Sunset Sea, chasing legends and leaving a legacy that tantalized even the seasoned mariner [GetScriptedCharacterByHistoryID('Velaryon_31').GetCharacterViewNameNicknamed] decades later, who believed he spotted her weathered ship in distant Asshai. It is therefore possible that Elissa reached Essos by sailing west from Westeros.\n#weak Some Farmans tend to be [GetTrait('brave').GetName( GetNullCharacter )]."
+FARMAN_FAIR_ISLE_MARINERS_NO_BULLETTAB:0 "The [GetMaA('farman_fair_isle_mariners').GetName] of House Farman are renowned [skirmisher|E]s, vigilantly patrolling the coastal waters off the Westerlands to ward off Ironborn raiders. Expertly navigating their swift ships, they form a crucial shield, safeguarding their homeland from seaborne threats and maintaining the security and prosperity of the coastal communities.\n#weak Enables recruitment of [GetMaA('farman_fair_isle_mariners').GetName] as [men_at_arms|E].#!"
+FARMAN_SHIELD_OF_THE_WESTERN_COAST_NO_BULLETTAB:0 "For ages the Farmans have guarded the western coast of Westeros from Ironborn reavers with their longships.\n#weak The Farmans are known for their hatred of the Ironborn, and the feeling is mutual."
+FARMAN_KINGS_OF_FAIR_ISLE_NO_BULLETTAB:0 "The Farmans are an ancient line, dating back to the Dawn Age and the days of the First Men when they ruled as petty kings of Fair Isle and guarded the western coast of Westeros from ironborn reavers with their longships. The Farmans knelt to [GetScriptedCharacterByHistoryID('Lannister_43').GetFullName], when he raised a great fleet and married the daughter of the last Farman king.\n#weak What we once were is not forgotten."
+
+building_type_faircastle_faircastle_01:"Faircastle" 
+building_faircastle_faircastle_01:0 "Faircastle" 
+building_faircastle_faircastle_01_desc:0 "Faircastle is the seat of House Farman in the westerlands. It is located on Fair Isle, just off the western coast of Westeros.\nRising up above the Sunset Sea, the castle has a great hall, tall white towers, and dungeons.\n#weak 'Have you ever been to Fair Isle? No, ser, but they say it's fair. Lord Farman's seat is fair, too. It's called Faircastle.'"
+
+farman_fair_isle_mariners:0 "Fair Isle Mariners"
+farman_fair_isle_mariners_flavor:0 "The Fair Isle Mariners of House Farman are renowned skirmishers, vigilantly patrolling the coastal waters off the Westerlands to ward off Ironborn raiders. Expertly navigating their swift ships, they form a crucial shield, safeguarding their homeland from seaborne threats and maintaining the security and prosperity of the coastal communities."
+
+#CRAKEHALL
+crakehall_legacy_track_name: "Crakehall"
+crakehall_legacy_track_desc: "None So Fierce"
+crakehall_legacy_1_name: "First Men Origins"
+crakehall_legacy_2_name: "Legacy of Aubrey Crakehall"
+crakehall_legacy_3_name: "Brindled Boars"
+crakehall_legacy_4_name: "Fierce in Forests"
+crakehall_legacy_5_name: "Big-Boned Family"
+
+CRAKEHALL_FIRST_MEN_ORIGINS_NO_BULLETTAB:0 "The Crakehalls are a house of First Men origin who claim descent from [GetScriptedCharacterByHistoryID('Crakehall_11').GetCharacterViewNameNicknamed] from the Age of Heroes.\n#weak Crakehalls tend to be [GetTrait('physique_good_1').GetName( GetNullCharacter )], [GetTrait('physique_good_2').GetName( GetNullCharacter )], or [GetTrait('physique_good_3').GetName( GetNullCharacter )]."
+CRAKEHALL_LEGACY_OF_AUBREY_CRAKEHALL_NO_BULLETTAB:0 "[GetScriptedCharacterByHistoryID('Crakehall_13').GetFirstName] Crakehall was a knight from House Crakehall who briefly ruled as King of [GetTitleByKey('e_the_iron_islands').GetNameNoTier].\nThe [GetScriptedCharacterByHistoryID('Drowned_Men_2').GetFirstName], a priest of the [GetFaithByKey('drowned_god_main').GetName], led a revolt against King [GetScriptedCharacterByHistoryID('Hoare_18').GetCharacterViewNameNicknamed] which replaced him with his younger brother, [GetScriptedCharacterByHistoryID('Hoare_19').GetCharacterViewNameNicknamed]. Their mother, the Dowager Queen [GetScriptedCharacterByHistoryID('Lannister_50').GetCharacterViewNameNicknamed], was mutilated and sent back to [GetTitleByKey('b_casterly_rock').GetNameNoTier]. Her nephew, the King of the Rock, raised his banners in vengeance and Ser Aubrey commanded the westermen in the war.\nIn the seventh year of fighting, Aubrey defeated the army of Hagon the Heartless on Great Wyk. He considered restoring the throne to Harmund, who had been found in the dungeon of [GetTitleByKey('b_hoare_castle').GetNameNoTier], but instead gave the broken man the gift of mercy. Aubrey had Hagon mutilated the same way that Lelia had been, and then had him hanged. Aubrey also ordered that Hoare Castle be razed.\nInstead of returning to the Westerlands, however, surprisingly Aubrey declared himself King of the Iron Islands. The [GetDynastyByID('dynn_Lannister').GetName] did not support this decision, and [GetScriptedCharacterByHistoryID('Crakehall_13').GetCharacterViewNameNicknamed] was overthrown by the ironborn after less than six months. The Shrike drowned him as a sacrifice to the Drowned God.\n#weak Some Crakehalls tend to be [GetTrait('ambitious').GetName( GetNullCharacter )]."
+CRAKEHALL_BRINDLED_BOARS_NO_BULLETTAB:0 ""The [GetMaA('crakehall_brindled_boars').GetName], the [spearmen|E] of House Crakehall, are as formidable as their namesake suggests. Clad in armor emblazoned with the boar sigil of their sworn house, these warriors are renowned across the Westerlands for their unyielding strength and fierce loyalty. They are particularly adept at navigating the dense [GetTerrain('forest').GetName] surrounding their home, using the terrain to their advantage in battles.\n#weak Enables recruitment of [GetMaA('crakehall_brindled_boars').GetName] as [men_at_arms|E].#!"
+CRAKEHALL_FIERCE_IN_FORESTS_NO_BULLETTAB:0 "The Crakehalls are known for their exceptional hunting skills, a prowess that extends beyond mere sport to strategic mastery within their forested domain. Adept at navigating and utilizing the dense woodlands surrounding Crakehall, they have honed their skills in tracking, ambush, and combat under the canopy's cover.\n#weak This expertise makes them formidable opponents in woodland warfare, effectively protecting their lands."
+CRAKEHALL_NONE_SO_FIERCE_NO_BULLETTAB:0 "Wide hips to bear children, big breasts to nurse them, strong arms to carry them. The Crakehalls have always been a big-boned family, and strong.\n#weak Some Crakehalls tend to become [GetTrait('strong').GetName( GetNullCharacter )]."
+
+building_special_the_wall:0 "The Wall"
+ building_type_special_the_wall:0 "The Wall"
+ building_special_the_wall_desc:0 "The Wall is held to be over eight thousand years old and was built by Bran the Builder following the War for the Dawn. According to legend, Westeros barely survived the invasion of the demonic ice-creatures known as the Others.\n\nOnce they were turned back, humanity built the Wall, assisted by the Children of the Forest and giants, as a defensive bulwark against the Others' return. The Sworn Brotherhood of the Night's Watch was founded to man the Wall and defend it against all threats from the North, and it has done so ever since.l"
+ 
+ 
+ acgot_cities_decision:0 "Search for the Horn of Winter"
+ acgot_cities_decision_tooltip:0 "The Horn of Winter is rumored to be hidden somewhere north of the Wall"
+ acgot_cities_decision_tooltip_confirm_text_desc:0 "Begin the Search"
+ acgot_cities_decision_desc:0 "Joramun, a figure of Free Folk mythos who ruled as King-Beyond-the-Wall, had the Horn of Winter made as a weapon against his greatest enemies. It is believed that when he blew the Horn of Winter, the artifact's magic gave birth to the Giants themselves.\n\nToday, the Free Folk still teach that Horn of Winter is capable of great magic and could even topple The Wall itself. It is believed to be hidden somewhere north of the Wall"
+ 
+ acgot_cities_2_decision:0 "Sound the Horn of Winter"
+ acgot_cities_decision_2_tooltip:0 "The Free Folk believe that sounding the Horn of Winter will bring down The Wall"
+ acgot_cities_decision_tooltip_confirm_text_desc_2:0 "Bring down the wall!"
+ acgot_cities_decision_2_desc:0 "The Horn of Winter, also known as the Horn of Joramun or Joramun's horn, is a legendary artifact with supposed magical properties.\n\nJoramun, while battling The Night's King* along side Brandon the Breaker, blew the Horn of Winter, which called forth the Giants into existance. The Free Folk believe the Horn of Winter capable of toppling The Wall itself if blown by a King-Beyond-the-Wall.\n\n#low The Night's King was the 13th Lord Commander of the Night's Watch who, after becoming a dark sorceror, declared himself King and began making sacrifices to The Others. He should not to be confused with the Night King, who does not exist in ASOIAF, but only in HBO's A Game of Thrones.#!"
+ 
+ agot_cities.1000.a:0 "Begin the search!"
+ custom_agot_citie_1:0 "You possess the Horn of Winter"
+ custom_agot_citie_2:0 "You are commanding an army that is located at Castle Black or on the other side of The Wall at Whitetree"
+ custom_agot_citie_3:0 "Your [GetPlayer.GetPrimaryTitle.GetTierAsName] is located North of The Wall"
+ custom_agot_citie_4:0 "You sound the horn and attempt to bring down The Wall"
+ custom_agot_citie_5:0 "Chance of Finding the Horn:\nCount 1%, Duke 5%, King 10%, Emperor 15%\nBrave +3%, Ambitious +3%, Diligent +5%, Generous +5%, Gregarious +1%, Zealous +3%, Temperate +1%, Winter Solider +5%, Rough Terrain Expert +3%, Organizer +5%, Scholar +5%, Genius +5%, Intelligent +3%, Quick +1%, Miracle Worker +5%, Mystic +3%, Wise Man +1%, Legendary Reveler +5%, Famous Reveler +3%, Eager Reveler +1%, Master Hunter  +5%, Hunter +3%, Novice Hunter +1%"
+
+ agot_cities.5000.t:0 "Blood Iron"
+ agot_cities.5000.z:0 "Other things are more important!"
+ agot_cities.5000.z1:0 "You gain the Throne of Castamere"
+ agot_cities.5000.a2:0 "You find the Horn of Winter"
+ agot_cities.5000.a:0 "Build the throne. [red_artifact.GetName] is mine."
+ agot_cities.5000.a1:0 "We don't have the gold. Save the Blood Iron for later."
+ agot_cities.5000.b:0 "Save the nugget for later"
+ agot_cities.5000.c:0 "Sell it all. Such things bore me."
+ agot_cities.5000.desc:0 "  My [ROOT.Char.GetLadyLord|U], during the mining of additional gold to complete the latest upgrades to Castamere, we found something marvelous!\n  Long thought nothing more than fodder for fairy tales, we have found a small nugget of Blood Iron no larger than the fingernail of your pinky.\n  Every ancient culture has its own legends, with the First Men claiming the metal was the last remnants of some dead God, or the Rhoynar claiming it fell from the Sky like the stone at Starfall, or the ancient Valyrians believing it came into existence when the First Dragon died and its blood seeped into the earth and binded to the metals it encountered.\n  What they all did agree on, however, was that the mythic material was as hard as Valyrian Steel, was impossibly smooth to the touch, and shone a deep crimson in color. The ancient manuscripts in the Citadel claim that just a drop of Blood Iron added during the forging process was enough to turn an entire sword red.\n  Either way, we have a unique oppurtunity. With this metal, we could forge a great Lion Throne made of steel. While it could not be made completely of Valyrian Steel, of course, we could afford to purchase a small Valyrian Steel trinket for 500 gold and melt it down to be included in the forging process.\n  Such a throne would speak to the majesty of House Reynes. And forging it with the Valyrian steel pattern would give it the idential look of [red_artifact.GetName], the Crimson Valyrian Blade held in the Iron Islands. No one knows of any process to produce Red Steel other than with Blood Iron, and no one would question your claim to the Valyrian blade once the Throne is complete."
+
+ blood_iron_name:0 "Nugget of Blood Iron"
+ castamere_throne_name:0 "The Blood Rain Throne"
+ castamere_throne_desc:0 "Forged using the mythical and oft thought imaginary metal of Blood Iron, this chair has taken on a deep hue of crimson."
+ 
+ 
+ agot_cities.1000.t:0 "The Horn of Winter"
+ agot_cities.1000.z:0 "Other things are more important!"
+ agot_cities.1000.z1:0 "You gain the Horn of Winter"
+ agot_cities.1000.a1:0 "You Horn of Winter remains lost"
+ agot_cities.1000.a2:0 "You find the Horn of Winter"
+ horn_winter_name:0 "The Horn of Winter"
+ horn_winter_desc:0 "The legendary horn wielded by Joramun, King-Beyond-the-Wall, used to wake the Giants from the Earth"
+ 
+ horn_winter.1000.t:0 "Legend No More"
+ horn_winter.1000.ct:0 "You have found the Horn of Winter"
+ 
+ agot_cities.1000.desc:0 "I have called forth my greatest warriors to scour the lands of the Free Folk for Joramun's Horn, which the kneelers call The Horn of Winter.\n\nThough generally considered a fool's errand, finding the horn will bring my dynasty great fame and will grant me the right to claim all of the lands north of the Wall.\n\nOf course, sounding the horn and bringing down the Wall will grant our people free access to the fertile lands to the south. Without their precious Wall for protection, we will raid unhindered and rule the North with an iron fist!"
+ 
+ wall_ruin_holding_concept_key: "Ruined Wall Castle"
+ game_concept_wall_ruin_holding: "Wall Ruin"
+ game_concept_wall_ruin: "Wall Ruin"
+ game_concept_wall_ruins: "Wall Ruins"
+ game_concept_wall_ruin_holdings: "Wall Ruins"
+ building_type_wall_ruin_01: "Ruined Wall Castle"
+ building_wall_ruin_01: "Castle Ruin"
+ building_wall_ruin_01_desc: "Following the collapse of The Wall, the ancient castles that once guarded it were left in ruin for all eternity"
+ game_concept_wall_ruin_holding_desc: "Following the collapse of The Wall, the ancient castles that once guarded it were left in ruin for all eternity"
+ 
+ building_type_special_the_wall_damaged:0 "Castle Black Ruins"
+ building_special_the_wall_damaged:0 "The Fallen Keep"
+ building_special_the_wall_damaged_desc:0 "The ancient and storied Castle Black remains buried under tons of frozen ice.\n\nWinter is Coming."
+ 
+ building_type_small_wall_ruin_01:0 "Ruins of the Wall"
+ building_small_wall_ruin_01:0 "Icy Remains"
+ building_small_wall_ruin_01_desc:0 "Nothing remains of The Wall."
+ 
+ building_type_moat_cailin_restore_01: "Restore Moat Cailin"
+ building_moat_cailin_restore_01: "Moat Cailin"
+ building_type_moat_cailin_restore_01_desc: "You undertake a grand project to restore the once mighty fortress of Moat Cailin.\n\nThis is no minor undertaking and, once complete, the Moat Cailin Ruins Special Building will be replaced with a fully-restored Special Building.\n\nThis option will then disappear and you will be able to build a normal building in this building slot."
+ building_moat_cailin_restore_01_desc: "You undertake a grand project to restore the once mighty fortress of Moat Cailin.\n\nThis is no minor undertaking and, once complete, the Moat Cailin Ruins Special Building will be replaced with a fully-restored Special Building.\n\nThis option will then disappear and you will be able to build a normal building in this building slot."
+ 
+
+ 
+ building_type_moat_cailin_new_01:0 "The Grand Fortress of Moat Cailin"
+ building_type_moat_cailin_new_01_desc:0 "The ancient fortress of Moat Cailin has protected the North for centuries.\n\nBuilt by the First Men with assistance from the Children of the Forest, it has stood guard over the North for over 10,000 years.\n\nFor the first time in known memory, it stands whole once more."
+ building_moat_cailin_new_01:0 "The Grand Fortress of Moat Cailin"
+ building_moat_cailin_new_01_desc:0 "The ancient fortress of Moat Cailin has protected the North
+
+ building_type_summerhall_restore: "Restore Summerhall"
+ building_summerhall_restore: "Summerhall"
+ building_type_summerhall_restore_desc: "You begin the perhaps foolhardy project of rebuilding Summerhall."
+ building_summerhall_restore_desc: "You begin the perhaps foolhardy project of rebuilding Summerhall."
+ 
+ building_type_summerhall_restore_ruin: "Summerhall"
+ building_summerhall_restore_ruin: "Summerhall Ruins"
+ building_type_summerhall_restore_ruin_desc: "Once the leisure palace of House Targaryen, the former palace burned to ground in 259 AC, killing King Aegon V and his heir, Prince Duncan the Small.\n\nThe former summer home now stands completely abandoned, believed to be haunted by the common people."
+ building_summerhall_restore_ruin_desc: "Once the leisure palace of House Targaryen, the former palace burned to ground in 259 AC, killing King Aegon V and his heir, Prince Duncan the Small.\n\nThe former summer home now stands completely abandoned, believed to be haunted by the common people."
+ 
+ building_type_summerhall_restored_01: "Summerhall"
+ building_summerhall_restored_01: "Summerhall"
+ building_type_summerhall_restored_01_desc: "Once the leisure palace of House Targaryen, the former building burned to ground, killing King Aegon V and his heir, Prince Duncan the Small.\n\nNow rebuilt, the palace once again provides the same oppulent experience and instills the same awe to passerbys."
+ building_summerhall_restored_01_desc: "Once the leisure palace of House Targaryen, the former building burned to ground, killing King Aegon V and his heir, Prince Duncan the Small.\n\nNow rebuilt, the palace once again provides the same oppulent experience and instills the same awe to passerbys."
+  
+ building_type_summerhall_restored_01_full: "Summerhall"
+ building_summerhall_restored_01_full: "Summerhall"
+ building_type_summerhall_restored_01_full_desc: "Once the leisure palace of House Targaryen, the former building burned to ground, killing King Aegon V and his heir, Prince Duncan the Small.\n\nNow rebuilt, the palace once again provides the same oppulent experience and instills the same awe to passerbys."
+ building_summerhall_restored_01_full_desc: "Once the leisure palace of House Targaryen, the former building burned to ground, killing King Aegon V and his heir, Prince Duncan the Small.\n\nNow rebuilt, the palace once again provides the same oppulent experience and instills the same awe to passerbys."
+ 
+ 
+ building_type_moat_cailin_01:0 "Moat Cailin"
+ building_type_moat_cailin_01_desc:0 "The ancient fortress of Moat Cailin has protected the North for centuries. Even in its ruined state, with only the Gatehouse, Children's, and Drunkard's Towers remaining, a small force can hold the Moat against nearly any southern army."
+ building_moat_cailin_01:0 "Moat Cailin"
+ building_moat_cailin_01_desc:0 "The ancient fortress of Moat Cailin has protected the North for centuries. Even in its ruined state, with only the Gatehouse, Children's, and Drunkard's Towers remaining, a small force can hold the Moat against nearly any southern army."
+ building_moat_cailin_02:0 "Rebuilt Central Towers"
+ building_moat_cailin_02_desc:0 "The Central Towers guarded the King's Road from all sides, forcing any army marching North to pass through a tunnel of death with nowhere to run."
+ building_moat_cailin_03:0 "Rebuilt Walkways"
+ building_moat_cailin_03_desc:0 "These walkways of legend sore high overhead, allowing the Moat Cailin defenders to easily maneuver around the enemy below, raining death down upon their heads."
+ building_moat_cailin_04:0 "Rebuilt Western Towers"
+ building_moat_cailin_04_desc:0 "While no sane army would ever attempt to leave the King's Road, if, in a mad fit, some did choose to flee west, the massive wall and towers extended into the western bog forced any fleeing army deep into the swamp while the defenders continued to rain fire down from the walls above."
+ building_moat_cailin_05:0 "Rebuilt Eastern Towers"
+ building_moat_cailin_05_desc:0 "Some armies, knowing the futility of fleeing west, would choose instead a flight through the eastern bog in a mad hope of reaching the sea and, perhaps, White Harbor.\n\nBut the eastern Tower and the massive walls that connect it to the rest of Moat Cailin ensure this idea is as mad as the other."
+ building_moat_cailin_06:0 "Rebuilt Wooden Keep"
+ building_moat_cailin_06_desc:0 "Having rotted away too long ago for any written account to give an accurate description of its design, this new Keep is never-the-less impressive in its own right."
+ building_moat_cailin_07:0 "Rebuilt Moat Cailin"
+ building_moat_cailin_07_desc:0 "Moat Cailing once again stands as the greatest fortress in the world.\n\nWith the new sprawling city built above the bog itself, many Maesters argue this new Moat Cailin has surpassed the one of legend." 
+
+  building_type_the_arbor_01:0 "The Ports of The Arbor"
+ building_type_the_arbor_01_desc:0 "Ports and harbors dot the island of the Arbor. No where else in Westeros produces grapes and peaches as sweet and rich as the Arbor. The wine exports of the Arbor, especially a unique Golden Wine made only in the Arbor, has swelled the small island's coffers.\n\nDue to their unique geographical location and relative size compared to the major cities of Westeros, everyone who lives in the Arbor either groups fruit, makes wine, or builds ships. And such, the Arbor is famous for only two things: ships and wine."
+ 
+ building_the_arbor_01:0 "The Ports of the Arbor"
+ building_the_arbor_01_desc:0 "Ports and harbors dot the island of the Arbor. No where else in Westeros produces grapes and peaches as sweet and rich as the Arbor. The wine exports of the Arbor, especially a unique Golden Wine made only in the Arbor, has swelled the small island's coffers.\n\nDue to their unique geographical location and relative size compared to the major cities of Westeros, everyone who lives in the Arbor either groups fruit, makes wine, or builds ships. And such, the Arbor is famous for only two things: ships and wine."

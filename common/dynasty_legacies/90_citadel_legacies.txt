@@ -1,0 +1,144 @@
+banefort_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Banefort
+			dynasty = { has_dynasty_perk = banefort_legacy_1 }
+		}
+	}
+}
+
+cargyll_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Cargyll
+			dynasty = { has_dynasty_perk = cargyll_legacy_1 }
+		}
+	}
+}
+
+frey_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Frey
+			dynasty = { has_dynasty_perk = frey_legacy_1 }
+		}
+	}
+}
+
+strong_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Strong
+			dynasty = { has_dynasty_perk = strong_legacy_1 }
+		}
+	}
+}
+
+graceford_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Graceford
+			dynasty = { has_dynasty_perk = graceford_legacy_1 }
+		}
+	}
+}
+
+mallister_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Mallister
+			dynasty = { has_dynasty_perk = mallister_legacy_1 }
+		}
+	}
+}
+
+oakheart_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Oakheart
+			dynasty = { has_dynasty_perk = oakheart_legacy_1 }
+		}
+	}
+}
+
+peake_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Peake
+			dynasty = { has_dynasty_perk = peake_legacy_1 }
+		}
+	}
+}
+
+connington_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Connington
+			dynasty = { has_dynasty_perk = connington_legacy_1 }
+		}
+	}
+}
+
+kenning_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Kenning
+			dynasty = { has_dynasty_perk = kenning_legacy_1 }
+		}
+	}
+}
+
+harlaw_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Harlaw
+			dynasty = { has_dynasty_perk = harlaw_legacy_1 }
+		}
+	}
+}
+
+goodbrother_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Goodbrother
+			dynasty = { has_dynasty_perk = goodbrother_legacy_1 }
+		}
+	}
+}
+
+blacktyde_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Blacktyde
+			dynasty = { has_dynasty_perk = blacktyde_legacy_1 }
+		}
+	}
+}
+
+reed_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Reed
+			dynasty = { has_dynasty_perk = reed_legacy_1 }
+		}
+	}
+}
+
+darry_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Darry
+			dynasty = { has_dynasty_perk = darry_legacy_1 }
+		}
+	}
+}
+
+hayford_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Hayford
+			dynasty = { has_dynasty_perk = hayford_legacy_1 }
+		}
+	}
+}
+
