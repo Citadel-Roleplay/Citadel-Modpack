@@ -435,3 +435,33 @@ darry_legacy_5_effect = {
 	first = DARRY_ON_THE_MOUTH_OF_THE_TRIDENT
 	third = DARRY_ON_THE_MOUTH_OF_THE_TRIDENT
 }
+
+hayford_legacy_1_effect = {
+	global = HAYFORD_ANDAL_ORIGINS
+	first = HAYFORD_ANDAL_ORIGINS
+	third = HAYFORD_ANDAL_ORIGINS	
+}
+
+hayford_legacy_2_effect = {
+	global = HAYFORD_STAUNCH_LOYALISTS
+	first = HAYFORD_STAUNCH_LOYALISTS
+	third = HAYFORD_STAUNCH_LOYALISTS	
+}
+
+hayford_legacy_3_effect = {
+	global = HAYFORD_WEALTH_OF_THE_CROWNFIELDS
+	first = HAYFORD_WEALTH_OF_THE_CROWNFIELDS
+	third = HAYFORD_WEALTH_OF_THE_CROWNFIELDS	
+}
+
+hayford_legacy_4_effect = {
+	global = HAYFORD_EAR_OF_THE_COURT
+	first = HAYFORD_EAR_OF_THE_COURT
+	third = HAYFORD_EAR_OF_THE_COURT	
+}
+
+hayford_legacy_5_effect = {
+	global = HAYFORD_ROYAL_RETAINERS
+	first = HAYFORD_ROYAL_RETAINERS
+	third = HAYFORD_ROYAL_RETAINERS	
+}
