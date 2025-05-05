@@ -465,3 +465,60 @@ hayford_legacy_5_effect = {
 	first = HAYFORD_ROYAL_RETAINERS
 	third = HAYFORD_ROYAL_RETAINERS	
 }
+
+rosby_legacy_1_effect = {
+	global = ROSBY_FIRST_MEN_ORIGINS
+	first = ROSBY_FIRST_MEN_ORIGINS
+	third = ROSBY_FIRST_MEN_ORIGINS	
+}
+
+rosby_legacy_2_effect = {
+	global = ROSBY_MASTERS_OF_HORSE
+	first = ROSBY_MASTERS_OF_HORSE
+	third = ROSBY_MASTERS_OF_HORSE	
+}
+
+rosby_legacy_3_effect = {
+	global = ROSBY_WEALTH_OF_THE_CROWNFIELDS
+	first = ROSBY_WEALTH_OF_THE_CROWNFIELDS
+	third = ROSBY_WEALTH_OF_THE_CROWNFIELDS	
+}
+
+rosby_legacy_4_effect = {
+	global = ROSBY_WARDENS_OF_THE_SANDS
+	first = ROSBY_WARDENS_OF_THE_SANDS
+	third = ROSBY_WARDENS_OF_THE_SANDS	
+}
+
+rosby_legacy_5_effect = {
+	global = ROSBY_MEN_OVER_FAITH
+	first = ROSBY_MEN_OVER_FAITH
+	third = ROSBY_MEN_OVER_FAITH	
+}
+
+stokeworth_legacy_1_effect = {
+	global = STOKEWORTH_ANDAL_ORIGINS
+	first = STOKEWORTH_ANDAL_ORIGINS
+	third = STOKEWORTH_ANDAL_ORIGINS	
+}
+
+stokeworth_legacy_2_effect = {
+	global = STOKEWORTH_A_HOUSE_OF_SUITORS
+	first = STOKEWORTH_A_HOUSE_OF_SUITORS
+	third = STOKEWORTH_A_HOUSE_OF_SUITORS	
+}
+stokeworth_legacy_3_effect = {
+	global = STOKEWORTH_WEALTH_OF_THE_CROWNFIELDS
+	first = STOKEWORTH_WEALTH_OF_THE_CROWNFIELDS
+	third = STOKEWORTH_WEALTH_OF_THE_CROWNFIELDS	
+}
+stokeworth_legacy_4_effect = {
+	global = STOKEWORTH_HISTORICAL_HANDS
+	first = STOKEWORTH_HISTORICAL_HANDS
+	third = STOKEWORTH_HISTORICAL_HANDS	
+}
+stokeworth_legacy_5_effect = {
+	global = STOKEWORTH_GOLD_CLOAKED_LEGACY
+	first = STOKEWORTH_GOLD_CLOAKED_LEGACY
+	third = STOKEWORTH_GOLD_CLOAKED_LEGACY	
+}

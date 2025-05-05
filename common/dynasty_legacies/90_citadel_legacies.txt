@@ -142,3 +142,30 @@ hayford_legacy_track = {
 	}
 }
 
+rosby_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Rosby
+			dynasty = { has_dynasty_perk = rosby_legacy_1 }
+		}
+	}
+}
+
+stokeworth_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Stokeworth
+			dynasty = { has_dynasty_perk = stokeworth_legacy_1 }
+		}
+	}
+}
+
+swann_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Swann
+			dynasty = { has_dynasty_perk = swann_legacy_1 }
+		}
+	}
+}
+

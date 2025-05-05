@@ -124,7 +124,7 @@ cargyll_legacy_1 = { # First Men Origins
 	character_modifier = {
 		martial = 1
 		prowess = 1
-		old_gods_south_opinion = 5
+		the_pact_religion_opinion = 5
 		courtier_and_guest_opinion = 5
 	}
 
@@ -756,7 +756,7 @@ oakheart_legacy_1 = { # First Men Origins
 	character_modifier = {
 		martial = 1
 		prowess = 1
-		old_gods_south_opinion = 5
+		the_pact_religion_opinion = 5
 		courtier_and_guest_opinion = 5
 	}
 
@@ -885,7 +885,7 @@ peake_legacy_1 = { # First Men Origins
 	character_modifier = {
 		martial = 1
 		prowess = 1
-		old_gods_south_opinion = 5
+		the_pact_religion_opinion = 5
 		courtier_and_guest_opinion = 5
 	}
 
@@ -1045,9 +1045,9 @@ connington_legacy_2 = { # Griff-in to Win It
 
 	character_modifier = {
 		prowess = 2
-		martial = 1
+		martial = 2
 		maa_damage_mult = 0.15
-		maa_tougness_mult = 0.05
+		maa_toughness_mult = 0.05
 	}
 
 	traits = {
@@ -1155,7 +1155,7 @@ kenning_legacy_1 = { # First Man Origins
 	character_modifier = {
 		martial = 1
 		prowess = 1
-		old_gods_south_opinion = 5
+		the_pact_religion_opinion = 5
 		courtier_and_guest_opinion = 5
 	}
 
@@ -1668,7 +1668,7 @@ reed_legacy_1 = { # First Men Origins
 	character_modifier = {
 		martial = 1
 		prowess = 1
-		old_gods_south_opinion = 5
+		the_pact_religion_opinion = 5
 		courtier_and_guest_opinion = 5
 	}
 
@@ -1796,7 +1796,7 @@ darry_legacy_1 = { # First Men Origins
 	character_modifier = {
 		martial = 1
 		prowess = 1
-		old_gods_south_opinion = 5
+		the_pact_religion_opinion = 5
 		courtier_and_guest_opinion = 5
 	}
 
@@ -1983,7 +1983,7 @@ hayford_legacy_3 = { # Wealth of the Crownfields
 	}
 
 	character_modifier = {
-		stewardship = 2
+		stewardship = 1
 		domain_tax_mult = 0.15
 		farmlands_supply_limit_mult  = 0.2
 		plains_supply_limit_mult = 0.2
@@ -2011,13 +2011,14 @@ hayford_legacy_4 = { # Ear of the Court
 	}
 
 	character_modifier = {
+		title_creation_cost_mult = -0.25
 		diplomacy = 1
-		intrigue = 1
+		intrigue = 2
 	}
 
 	traits = {
-		ambitious = 35
-		shrewd = 50
+		ambitious = 50
+		shrewd = 35
 	}
 	
 
@@ -2043,6 +2044,418 @@ hayford_legacy_5 = { # Royal Retainers
 	}
 
 	traits = {
+	}
+	
+
+}
+
+rosby_legacy_1 = { # First Men Origins
+	legacy = rosby_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Rosby
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = rosby_legacy_1_effect
+		}
+	}
+
+	character_modifier = {
+		martial = 1
+		prowess = 1
+		the_pact_religion_opinion = 5
+		courtier_and_guest_opinion = 5
+	}
+
+	traits = {
+	}
+	
+
+}
+
+rosby_legacy_2 = { # Masters of Horse
+	legacy = rosby_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Rosby
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = rosby_legacy_2_effect
+		}
+	}
+
+	character_modifier = {
+		martial = 1
+		health = 0.1
+		light_cavalry_recruitment_cost_mult = -0.15
+		light_cavalry_pursuit_mult = 0.15
+		heavy_cavalry_recruitment_cost_mult = -0.15
+		heavy_cavalry_pursuit_mult = 0.15
+	}
+
+	traits = {
+	}
+	
+
+}
+
+rosby_legacy_3 = { # Wealth of the Crownfields
+	legacy = rosby_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Rosby
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = rosby_legacy_3_effect
+		}
+	}
+
+	character_modifier = {
+		stewardship = 1
+		domain_tax_mult = 0.15
+		farmlands_supply_limit_mult  = 0.2
+		plains_supply_limit_mult = 0.2
+		hills_supply_limit_mult = 0.2
+	}
+
+	traits = {
+		greedy = 25
+	}
+	
+
+}
+
+rosby_legacy_4 = { # Wardens of the Sands
+	legacy = rosby_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Rosby
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = rosby_legacy_4_effect
+		}
+	}
+
+	character_modifier = {
+		stewardship = 2
+		martial = 2
+		stone_dornish_opinion = -30
+		sand_dornish_opinion = -30
+		salt_dornish_opinion = -30
+		desert_travel_danger = 10
+		desert_mountains_travel_danger = 10
+	}
+
+	traits = {
+	}
+	
+
+}
+
+rosby_legacy_5 = { # Men Over Faith
+	legacy = rosby_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Rosby
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = rosby_legacy_5_effect
+		}
+	}
+
+	character_modifier = {
+		prowess = 3
+		liege_opinion = 25
+		the_seven_religion_opinion = -5
+	}
+
+	traits = {
+		brave = 40
+		cynical = 40
+	}
+	
+
+}
+
+stokeworth_legacy_1 = { # Andal Origins
+	legacy = stokeworth_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Stokeworth
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = stokeworth_legacy_1_effect
+		}
+	}
+
+	character_modifier = {
+		martial = 1
+		clergy_opinion = 10
+		tolerance_advantage_mod = 3
+		knight_effectiveness_mult = 0.05
+	}
+
+	traits = {
+	}
+	
+
+}
+
+stokeworth_legacy_2 = { # A House of Suitors
+	legacy = stokeworth_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Stokeworth
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = stokeworth_legacy_2_effect
+		}
+	}
+
+	character_modifier = {
+		diplomacy = 1
+		attraction_opinion = 20
+		fertility = 10
+	}
+
+	traits = {
+		beauty_good_1 = 50 
+	}
+	
+
+}
+
+stokeworth_legacy_3 = { # Wealth of the Crownfields
+	legacy = stokeworth_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Stokeworth
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = stokeworth_legacy_3_effect
+		}
+	}
+
+	character_modifier = {
+		stewardship = 1
+		domain_tax_mult = 0.15
+		farmlands_supply_limit_mult  = 0.2
+		plains_supply_limit_mult = 0.2
+		hills_supply_limit_mult = 0.2
+	}
+
+	traits = {
+		greedy = 25
+	}
+	
+
+}
+
+stokeworth_legacy_4 = { # Historical Hands
+	legacy = stokeworth_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Stokeworth
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = stokeworth_legacy_4_effect
+		}
+	}
+
+	character_modifier = {
+		stewardship = 2
+		liege_opinion = 30
+		castle_holding_build_gold_cost = -0.1
+		castle_holding_build_speed = -0.1
+		city_holding_build_gold_cost = -0.1
+		city_holding_build_speed = -0.1
+	}
+
+	traits = {
+		authoritative = 35
+		diligent = 50
+	}
+	
+
+}
+
+stokeworth_legacy_5 = { # Gold-Cloaked Legacy
+	legacy = stokeworth_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Stokeworth
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = stokeworth_legacy_4_effect
+		}
+	}
+
+	character_modifier = {
+		martial = 1
+		prowess = 2
+		defender_advantage = 5
+		courtier_and_guest_opinion = 10
+		prisoner_opinion = -10
+	}
+
+	traits = {
+		just = 20
+	}
+	
+
+}
+
+swann_legacy_1 = { # First of the Marchers
+	legacy = swann_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Swann
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = swann_legacy_1_effect
+		}
+	}
+
+	character_modifier = {
+		martial = 2
+		prowess = 1
+		monthly_prestige_gain_mult = 0.1
+		courtier_and_guest_opinion = 10
+	}
+
+	traits = {
+	}
+	
+
+}
+
+swann_legacy_2 = { # On Wings of Black and White
+	legacy = swann_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Swann
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = swann_legacy_2_effect
+		}
+	}
+
+	character_modifier = {
+		attraction_opinion = 15
+		personal_scheme_power_mult = 0.15
+		prowess = 1
+		stewardship = 1
+	}
+
+	traits = {
+		brave = 45
+		greedy = 45
+	}
+	
+
+}
+
+swann_legacy_3 = { # Keepers of Stonehelm
+	legacy = swann_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Swann
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = swann_legacy_3_effect
+		}
+	}
+
+	character_modifier = {
+		defender_advantage = 5
+		castle_holding_build_speed = 0.15
+		holding_build_speed = 0.15
+		marcher_opinion = 20
+		stone_dornish_opinion = -40
+		salt_dornish_opinion = -40
+		sand_dornish_opinion = -40
+	}
+
+	traits = {
+	}
+	
+
+}
+
+swann_legacy_4 = { # Knights of Old
+	legacy = swann_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Swann
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = swann_legacy_4_effect
+		}
+	}
+
+	character_modifier = {
+		prowess = 1
+		min_combat_roll = -2
+		max_combat_roll = 4
+		advantage = 3
+	}
+
+	traits = {
+	}
+	
+
+}
+
+swann_legacy_5 = { # To Soar on High
+	legacy = swann_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Swann
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = swann_legacy_5_effect
+		}
+	}
+
+	character_modifier = {
+		general_opinion = 10
+		monthly_lifestyle_xp_gain_mult = 0.1
+		vassal_tax_mult = 0.1
+	}
+
+	traits = {
+		calm = 40
+		arrogant = 50
 	}
 	
 
