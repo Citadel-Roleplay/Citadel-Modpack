@@ -1,0 +1,407 @@
+﻿###########
+## Test Building
+###########
+
+
+test_building_01 = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_walls_of_genoa.dds"
+	
+	asset = {
+		type = entity
+		name = "test_building_entity"
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 1000
+	
+	county_modifier = {
+		defender_holding_advantage = 5
+		development_growth_factor = 0.1
+		development_growth = 0.3
+		hostile_raid_time = 0.5
+	}
+	
+	province_modifier = {
+		garrison_size = 0.25
+		fort_level = 3
+		monthly_income = 5
+		travel_danger = -20
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+test_building_02 = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_walls_of_genoa.dds"
+	
+	asset = {
+		type = entity
+		name = "test_building2_entity"
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 2500
+	max_garrison = 1000
+	county_modifier = {
+		development_growth = 0.5
+		development_growth_factor = 0.25
+		defender_holding_advantage = 10
+		hostile_raid_time = 0.5
+	}
+	
+	province_modifier = {
+		garrison_size = 2.5
+		fort_level = 10
+		monthly_income = 7
+		travel_danger = -20
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+
+test_duskendale = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_walls_of_genoa.dds"
+	
+	asset = {
+		type = entity
+		name = "test_duskendale_entity"
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 2500
+	max_garrison = 1000
+	county_modifier = {
+		development_growth = 0.5
+		development_growth_factor = 0.25
+		defender_holding_advantage = 10
+		hostile_raid_time = 0.5
+	}
+	
+	province_modifier = {
+		garrison_size = 2.5
+		fort_level = 10
+		monthly_income = 7
+		travel_danger = -20
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+citadel_vineyard = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_vineyard.dds"
+	
+	asset = {
+		type = pdxmesh
+		name = "citadel_vineyard_mesh"
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 2500
+	max_garrison = 1000
+	
+	province_modifier = {
+		monthly_income = 7
+		travel_danger = -20
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+valyrian_dragonpit = {
+	construction_time = very_slow_construction_time
+
+	can_construct_potential = {
+		agot_can_build_or_restore_dragonpits = yes
+	}
+
+	asset = {
+		type = entity
+		name = "valyrian_dragonpit_entity"
+	}
+	can_construct_showing_failures_only = {
+		building_requirement_tribal = no
+	}
+
+	effect_desc = building_dragonpit_effect
+
+	on_complete = {
+		county.holder = {
+			trigger_event = agot_dragon_pits.0005
+		}
+	}
+
+	cost_gold = expensive_building_tier_8_cost
+
+	province_modifier = {
+		monthly_income = -0.5
+	}
+	county_modifier = {
+		county_opinion_add = -10
+	}
+	character_modifier = {
+		dread_gain_mult = 0.5
+		monthly_dynasty_prestige_mult = 0.1
+		owned_legend_spread_mult  = 0.15
+		intimidated_vassal_tax_contribution_mult  = 0.2
+	}
+	county_holder_character_modifier = {
+		dread_gain_mult = 0.10
+		monthly_dynasty_prestige_mult = 0.05
+		owned_legend_spread_mult  = 0.05
+		intimidated_vassal_tax_contribution_mult  = 0.05
+	}
+	type_icon = "icon_dragonpit.dds"
+
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+
+	type = special
+}
+
+citadel_ten_towers = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "citadel_tentowers.dds"
+	
+	asset = {
+		type = entity
+		name = "citadel_ten_towers_entity"
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 2500
+	max_garrison = 1000
+	county_modifier = {
+		development_growth = 0.5
+		development_growth_factor = 0.25
+		defender_holding_advantage = 10
+		hostile_raid_time = 0.5
+	}
+	
+	province_modifier = {
+		garrison_size = 2.5
+		fort_level = 10
+		monthly_income = 7
+		travel_danger = -20
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+citadel_ten_towers_noport = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "citadel_tentowers.dds"
+	
+	asset = {
+		type = entity
+		name = "citadel_ten_towers_noport_entity"
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 2500
+	max_garrison = 1000
+	county_modifier = {
+		development_growth = 0.5
+		development_growth_factor = 0.25
+		defender_holding_advantage = 10
+		hostile_raid_time = 0.5
+	}
+	
+	province_modifier = {
+		garrison_size = 2.5
+		fort_level = 10
+		monthly_income = 7
+		travel_danger = -20
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	next_building = citadel_ten_towers
+
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+citadel_blackglassport = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "citadel_harbor.dds"
+	
+	asset = {
+		type = entity
+		name = "blackglassport_entity"
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 2500
+	max_garrison = 1000
+	county_modifier = {
+		development_growth = 0.5
+		development_growth_factor = 0.25
+		defender_holding_advantage = 10
+		hostile_raid_time = 0.5
+	}
+	
+	province_modifier = {
+		garrison_size = 2.5
+		fort_level = 10
+		monthly_income = 7
+		travel_danger = -20
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_martial
+}
+
+citadel_brothersport = {
+	construction_time = very_slow_construction_time
+
+	type_icon = "citadel_harbor.dds"
+	
+	asset = {
+		type = entity
+		name = "brothersport_entity"
+	}
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = 2500
+	max_garrison = 1000
+	county_modifier = {
+		development_growth = 0.5
+		development_growth_factor = 0.25
+		defender_holding_advantage = 10
+		hostile_raid_time = 0.5
+	}
+	
+	province_modifier = {
+		garrison_size = 2.5
+		fort_level = 10
+		monthly_income = 7
+		travel_danger = -20
+	}
+	
+	ai_value = {
+		base = 100
+		culture_likely_to_fortify_modifier = yes
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	type = special
+
+	flag = travel_point_of_interest_martial
+}

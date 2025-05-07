@@ -1,0 +1,27 @@
+pdxmesh = {
+	name = "test_building2_mesh"
+	file = "test_building2.mesh"
+
+	meshsettings = {
+		name = "valyrian_dragonpit"
+		index = 0
+		texture_diffuse = "Dragonstone_diffuse.dds"
+		texture_normal = "Dragonstone_normal.dds"
+		texture_specular = "Dragonstone_properties.dds"
+		texture = { file = "building_x_AO_placeholder.dds" index = 5 }
+		shader = "snap_to_terrain"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "valyrian_dragonpit_entity"
+	pdxmesh = "valyrian_dragonpit_mesh"
+}
+
+
+Die Frau Borkenhagen ist beihilfeberechtigt, so von der auk und deshalb kamn eine rechnung von der karitas , diese müsste einmal bezahlt werden. 
+
+Unterlagen an die Beihilfe mit der Rechnung, 
+
+29.04.2024 12:30 Älteren Frau Borkenhagen Termin. - Karitas

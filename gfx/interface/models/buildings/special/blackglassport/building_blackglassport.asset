@@ -1,0 +1,29 @@
+pdxmesh = {
+	name = "blackglassport_mesh"
+	file = "blackglassport.mesh"
+
+	meshsettings = {
+		name = "valyria_harbor_district"
+		index = 0
+		texture_diffuse = "valyria_harbor_district_diffuse.dds"
+		texture_normal = "valyria_harbor_district_normal.dds"
+		texture_specular = "valyria_harbor_district_properties.dds"
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "valyria_harbor_district.002"
+		index = 0
+		texture_diffuse = "valyria_harbor_district_diffuse.dds"
+		texture_normal = "valyria_harbor_district_normal.dds"
+		texture_specular = "valyria_harbor_district_properties.dds"
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "blackglassport_entity"
+	pdxmesh = "blackglassport_mesh"
+}

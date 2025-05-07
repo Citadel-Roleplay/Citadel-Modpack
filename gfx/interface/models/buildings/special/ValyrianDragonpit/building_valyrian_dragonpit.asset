@@ -1,0 +1,20 @@
+pdxmesh = {
+	name = "valyrian_dragonpit_mesh"
+	file = "valyrian_dragonpit.mesh"
+
+	meshsettings = {
+		name = "building_bloodstone"
+		index = 0
+		texture_diffuse = "Dragonstone_diffuse.dds"
+		texture_normal = "Dragonstone_normal.dds"
+		texture_specular = "Dragonstone_properties.dds"
+		texture = { file = "building_x_AO_placeholder.dds" index = 5 }
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "valyrian_dragonpit_entity"
+	pdxmesh = "valyrian_dragonpit_mesh"
+}

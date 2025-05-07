@@ -1,0 +1,14 @@
+﻿l_english:
+ 
+ building_type_test_building_01:1 "Caerphilly Castle"
+ building_test_building_01:1 "Caerphilly Castle"
+ building_test_building_01_desc:1 "The largest castle in Wales, the second largest in Britain."
+  building_type_test_building_02:1 "Trade City of Halmstad"
+ building_test_building_02:1 "Halmstad"
+ building_test_building_02_desc:1 "Nestled along the fertile coastline, Halmstad is the perfect crossroads of commerce, where land and sea routes converge. Merchants from across the world are drawn to its bustling markets, safe harbors, and strategic location, making it a natural center for trade. Over time, a vast and prosperous city has flourished here, its wealth built on the endless flow of goods and coin."
+ building_type_citadel_ten_towers_noport:1 "Ten Towers"
+ building_citadel_ten_towers_noport:1 "Ten Towers"
+ building_citadel_ten_towers_noport_desc:1 "Ten Towers is a fortress unlike any other in the Iron Islands. Composed of ten massive towers linked by high stone walls and sea-slicked causeways, the fortress stands as both a stronghold of power and a monument to the might of House Harlaw. Despite the Ironborn tradition of salt and steel, the Ten Towers also houses rare tomes, ancient records, and chronicles of conquest, a hidden trove of knowledge among a sea of raiders."
+ building_type_citadel_ten_towers:1 "Ten Towers"
+ building_citadel_ten_towers:1 "Port of the Ten Towers"
+ building_citadel_ten_towers_desc:1 "With the addition of a port carved into the rocky coast below, Ten Towers evolves from an insular fortress into a hub of Ironborn seafaring might. Warships now rest beneath its shadow, their black sails catching the winds of reaving and trade alike."

@@ -1,0 +1,112 @@
+pdxmesh = {
+	name = "citadel_ten_towers_mesh"
+	file = "citadel_ten_towers.mesh"
+
+	meshsettings = {
+		name = "building_special_dragonsreach_LOD_0"
+		index = 0
+		texture_diffuse = "Dragonstone_diffuse.dds"
+		texture_normal = "Dragonstone_normal.dds"
+		texture_specular = "Dragonstone_properties.dds"
+		texture = { file = "building_x_AO_placeholder.dds" index = 5 }
+		shader = "standard_atlas"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "building_special_the_eyrie_1Shape"
+		index = 0
+		texture_diffuse = "building_special_the_eyrie_1_diffuse.dds"
+		texture_normal = "building_special_the_eyrie_1_normal.dds"
+		texture_specular = "building_special_the_eyrie_1_properties.dds"
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "building_special_the_eyrie_2Shape"
+		index = 0
+		texture_diffuse = "building_special_the_eyrie_2_diffuse.dds"
+		texture_normal = "building_special_the_eyrie_2_normal.dds"
+		texture_specular = "building_special_the_eyrie_2_properties.dds"
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "casterlyrock_rockShape"
+		index = 0
+		texture_diffuse = "casterlyrock_rock_diffuse.dds"
+		texture_normal = "casterlyrock_rock_normal.dds"
+		texture_specular = "casterlyrock_rock_properties.dds"
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "lannisport_lpShape"
+		index = 0
+		texture_diffuse = "lannisport_lp_diffuse.dds"
+		texture_normal = "lannisport_lp_normal.dds"
+		texture_specular = "lannisport_lp_properties.dds"
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "building_special_twinsShape"
+		index = 0
+		texture_diffuse = "atlas_riverlands_diffuse.dds"
+		texture_normal = "atlas_riverlands_normal.dds"
+		texture_specular = "atlas_riverlands_properties.dds"
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	
+
+	meshsettings = {
+		name = "Pyke_building_special_Pyke1Shape"
+		index = 0
+		texture_diffuse = "building_special_pyke01_diffuse.dds"
+		texture_normal = "building_special_pyke01_normal.dds"
+		texture_specular = "building_special_pyke01_properties.dds"
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "Pyke_building_special_Pyke2Shape"
+		index = 0
+		texture_diffuse = "building_special_pyke02_diffuse.dds"
+		texture_normal = "building_special_pyke02_normal.dds"
+		texture_specular = "building_special_pyke02_properties.dds"
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "Pyke_building_special_Pyke3Shape"
+		index = 0
+		texture_diffuse = "building_special_pyke03_diffuse.dds"
+		texture_normal = "building_special_pyke03_normal.dds"
+		texture_specular = "building_special_pyke03_properties.dds"
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "Pyke_building_special_Pyke4Shape"
+		index = 0
+		texture_diffuse = "building_special_pyke04_diffuse.dds"
+		texture_normal = "building_special_pyke04_normal.dds"
+		texture_specular = "building_special_pyke04_properties.dds"
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+
+entity = {
+	name = "citadel_ten_towers_entity"
+	pdxmesh = "citadel_ten_towers_mesh"
+}

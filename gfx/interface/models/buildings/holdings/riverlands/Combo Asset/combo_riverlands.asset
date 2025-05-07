@@ -1,0 +1,55 @@
+entity = {
+	name = "combo_moat01_walls01_entity"
+	#attach = { city_center = moat_riverlands_01_entity }
+	attach = { city_center = walls_riverlands_01_entity }
+	locator = { name = city_center position = { 0 0 0 } }
+}
+
+entity = {
+	name = "combo_moat01_walls02_entity"
+	#attach = { city_center = moat_riverlands_01_entity }
+	attach = { city_center = walls_riverlands_02_entity }
+	locator = { name = city_center position = { 0 0 0 } }
+}
+
+entity = {
+	name = "combo_moat01_walls03_entity"
+	#attach = { city_center = moat_riverlands_01_entity }
+	attach = { city_center = walls_riverlands_03_entity }
+	locator = { name = city_center position = { 0 0 0 } }
+}
+
+entity = {
+	name = "combo_moat01_walls04_entity"
+	#attach = { city_center = moat_riverlands_01_entity }
+	attach = { city_center = walls_riverlands_04_entity }
+	locator = { name = city_center position = { 0 0 0 } }
+}
+
+entity = {
+	name = "combo_moat02_walls01_entity"
+	#attach = { city_center = moat_riverlands_02_entity }
+	attach = { city_center = walls_riverlands_01_entity }
+	locator = { name = city_center position = { 0 0 0 } }
+}
+
+entity = {
+	name = "combo_moat02_walls02_entity"
+	#attach = { city_center = moat_riverlands_02_entity }
+	attach = { city_center = walls_riverlands_02_entity }
+	locator = { name = city_center position = { 0 0 0 } }
+}
+
+entity = {
+	name = "combo_moat02_walls03_entity"
+	#attach = { city_center = moat_riverlands_02_entity }
+	attach = { city_center = walls_riverlands_03_entity }
+	locator = { name = city_center position = { 0 0 0 } }
+}
+
+entity = {
+	name = "combo_moat02_walls04_entity"
+	#attach = { city_center = moat_riverlands_02_entity }
+	attach = { city_center = walls_riverlands_04_entity }
+	locator = { name = city_center position = { 0 0 0 } }
+}

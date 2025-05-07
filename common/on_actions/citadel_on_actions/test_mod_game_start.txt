@@ -1,0 +1,15 @@
+﻿
+on_game_start_after_lobby = {
+	on_actions = { add_special_buildings_on_action }
+}
+
+add_special_buildings_on_action = {
+	effect = {
+		title:b_cardiff.title_province = {
+			add_special_building_slot = test_building_01
+		}
+		title:b_halmstad.title_province = {
+			add_special_building_slot = test_building_02
+		}
+	}
+}

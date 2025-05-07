@@ -1,0 +1,99 @@
+pdxmesh = {
+	name = "castle_riverlands_01_mesh"
+	file = "castle_riverlands_01.mesh"
+
+	meshsettings = {
+		name = "castle_riverlands_01Shape"
+		index = 0
+		texture_diffuse = "atlas_riverlands_diffuse.dds"
+		texture_normal = "atlas_riverlands_normal.dds"
+		texture_specular = "atlas_riverlands_properties.dds"
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "castle_riverlands_01_entity"
+	pdxmesh = "castle_riverlands_01_mesh"
+}
+
+pdxmesh = {
+	name = "castle_riverlands_02_mesh"
+	file = "castle_riverlands_02.mesh"
+
+	meshsettings = {
+		name = "castle_riverlands_02Shape"
+		index = 0
+		texture_diffuse = "atlas_riverlands_diffuse.dds"
+		texture_normal = "atlas_riverlands_normal.dds"
+		texture_specular = "atlas_riverlands_properties.dds"
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "castle_riverlands_02_entity"
+	pdxmesh = "castle_riverlands_02_mesh"
+}
+
+pdxmesh = {
+	name = "castle_riverlands_03_mesh"
+	file = "castle_riverlands_03.mesh"
+
+	meshsettings = {
+		name = "castle_riverlands_03Shape"
+		index = 0
+		texture_diffuse = "atlas_riverlands_diffuse.dds"
+		texture_normal = "atlas_riverlands_normal.dds"
+		texture_specular = "atlas_riverlands_properties.dds"
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "castle_riverlands_03_entity"
+	pdxmesh = "castle_riverlands_03_mesh"
+}
+
+pdxmesh = {
+	name = "castle_riverlands_04_mesh"
+	file = "castle_riverlands_04.mesh"
+
+	meshsettings = {
+		name = "castle_riverlands_04Shape"
+		index = 0
+		texture_diffuse = "atlas_riverlands_diffuse.dds"
+		texture_normal = "atlas_riverlands_normal.dds"
+		texture_specular = "atlas_riverlands_properties.dds"
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "castle_riverlands_04_entity"
+	pdxmesh = "castle_riverlands_04_mesh"
+}
+
+pdxmesh = {
+	name = "castle_riverlands_05_mesh"
+	file = "castle_riverlands_05.mesh"
+
+	meshsettings = {
+		name = "castle_riverlands_05Shape"
+		index = 0
+		texture_diffuse = "atlas_riverlands_diffuse.dds"
+		texture_normal = "atlas_riverlands_normal.dds"
+		texture_specular = "atlas_riverlands_properties.dds"
+		shader = "standard_winter"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "castle_riverlands_05_entity"
+	pdxmesh = "castle_riverlands_05_mesh"
+}

@@ -1,0 +1,40 @@
+pdxmesh = {
+	name = "citadel_vineyard_mesh"
+	file = "citadel_vineyard.mesh"
+
+	meshsettings = {
+		name = "farm_mediterranean"
+		index = 0
+		texture_diffuse = "building_mediterranean_atlas_diffuse"
+		texture_normal = "building_mediterranean_atlas_normal.dds"
+		texture_specular = "building_mediterranean_atlas_properties.dds"
+		shader = "snap_to_terrain"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "farm_mediterranean_vines"
+		index = 0
+		texture_diffuse = "vines_02_diffuse.dds"
+		texture_normal = "vines_01_normal.dds"
+		texture_specular = "vines_01_properties.dds"
+		shader = "snap_to_terrain_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+
+	meshsettings = {
+		name = "farm_mediterranean_decal"
+		index = 0
+		texture_diffuse = "farmland_01_medi_decal_diffuse.dds"
+		texture_normal = "farmland_01_decal_normal.dds"
+		texture_specular = "farmland_01_decal_properties.dds"
+		shader = "decal_local"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "LocalDecals"
+	}
+}
+
+entity = {
+	name = "citadel_vineyard_entity"
+	pdxmesh = "citadel_vineyard_mesh"
+}

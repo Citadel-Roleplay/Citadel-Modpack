@@ -1,0 +1,19 @@
+pdxmesh = {
+	name = "test_duskendale_mesh"
+	file = "test_duskendale.mesh"
+
+	meshsettings = {
+		name = "building_celtic_city_02"
+		index = 0
+		texture_diffuse = "building_celtic_decal_01_diffuse.dds"
+		texture_normal = "building_celtic_decal_01_normal.dds"
+		texture_specular = "building_celtic_decal_01_properties.dds"
+		shader = "snap_to_terrain"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "test_duskendale_entity"
+	pdxmesh = "test_duskendale_mesh"
+}
