@@ -2368,12 +2368,13 @@ swann_legacy_2 = { # On Wings of Black and White
 		attraction_opinion = 15
 		personal_scheme_power_mult = 0.15
 		prowess = 1
-		stewardship = 1
+		stewardship = 2
 	}
 
 	traits = {
-		brave = 45
-		greedy = 45
+		brave = 40
+		greedy = 40
+		diligent = 40
 	}
 	
 
@@ -2394,8 +2395,8 @@ swann_legacy_3 = { # Keepers of Stonehelm
 
 	character_modifier = {
 		defender_advantage = 5
-		castle_holding_build_speed = 0.15
-		holding_build_speed = 0.15
+		castle_holding_build_speed = -0.15
+		holding_build_speed = -0.15
 		marcher_opinion = 20
 		stone_dornish_opinion = -40
 		salt_dornish_opinion = -40
@@ -2451,6 +2452,7 @@ swann_legacy_5 = { # To Soar on High
 		general_opinion = 10
 		monthly_lifestyle_xp_gain_mult = 0.1
 		vassal_tax_mult = 0.1
+		domain_tax_mult = 0.1
 	}
 
 	traits = {

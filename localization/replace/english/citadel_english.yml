@@ -250,6 +250,20 @@ STOKEWORTH_WEALTH_OF_THE_CROWNFIELDS:0 "The proud houses that rule [GetTitleByKe
 STOKEWORTH_HISTORICAL_HANDS:0 "Lord Alyn Stokeworth was the second ever Hand of the King, succeeding Orys Baratheon. When King Aegon I ordered the Aegonfort torn down and the Red Keep built in its place, Lord Alyn was given the responsibility. Lord Alyn served with diligence and skill until finally dying during a Riverlander rebellion, at the hands of Harren the Red.\n#weak Some Stokeworths tend to become [GetTrait('authoritative').GetName( GetNullCharacter )] or [GetTrait('diligent').GetName( GetNullCharacter )]."
 STOKEWORTH_GOLD_CLOAKED_LEGACY:0 "As a principle bannermen house in the Crownlands, and a prestigious one at that, many Stokeworths have often found themselves receiving the prestigious appointment of Goldcloak Commander. Even lesser cousins of House Stokeworth often find themselves lucky enough to receive the captaincy of one of King's Landing's Seven Gates.\n#weak Some Stokeworths tend to become [GetTrait('just').GetName( GetNullCharacter )]."
 
+swann_legacy_track_name: "Swann"
+swann_legacy_track_desc: "On White Feathered Wings"
+swann_legacy_1_name: "First of the Marchers"
+swann_legacy_2_name: "On Wings of Black and White"
+swann_legacy_3_name: "Keepers of Stonehelm"
+swann_legacy_4_name: "Knights of Old"
+swann_legacy_5_name: "To Soar On High"
+
+SWANN_FIRST_OF_THE_MARCHERS:0 "House Swann has since time immemorial declared itself the first marcher house, despite contestation by House Caron. House Swann has stood valiantly for millenia, standing proud as the ascendant swans who have aided in the defense of their homeland."
+SWANN_ON_WINGS_OF_BLACK_AND_WHITE:0 "House Swann is fair, however one thing remains certain; just as when a Targaryen is born a coin is flipped. When a Swann is born, they are born either seeking wealth or seeking glory. House Swann is not a monolith, yet these antagonistic pursuits have defined the house for generations.\n#weak Some Swanns tend to become [GetTrait('greedy').GetName( GetNullCharacter )], [GetTrait('diligent').GetName( GetNullCharacter )] or [GetTrait('brave').GetName( GetNullCharacter )]."
+SWANN_KEEPERS_OF_STONEHELM:0 "Stonehelm has stood firm against assault for generations. It has been the sight of many battles where the Dornish time and time again have been pushed back. Yet despite it all, it has never faded or collapsed, standing firm as the house has."
+SWANN_KNIGHTS_OF_OLD:0 "Knights from House Swann are well known for utilizing tactics from history as well as legend. This has led to some of their greatest victories and some of their greatest tragedies."
+SWANN_TO_SOAR_ON_HIGH:0 "House Swann is a prestigious dynasty, well respected by all, with the riches of the Slayne filling their coffers.\n#weak Some Swanns tend to become [GetTrait('calm').GetName( GetNullCharacter )] or [GetTrait('arrogant').GetName( GetNullCharacter )]."
+
 the_stepstones_expeditionaries_name:0 "The Stepstones Expeditionaries"
 
 building_type_tarbeck_hall_01:0 "Seat of House Tarbeck"
