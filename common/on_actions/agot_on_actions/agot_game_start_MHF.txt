@@ -1,0 +1,237 @@
+﻿# Called from code after history generation
+# Empty scope
+on_game_start = {
+	on_actions = {
+		agot_mhf_house_dna
+		agot_mhf_add_special_buildings
+		agot_mhf_house_feuds
+		agot_set_legacies_MHF
+	}
+}
+
+agot_mhf_add_special_buildings = {
+	effect = {
+		if = {
+			limit = {
+				has_game_rule = agot_buildings_mhf_enabled
+			}
+			province:1687 = { add_special_building = raventree_hall_rookery_01 }
+			province:2058 = { add_special_building = stone_hedge_stables_01 }
+			province:1805 = { add_special_building = stillfen_lily_pad_pond_01 }
+			province:2143 = { add_special_building = wayfarers_rest_armisteads_tomb_01 }
+			province:3724 = { add_special_building = goldengrove_golden_orchard_01 }
+			province:3354 = { add_special_building = horn_hill_hunting_grounds_02 }
+			province:3627 = { add_special_building = coldmoat_outworks_01 }
+			province:2457 = { add_special_building = runeport_docks_03 }
+			province:2442 = { add_special_building = gulltown_customs_house_01 }
+			province:2466 = { add_special_building = gullview_osgoods_tomb_01 }
+			province:431 = { add_special_building = white_harbor_woodhollys_bakery_01 }
+			province:4420 = { add_special_building = hull_docks_03 }
+			#province:3038 = { add_special_building = brixworth_mines_01 }
+			province:2867 = { add_special_building = fang_hill_kennel_01 }
+			province:3191 = { add_special_building = vikary_house_docks_01 }
+			province:3181 = { add_special_building = reynes_port_smelting_hut_02 }
+			province:4436 = { add_special_building = claw_isle_crabs_return_01 }
+			province:4435 = { add_special_building = vallscale_maritime_court_01 }
+			province:4433 = { add_special_building = sweetport_sweetport_sept_01 }
+			province:5277 = { add_special_building = radiant_cliffs_lighthouse_01 }
+			province:5441 = { add_special_building = wyl_wyl_castle_01 }
+			province:5304 = { add_special_building = blood_town_blood_town_bazaar_01 }
+			province:5135 = { add_special_building = hellholt_the_hellholt_01 }
+			province:2112 = { add_special_building = wallwood_bellos_tomb_01 }
+			province:2115 = { add_special_building = justbrick_quiver_keep_01 }
+			province:2128 = { add_special_building = truthmine_mines_01 }
+			province:4125 = { add_special_building = ryamsport_01 }
+			province:4135 = { add_special_building = golden_vines_the_golden_vineyard_01 }
+			province:3494 = { add_special_building = oldtown_quill_and_tankard_01 }
+			province:3564 = { add_special_building = brightwater_keep_brightwater_keep_01 }
+			province:3422 = { add_special_building = the_ring_the_ring_01 }
+			province:2002 = { add_special_building = atranta_atranta_01 }
+			province:664 = { add_special_building = grailheart_redmane_stables_01 }
+			province:385 = { add_special_building = wraithfeld_the_silent_grounds_01 }
+			province:1122 = { add_special_building = barrowton_barrowton_01 }
+			province:1644 = { add_special_building = bearstone_bearstone_woods_01 }
+			province:579 = { add_special_building = hornwood_hornwood_forest_01 }
+			province:136 = { add_special_building = last_hearth_last_hearth_01 }
+			province:1234 = { add_special_building = breakstone_hill_breakstone_quarry_01 }
+			province:617 = { add_special_building = widows_watch_widows_watch_01 }
+			province:1457 = { add_special_building = flints_finger_flints_finger_01 }
+			province:4242 = { add_special_building = duskendale_duskendale_01 }
+			province:4241 = { add_special_building = duskendale_dun_fort_01 }
+			province:4258 = { add_special_building = shadowshield_shadowshield_01 }
+			province:4248 = { add_special_building = darkwood_the_darkwood_01 }
+			province:4689 = { add_special_building = greyhawk_greyhawk_tower_01 }
+			province:4721 = { add_special_building = nightingale_nightingales_nock_01 }
+			province:2978 = { add_special_building = drox_castle_the_quarrel_quarters_01 }
+			province:2999 = { add_special_building = deep_den_deep_den_02 }
+			province:3223 = { add_special_building = faircastle_faircastle_01 }
+			province:2884 = { add_special_building = crakehall_crakehall_01  }
+			province:4124 = { add_special_building = wynegarde_estates_01 }
+			province:2862 = { add_special_building = city_of_lannisport_01 }
+			province:3730 = { add_special_building = old_oak_01 }
+			province:3823 = { add_special_building = dustonbury_01 }
+			province:3737 = { add_special_building = ocean_roadhouses_01 }
+			province:3565 = { add_special_building = city_of_foxes_01 }
+			province:4102 = { add_special_building = oakenshield_bastion_01 }
+			province:3294 = { add_special_building = grand_markets_of_ashford_01 }
+			province:3293 = { add_special_building = great_orchard_of_ashford_01 }
+			province:3305 = { add_special_building = sept_at_holyhall_01 }
+			province:3268 = { add_special_building = lieras_pressery_01 }
+			province:3280 = { add_special_building = great_orchard_of_appleton_01 }
+			province:3283 = { add_special_building = great_maids_orchard_01 }
+			province:3966 = { add_special_building = bloody_caltrops_inn_01 }
+			province:4072 = { add_special_building = merryweather_vaults_01 }
+			province:3917 = { add_special_building = goldcloaks_rest_01 }	
+			province:3691 = { add_special_building = shermer_ironworks_01 }			
+			province:3601 = { add_special_building = honeyholt_apiaries_01 }
+			province:4041 = { add_special_building = grassfield_florestries_01 }	
+			province:4945 = { add_special_building = plankytown_01 }
+			province:4955 = { add_special_building = stinkwater_01 }
+			province:5406 = { add_special_building = westroost_mines_01 }
+			province:5383 = { add_special_building = blackmont_mines_01 }
+			province:5358 = { add_special_building = widewatch_mines_01 }
+			province:5258 = { add_special_building = the_starport_01 }
+			province:5155 = { add_special_building = ruins_of_hellgate_hall_01 }
+			province:5412 = { add_special_building = kingsgrave_keep_01 }
+			province:4832 = { add_special_building = heart_of_the_kingswood_01 }
+			province:4585 = { add_special_building = broken_shield_inn_01 }
+			province:4581 = { add_special_building = weeping_town_01 }
+			province:4662 = { add_special_building = red_watch_garrison_01 }
+			province:1730 = { add_special_building = city_of_seagard_01 }
+			province:3320 = { add_special_building = starpike_01 }
+			province:4631 = { add_special_building = maiden_motherhouse_01 }	
+			province:4897 = { add_special_building = wendwater_docks_01 }		
+			province:4189 = { add_special_building = brindlewood_markets_01 }
+			province:4250 = { add_special_building = ruin_of_hollard_castle_01 }		
+			province:4198 = { add_special_building = old_stone_bridge_01 }		
+			province:4428 = { add_special_building = sharp_point_beacon_01 }	
+			province:2054 = { add_special_building = bechester_motherhouse_01 }		
+			province:1958 = { add_special_building = briarwhite_holdfast_01 }
+			province:2073 = { add_special_building = high_heart_01 }	
+			province:2070 = { add_special_building = high_heart_01 }
+			province:2072 = { add_special_building = high_heart_01 }	
+			province:1718 = { add_special_building = ruins_of_oldforge_01 }		
+			province:2189 = { add_special_building = fairmarket_01 }
+			province:4388 = { add_special_building = stonedance_keep_01 }
+			province:2514 = { add_special_building = hearts_home_01 }		
+			province:2392 = { add_special_building = longbow_hall_01 }	
+			province:2323 = { add_special_building = ninestars_01 }	
+			province:2579 = { add_special_building = snakewood_forest_01 }
+			province:2517 = { add_special_building = snakewood_forest_01 }	
+			province:2580 = { add_special_building = snakewood_forest_01 }	
+			province:2581 = { add_special_building = snakewood_forest_01 }
+			province:2516 = { add_special_building = proud_town_guilds_01 }				
+			province:2473 = { add_special_building = witch_isle_01 }
+			province:3296 = { add_special_building = agot_ashford_tourney_grounds_01 }
+			province:4061 = { add_special_building = blueburn_mills_01 }
+			province:3792 = { add_special_building = wyverns_rest_keep_01 }		
+			province:3633 = { add_special_building = first_kiss_armouries_01 }		
+			province:3634 = { add_special_building = dosk_market_village_01 }
+			province:3646 = { add_special_building = stonewealth_mines_01 }
+			province:5553 = { add_special_building = skirling_01 }
+			province:6047 = { add_special_building = haunted_01 }
+			province:5565 = { add_special_building = frostfang_01 }
+			province:5996 = { add_special_building_slot = eyeraven_01 }
+			province:4111 = { add_special_building = shieldisle_01 }
+			province:4107 = { add_special_building = shieldisle_01 }	
+			province:4116 = { add_special_building = shieldisle_01 }			
+			province:2208 = { add_special_building = trident_01 }	
+			province:2188 = { add_special_building = trident_01 }
+			province:2213 = { add_special_building = trident_01 }
+			province:1785 = { add_special_building = trident_01 }		
+			province:2082 = { add_special_building = trident_01 }		
+			province:4574 = { add_special_building = rainwood_01 }
+			province:4671 = { add_special_building = rainwood_01 }
+			province:4557 = { add_special_building = rainwood_01 }
+			province:4605 = { add_special_building = rainwood_01 }
+			province:4552 = { add_special_building = rainwood_01 }
+			province:4617 = { add_special_building = rainwood_01 }
+			province:4611 = { add_special_building = rainwood_01 }
+			province:4601 = { add_special_building = rainwood_01 }
+			province:4595 = { add_special_building = rainwood_01 }	
+			province:4628 = { add_special_building = rainwood_01 }	
+			province:2031 = { add_special_building = peach_01 }		
+			province:28 = { add_special_building = mole_01 }		
+			province:426 = { add_special_building = lazy_01 }		
+			province:1911 = { add_special_building = goose_01 }				
+			province:4443 = { add_special_building = gatedun_01 }	
+			province:5211 = { add_special_building = sandstone_01 }
+			province:5394 = { add_special_building = redmountains_01 }
+			province:1506 = { add_special_building = flintcliffs_01 }
+			province:5032 = { add_special_building = ub_n_socotra_01 }
+			province:5048 = { add_special_building = ub_n_socotra_01 }
+			province:5043 = { add_special_building = ub_n_socotra_01 }
+			province:5091 = { add_special_building = greenblood_01 }
+			province:5008 = { add_special_building = greenblood_01 }
+			province:5013 = { add_special_building = greenblood_01 }
+			province:3578 = { add_special_building = mander_01 }
+			province:3624 = { add_special_building = mander_01 }
+			province:3262 = { add_special_building = mander_01 }
+			province:3245 = { add_special_building = mander_01 }
+			province:3911 = { add_special_building = goldfield_01 }
+			province:4699 = { add_special_building = harvest_01 }
+			province:741 = { add_special_building = aleport_01 }
+			province:3043 = { add_special_building = hornvale_01 }
+			province:1904 = { add_special_building = quietisle_01 }
+			province:2740 = { add_special_building = greatwyk_01 }
+			province:2709 = { add_special_building = pirate_sister_01 }
+			province:4648 = { add_special_building = stonehelm_01 }		
+			province:2550 = { add_special_building = starteeth_01 }
+			province:3097 = { add_special_building = sarsfield_01 }			
+			province:4339 = { add_special_building = blackwater_01 }	
+			province:2102 = { add_special_building = pinkmaiden_01 }	
+			province:78 = { add_special_building = wintertown_01 }
+			province:886 = { add_special_building = torrhen_01 }
+			province:3186 = { add_special_building = tarbeck_hall_01 }
+			province:3455 = { add_special_building = three_towers_01 }	
+			province:3461 = { add_special_building = sunflower_hall_01 }
+			province:3450 = { add_special_building = turrkeep_01 }
+			province:490 = { add_special_building = oldcastle_01 }
+			province:534 = { add_special_building = ramsgate_01 }		
+		}
+	}
+}
+
+agot_mhf_add_special_buildings_high_tide = {
+	effect = {
+		if = {
+			limit = {
+				has_game_rule = agot_buildings_high_tide_mhf_enabled
+			}
+			province:4424 = { add_special_building = high_tide_driftwood_throne_01 }
+		}
+	}
+}
+
+agot_mhf_house_feuds = {
+	effect = {
+		### House feud setup
+		# Bricker vs Fletcher
+		every_ruler = {
+			if = {
+				limit = {
+					dynasty = dynasty:dynn_Bricker
+					has_title = title:c_brixworth
+				}
+				save_scope_as = bricker
+			}
+		}
+		every_ruler = {
+			if = {
+				limit = {
+					dynasty = dynasty:dynn_Fletcher
+					has_title = title:c_whitebricks
+				}
+				save_scope_as = fletcher
+			}
+		}
+		scope:fletcher = {
+			scope:bricker = { save_scope_as = rival }
+			trigger_event = agot_events_generic.0003
+		}
+		scope:bricker = {
+			scope:fletcher = { save_scope_as = rival }
+			trigger_event = agot_events_generic.0003
+		}
+	}
+}

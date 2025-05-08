@@ -1984,7 +1984,7 @@ hayford_legacy_3 = { # Wealth of the Crownfields
 
 	character_modifier = {
 		stewardship = 1
-		domain_tax_mult = 0.15
+		domain_tax_mult = 0.1
 		farmlands_supply_limit_mult  = 0.2
 		plains_supply_limit_mult = 0.2
 		hills_supply_limit_mult = 0.2
@@ -2118,7 +2118,7 @@ rosby_legacy_3 = { # Wealth of the Crownfields
 
 	character_modifier = {
 		stewardship = 1
-		domain_tax_mult = 0.15
+		domain_tax_mult = 0.1
 		farmlands_supply_limit_mult  = 0.2
 		plains_supply_limit_mult = 0.2
 		hills_supply_limit_mult = 0.2
@@ -2254,7 +2254,7 @@ stokeworth_legacy_3 = { # Wealth of the Crownfields
 
 	character_modifier = {
 		stewardship = 1
-		domain_tax_mult = 0.15
+		domain_tax_mult = 0.1
 		farmlands_supply_limit_mult  = 0.2
 		plains_supply_limit_mult = 0.2
 		hills_supply_limit_mult = 0.2

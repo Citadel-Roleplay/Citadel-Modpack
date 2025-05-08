@@ -1,0 +1,10 @@
+﻿agot_buildings_mhf = {
+	default  = agot_buildings_mhf_enabled
+	agot_buildings_mhf_enabled = {}
+	agot_buildings_mhf_disabled = {}
+}
+agot_buildings_high_tide_mhf = {
+	default  = agot_buildings_high_tide_mhf_enabled
+	agot_buildings_high_tide_mhf_enabled = {}
+	agot_buildings_high_tide_mhf_disabled = {}
+}
