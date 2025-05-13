@@ -4,29 +4,29 @@ reachman_legacy_1 = { # Green and Pleasant
 	legacy = reachman_legacy_track
 
 	can_be_picked = {
-		culture = {
-			OR = {
-			this = culture:reachman
-			any_parent_culture_or_above = {
-				this = culture:reachman
-				}
-			}
-		}
+    	culture = {
+        	OR = {
+        	this = culture:reachman
+        	any_parent_culture_or_above = {
+            	this = culture:reachman
+            	}
+        	}
+    	}
 	}
 
 	character_modifier = {
-		development_growth = 0.05
-		development_growth_factor = 0.1
-		character_capital_county_monthly_development_growth_add = 0.1
+    	development_growth = 0.05
+    	development_growth_factor = 0.1
+    	character_capital_county_monthly_development_growth_add = 0.1
 	}
 	ai_chance = {
-		value = 11
-		if = {
-			limit = {
-				can_start_new_legacy_track_trigger = no
-			}
-			multiply = 0
-		}
+    	value = 11
+    	if = {
+        	limit = {
+            	can_start_new_legacy_track_trigger = no
+        	}
+        	multiply = 0
+    	}
 	}
 }
 
@@ -34,8 +34,8 @@ reachman_legacy_2 = { # Seeds of the Gardener
 	legacy = reachman_legacy_track
 
 	character_modifier = {
-		fertility = 0.10
-		stewardship_per_prestige_level = 1
+    	fertility = 0.10
+    	stewardship = 2
 	}
 }
 
@@ -43,9 +43,9 @@ reachman_legacy_3 = { # Maester Decision
 	legacy = reachman_legacy_track
 
 	character_modifier = {
-		learning = 1
-		monthly_learning_lifestyle_xp_gain_mult = 0.1
-		health = 0.2
+    	learning = 1
+    	monthly_learning_lifestyle_xp_gain_mult = 0.1
+    	health = 0.2
 	}
 }
 
@@ -53,9 +53,9 @@ reachman_legacy_4 = { # Convergent Blood
 	legacy = reachman_legacy_track
 
 	character_modifier = {
-		county_opinion_add = 20
-		levy_reinforcement_rate = 0.2
-		supply_capacity_mult = 0.40
+    	county_opinion_add = 20
+    	levy_reinforcement_rate = 0.2
+    	supply_capacity_mult = 0.40
 	}
 }
 
@@ -63,10 +63,12 @@ reachman_legacy_5 = { # Order of the GreenHand
 	legacy = reachman_legacy_track
 
 	character_modifier = {
-		heavy_cavalry_max_size_add = 3
-		heavy_cavalry_toughness_mult = 0.2
-		prowess = 2 #balances agrarian
+    	heavy_cavalry_max_size_add = 2
+    	heavy_cavalry_toughness_mult = 0.15
+    	prowess = 2 #balances agrarian
 
 	}
 }
+
+
 
