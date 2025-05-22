@@ -1,0 +1,164 @@
+﻿l_english:
+
+#Generic Riverlander
+
+riverlander_legacy_5_name: "Lords of the Rivers"
+
+#Generic Westerman
+
+westerman_legacy_5_name: "Siege Engineers"
+
+#Generic Stormlanders 
+
+stormlander_legacy_4_name: "Battle Tested"
+#Stark Continued
+
+
+#Stark Legacy - 
+
+stark_legacy_track_name: "Stark"
+stark_legacy_track_desc: "Winter is Coming"
+stark_legacy_1_name: "Winter Kings"
+stark_legacy_2_name: "Wolf Blood"
+stark_legacy_3_name: "Builder's Blood"
+
+# Umber Legacy  -  Warfare / Blood Mix 
+
+umber_legacy_track_name: "Umber"
+umber_legacy_track_desc: "Bound by Loyalty, Unchained by Wroth"
+umber_legacy_1_name: "Last Hearth, First Bulwark"
+umber_legacy_2_name: "Unchained"
+umber_legacy_3_name: "Giant's Seed"
+umber_legacy_4_name: "The Blood of the First Men"
+umber_legacy_5_name: "Grow in the Telling"
+
+
+UMBER_GENETIC_TRAIT_FOR_BLOODLINE_NO_BULLETTAB:0 "Fierce and large as their charge; the Umbers embody the last hearth of the North and their first line of defence. \nThe blood of the First Men runs thick in Umber veins, and they are predisposed towards large [congenital|E] traits."
+
+# Forrester Legacy  
+
+forrester_legacy_track_name: "Forrester"
+forrester_legacy_track_desc: "Iron from Ice"
+forrester_legacy_1_name: "Stewards of the Ironwood"
+forrester_legacy_2_name: "Unchained"
+forrester_legacy_3_name: "Giant's Seed"
+
+#Westerlands Dynasties 
+
+sarsfield_legacy_track_name: "Sarsfield"
+sarsfield_legacy_track_desc: "True to the Mark"
+sarsfield_legacy_1_name: "Born to the Bow, Trained to the Saddle"
+sarsfield_legacy_2_name: "Lion Tamer"
+sarsfield_legacy_3_name: "Archer's Practice"
+
+SARSFIELD_UNLOCK_DESCRIPTION:0 "Can recruit [GetMaA('sarsfield_horse_archers').GetName] as [men_at_arms|E]"
+SARSFIELD_DESCRIPTION:1 "#weak Only one regiment of Sarsfield Archers can be recruited (up to Size 5)#!"
+
+#Valeman Legacies 
+
+borrell_legacy_track_name: "Borrell"
+borrell_legacy_track_desc: "Marked for Greater"
+borrell_legacy_1_name: "Sons of the Sister"
+
+BORRELL_GENETIC_TRAIT_FOR_BLOODLINE_NO_BULLETTAB:0 "The Borrells of Sweetsister have for five thousand years have carried the blessing of the Lady of the Waves in their hands. Marked by her grace, these once piratical kings are rightfully respected and feared by their Sisterman peers."
+
+# corbray Legacy  
+
+corbray_legacy_track_name: "Corbray"
+corbray_legacy_track_desc: "Defy not the Horse"
+corbray_legacy_1_name: "Lady Forlorn"
+corbray_legacy_2_name: "Horse Breeds"
+corbray_legacy_3_name: "Hunting Parties"
+
+
+# Reed Legacy  
+
+reed_legacy_track_name: "Reed"
+reed_legacy_track_desc: "Beware Our Bite"
+reed_legacy_1_name: "Marsh Lords"
+reed_legacy_2_name: "Might"
+reed_legacy_3_name: "Conserator"
+reed_legacy_4_name: "Learned Men"
+reed_legacy_5_name: "Right Hand"
+
+# Draklyn Legacy  
+
+drake_legacy_track_name: "Draklyn"
+drake_legacy_track_desc: "In Thickets Deep"
+drake_legacy_1_name: "Duskendale"
+drake_legacy_2_name: "Defiant"
+drake_legacy_3_name: "Stalewart"
+drake_legacy_4_name: "Revenge"
+drake_legacy_5_name: "The Return"
+
+# Yorn Legacy  
+
+yornwood_legacy_track_name: "Yronwood"
+yornwood_legacy_track_desc: "We Guard The Way"
+yornwood_legacy_1_name: "The Yornwood Mines"
+yornwood_legacy_2_name: "Iron Gate"
+yornwood_legacy_3_name: "Protecting the Pass"
+
+
+# Brax Legacy  
+
+brax_legacy_track_name: "Brax"
+brax_legacy_track_desc: "Lead the Charge"
+brax_legacy_1_name: "The Horn Vale"
+brax_legacy_2_name: "Hunting Unicorn"
+brax_legacy_3_name: "Tranquility"
+
+# Bolton Legacy  
+
+bolton_legacy_track_name: "House Bolton"
+bolton_legacy_track_desc: "Our Blades are Sharp"
+bolton_legacy_1_name: "The Red Kings"
+bolton_legacy_2_name: "Hunting Dogs"
+bolton_legacy_3_name: "Fleyed Man"
+
+# Reyne Legacy  
+
+reyne_legacy_track_name: "Reyne"
+reyne_legacy_track_desc: "All Reigns end..."
+reyne_legacy_1_name: "The Vikray House"
+reyne_legacy_2_name: "Learning from the Past"
+reyne_legacy_3_name: "Red Rain"
+reyne_legacy_4_name: "Lion Tamer"
+reyne_legacy_5_name: "Return Home"
+
+# Wyl Legacy  
+
+wyl_legacy_track_name: "Wyl"
+wyl_legacy_track_desc: "Black Heart, True Purpose"
+wyl_legacy_1_name: "The Bone Way"
+wyl_legacy_2_name: "Adder's Fang"
+wyl_legacy_3_name: "Protecting the Pass"
+
+
+# Redwyne Legacy  
+
+redwyne_legacy_track_name: "Redwyne"
+redwyne_legacy_track_desc: "Red and Golden Vinewyard"
+redwyne_legacy_1_name: "Red and Golden Vinewyard"
+redwyne_legacy_2_name: "Wedding Ceremonies"
+redwyne_legacy_3_name: " 'I want her to know it was me'"
+
+
+arryn_legacy_track_name: "House Arryn"
+arryn_legacy_track_desc: "As High as Honor"
+arryn_legacy_1_name: "Gate of the Moon"
+arryn_legacy_2_name: "Warden of the East"
+arryn_legacy_3_name: "Giant's Lance"
+
+
+targaryen_legacy_track_name: "Targaryen"
+targaryen_legacy_track_desc: "Flames and Doom"
+targaryen_legacy_1_name: "Pureblooded"
+targaryen_legacy_2_name: "Legacy of Aegonfort"
+targaryen_legacy_3_name: "The Realm's Delight" 
+
+tarth_legacy_track_name: "House Tarth"
+tarth_legacy_track_desc: "From the Dawn"
+tarth_legacy_1_name: "The Evenstar"
+tarth_legacy_2_name: "Oathkeepers"
+tarth_legacy_3_name: "Seat of Morne"
