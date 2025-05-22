@@ -85,7 +85,7 @@ riverlander_legacy_5 = { # Convergent Blood
 
 	character_modifier = {
     	martial = 2
-            skirmishers_max_size_add = 1
+            skirmishers_max_size_add = 2
            prestige = 0.15
 
 	}
