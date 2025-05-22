@@ -4,29 +4,30 @@ riverlander_legacy_1 = { # Stuff
 	legacy = riverlander_legacy_track
 
 	can_be_picked = {
-		culture = {
-			OR = {
-			this = culture:riverlander
-			any_parent_culture_or_above = {
-				this = culture:riverlander
-				}
-			}
-		}
+    	culture = {
+        	OR = {
+        	this = culture:riverlander
+        	any_parent_culture_or_above = {
+            	this = culture:riverlander
+            	}
+        	}
+    	}
 	}
 
 	character_modifier = {
-		fellow_vassal_opinion = 10
-		direct_vassal_opinion = 5
+    	fellow_vassal_opinion = 10
+    	direct_vassal_opinion = 5
+            diplomacy = 1
 	}
 
 	ai_chance = {
-		value = 11
-		if = {
-			limit = {
-				can_start_new_legacy_track_trigger = no
-			}
-			multiply = 0
-		}
+    	value = 11
+    	if = {
+        	limit = {
+            	can_start_new_legacy_track_trigger = no
+        	}
+        	multiply = 0
+    	}
 	}
 }
 
@@ -34,15 +35,16 @@ riverlander_legacy_2 = { #River Boats
 	legacy = riverlander_legacy_track
 
 	character_modifier = {
-		#Forder gets extra bonuses?
-		#Water bonus?
-		#Traverse Rivers
-		supply_duration = 0.2
+    	#Forder gets extra bonuses?
+    	#Water bonus?
+    	#Traverse Rivers
+    	supply_duration = 0.2
+            defender_advantage = 3
 	}
 
 
 	effect = {
-		custom_description_no_bullet = { text = riverlander_legacy_2_effect }
+    	custom_description_no_bullet = { text = riverlander_legacy_2_effect }
 	}
 }
 
@@ -50,8 +52,11 @@ riverlander_legacy_3 = { # Tough Fishy Bois idk
 	legacy = riverlander_legacy_track
 
 	character_modifier = {
-		owned_personal_scheme_success_chance_add = 10
-		stress_loss_mult = 0.25
+    	dynasty_house_opinion = 15
+    	fertility = 0.05
+           stress_gain_mult = -0.20
+
+            
 	}
 }
 
@@ -61,10 +66,14 @@ riverlander_legacy_4 = { # Water Stuff?
 
 
 	character_modifier = {
-		archers_toughness_mult = 0.05
-		skirmishers_toughness_mult = 0.05
-		pikemen_toughness_mult = 0.05
+    	archers_toughness_mult = 0.05
+    	skirmishers_toughness_mult = 0.05
+    	pikemen_toughness_mult = 0.05
+            levy_reinforcement_rate = 0.2
+            skirmishers_damage_mult = 0.1
+            skirmishers_screen_mult = 0.05
 
+            
 	}
 }
 
@@ -75,7 +84,12 @@ riverlander_legacy_5 = { # Convergent Blood
 	}
 
 	character_modifier = {
-		monthly_piety = 0.2
+    	martial = 2
+            skirmishers_max_size_add = 1
+           prestige = 0.15
+
 	}
 }
+
+
 
