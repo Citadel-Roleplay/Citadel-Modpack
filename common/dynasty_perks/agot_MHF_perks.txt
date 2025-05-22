@@ -171,7 +171,7 @@ bracken_legacy_4 = { # Horsing Around
 	}
     
 	character_modifier = {
-        	heavy_cavalry_maintenance_mult = -0.15
+        	heavy_cavalry_maintenance_mult = -0.1
             heavy_cavalry_damage_mult = 0.1
 heavy_cavalry_toughness_mult = 0.05 
 heavy_cavalry_max_size_add = 1
