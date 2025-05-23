@@ -39,7 +39,9 @@ riverlander_legacy_2 = { #River Boats
     	#Water bonus?
     	#Traverse Rivers
     	supply_duration = 0.2
-            defender_advantage = 3
+        defender_advantage = 3
+        naval_movement_speed_mult = 0.15
+
 	}
 
 
@@ -87,6 +89,9 @@ riverlander_legacy_5 = { # Convergent Blood
     	martial = 2
             skirmishers_max_size_add = 2
            prestige = 0.15
+           piety = .05
+           legitimacy_gain_mult = 0.05
+
 
 	}
 }
