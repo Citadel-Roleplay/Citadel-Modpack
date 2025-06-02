@@ -1,4 +1,4 @@
-# FLUMPH BUILDINGS
+﻿# FLUMPH BUILDINGS
 
 wynegarde_estates_01 = {
 	construction_time = slow_construction_time
@@ -193,7 +193,6 @@ grand_markets_of_ashford_01 = {
 	province_modifier = {
 		travel_danger = 10
 		monthly_income = 1.5
-		max_loot_mult = 0.3
 	}
 
 	county_holder_character_modifier = {
