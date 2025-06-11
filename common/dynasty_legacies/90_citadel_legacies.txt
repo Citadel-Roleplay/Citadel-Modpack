@@ -169,3 +169,12 @@ swann_legacy_track = {
 	}
 }
 
+
+fowler_legacy_track = {
+	is_shown = {
+		OR = {
+			dynasty = dynasty:dynn_Fowler
+			dynasty = { has_dynasty_perk = fowler_legacy_1 }
+		}
+	}
+}

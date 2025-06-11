@@ -2460,3 +2460,138 @@ swann_legacy_5 = { # To Soar on High
 	
 
 }
+
+fowler_legacy_1 = { # First Men Origins
+	legacy = fowler_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Fowler
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = fowler_legacy_1_effect
+		}
+	}
+
+	character_modifier = {
+		martial = 1
+		prowess = 1
+		the_pact_religion_opinion = 5
+		courtier_and_guest_opinion = 5
+	}
+
+	traits = {
+	}
+	
+
+}
+
+fowler_legacy_2 = { # Kings of Stone and Sky
+	legacy = fowler_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Fowler
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = fowler_legacy_2_effect
+		}
+	}
+
+	character_modifier = {
+		martial = 1
+		diplomacy = 1
+		controlled_province_advantage = 5
+		defender_holding_advantage = 10
+		monthly_county_control_growth_factor = 0.33
+	}
+
+	traits = {
+		authoritative = 30
+		arrogant = 60
+	}
+	
+
+}
+
+fowler_legacy_3 = { # The Stoneway Rivalry
+	legacy = fowler_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Fowler
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = fowler_legacy_3_effect
+		}
+	}
+
+	character_modifier = {
+		intrigue = 2
+		stone_dornish_opinion = -10
+		max_hostile_schemes_add = 1
+	}
+
+	traits = {
+		deceitful = 35
+	}
+	
+
+}
+
+fowler_legacy_4 = { # The Host of 10,000
+	legacy = fowler_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Fowler
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = fowler_legacy_4_effect
+		}
+	}
+
+	character_modifier = {
+		army_damage_mult = 0.15
+		mountains_attrition_mult = -0.25
+		desert_mountains_attrition_mult = -0.25
+		reachman_opinion = -30
+		stormlander_opinion = -30
+	}
+
+	traits = {
+	}
+	
+
+}
+
+fowler_legacy_5 = { # The Third Principle
+	legacy = fowler_legacy_track
+
+	can_be_picked = { 
+		dynasty = dynasty:dynn_Fowler
+	}
+
+	effect = {
+		custom_description_no_bullet = {
+			text = fowler_legacy_5_effect
+		}
+	}
+
+	character_modifier = {
+		diplomacy = 1
+		learning = 1
+		liege_opinion = 30
+		fellow_vassal_opinion = 15
+		domain_tax_mult = 0.1
+	}
+
+	traits = {
+	}
+	
+
+}
