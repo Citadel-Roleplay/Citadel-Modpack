@@ -1,0 +1,782 @@
+﻿l_english:
+
+#######################################
+# Special Buildings Expanded for AGOT #
+#######################################
+
+# BEYOND-THE-WALL
+
+# Hardhome
+ building_type_hardhome_01:0 "Hardhome (Ruins)"
+ building_type_hardhome_01_desc:0 "Centuries ago, Hardhome had been halfway toward becoming a town, the only true town north of the Wall, until the night hell had swallowed it. If stories are to be believed, the settlement was consumed by flames so bright, the Black Brothers thought the sun was rising from the north; ashes rained down upon the Haunted Forest and the Shivering Sea for nearly half a year.\n\nWhat truly happened remains uncertain; accounts vary and wilderness had reclaimed the ruins since. According to rangers of the Night's Watch, this unholy place is haunted by ghouls, demons and burning ghosts.\n\nDue to its strategic position however, perhaps what now lies in rubble could be turned into a beacon for the Free Folk once more. The land does not lack in resources, and the nearby bay is deep enough to accommodate large ships.\n\nRebuilding Hardhome would be costly, and it would certainly take a strong leader to convince other chieftains to resettle the ruins despite its past."
+ building_hardhome_01:0 "Hardhome $building_type_hardhome_01$"
+ building_hardhome_01_desc:0 "$building_type_hardhome_01_desc$"
+ building_hardhome_02:0 "Hardhome (Resettled)"
+ building_hardhome_02_desc:0 "Despite the content of many legends, an expedition of brave and ambitious wildlings began to clear the ruins of Hardhome and undertook the construction of a true settlement.\n\nThe progress is slow and some claim ghosts still haunt the place, others report strange sightings of tall, pale-skinned creatures. Nonetheless, most continue to work relentlessly to rebuild the old ruins."
+ building_hardhome_03:0 "Hardhome (Under Construction)"
+ building_hardhome_03_desc:0 "Despite the troubling reports, the Free Folk remain undaunted. Hardhome begins to take shape, rising from ashes of old. The buildings are simple, but sturdy, providing shelter and a place to call home. As different tribes gather, foreign ships begin to visit the growing town for trade."
+ building_hardhome_04:0 "Hardhome"
+ building_hardhome_04_desc:0 "The only true town north of the Wall, Hardhome is now a thriving hub of activity where the Free Folk band together, a true testament to their perseverance and ingenuity. Protected by walls, the buildings within are made of sturdy wood, designed to withstand the harshest of winters. Ships that make it past the Shivering Sea visit the nearby bay, bringing goods and valuable supplies for trade.\n \nAlthough dangers still lurk in the unforgiving wilderness that surrounds them, the Free Folk know they can face them together, if they stay united."
+
+# Fist Of the First Men #TODO
+
+# NORTH
+#Dreadfort
+ building_type_the_dreadfort_01:0 "The Dreadfort"
+ building_type_the_dreadfort_01_desc:0 "Ancestral seat of the former Red Kings, the Dreadfort remains a formidable stronghold boasting high walls made of stone crowned with menacing triangular merlons resembling sharp teeth. The castle's massive towers further add to its imposing appearance. Within, lies a great hall, shrouded in smoke and darkness pierced only by the light of torches held by skeletal human hands protruding from the walls.\n\nThroughout its dark history, the ancient Bolton fortress has earned an ominous reputation, for it is said the castle is home to ghastly chambers full of devices of torture, terrible dungeons and a room where the flayed skins of their enemies, former Kings of Winter included, are put on gruesome display."
+ building_the_dreadfort_01:0 "$building_type_the_dreadfort_01$"
+ building_the_dreadfort_01_desc:0 "$building_type_the_dreadfort_01_desc$"
+
+#Greywater Watch
+ building_type_greywater_watch_01:0 "Greywater Watch"
+ building_type_greywater_watch_01_desc:0 "Built upon a crannog deep in the treacherous swamps of the Neck, it is said the mysterious Greywater Watch is impossible to find for ravens and enemies of House Reed alike, for the keep never stays in the same place..."
+ building_greywater_watch_01:0 "$building_type_greywater_watch_01$"
+ building_greywater_watch_01_desc:0 "$building_type_greywater_watch_01_desc$"
+
+#Great Barrow
+ building_type_the_great_barrow_01:0 "The Great Barrow"
+ building_type_the_great_barrow_01_desc:0 "According to Northern folklore, the Great Barrow upon which House Dustin has settled, contains the grave of the First King of the First Men. However, due to its colossal size, some speculate that the burial site belongs to the King of the Giants instead."
+ building_the_great_barrow_01:0 "$building_type_the_great_barrow_01$"
+ building_the_great_barrow_01_desc:0 "$building_type_the_great_barrow_01_desc$"
+
+#Old Mint
+ building_type_old_mint_01:0 "The Old Mint"
+ building_type_old_mint_01_desc:0 "Prior to the Conquest, each of the Seven Kingdoms had their own coinage minted by their respective kings. Following the formation of the Iron Throne, Aegon the Dragon established a single currency used across the realm to this day, and the supervision of the three royal mints has fallen to the Master of Coins ever since. In the cold North, the Old Mint is still well capable of minting silver coins and, perhaps, could even serve the Kings of Winter once more in the days to come."
+ building_old_mint_01:0 "$building_type_old_mint_01$"
+ building_old_mint_01_desc:0 "$building_type_old_mint_01_desc$"
+
+#Wolf's Den
+ building_type_wolfs_den_01:0 "Wolf's Den"
+ building_type_wolfs_den_01_desc:0 "Formerly the seat of cadet branches of House Stark, this ancient castle now functions as a prison. A lengthy tunnel connects the Wolf's Den to the New Castle."
+ building_wolfs_den_01:0 "$building_type_wolfs_den_01$"
+ building_wolfs_den_01_desc:0 "$building_type_wolfs_den_01_desc$"
+
+#RIVERLANDS
+#Inn
+ building_type_river_inn_01:0 "Inn at the Crossroads"
+ building_type_river_inn_01_desc:0 "Fomerly known as the Two Crowns in honor of the Counciliator and the Good Queen, the three stories tall inn lies at the crossroads between the kingsroad running north-south, the river road west through the riverlands to the westerlands, and the high road east to the Vale. Throughout the many years of its existence, the Old Inn hosted many nobles of notable houses."
+ building_river_inn_01:0 "$building_type_river_inn_01$"
+ building_river_inn_01_desc:0 "$building_type_river_inn_01_desc$"
+
+
+#Maidenpool
+ building_type_maidenpool_01:0 "Maidenpool"
+ building_type_maidenpool_01_desc:0 "Famed for its sweetwater bathhouse, Jonquil's Pool, the town of Maidenpool features a busy harbor and pink stone walls."
+ building_maidenpool_01:0 "$building_type_maidenpool_01$"
+ building_maidenpool_01_desc:0 "$building_type_maidenpool_01_desc$"
+#The Lazy Eel
+ building_type_lazy_01:0 "The Lazy Eel"
+ building_type_lazy_01_desc:0 "#F The route to the Lazy Eel takes its patrons past the Seal Gate through to the cobble square called Fishfoot Yard. The Eel is located down a flight of steps, underneath a warehouse full of sheepskins. It is an unsavory winesink, back in Davos's smuggling days, the Eel had been renowned for offering the oldest (sex workers) and vilest wine, along with meat pies full of lard and gristle that were inedible to eat on their best days and poisonous on their worst. Most locals shunned the place leaving it for sailors who did not know any better. City guardsmen and custome officers were never seen down in the Lazy Eel. Not much has changed."
+ building_lazy_01:0 "$building_type_lazy_01$"
+ building_lazy_01_desc:0 "$building_type_lazy_01_desc$"
+
+#gate dun
+ building_type_gatedun_01:0 "Gate Durrandon"
+ building_type_gatedun_01_desc:0 "An old, formidable gate constructed by the kings of the storm."
+ building_gatedun_01:0 "$building_type_gatedun_01$"
+ building_gatedun_01_desc:0 "$building_type_gatedun_01_desc$"
+#mole's town brothel
+ building_type_mole_01:0 "The Red Lantern"
+ building_type_mole_01_desc:0 " #F 'Even the brothel was down there ( cellar ), nothing on the surface but a wooden shack no bigger than a privy, with a red lantern hung over the door. On the Wall, he'd heard men call the (sex workers) 'buried treasures.' He wondered wheather any of his brothers in black were down there tonight, mining. That was oathbreaking too, yet no one seemed to care.' - Thoughts of Jon Snow.               DAREON - 'Haven't you ever gone to Mole's Town to dig for buried treasure?      SAMWELL - 'No. I would never ..."
+ building_mole_01:0 "$building_type_mole_01$"
+ building_mole_01_desc:0 "$building_type_mole_01_desc$"
+#the Stinking Goose
+ building_type_goose_01:0 "The Stinking Goose"
+ building_type_goose_01_desc:0 "#F The Stinking Goose is a seedy tavern in Maidenpool. The Stinking Goose is oft frequented by sailors and those who wish to pass through unnoticed onto ships. It can be difficult to find, as the tavern has no sign. It is located down a flight of wooden steps in a cellar beneath a knacker's barn. The cellar is grim and the ceiling low. The tables are old wine casks, grey and worm-holed and the seating is a spase set of stools and a bench. No geese are in evidence buth the promised stink pervades everything - mostly of wine, damp and mildew, but there is a little of the privy too and something of the lichyard.  The proprietor is a slatternly woman, round and pale and balding, with huge soft breasts that sway beneath a soiled smock. She looks as if the gods have made her out of uncooked dough, and she sometimes stands behind a plank that has been placed across two barrels. 'An unsavory place' - The Pious Dwarf, to Brienne of Tarth, on the Stinking Goose."
+ building_goose_01:0 "$building_type_goose_01$"
+ building_goose_01_desc:0 "$building_type_goose_01_desc$"
+#VALE
+#Stone
+ building_type_stone_01:0 "Stone"
+ building_type_stone_01_desc:0 "First waycastle defending the Eyrie."
+ building_stone_01:0 "$building_type_stone_01$"
+ building_stone_01_desc:0 "$building_type_stone_01_desc$"
+
+#Snow
+ building_type_snow_01:0 "Snow"
+ building_type_snow_01_desc:0 "Second waycastle defending the Eyrie and third line of the castle's defence."
+ building_snow_01:0 "$building_type_snow_01$"
+ building_snow_01_desc:0 "$building_type_snow_01_desc$"
+
+#Sky
+ building_type_sky_01:0 "Sky"
+ building_type_sky_01_desc:0 "Third waycastle defending the Eyrie and last line of the castle's defence."
+ building_sky_01:0 "$building_type_sky_01$"
+ building_sky_01_desc:0 "$building_type_sky_01_desc$"
+
+#Wickenden
+ building_type_wickenden_candles_01:0 "Wickenden Candlemakers"
+ building_type_wickenden_candles_01_desc:0 "The scented beeswax candles produced in Wickenden are famous throughout the Seven Kingdoms."
+ building_wickenden_candles_01:0 "$building_type_wickenden_candles_01$"
+ building_wickenden_candles_01_desc:0 "$building_type_wickenden_candles_01_desc$"
+
+#Gulltown
+ building_type_gulltown_01:0 "Gulltown"
+ building_type_gulltown_01_desc:0 "The walled city of Gulltown is a fine natural harbor and largest city in the Vale, offering anchorage to ships traveling from King's Landing to Braavos or the North. Due to its strategic position, many exotic goods make their way here from across the Narrow Sea, providing supplies even when the passes of the Mountains of the Moon are closed in winter."
+ building_gulltown_01:0 "$building_type_gulltown_01$"
+ building_gulltown_01_desc:0 "$building_type_gulltown_01_desc$"
+
+#Sisterton Dens
+ building_type_sisterton_dens_01:0 "Belly o' the Whale"
+ building_type_sisterton_dens_01_desc:0 "#F The Belly of the Whalle, called Belly o' the Whale by Davos Saeworth, is an establishment on Sweetsister. Godric Borrell considers it a vile smuggler's den. The Night Lamp located on the island provides guidance to ships sailing towards the White Harbor. Some, however, use the beacon to lead unwary captains to their doom."
+ building_sisterton_dens_01:0 "$building_type_sisterton_dens_01$"
+ building_sisterton_dens_01_desc:0 "$building_type_sisterton_dens_01_desc$"
+
+#WESTERLANDS
+#Faircastle
+ building_type_faircastle_01:0 "Faircastle"
+ building_type_faircastle_01_desc:0 "#F Vital March on the Fair Isle, located above the Sunset Sea, the castle has a great hall, tall white towers, and dungeons. The traditional seat of House Farman."
+ building_faircastle_01:0 "$building_type_faircastle_01$"
+ building_faircastle_01_desc:0 "$building_type_faircastle_01_desc$"
+
+#Lannisport #TODO
+ building_type_lannisport_01:0 "Lannisport"
+ building_type_lannisport_01_desc:0 "At the crossroad of three major roads, Lannisport is one of the wealthiest cities of the Seven Kingdoms. Famed for its goldsmiths and spiced honey wine, the portuary city offers anchorage for the Lannister fleet. The city is surrounded by high walls and protected by the well-trained City Watch. Despite its impressive defences, Lannisport has been plagued by ironborn raids throughout the years."
+ building_lannisport_01:0 "$building_type_lannisport_01$"
+ building_lannisport_01_desc:0 "$building_type_lannisport_01_desc$"
+ building_type_flintcliffs_01:0 "The Flint Cliffs"
+ building_type_flintcliffs_01_desc:0 "A series of cliffs along the Sunset Sea, east of Cape Kraken, west of the Neck, and just north of the Iron Islands."
+ building_flintcliffs_01:0 "$building_type_flintcliffs_01$"
+ building_flintcliffs_01_desc:0 "$building_type_flintcliffs_01_desc$" 
+
+#Mines of Castamere
+ building_type_castamere_mine_01:0 "Mines of Castamere"
+ building_type_castamere_mine_01_desc:0 "Filled with riches in the past, the mines of Castamere had once allowed House Reyne to become almost as rich as the nearby Lannisters. With time however, most of its gold gave out and made room for wide halls, galleries and bedchambers, a warren of tunnels running deep beneath the surface."
+ building_castamere_mine_01:0 "Flooded Caves"
+ building_castamere_mine_01_desc:0 "Gold still flows beneath Castamere, however accessing the old mineshafts, or rather whatever is left of it, would require the surface levels to be repaired first."
+ building_castamere_mine_02:0 "Cleared Tunnels"
+ building_castamere_mine_02_desc:0 "As flooded caves are being drained, the old mines begin to be accessible again."
+ building_castamere_mine_03:0 "Mines Rebuilt"
+ building_castamere_mine_03_desc:0 "As lower levels are progressively rebuilt the, more and more ore is being extracted."
+ building_castamere_mine_04:0 "Mining Complex"
+ building_castamere_mine_04_desc:0 "As the mining operations grow, so does Castamere. Large shafts are dug to allow the extraction of deep ore. Previously untapped veins of gold and silver are discovered; expansion would be costly, but the profits immense."
+ building_castamere_mine_05:0 "$building_type_castamere_mine_01$"
+ building_castamere_mine_05_desc:0 "As the production of ore increases, unparalleled amounts of gold are being extracted from the mines of Castamere, serving as a constant reminder of its former glory."
+
+# CROWNLANDS
+#Duskendale
+ building_type_duskendale_01:0 "Duskendale"
+ building_type_duskendale_01_desc:0 "A prosperous city, Duskendale is overlooked by the Dun Fort, a square keep with big drum towers visible from every part of town. The city itself possesses high walls which shimmer palely in predawn. Multiple septs can be found here, as well as a large inn – the Seven Swords – named for the seven members of House Darklyn who served in the Kingsguard.\n\nIn 277 AC, the town was site of the tragic Defiance of Duskendale, an event which left a permanent scar on the town and its surroundings."
+ building_duskendale_01:0 "$building_type_duskendale_01$"
+ building_duskendale_01_desc:0 "$building_type_duskendale_01_desc$"
+ building_duskendale_02:0 "$building_type_duskendale_01$"
+ building_duskendale_02_desc:0 "Seat of kings in the days of the Hundred Kingdoms, Duskendale was once the most important port on the Blackwater Bay, but as King’s Landing grew, the port saw its trade and wealth dwindle.\n\nThrough careful investments and profitable bargains with foreign traders, more and more ships decide to make their way to Duskendale."
+ building_duskendale_03:0 "$building_type_duskendale_01$"
+ building_duskendale_03_desc:0 "As the flow of trade increased, Duskendale prospers again, Wealthy merchants and traders visit the Seven Swords and the market square bustles with activity. Guarded by the Dun Fort, Duskendale is on path to become one of the most prosperous towns in the Seven Kingdoms."
+
+#Spicetown
+ building_type_spicetown_01:0 "Spicetown"
+ building_type_spicetown_01_desc:0 "During the rule of the Sea Snake on Driftmark, Spicetown thrived as trade from all across the known world flowed through the city, becoming one of the two chief ports on the Blackwater Bay, surpassing even King’s Landing, until its destruction few years later."
+ building_spicetown_01:0 "Ruins of Spicetown"
+ building_spicetown_01_desc:0 "$building_type_spicetown_01_desc$"
+ building_spicetown_02:0 "Spicetown Rebuilt"
+ building_spicetown_02_desc:0 "Rebuilding the town would be expensive and arduous work, but due to its key position on the Blackwater Bay, it is a perfect location to welcome ships willing to conduct trade and would surely bring many riches."
+
+#REACH
+#Tumbleton
+ building_type_tumbleton_01:0 "Tumbleton"
+ building_type_tumbleton_01_desc:0 "One of the prominent towns of the Reach, Tumbleton was famously restored by Lady Sharis Footly following its destruction during the Dance of Dragons. As a grim reminder of the devastation wrought by the conflict, the skulls of fallen dragons were placed on display in the town square, attracting visitors from across the Seven Kingdoms who could bear witness and even touch the remains of these once-great beasts, for a small price.                                                       #F Travelers may want to visit the many inns in town: Bawdy Badger, Bloody Caltrops . "
+ building_tumbleton_01:0 "$building_type_tumbleton_01$"
+ building_tumbleton_01_desc:0 "$building_type_tumbleton_01_desc$"
+
+#Arbor Shipyard
+ building_type_arbor_shipyards_01:0 "Arbor Shipyards"
+ building_type_arbor_shipyards_01_desc:0 "Separated from the mainland by the Redwyne Straits, the Arbor and its neighbouring isles provide an excellent center for shipbuilding and make for an ideal haven for the Redwyne fleet, renowned as one of the largest of the Seven Kingdoms."
+ building_arbor_shipyards_01:0 "$building_type_arbor_shipyards_01$"
+ building_arbor_shipyards_01_desc:0 "$building_type_arbor_shipyards_01_desc$"
+
+#Arbor Vineyard
+ building_type_arbor_vineyards_01:0 "Arbor Vineyards"
+ building_type_arbor_vineyards_01_desc:0 "#italic On the golden isle where I grew up, life moved at a slower pace, yet felt all the richer for it. There, my ancestors were known far and wide for their exceptional winemaking skills. They carefully tended to the vines and used only the highest quality grapes to craft their Arbor Red. People called them the Redwynes - the wine family. Today we carry on their tradition in a manner that would make Gilbert of the Vines proud. The finest fruits are harvested with love and care, fermented and aged to perfection. Yes, the old ways are still best at the Wine Family. But don’t take my word for it. One sip, and you’ll know.#!\n\n~ Unnamed merchant from the Arbor, ca. 29 BC. Qarth."
+ building_arbor_vineyards_01:0 "$building_type_arbor_vineyards_01$"
+ building_arbor_vineyards_01_desc:0 "$building_type_arbor_vineyards_01_desc$"
+
+#Coldmoat
+ building_type_coldmoat_01:0 "Coldmoat"
+ building_type_coldmoat_01_desc:0 "The rulers of Coldmoat castle take great pride in their impressive stock of horses, which are among the finest in the Reach. In addition to their equestrian expertise, the lords of Coldmoat also play a vital role in guarding the Northmarch."
+ building_coldmoat_01:0 "$building_type_coldmoat_01$"
+ building_coldmoat_01_desc:0 "$building_type_coldmoat_01_desc$"
+
+#Horn Hill
+ building_type_horn_hill_01:0 "Horn Hill"
+ building_type_horn_hill_01_desc:0 "Built atop Horn Hill by the legendary brothers, Harlon the Hunter and Herndon of the Horn, the eponymous castle has guarded the Reach against Dornish raids for millennia. The forests surrounding Horn Hill are teeming with game, and their lords employ local huntsmen and hounds during their hunts. Experienced and hardened by battle, the archers of Horn Hill are second to none."
+ building_horn_hill_01:0 "$building_type_horn_hill_01$"
+ building_horn_hill_01_desc:0 "$building_type_horn_hill_01_desc$"
+ 
+#old oask
+ building_type_old_oak_01:0 "Old Oak"
+ building_type_old_oak_01_desc:0 "The seat of House Oakheart, located in the western portion of the Reach, near the Sunseat Sea; its position on the Ocean Road links Lannisport to Highgarden and Oldtown. "
+ building_old_oak_01:0 "$building_type_old_oak_01$"
+ building_old_oak_01_desc:0 "$building_type_old_oak_01_desc$"
+
+#STORMLANDS
+#Tarth
+ building_type_quarry_of_tarth_01:0 "Marble Quarries of Tarth"
+ building_type_quarry_of_tarth_01_desc:0 "The mesmerizing Sapphire Isle is not only a source of astonishing sights; the marble deposits located on Tarth were used in the past for the construction of the Eyrie."
+ building_quarry_of_tarth_01:0 "$building_type_quarry_of_tarth_01$"
+ building_quarry_of_tarth_01_desc:0 "$building_type_quarry_of_tarth_01_desc$"
+
+#Nightsong
+ building_type_nightsong_01:0 "Nightsong"
+ building_type_nightsong_01_desc:0 "Few castles in the Seven Kingdoms have been put to the test as often as those of the Dornish Marchers. Among them, Nightsong and its famed Singing Towers, which according to history has been besieged no less than thirty-seven times in the last thousand years."
+ building_nightsong_01:0 "$building_type_nightsong_01$"
+ building_nightsong_01_desc:0 "$building_type_nightsong_01_desc$"
+
+#DORNE
+#Planky Town
+ building_type_planky_town_01:0 "Planky Town"
+ building_type_planky_town_01_desc:0 "Planky Town, the largest and most populous settlement in the harsh deserts of Dorne, floating upon the Greenblood. The houses, halls, and shops are made of poleboats, barges, and merchant ships lashed together with hempen rope and float on the tide. It is here, that the game of cyvasse was introduced to the Seven Kingdoms by a Volantene trading ship."
+ building_planky_town_01:0 "$building_type_planky_town_01$"
+ building_planky_town_01_desc:0 "$building_type_planky_town_01_desc$"
+
+#Hellholt
+ building_type_hellholt_01:0 "Hellholt"
+ building_type_hellholt_01_desc:0 "During the First Dornish War, it was at Hellholt the Dornish had their greatest success against the Targaryens. A bolt from a scorpion pierced the eye of Meraxes, the great dragon of Queen Rhaenys, causing the beast to fall from the sky, destroying the castle’s highest tower.\n\nThe Queen’s fate remains unknown. Some say that after losing her seat, she fell to her death. Others claim that she was crushed beneath Meraxes in the castle yard. Others claim the queen survived the fall, only to meet a slow death in the dungeons of the Ullers. For years, the sun-mottled bones of the dragon remained there on display."
+ building_hellholt_01:0 "$building_type_hellholt_01$"
+ building_hellholt_01_desc:0 "$building_type_hellholt_01_desc$"
+ 
+#The Boneway
+ building_type_boneway_01:0 "The Boneway"
+ building_type_boneway_01_desc:0 "#F A treacherous pass that runs through the Red Mountais, connecting Dorne and the Stormlands. The name Boneway is a colloquial name; with Stone Way being its official name. Seat of house Wyl, deep underground tunnels under the castles make it easier to sally out and hide from dragons."
+ building_boneway_01:0 "$building_type_boneway_01$"
+ building_boneway_01_desc:0 "$building_type_boneway_01_desc$"
+ 
+#The Prince's Pass
+ building_type_princes_pass_01:0 "The Prince's Pass"
+ building_type_princes_pass_01_desc:0 "The Prince's Pass, historically called the Wide Way, is one of the principal overland routes from the Reach and the Stormlands, to Dorne. It is a gateway throught the Red Mountains of Dorne. "
+ building_princes_pass_01:0 "$building_type_princes_pass_01$"
+ building_princes_pass_01_desc:0 "$building_type_princes_pass_01_desc$"
+
+#Iron Islands
+#Lonely Light
+ building_type_lonelylight_01:0 "Lonely Light"
+ building_type_lonelylight_01_desc:0 "At the westernmost edge of the world, Lonely Light beacons among the vast Sunset Sea. Some claim the island is home to most unusual customs, and lords that rule it are skinchangers, able to take form of various nautical beasts."
+ building_lonelylight_01:0 "$building_type_lonelylight_01$"
+ building_lonelylight_01_desc:0 "$building_type_lonelylight_01_desc$"
+ 
+ #Salt Throne
+ building_type_salt_throne_01:0 "The Seastone Chair "
+ building_type_salt_throne_01_desc:0 "The Seastone Chair is the ancient throne of the Iron Islands. Carved from oily blackstone, its kraken visage is unforgettable."
+ building_salt_throne_01:0 "$building_type_salt_throne_01$"
+ building_salt_throne_01_desc:0 "$building_type_salt_throne_01_desc$"
+ 
+ #Moondoor
+ building_type_moondoor_01:0 "The Moon Door"
+ building_type_moondoor_01_desc:0 "A breezy draft keeps the eyrie temperate; as well as, any guest who gets thoughts above their station. To any poor soul passing through the moon door; they better quickly pray to the old gods or the new."
+ building_moondoor_01:0 "$building_type_moondoor_01$"
+ building_moondoor_01_desc:0 "$building_type_moondoor_01_desc$"
+ #last hearth
+ building_type_lasthearth_01:0 "The Last Hearth"
+ building_type_lasthearth_01_desc:0 " North of the last river, this is the last stronghold just south of the wall. Seat of House Umber, they once ruled as First Men kings but have since bent the knee to House Stark.              #F Bran - 'Will you know how to find the Last Hearth?'                   ' You southeners build your big castles and you never move. You're easy to find' - Osha to Bran before they latter leaves for Last Hearth. "
+ building_lasthearth_01:0 "$building_type_lasthearth_01$"
+ building_lasthearth_01_desc:0 "$building_type_lasthearth_01_desc$"
+ #last hearth
+ building_type_shadowtower_01:0 "The Shadowtower"
+ building_type_shadowtower_01_desc:0 "#F One of three castles on the wall; furthest tower west. A small garrison of around 200 men. The fort overlooks the westwatch by the bridge."
+ building_shadowtower_01:0 "$building_type_shadowtower_01$"
+ building_shadowtower_01_desc:0 "$building_type_shadowtower_01_desc$"
+ building_type_eastwatch_01:0 "The Eastwatch"
+ building_type_eastwatch_01_desc:0 "#F Eastwatch by the Sea is a castle on the eastern coast of the Wall, where the Wall drops into an inlet of the Shivering Sea called the Bay of Seals. There were 19 castles along the Wall at one point, this is one of the last three. A gift by Brandon Stark. "
+ building_eastwatch_01:0 "$building_type_eastwatch_01$"
+ building_eastwatch_01_desc:0 "$building_type_eastwatch_01_desc$"
+ #sisterman
+ building_type_pirate_sister_01:0 "Pirates' Haven"
+ building_type_pirate_sister_01_desc:0 "Home of Sisterman pirates and outlaws. While it is true the unwashed can become legendary warriors, there is no home for the weak, highborn or otherwise."
+ building_pirate_sister_01:0 "$building_type_pirate_sister_01$"
+ building_pirate_sister_01_desc:0 "$building_type_pirate_sister_01_desc$"
+ #Quiet Isle
+ building_type_quietisle_01:0 "Quiet Isle"
+ building_type_quietisle_01_desc:0 "Many men travel to the Quiet Isle to atone and repent for their sins. In this monastery, only the Elder Brother and his proctors are premitted to speak. Brothers may break silence only when confessing."
+ building_quietisle_01:0 "$building_type_quietisle_01$"
+ building_quietisle_01_desc:0 "$building_type_quietisle_01_desc$"
+ #Three Eye Raven
+ building_type_eyeraven_01:0 "The Three Eyed Raven"
+ building_type_eyeraven_01_desc:0 "Old weirwood tree and location of the Three Eyed Raven."
+ building_eyeraven_01:0 "$building_type_eyeraven_01$"
+ building_eyeraven_01_desc:0 "$building_type_eyeraven_01_desc$" 
+ #Quiet Isle
+ building_type_greatwyk_01:0 "The Great Wyk"
+ building_type_greatwyk_01_desc:0 "Great Wyk is the largest of the Iron Isles, and its abundance of stone, iron and islanders make it the economic basis for the region."
+ building_greatwyk_01:0 "$building_type_greatwyk_01$"
+ building_greatwyk_01_desc:0 "$building_type_greatwyk_01_desc$"
+ #Quiet Isle
+ building_type_greygallow_01:0 "Grey Gallows"
+ building_type_greygallow_01_desc:0 "#F Simplying uttering the words 'Grey Gallows' still carries a sombre reputatioon, and is feared by sailors and merchants alike. Two centuries after the breaking of the Arm of Dorne, the Stepstones were ruled over by a Lyseni known only as 'The Grey'. "
+ building_greygallow_01:0 "$building_type_greygallow_01$"
+ building_greygallow_01_desc:0 "$building_type_greygallow_01_desc$" 
+ #Torture's deep
+ building_type_torture_01:0 "Torture's Deep"
+ building_type_torture_01_desc:0 "#F Valena Tolland told Arianne Martell of a new pirate king calling himself Lord of the Waters, has set up on Torturer's Deep, possessing three large, three-decked warships."
+ building_torture_01:0 "$building_type_torture_01$"
+ building_torture_01_desc:0 "$building_type_torture_01_desc$" 
+ #crakehall
+ building_type_crakehall_01:0 "Crakehall Toll"
+ building_type_crakehall_01_desc:0 "#F Located on the Ocean Road, this is the historic seat of House Crakehall, one of the most prominent houses in the Westerlands. Big-boned and strong, these men come from First Men, and Crake the Boarkiller back in the age of heros."
+ building_crakehall_01:0 "$building_type_crakehall_01$"
+ building_crakehall_01_desc:0 "$building_type_crakehall_01_desc$" 
+ 
+ #fingerman
+ building_type_coldwater_01:0 "Coldwater Cove"
+ building_type_coldwater_01_desc:0 "Costal currents keep the shore temperate all year round, providing sancuarty for local deer, foxes and falcons. The cold streams from the Downwillow, provide freshwater supply."
+ building_coldwater_01:0 "$building_type_coldwater_01$"
+ building_coldwater_01_desc:0 "$building_type_coldwater_01_desc$"
+ 
+ building_type_bearisle_01:1 "Bear Isle Cove"
+ building_type_bearisle_01_desc:1 "An isolated island, home to unique habitate of game, the Keep sits in a cove, a stream down river from the lone mountian on the isle. #F " My home was a great disappointment to Lynesse. It was too cold, too damp, too far away, my castle no more than a wooden longhall. We had no masques, no mummer shows, no balls or fairs." Jorah Mormont to Daenerys Targaryen. "
+ building_bearisle_01:1 "Mormont Keep"
+ building_bearisle_01_desc:1 "An isolated island, home to unique habitate of game, the Keep sits in a cove, a stream down river from the lone mountian on the isle.                                                                 #F "My home was a great disappointment to Lynesse. It was too cold, too damp, too far away, my castle no more than a wooden longhall. We had no masques, no mummer shows, no balls or fairs." Jorah Mormont to Daenerys Targaryen.."
+ building_bearisle_02:1 "Mormont Bailey"
+ building_bearisle_02_desc:1 " Utilizing our resources, what little we do have will protect the cove and our proud, yet small population on the island. #F 'Bear Island is rich in bears and trees, and poor in aught else.' - Jorah Mormont to Daenerys Targaryen."
+ #Hornwood
+ building_type_hornwood_01:0 "Hornwood Forests" 
+ building_type_hornwood_01_desc:0 "Halfway between New Castle and Dreadfort, these forests are good hunting grounds. The branches appear to protrude out like elk's horns."
+ building_hornwood_01:0 "$building_type_hornwood_01$"
+ building_hornwood_01_desc:0 "$building_type_hornwood_01_desc$" 
+ #Skane
+ building_type_skane_01:0 "Skane Isle"
+ building_type_skane_01_desc:0 "Skane is a isolate rock of Skagos; furthest norther settlement had fallen into ruins for many generations. It breeds a special type of first men, and wildlife."
+ building_skane_01:0 "$building_type_skane_01$"
+ building_skane_01_desc:0 "$building_type_skane_01_desc$"
+ #Den Pass
+ building_type_mountianpass_01:0 "Deep Den's Pass"
+ building_type_mountianpass_01_desc:0 "#F A carefully carved out path through the mountains is an easy defensive position. Deep Den is the seat of House Lydden in the eastern Westerlands, located in mountaious terrain, the Goldroad passes through here. A sandstone fortress nestled into the mountains. The castle has square walls with several towers with red tilted roofs. A small pond sits at the base of the castle. "
+ building_mountianpass_01:0 "$building_type_mountianpass_01$"
+ building_mountianpass_01_desc:0 "$building_type_mountianpass_01_desc$"
+ #grave
+ building_type_kingsgrave_01:0 "King's Grave Keep"
+ building_type_kingsgrave_01_desc:0 "#F Located in the Red Mountains, approximately halfway through the Prince's Pass. This holding takes the name from when the founder of House Manwoody slew a king of the Reach long ago."
+ building_kingsgrave_01:0 "$building_type_kingsgrave_01$"
+ building_kingsgrave_01_desc:0 "$building_type_kingsgrave_01_desc$"
+ #driftmark
+ building_type_driftmark_01:0 "Driftmark"
+ building_type_driftmark_01_desc:0 "#F Castle Driftmark is seat of House Velaryon. Settled prior to the arrival of House Targaryen at Dragonstone. Ships from Driftmark allow the Velaryons to control the middle of the narrow sea prior to Aegon's Conquest. Lord Corlys Velaryon constructed a new castle opposite of Driftmark, on High Tide. As the island prospered, two large port towns grew along the coasts. Hull beneath Castle Driftmark and Spicetown beneath High Tide.  "
+ building_driftmark_01:0 "$building_type_driftmark_01$"
+ building_driftmark_01_desc:0 "$building_type_driftmark_01_desc$" 
+ #Claw Isle
+ building_type_clawisle_01:0 "Claw Isle Fishery"
+ building_type_clawisle_01_desc:0 "Our small island off the Claw peninsula has a reef barrier around the coastline; this provides amble waters for large fishing operations, feeding most of baywater garrisons. It goes without mentioning, the majority of our stock is fermented pointed side crabs."
+ building_clawisle_01:0 "$building_type_clawisle_01$"
+ building_clawisle_01_desc:0 "$building_type_clawisle_01_desc$"
+ #Old Inn At Lake 
+ building_type_lake_01:0 "Old Inn by the Lakeshore"
+ building_type_lake_01_desc:0 "The old inn by the Lakeshore is in visible distance from of the God's Eye. Located near willows, the inn is a sprawling grey building with timber and turrets. Half of it is built over the lake on pilings, and rough-cut planks lead over the muddy shore to the ferry landing. The inn's stable has a thatched roof and the yard, which is enclosed by a gated drystone wall; the stable contains a well and a watering through for the horses. Brown ale and roast boar are served reguarly.                             #F 'There's an old inn by the lakeshore. Ser Arlan said they brewed a fine brown ale. Might be we could have a taste while we waited for the ferry?' - Duncan the Tall to Aegon Targaryen "
+ building_lake_01:0 "$building_type_lake_01$"
+ building_lake_01_desc:0 "$building_type_lake_01_desc$"
+ #Hearts Home Reservoir
+ building_type_hearthome_01:0 "Heart's Home Reservoir"
+ building_type_hearthome_01_desc:0 "Costal currents keep the shore temperate all year round, providing sancuarty for local deer, foxes and falcons. The cold streams from the Creekmore, provide freshwater supply."
+ building_hearthome_01:0 "$building_type_hearthome_01$"
+ building_hearthome_01_desc:0 "$building_type_hearthome_01_desc$"
+ #Dun fort
+ building_type_dunfort_01:0 "Dun Fort"
+ building_type_dunfort_01_desc:0 "#F Traditional seat of House Darklyn and location of the Defiance of Duskendale."
+ building_dunfort_01:0 "$building_type_dunfort_01$"
+ building_dunfort_01_desc:0 "$building_type_dunfort_01_desc$"
+ #Kneeling Man
+ building_type_kneeling_01:0 "Inn of the Kneeling Man"
+ building_type_kneeling_01_desc:0 "The main building sits along the shore where the Red Fork river of the Trident bends. The two-story building has thick, diamond-shaped windowpanes and a cellar. It has long wings that streth out; the lower story is made of grey stone, the upper one of whitewashed wood. Its roof is slate and has a stable and an arbor. It reportedly brews a good ale. Above its door is a painted sign of a king on his knees.                                                                                                                                                #F   JAIME: We could not have found a better inn.                                                                                                                                            BRIENNE: Is this some special place?                                                                                                                                                                              CLEOS: This is the Inn of Kneeling Man, my lady. It stands upon the very spot where the last King in the North knelt to Aegon the Conqueror to offer his submission."
+ building_kneeling_01:0 "$building_type_kneeling_01$"
+ building_kneeling_01_desc:0 "$building_type_kneeling_01_desc$" 
+ #Peach
+ building_type_peach_01:0 "The Peach"
+ building_type_peach_01_desc:0 "The Peach is an inn and brothel located at the eastern side of Stoney Sept's main market square. The inn has white-washed walls, and displays a painted wooden shingle sign out front. Upon the sign, a half-eaten peach motif.     #F                                                                                         'Across the square the dead men were rotting in their crow cages, but inside the Peach everyone was jolly. Except it seemed to her that some of them were laughing too hard, somehow' - Arya Starks thoughts. "
+ building_peach_01:0 "$building_type_peach_01$"
+ building_peach_01_desc:0 "$building_type_peach_01_desc$" 
+ #Tor
+ building_type_tor_01:0 "The Tor"
+ building_type_tor_01_desc:0 "#F Located on the southern shore of the Sea of Dorne, just north of the Scourge sits House Jordayne. Along the coast, a walled harbor protects the local fishermen."
+ building_tor_01:0 "$building_type_tor_01$"
+ building_tor_01_desc:0 "$building_type_tor_01_desc$" 
+ #strongsong
+ building_type_strongsong_01:0 "Strongsong Hold"
+ building_type_strongsong_01_desc:0 "#F Seat of House Belmore, situated near a series of lakes within the mountains of the Moon, a nearby river flows east through the valley to Heart's Home."
+ building_strongsong_01:0 "$building_type_strongsong_01$"
+ building_strongsong_01_desc:0 "$building_type_strongsong_01_desc$"
+ #Stokeworth
+ building_type_stokeworth_01:0 "Old Stone Bridge Inn"
+ building_type_stokeworth_01_desc:0 "#F At the river junction on the road between Rosby and Duskendale sits the Old Stone Bridge Inn, the inn is tall, timbered building next to and old stone bridge. It has diamond-shaped window panes. The plank floor of the inn's common room is covered in sawdust. The rooms for guests have low ceilings and a wide beds. Stables are out back. "
+ building_stokeworth_01:0 "$building_type_stokeworth_01$"
+ building_stokeworth_01_desc:0 "$building_type_stokeworth_01_desc$" 
+ #Star fish
+ building_type_starfish_01:0 "Starfish Keep"
+ building_type_starfish_01_desc:0 "#F Overlooking Starfish Harbor, a town with a sizeable port, that sits along the Redwyne Straits in the Arbor."
+ building_starfish_01:0 "$building_type_starfish_01$"
+ building_starfish_01_desc:0 "$building_type_starfish_01_desc$" 
+ #sharppoint
+ building_type_sharppoint_01:0 "Sharp Point Watchtower"
+ building_type_sharppoint_01_desc:0 "#F Located along the Gullet at the northern end of Massey's Hook. The large watchtower upon which a great fire burns atop."
+ building_sharppoint_01:0 "$building_type_sharppoint_01$"
+ building_sharppoint_01_desc:0 "$building_type_sharppoint_01_desc$" 
+ #Pinkmaiden
+ building_type_pinkmaiden_01:0 "Pinkmaiden Castle"
+ building_type_pinkmaiden_01_desc:0 "#F Pinkmaiden Castle is the ancestral keep of House Piper, a significant house in the Southwestern Riverlands."
+ building_pinkmaiden_01:0 "$building_type_pinkmaiden_01$"
+ building_pinkmaiden_01_desc:0 "$building_type_pinkmaiden_01_desc$" 
+ #greenstone
+ building_type_greenstone_01:0 "Greenstone Castle"
+ building_type_greenstone_01_desc:0 "#F Atop the cliffs of the Estermont Isles, is the castle of Greenstone, traditional seat of House Estermont, sworn vassle to House Baratheon."
+ building_greenstone_01:0 "$building_type_greenstone_01$"
+ building_greenstone_01_desc:0 "$building_type_greenstone_01_desc$" 
+ #Star Pike
+ building_type_starpike_01:0 "Starpike"
+ building_type_starpike_01_desc:0 "#F The Peakes of Starpike have an older lineage than that of House Tyrell, claiming decent from Florys the Fox. Starpike is the last castle that remains of the three once held by House Peake."
+ building_starpike_01:0 "$building_type_starpike_01$"
+ building_starpike_01_desc:0 "$building_type_starpike_01_desc$" 
+ #Brightwater
+ building_type_brightwater_01:0 "Brightwater Keep"
+ building_type_brightwater_01_desc:0 "#F Traditional seat of House Florent in the Reach. It sits near the source of the Honeywine river, north of Honeyholt."
+ building_brightwater_01:0 "$building_type_brightwater_01$"
+ building_brightwater_01_desc:0 "$building_type_brightwater_01_desc$" 
+ #redfort
+ building_type_redfort_01:0 "The Red Fort"
+ building_type_redfort_01_desc:0 "#F Seat of one of the principal noble houses in the Vale; House Redfort can trace their descent to the First Men. "
+ building_redfort_01:0 "$building_type_redfort_01$"
+ building_redfort_01_desc:0 "$building_type_redfort_01_desc$"
+ #Ashemark
+ building_type_ashmark_01:0 "Ashemark"
+ building_type_ashmark_01_desc:0 "#F Located in hilly terrain, the castle is northwest of the Golden Tooth. Traditional seat of House Marbrand, one of the main noble houses of the Westerlands, the castle is near the start of the Tumblestone river. "
+ building_ashmark_01:0 "$building_type_ashmark_01$"
+ building_ashmark_01_desc:0 "$building_type_ashmark_01_desc$"  
+ #Drumm Tower
+ building_type_drumtower_01:0 "Drumm Tower"
+ building_type_drumtower_01_desc:0 "#F Tracing their seat back for at least eight hundred years, House Drumm have constructed a tower over Old Wyk."
+ building_drumtower_01:0 "$building_type_drumtower_01$"
+ building_drumtower_01_desc:0 "$building_type_drumtower_01_desc$" 
+ #Deepwood Moat
+ building_type_deepwood_01:0 "Deepwood Motte"
+ building_type_deepwood_01_desc:0 "#F Commonly called Deepwood, traditional seat of House Glover; is a wooden motte and baily castle. It lies in the northern wolfswood, east of Sea Dragon Point, North of Deepwood are the tidal flats leading to the Bay of Ice. The motte is five leagues south of the sea and one hundred leagues northwest of Winterfell."
+ building_deepwood_01:0 "$building_type_deepwood_01$"
+ building_deepwood_01_desc:0 "$building_type_deepwood_01_desc$" 
+ # Blackmont
+ building_type_blackmont_01:0 "Blackmont"
+ building_type_blackmont_01_desc:0 "#F At the confluence of two rivers which form the Torentine, north of High Hermitage and Starfall in the Red Mountains."
+ building_blackmont_01:0 "$building_type_blackmont_01$"
+ building_blackmont_01_desc:0 "$building_type_blackmont_01_desc$" 
+ #The Crag
+ building_type_crag_01:0 "The Crag"
+ building_type_crag_01_desc:0 "#F Stronghold ruled by House Westering, ancient minor house of first men. Overlooking the Sunset Sea just north of Castemere"
+ building_crag_01:0 "$building_type_crag_01$"
+ building_crag_01_desc:0 "$building_type_crag_01_desc$" 
+ #Stonehelm Pass
+ building_type_stonehelm_01:0 "Stonehelm Pass"
+ building_type_stonehelm_01_desc:0 "A carefully carved out path through the mountains is an easily defensible position."
+ building_stonehelm_01:0 "$building_type_stonehelm_01$"
+ building_stonehelm_01_desc:0 "$building_type_stonehelm_01_desc$"
+ #Skirling Pass
+ building_type_skirling_01:0 "Skirling Pass"
+ building_type_skirling_01_desc:0 "The point of no return."
+ building_skirling_01:0 "$building_type_skirling_01$"
+ building_skirling_01_desc:0 "$building_type_skirling_01_desc$"
+ #Moon mountains
+ building_type_starteeth_01:0 "Star's Teeth Peaks"
+ building_type_starteeth_01_desc:0 "#F The largest mountains in Westeros. Even today, the mountain-dwelling locals speak of sky giants and great falcons among the snowy peaks."
+ building_starteeth_01:0 "$building_type_starteeth_01$"
+ building_starteeth_01_desc:0 "$building_type_starteeth_01_desc$"
+ #haunted
+ building_type_haunted_01:0 "The Haunted Forest"
+ building_type_haunted_01_desc:0 "Named by the brother's of the Night's Watch, who traditionally have to cut all the trees within a half mile of the wall."
+ building_haunted_01:0 "$building_type_haunted_01$"
+ building_haunted_01_desc:0 "$building_type_haunted_01_desc$"
+ #frost fang
+ building_type_frostfang_01:0 "Frostfangs Range"
+ building_type_frostfang_01_desc:0 "The Frostfangs lie north of the wall, seperating the Lands of Always Winter to their west and the Haunted Forest to their east."
+ building_frostfang_01:0 "$building_type_frostfang_01$"
+ building_frostfang_01_desc:0 "$building_type_frostfang_01_desc$"
+ #Torrhen
+ building_type_torrhen_01:0 "Torrhen's Square"
+ building_type_torrhen_01_desc:0 "The ancestral fortress of House Tallhart, Torrhen Square is a mighty keep among the Edgewood. Its walls are thirty feet high and it hosts a sizable garrison.  #F                                                                 'Torrhen's Square is not worth the mud beneath my heels, It is Winterfell that matters' - Stannis Baratheon to Asha Greyjoy. "
+ building_torrhen_01:0 "$building_type_torrhen_01$"
+ building_torrhen_01_desc:0 "$building_type_torrhen_01_desc$" 
+ #widow watch
+ building_type_widowwatch_01:0 "Widow's Watch"
+ building_type_widowwatch_01_desc:0 "#F Located at the end of a peninsula between the Shivering Sea and the Bite, east of Ramsgate and the Broken Branch river streams. Held by House Flint."
+ building_widowwatch_01:0 "$building_type_widowwatch_01$"
+ building_widowwatch_01_desc:0 "$building_type_widowwatch_01_desc$" 
+ #Winter Town
+ building_type_wintertown_01:0 "Winter Town"
+ building_type_wintertown_01_desc:0 "The winter town has rows of small and neat houses built of log and udressed stone. Its streets are muddy. Located at Winterfell's main gatehouse, the market square has wooden stalls for produce and goods, with a well at its center. The local inn and alehouse is the 'Smoking Log'. The kingsroad lies past the sprawl of castle and town, with the Wolfswood two miles away. Hunting parties avoid the town by taking the Hunter's Gate instead of the main gate. "
+ building_wintertown_01:0 "$building_type_wintertown_01$"
+ building_wintertown_01_desc:0 "$building_type_wintertown_01_desc$" 
+ #Weeping Tower
+ building_type_weeptower_01:0 "Weeping Town"
+ building_type_weeptower_01_desc:0 "#F A market town on the southern Stormland shores of the Sea of Dorne. It has a thriving port which handles much of the stormland trade. The town has stout wooden walls, peaked roots, and crooked alleys, it is large enough to support three inns; the Broken Shield, the Loon, and the Druken Dornishman."
+ building_weeptower_01:0 "$building_type_weeptower_01$"
+ building_weeptower_01_desc:0 "$building_type_weeptower_01_desc$" 
+ #the causeway
+ building_type_causeway_01:0 "Causeway"
+ building_type_causeway_01_desc:0 "The causeway is a stretch of the Kingsroad in the North; it provides the only dry passage throught the bogs and swamps of the Neck. Raised log and plank roads.                              #F 'They had been twelve days crossing the Neck, rumbling down a crooked causeway through an endless black bog, and she had hated every moment of it. The air had been damp and clammy, the causeway so narrow they could not even make proper camp at night, they had to stop right on the Kingsroad.' - Sansa's thoughts.                                                   'The only dry road through the Neck was the causeway, and the towers of Moat Cailin plugged its northern end like a cork in a bottle' - Theon Greyjoy. "
+ building_causeway_01:0 "$building_type_causeway_01$"
+ building_causeway_01_desc:0 "$building_type_causeway_01_desc$" 
+ #Greenblood
+ building_type_greenblood_01:0 "Greenblood River Settlement"
+ building_type_greenblood_01_desc:0 "#F Ancient settlements along the greenblood river have long been the economic base of Dorne. The Greenblood river takes its name from its murky green waters which are slow-moving and shallow; formed by the confluence of the Vaith and the Scourge. The orphans of the Greenblood live on painted rafts along the river. Farms and orchards are located along the Greenblood for hundreds of leagues, landscapes of devilgrass, olive groves and lemon orchards are watered by old canals. The most common fish are the Whiskerfish."
+ building_greenblood_01:0 "$building_type_greenblood_01$"
+ building_greenblood_01_desc:0 "$building_type_greenblood_01_desc$"
+ #Highroad
+ building_type_highroad_01:0 "The High Road"
+ building_type_highroad_01_desc:0 "#F The lone road through the pass to the Vale, if you'll risk it. Sometimes called the eastern road, is the sole pass through the Mountains of the Moon, on to the Bloody Gate. The path is steep and stony and can be closed by snow. Be wary of wild mountain clansmen and sliding rocks. The lords have learned to position archers in tower above the road, to defend against robbers and any army daring the march through the pass. "
+ building_highroad_01:0 "$building_type_highroad_01$"
+ building_highroad_01_desc:0 "$building_type_highroad_01_desc$" 
+ #Mander River
+ building_type_mander_01:0 "Mander River Towns"
+ building_type_mander_01_desc:0 "#F The Mander River is one of the longest and largest rivers in Westeros, and its tributaries ( including the Blueburn and Cockleswhent) extend across much of the Reach. The Mander River has a mild climate, suitable for harvest year round."
+ building_mander_01:0 "$building_type_mander_01$"
+ building_mander_01_desc:0 "$building_type_mander_01_desc$"
+ 
+ #citywatch
+ building_type_goldwatch_01:0 "Gold Cloak's City Watch"
+ building_type_goldwatch_01_desc:0 "The City Watch of King's Landing, also known as the gold cloasks are the defenders of the city and enforcers of the law, sworn only to the Iron Throne."
+ building_goldwatch_01:0 "$building_type_goldwatch_01$"
+ building_goldwatch_01_desc:0 "$building_type_goldwatch_01_desc$"
+ #Fleabottom
+ building_type_fleabottom_01:0 "Flea Bottom"
+ building_type_fleabottom_01_desc:0 "The most down-trodden part of King's Landing; home to the poor and undesired; as well as, theives and sex workers. This part of town is a maze-like warren of narrow streets, ramshackle buildings, and dark alleys. Survivial on the streets of Flea Bottom is tough and hardening. There are many inns and brothels in this part of town. The Broken Anvil is within site of the Gate of the Gods. Old Inn on Eel Alley is a dismal inn; here twins Cersei and Jaime Lannister spent the night, where she convinced her brother to take the white. Littlefinger's Brothel with a mockingbird sigil at the front entrance, attracts the higher-end clintele.              #F 'An open heart is what you'll get in Flea Bottom, if you're not careful, my dear' - Cersei Lannister to Margaery Tyrell. "
+ building_fleabottom_01:0 "$building_type_fleabottom_01$"
+ building_fleabottom_01_desc:0 "$building_type_fleabottom_01_desc$"
+ 
+ building_type_fossoway_01:0 "Fossoway Apple Orchards"
+ building_type_fossoway_01_desc:0 "Famous for its spiced cider, the apple orchards of house Fossoway are a source of pride for the landed lords and ladies of Cider Hall."
+ building_fossoway_01:0 "$building_type_fossoway_01$"
+ building_fossoway_01_desc:0 "$building_type_fossoway_01_desc$" 
+ 
+ #Trident 
+ building_type_trident_01:0 "Trident Tradeports"
+ building_type_trident_01_desc:0 "#F The Trident river basin is the largest in Westeros. At many points along the river's bends, large riverdocks have been constructed to facilitate internal trade and travel."
+ building_trident_01:0 "$building_type_trident_01$"
+ building_trident_01_desc:0 "$building_type_trident_01_desc$"
+ #Craster 
+ building_type_crastersden_01:0 "Craster's Keep"
+ building_type_crastersden_01_desc:0 "A small, fortified homestead north of the wall."
+ building_crastersden_01:0 "$building_type_crastersden_01$"
+ building_crastersden_01_desc:0 "$building_type_crastersden_01_desc$"
+
+ #Ruddy hall  
+ building_type_tormund_01:0 "Ruddy Hall's Sheep's Milk"
+ building_type_tormund_01_desc:0 "A small gathering hall, known to serve pungent, yet strong fermented sheep's milk."
+ building_tormund_01:0 "$building_type_tormund_01$"
+ building_tormund_01_desc:0 "$building_type_tormund_01_desc$"
+ #Tudbury  
+ building_type_turtle_01:0 "Tudbury Turtle Shells"
+ building_type_turtle_01_desc:0 "A small habitate for seaturtles is on the isle, a delicay to some locals."
+ building_turtle_01:0 "$building_type_turtle_01$"
+ building_turtle_01_desc:0 "$building_type_turtle_01_desc$" 
+ 
+ building_type_honeyholt_01:0 "Beesbury Mead"
+ building_type_honeyholt_01_desc:0 "Local honey mixed with water is left to ferment; our aged mead is much stronger than most wines of the Reach."
+ building_honeyholt_01:0 "$building_type_honeyholt_01$"
+ building_honeyholt_01_desc:0 "$building_type_honeyholt_01_desc$"
+
+ building_type_shieldisle_01:0 "Shield Island Beacons"
+ building_type_shieldisle_01_desc:0 "#F The Shield Islands, commonly called the 'Shields' or 'Four Shields', are four islands at the mouth of the Mander, in the Sunset Sea. A vast network of beacons help the islanders warn of impending Ironborn raids. When a longship is spotted, local watchmen light beacon fires, which in turn cause other watchmen to light their own beacons. This then spreads the warning to the settlements further inland."
+ building_shieldisle_01:0 "$building_type_shieldisle_01$"
+ building_shieldisle_01_desc:0 "$building_type_shieldisle_01_desc$"
+
+ building_type_whispers_01:0 "Whisper's Haven"
+ building_type_whispers_01_desc:0 "#F A ruined Castle at the very tip of Crackclaw Point. The Whispers are named for the eerie sound the sea makes as it crashes into the holes in the cliffs below the castle. Location of the Legendary Clarence Crab and his witch wife, is now a haven for pirates and lowborn thugs."
+ building_whispers_01:0 "Whispers Pirate Haven"
+ building_whispers_01_desc:0 "$building_type_whispers_01_desc$"
+ building_whispers_02:0 "New Port"
+ building_whispers_02_desc:0 "Rebuilding the town would be expensive and arduous work, but due to its key position on the Blackwater Bay, it is a perfect location to welcome ships willing to conduct trade and would surely bring many riches."
+ 
+ building_type_amber_01:0 "Amber Mines"
+ building_type_amber_01_desc:0 "Location of the extinct House Amber, who ruled these lands before House Stark, long left in ruin."
+ building_amber_01:0 "Old Amber Ruins"
+ building_amber_01_desc:0 "$building_type_amber_01_desc$"
+ building_amber_02:0 "Refurbished Amber Mines"
+ building_amber_02_desc:0 "Rebuilding the old mines has brought new fortune to these lands, rivaling souther lords craftmanship."
+ 
+ building_type_blackwater_01:0 "Blackwater Rush"
+ building_type_blackwater_01_desc:0 "The Blackwater River, known colloquially as the 'Blackwater Rush', or simply the 'Rush', is an important vein for trade to the capital."
+ building_blackwater_01:0 "$building_type_blackwater_01$"
+ building_blackwater_01_desc:0 "$building_type_blackwater_01_desc$"
+ 
+ building_type_goldroad_01:0 "The Gold Road"
+ building_type_goldroad_01_desc:0 "#F The gold road is a major highway in the Seven Kingdoms, connecting Castelry Rock to Kings Landing; as well as, Lannisport. The toll ballif here is a lucrative position. "
+ building_goldroad_01:0 "$building_type_goldroad_01$"
+ building_goldroad_01_desc:0 "$building_type_goldroad_01_desc$"
+ 
+ building_type_hornvale_01:0 "Hornvale"
+ building_type_hornvale_01_desc:0 "Hornvale is both the ancestral seat and ancestral lordship of the powerful House Brax. Boasting one of the larger armies and some of the finest knights in the Westerlands, House Brax stands unchallenged, even without the safety of mountain keeps like its Westermen brethren."
+ building_hornvale_01:0 "$building_type_hornvale_01$"
+ building_hornvale_01_desc:0 "$building_type_hornvale_01_desc$" 
+ 
+ building_type_sarsfield_01:0 "Sarsfield Archery Grounds"
+ building_type_sarsfield_01_desc:0 "The archers of House Sarsfield are truly unique among the Westerosi militaries; instead of shooting on foot, they shoot from the saddle."
+ building_sarsfield_01:0 "$building_type_sarsfield_01$"
+ building_sarsfield_01_desc:0 "$building_type_sarsfield_01_desc$" 
+ 
+ building_type_harlaw_01:0 "Harlaw Ponies"
+ building_type_harlaw_01_desc:0 "Famous for their rare breed of ponies."
+ building_harlaw_01:0 "$building_type_harlaw_01$"
+ building_harlaw_01_desc:0 "$building_type_harlaw_01_desc$" 
+ 
+ building_type_goldfield_01:0 "Golden Fields"
+ building_type_goldfield_01_desc:0 "#F Golden fields of wheat, barley and sunflowers; sunny days filled with light colored lager beer after summer harvests."
+ building_goldfield_01:0 "$building_type_goldfield_01$"
+ building_goldfield_01_desc:0 "$building_type_goldfield_01_desc$"
+
+ building_type_harvest_01:0 "Harvest Fields"
+ building_type_harvest_01_desc:0 "Golden fields of wheat bound into sheaves and carefully arranged for winter storage."
+ building_harvest_01:0 "$building_type_harvest_01$"
+ building_harvest_01_desc:0 "$building_type_harvest_01_desc$"
+
+ building_type_aleport_01:0 "Aleport"
+ building_type_aleport_01_desc:0 "#F Strong black beer and dark ale are famously preferred in the North. Due to its unpopularity among the southron lowborn and nobility, the responsibility for its brewery lies with the Northerners that consume it."
+ building_aleport_01:0 "$building_type_aleport_01$"
+ building_aleport_01_desc:0 "$building_type_aleport_01_desc$" 
+ 
+ building_type_alton_01:0 "Alton's Rock"
+ building_type_alton_01_desc:0 "Past down from first born to first born, the Alton name of House Vohn has been on this rock for generations. "
+ building_alton_01:0 "$building_type_alton_01$"
+ building_alton_01_desc:0 "$building_type_alton_01_desc$"
+
+ building_type_adminvohn_01:0 "Alton's Administrators"
+ building_type_adminvohn_01_desc:0 "Past down from first born to first born, the Alton name of House Vohn has been on this rock for generations. "
+ building_adminvohn_01:0 "$building_type_adminvohn_01$"
+ building_adminvohn_01_desc:0 "$building_type_adminvohn_01_desc$" 
+ 
+ building_type_massey_01:0 "Massey's Hook"
+ building_type_massey_01_desc:0 "Old fishing keep held by house Massey for as long as the books have recoreded. "
+ building_massey_01:0 "Old Harbor Ruins"
+ building_massey_01_desc:0 "$building_type_massey_01_desc$"
+ building_massey_02:0 "New Port"
+ building_massey_02_desc:0 "Rebuilding the old ports have open up economic opportunites to ambitious fishermen."
+ 
+ building_type_kingswood_01:0 "Kingswood Forest"
+ building_type_kingswood_01_desc:0 "Large forest that is private hunting area for the King; mostly inhabited by smallfolk, some knights of the brotherhood have been known to seek refuge here.                                                  #F 'I'll tell you a story. You the on about the mother lion and her little cub? They lived in the woods'                                                          'The Kingswood?'                                                             ' Yes, my love. In the Kingswood lived a mother and her cub. She loved him very much. But there were other things that lived in the woods; evil thingss.' - Cersei Lannisters comforting words to Tommen Baratheon during the Battle of the Blackwater. "
+ building_kingswood_01:0 "$building_type_kingswood_01$"
+ building_kingswood_01_desc:0 "$building_type_kingswood_01_desc$"
+ building_type_portarryan_01:0 "Fair Maid at Port of Arryn"
+ building_type_portarryan_01_desc:0 " A major port city of the Vale of Arryn. It is located in a fine natural harbor at the northern tip of the Bay of Crabs, southeast of the Eyrie and south of nearby Rusnestone. The largest settlement in the Vale, but much smaller than Old Town, or Kings Landing.                                                                               #F 'Off to Gulltown to see the fair maid, heigh-ho, heigh-ho  I'll steal a sweet kiss with the point of my blade, heigh-ho, heigh-ho. I'll make her my love and we'll rest in the shade, heigh-ho, heigh-ho.'"
+ building_portarryan_01:0 "$building_type_portarryan_01$"
+ building_portarryan_01_desc:0 "$building_type_portarryan_01_desc$" 
+ 
+ building_type_rainwood_01:0 "The Rainwood"
+ building_type_rainwood_01_desc:0 "Sodden with mist and moss, the somber rainwood is famed for its fir, timber, and amber trees, which include cedars, hemlocks, maples, oaks, redwoods, sentinels, and soldier pines. The constant rainfall may make the soil fertile, but the dense woodland makes expansion difficult. Strongholds in the Rainwood are often integrated with the surrounding forest.                                   #F 'Here the trees rule, it is said, and the castles oft seem as if they have grown from the earth instead of being built. But the knights and lords of the Rainwood have roots as deep as the trees that shelter them, and have oft proved themselves steadfast in battle, strong and stubborn and immovable' - writings of Maester Yandel. "
+ building_rainwood_01:0 "$building_type_rainwood_01$"
+ building_rainwood_01_desc:0 "$building_type_rainwood_01_desc$"
+ 
+ building_type_winterfellcrep_01:0 "Crypts of Winterfell"
+ building_type_winterfellcrep_01_desc:0 "The final resting place of every Stark. The crypt of Winterfell has an ironwood door, and is located in the oldest section of the castle, near the First Keep. #F 'This was where they came when the warmth had seeped out of their bodies, this was the dark hall of the dead, where the living feared to tread' - Bran Stark "
+ building_winterfellcrep_01:0 "$building_type_winterfellcrep_01$"
+ building_winterfellcrep_01_desc:0 "$building_type_winterfellcrep_01_desc$"
+ building_type_quill_01:0 "The Quill and Tankard"
+ building_type_quill_01_desc:0 "#F An inn standing on an island in the Honeywine, 'Though the tall, timbered building leaned toward the south the way novices sometimes leaned after a tankard, Pate expected that the inn would go on standing for another six  hundred years, selling wine and ale and fearsomely strong cider to rivermen and seamen, smiths and singers, priests and princes, and the novices and acolytes of the Citadel.' - Ameon to Samwell Tarly, " I dreamt of Oldtown, Sam, I was young again and my brother Egg was with me, with that big knight he served. We were drinking in the old inn where they make the fearsomely strong cider.' "
+ building_quill_01:0 "$building_type_quill_01$"
+ building_quill_01_desc:0 "$building_type_quill_01_desc$"
+ building_type_old_town_01:0 "Old Town"
+ building_type_old_town_01_desc:0 "Largest city in Westros before Aegon's Conquest; old town has been the center of innovation and culture since the andal invasions.                                                                                        #F The Checkered Hazard is a notable Inn to visit for famed Redwyne and Goldwyne vintages. "
+ building_old_town_01:0 "$building_type_old_town_01$"
+ building_old_town_01_desc:0 "$building_type_old_town_01_desc$"
+ 
+ building_type_sandstone_01:0 "Sandstone Keep"
+ building_type_sandstone_01_desc:0 "#F For the most part uninhabitable, even by Dornish standards, Sandstone Keep sits on a rare oasis among the sands. The inhospitable environment makes expansion and development difficult, but it certainly forces the populace and their lords to adapt."
+ building_sandstone_01:0 "$building_type_sandstone_01$"
+ building_sandstone_01_desc:0 "$building_type_sandstone_01_desc$"
+ 
+ building_type_redmountains_01:0 "Red Mountains"
+ building_type_redmountains_01_desc:0 "The land of the Red Mountains is rich in rare minerals, rare game, and defensive positions alike."
+ building_redmountains_01:0 "$building_type_redmountains_01$"
+ building_redmountains_01_desc:0 "$building_type_redmountains_01_desc$"
+ 
+ building_type_ub_n_socotra_01:0 "Spottswood Jungle"
+ building_type_ub_n_socotra_01_desc:0 "The Spottswood Jungle is the main source of lumber and timber in Dorne."
+ building_ub_n_socotra_01:0 "$building_type_ub_n_socotra_01$"
+ building_ub_n_socotra_01_desc:0 "$building_type_ub_n_socotra_01_desc$"
+ 
+ building_type_ashford_01:0 "Ashford Market"
+ building_type_ashford_01_desc:0 "#F A small but rich town sits on the northern shores of a fording of the Cockleswent, known for serving nut-brown ale. #!"
+ building_ashford_01:0 "$building_type_ashford_01$"
+ building_ashford_01_desc:0 "$building_type_ashford_01_desc$"
+ building_type_greenfield_01:0 "Grassfield Meadows"
+ building_type_greenfield_01_desc:0 "#F At the start of the Faith Militant uprising in 42 AC King Maegor I gave lord Meadows command of six lordly host against the nine thousand Poor Fellows. Led by Wat the Hewer, the Poor Fellows were slaughtered as they were caught trying to cross the Mander. Wat the Hewer was captured but not before slaying a half dozen knights and Lord Meadows. #!"
+ building_greenfield_01:0 "$building_type_greenfield_01$"
+ building_greenfield_01_desc:0 "$building_type_greenfield_01_desc$" 
+
+ building_type_atranta_01:0 "Atranta Forests"
+ building_type_atranta_01_desc:0 "#F Large forest that is private hunting area for the King; mostly inhabited by smallfolk, some knights of the brotherhood have seek refuge here. "
+ building_atranta_01:0 "$building_type_atranta_01$"
+ building_atranta_01_desc:0 "$building_type_atranta_01_desc$"
+
+ building_type_old_lake_cove_01:0 "Northern Cold Lake"
+ building_type_old_lake_cove_01_desc:0 "This lake is frozen for months each year, northern men have learned how to fish even in the coldest months. These isolated fresh water lakes attract the best game making these locations ideal for hunting. "
+ building_old_lake_cove_01:0 "$building_type_old_lake_cove_01$"
+ building_old_lake_cove_01_desc:0 "$building_type_old_lake_cove_01_desc$"
+
+ building_type_houndpen_01:0 "Dreadfort Hound Breeders"
+ building_type_houndpen_01_desc:0 "Hunting small game is easy; hunting more intelligent prey requires purpose-bred hounds."
+ building_houndpen_01:0 "$building_type_houndpen_01$"
+ building_houndpen_01_desc:0 "$building_type_houndpen_01_desc$"
+ building_type_holy_site_sept_01:0 "Grand Sept"
+ #AGOT Effects
+ red_keep_effect_desc:0 "$feast_cost_discount_max_desc$"
+ 
+ building_type_twinhall_01:0 "The Twins Banquet Hall"
+ building_type_twinhall_01_desc:0 "A large banquet hall allows us to host quest in large quantities; providing us with equal chances at dipolmacy or intrigue."
+ building_twinhall_01:0 "$building_type_twinhall_01$"
+ building_twinhall_01_desc:0 "$building_type_twinhall_01_desc$"
+  
+ building_type_redwyne_01:0 "Redwyne Cellar"
+ building_type_redwyne_01_desc:0 "Redwyne wine is aged in the cellars, our wine is not as well known as our cousins from the west side of the island; however, with good aging techniques we are able to demand higher prices from local lords and ladies."
+ building_redwyne_01:0 "Redwyne Small Vineyard"
+ building_redwyne_01_desc:0 "It's a small vineyard in Redwyne."
+ building_redwyne_02:0 "Redwyne Vineyard"
+ building_redwyne_02_desc:0 "Our vineyard produces the boldest reds in westros; causing our cousins to focus on golden lighter bodied chilled wines."
+ building_redwyne_03:0 "Redwyne Large Vineyard"
+ building_redwyne_03_desc:0 "A Large vineyard has been builted. Wine produced in vineyards is consumed in Westros, and is becoming more and more popular thanks to its unique flavor."
+ building_redwyne_04:0 "Redqyne Wine Complex"
+ building_redwyne_04_desc:0 "Wine produced in Arbor is no longer only popular in the Reach. Its popularity is spreading throughout Westros, including the North. To meet this popularity, vineyards have been expanded to create a huge wine complex responsible for the cultivation of grapes to the production and distribution of wine."
+
+ 
+ building_type_evenfall_01:0 "Evenfall Baths"
+ building_type_evenfall_01_desc:0 "The large waterfalls on Tarth feed toward Evenfall, extensive aqueducts create temperate baths."
+ building_evenfall_01:0 "$building_type_evenfall_01$"
+ building_evenfall_01_desc:0 "$building_type_evenfall_01_desc$"
+ 
+ building_type_rivermoat_01:0 "Moat of Riverrun"
+ building_type_rivermoat_01_desc:0 "The moat of Riverrun merges exquisitely with the three rivers surrounding the castle, forcing any besieger to split their forces amongst the various riverbanks. For this reason, Riverrun is all but impregnable."
+ building_rivermoat_01:0 "$building_type_rivermoat_01$"
+ building_rivermoat_01_desc:0 "$building_type_rivermoat_01_desc$"
+ building_rivermoat_02:0 "Enlarged Moat of Riverrun"
+ building_rivermoat_02_desc:0 "Extensive dredging and ditch works has created a larger moat for our holding."
+ building_rivermoat_03:0 "Drawbridge for Riverrun Moat"
+ building_rivermoat_03_desc:0 "A new draw bridge is required for the expanded moat of riverrun."
+ building_rivermoat_04:0 "Moat Secret Tunnels"
+ building_rivermoat_04_desc:0 "Even when surround and besiged we are able to send and recieve supply; or in some cases escape immpending doom."
+ building_rivermoat_05:0 "Moat Sewege Drains"
+ building_rivermoat_05_desc:0 "Sewer drains for our moat will flush human excerment and other foul substances; making any would be attacker think twice."
+ 
+ building_type_private_garden_01:0 "Private Gardens"
+ building_type_private_garden_01_desc:0 "Highgarden's greenhouse is a quiet place to escape and relax; as well as, a magnificant location for hosting large weddings and feasts."
+ building_private_garden_01:0 "$building_type_private_garden_01$"
+ building_private_garden_01_desc:0 "$building_type_private_garden_01_desc$"
+ building_private_garden_02:0 "Enlarged Rose Garden"
+ building_private_garden_02_desc:0 "Ever growing, our rose garden is renown for its tranquility and beauty."
+ building_private_garden_03:0 "Magnificent Rose Garden"
+ building_private_garden_03_desc:0 "The lush red and pink roses hide the sharp thornes of Highgarden."
+ 
+
+ building_type_pleasureden_01:0 "Pleasure Den"
+ building_type_pleasureden_01_desc:1 "A pleasure den is where you wouldn't want your significant other to find you. Whores can be found a plenty to take the load off and forget about the outside world for a while, just how much you enjoy it depends on the establishment"
+ building_pleasureden_01:1 "Prostitution Ring"
+ building_pleasureden_01_desc:0 "The liege of this holding has either neglected or willingly allowed whores and prostitutes to linger around the back alleys of this city, but nevertheless the bribery money ends up in the hands of the liege. The whores here are dirty, homely, and cheap. Not even the most lecherous of nobles would be caught dead in these alleys."
+ building_pleasureden_02:1 "Cathouse"
+ building_pleasureden_02_desc:0 "Rather than just wander the streets, they've cracked down on where prositutes can operate. There are some 'establishments' within the city that harbor these sex workers that the city watch don't even bother going into."
+ building_pleasureden_03:1 "Local Brothel"
+ building_pleasureden_03_desc:0 "The dubious business of prostitution has been tolerated enough to be allowed to open up a decent cathouse for some sub-standard sex workers. Atleast they are clean."
+ building_pleasureden_04:1 "Brothel"
+ building_pleasureden_04_desc:0 "Sex work has been widely tolerated within this community, and it bring in a lot of good looking sex workers, and wealthy clients to make use of their services. A proprietor can learn a thing or two by being around such charismatic people."
+ building_pleasureden_05:1 "Pleasure Den"
+ building_pleasureden_05_desc:0 "With the best sex workers available and the popularity it generates, not only does it bring in a good payday, but it also allows a cunning proprietor to gain leverage over their clients due to their promiscuous activities."
+ 
+ building_type_urbanadmin_01:0 "Administrators"
+ building_type_urbanadmin_01_desc:1 "The overwhelming nature of an urban city is a double edged sword. You could try and manage every sector of the city with all the benefits at the risk of stressing yourself out, but with local administrators you could delegate it to local governments at the cost of lightening their obligations."
+ building_urbanadmin_01:1 "Cliques"
+ building_urbanadmin_01_desc:0 "Prominent citizens have been empowered to administrate their regions of the city. While this does give the liege some leniency, it does introduce corruption."
+ building_urbanadmin_02:1 "Baliff's Office"
+ building_urbanadmin_02_desc:0 "The former local rule has ended, and a Baliff has been appointed to manage the peasantry, at the cost of giving his administrations funds to operate and men to enforce the law."
+ building_urbanadmin_03:1 "Magistrate's Office"
+ building_urbanadmin_03_desc:0 "The title of Magistrate has been created for this holding so that it can completely operate on its own, with further concessions made for operating costs. The liege is free to do as he pleases now."
+ building_urbanadmin_04:1 "Empowered Administrators"
+ building_urbanadmin_04_desc:0 "Magistrates now have been given the jurisdiction of nearby holdings within this county to further lessen the burden on the liege lord with further concessions made. This could potentially lead to corruption."
+  

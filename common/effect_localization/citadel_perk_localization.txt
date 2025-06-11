@@ -507,18 +507,51 @@ stokeworth_legacy_2_effect = {
 	first = STOKEWORTH_A_HOUSE_OF_SUITORS
 	third = STOKEWORTH_A_HOUSE_OF_SUITORS	
 }
+
 stokeworth_legacy_3_effect = {
 	global = STOKEWORTH_WEALTH_OF_THE_CROWNFIELDS
 	first = STOKEWORTH_WEALTH_OF_THE_CROWNFIELDS
 	third = STOKEWORTH_WEALTH_OF_THE_CROWNFIELDS	
 }
+
 stokeworth_legacy_4_effect = {
 	global = STOKEWORTH_HISTORICAL_HANDS
 	first = STOKEWORTH_HISTORICAL_HANDS
 	third = STOKEWORTH_HISTORICAL_HANDS	
 }
+
 stokeworth_legacy_5_effect = {
 	global = STOKEWORTH_GOLD_CLOAKED_LEGACY
 	first = STOKEWORTH_GOLD_CLOAKED_LEGACY
 	third = STOKEWORTH_GOLD_CLOAKED_LEGACY	
+}
+
+swann_legacy_1_effect = {
+	global = SWANN_FIRST_OF_THE_MARCHERS
+	first = SWANN_FIRST_OF_THE_MARCHERS
+	third = SWANN_FIRST_OF_THE_MARCHERS	
+}
+
+swann_legacy_2_effect = {
+	global = SWANN_ON_WINGS_OF_BLACK_AND_WHITE
+	first = SWANN_ON_WINGS_OF_BLACK_AND_WHITE
+	third = SWANN_ON_WINGS_OF_BLACK_AND_WHITE	
+}
+
+swann_legacy_3_effect = {
+	global = SWANN_KEEPERS_OF_STONEHELM
+	first = SWANN_KEEPERS_OF_STONEHELM
+	third = SWANN_KEEPERS_OF_STONEHELM	
+}
+
+swann_legacy_4_effect = {
+	global = SWANN_KNIGHTS_OF_OLD
+	first = SWANN_KNIGHTS_OF_OLD
+	third = SWANN_KNIGHTS_OF_OLD	
+}
+
+swann_legacy_5_effect = {
+	global = SWANN_TO_SOAR_ON_HIGH
+	first = SWANN_TO_SOAR_ON_HIGH
+	third = SWANN_TO_SOAR_ON_HIGH	
 }
