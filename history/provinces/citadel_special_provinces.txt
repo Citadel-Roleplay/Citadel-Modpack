@@ -1,0 +1,501 @@
+1687 = {
+	special_building = raventree_hall_rookery_01
+}
+2058 = {
+	special_building = stone_hedge_stables_01
+}
+1805 = {
+	special_building = stillfen_lily_pad_pond_01
+}
+2143 = {
+	special_building = wayfarers_rest_armisteads_tomb_01
+}
+3724 = {
+	special_building = goldengrove_golden_orchard_01
+}
+3354 = {
+	special_building = horn_hill_hunting_grounds_01
+}
+3627 = {
+	special_building = coldmoat_outworks_01
+}
+2457 = {
+	special_building = runeport_docks_02
+}
+2442 = {
+	special_building = gulltown_customs_house_01
+}
+2466 = {
+	special_building = gullview_osgoods_tomb_01
+}
+431 = {
+	special_building = white_harbor_woodhollys_bakery_01
+}
+4420 = {
+	special_building = hull_docks_01
+}
+3038 = {
+	special_building = brixworth_mines_01 
+}
+2867 = {
+	special_building = fang_hill_kennel_01
+}
+3191 = {
+	special_building = vikary_house_docks_02
+}
+3181 = {
+	special_building = reynes_port_smelting_hut_02
+}
+4436 = {
+	special_building = claw_isle_crabs_return_01
+}
+4435 = {
+	special_building = vallscale_maritime_court_01
+}
+4433 = {
+	special_building = sweetport_sweetport_sept_01
+}
+5277 = {
+	special_building = radiant_cliffs_lighthouse_01
+}
+5304 = {
+	special_building = blood_town_blood_town_bazaar_01
+}
+5135 = {
+	special_building = hellholt_the_hellholt_01
+}
+2112 = {
+	special_building = wallwood_bellos_tomb_01
+}
+2115 = {
+	special_building = justbrick_quiver_keep_01
+}
+2128 = {
+	special_building = truthmine_mines_01
+}
+4125 = {
+	special_building = ryamsport_01
+}
+4135 = {
+	special_building = golden_vines_the_golden_vineyard_01
+}
+3494 = {
+	special_building = oldtown_quill_and_tankard_01
+}
+3564 = {
+	special_building = brightwater_keep_brightwater_keep_01
+}
+3422 = {
+	special_building = the_ring_the_ring_01
+} 
+2002 = {
+	special_building = atranta_atranta_01
+}
+664 = {
+	special_building = grailheart_redmane_stables_01 
+}
+385 = {
+	special_building = wraithfeld_the_silent_grounds_01
+} 
+1122 = {
+	special_building = barrowton_barrowton_01
+}
+1644 = {
+	special_building = bearstone_bearstone_woods_01
+}
+579 = {
+	special_building = hornwood_hornwood_forest_01
+}
+136 = {
+	special_building = last_hearth_last_hearth_01
+}
+1234 = {
+	special_building = breakstone_hill_breakstone_quarry_01
+}
+617 = {
+	special_building = widows_watch_widows_watch_01
+}
+1457 = {
+	special_building = flints_finger_flints_finger_01
+}
+4242 = {
+	special_building = duskendale_duskendale_01
+}
+4241 = {
+	special_building = duskendale_dun_fort_01
+}
+4258 = {
+	special_building = shadowshield_shadowshield_01
+}
+4248 = {
+	special_building = darkwood_the_darkwood_01
+}
+4689 = {
+	special_building = greyhawk_greyhawk_tower_01
+}
+4721 = {
+	special_building = nightingale_nightingales_nock_01
+}
+2978 = {
+	special_building = drox_castle_the_quarrel_quarters_01
+}
+2999 = {
+	special_building = deep_den_deep_den_02
+}
+3223 = {
+	special_building = faircastle_faircastle_01
+}
+2884 = {
+	special_building = crakehall_crakehall_01 
+}
+4124 = {
+	special_building = wynegarde_estates_01
+}
+2862 = {
+	special_building = city_of_lannisport_01
+}
+3730 = {
+	special_building = old_oak_01
+}
+3823 = {
+	special_building = dustonbury_01
+}
+3737 = {
+	special_building = ocean_roadhouses_01
+}
+3565 = {
+	special_building = city_of_foxes_01
+}
+4102 = {
+	special_building = oakenshield_bastion_01
+}
+3294 = {
+	special_building = grand_markets_of_ashford_01
+}
+3293 = {
+	special_building = great_orchard_of_ashford_01
+}
+3305 = {
+	special_building = sept_at_holyhall_01
+}
+3268 = {
+	special_building = lieras_pressery_01
+}
+3280 = {
+	special_building = great_orchard_of_appleton_01
+}
+3283 = {
+	special_building = great_maids_orchard_01
+}
+3966 = {
+	special_building = bloody_caltrops_inn_01
+}
+4072 = {
+	special_building = merryweather_vaults_01
+}
+3917 = {
+	special_building = goldcloaks_rest_01
+}
+3691 = {
+	special_building = shermer_ironworks_01
+}
+3601 = {
+	special_building = honeyholt_apiaries_01
+}
+4041 = {
+	special_building = grassfield_florestries_01
+}
+4945 = {
+	special_building = plankytown_01
+}
+4955 = {
+	special_building = stinkwater_01
+}
+5406 = {
+	special_building = westroost_mines_01
+}
+5383 = {
+	special_building = blackmont_mines_01
+}
+5358 = {
+	special_building = widewatch_mines_01
+}
+5258 = {
+	special_building = the_starport_01
+}
+5155 = {
+	special_building = ruins_of_hellgate_hall_01
+}
+5412 = {
+	special_building = kingsgrave_keep_01
+}
+4832 = {
+	special_building = heart_of_the_kingswood_01
+}
+4585 = {
+	special_building = broken_shield_inn_01
+}
+4581 = {
+	special_building = weeping_town_01
+}
+4662 = {
+	special_building = red_watch_garrison_01
+}
+1730 = {
+	special_building = city_of_seagard_01
+}
+3320 = {
+	special_building = starpike_01
+}
+4631 = {
+	special_building = maiden_motherhouse_01
+}
+4897 = {
+	special_building = wendwater_docks_01
+}
+4189 = {
+	special_building = brindlewood_markets_01
+}
+4250 = {
+	special_building = ruin_of_hollard_castle_01
+}
+4198 = {
+	special_building = old_stone_bridge_01
+}
+4428 = {
+	special_building = sharp_point_beacon_01
+}
+2054 = {
+	special_building = bechester_motherhouse_01
+}
+1958 = {
+	special_building = briarwhite_holdfast_01
+}
+2073 = {
+	special_building = high_heart_01
+}
+2070 = {
+	special_building = high_heart_01
+}
+2072 = {
+	special_building = high_heart_01
+}
+1718 = {
+	special_building = ruins_of_oldforge_01
+}
+2189 = {
+	special_building = fairmarket_01
+}
+4388 = {
+	special_building = stonedance_keep_01
+}
+2514 = {
+	special_building = hearts_home_01
+}
+2392 = {
+	special_building = longbow_hall_01
+}
+2323 = {
+	special_building = ninestars_01
+}
+2579 = {
+	special_building = snakewood_forest_01
+}
+2517 = {
+	special_building = snakewood_forest_01
+}
+2580 = {
+	special_building = snakewood_forest_01
+}
+2581 = {
+	special_building = snakewood_forest_01
+}
+2516 = {
+	special_building = proud_town_guilds_01
+}
+2473 = {
+	special_building = witch_isle_01
+}
+3296 = {
+	special_building = agot_ashford_tourney_grounds_01
+}
+4061 = {
+	special_building = blueburn_mills_01
+}
+3792 = {
+	special_building = wyverns_rest_keep_01
+}
+3633 = {
+	special_building = first_kiss_armouries_01
+}
+3634 = {
+	special_building = dosk_market_village_01
+}
+3646 = {
+	special_building = stonewealth_mines_01
+}
+5553 = {
+	special_building = skirling_01
+}
+6047 = {
+	special_building = haunted_01
+}
+5565 = {
+	special_building = frostfang_01
+}
+5996 = {
+	special_building = eyeraven_01
+}
+4111 = {
+	special_building = shieldisle_01
+}
+4107 = {
+	special_building = shieldisle_01
+}
+4116 = {
+	special_building = shieldisle_01
+}
+2208 = {
+	special_building = trident_01
+}
+2188 = {
+	special_building = trident_01
+}
+2213 = {
+	special_building = trident_01
+}
+1785 = {
+	special_building = trident_01
+}
+2082 = {
+	special_building = trident_01
+}
+4574 = {
+	special_building = rainwood_01
+}
+4671 = {
+	special_building = rainwood_01
+}
+4557 = {
+	special_building = rainwood_01
+}
+4605 = {
+	special_building = rainwood_01
+}
+4552 = {
+	special_building = rainwood_01
+}
+4617 = {
+	special_building = rainwood_01
+}
+4611 = {
+	special_building = rainwood_01
+}
+4601 = {
+	special_building = rainwood_01
+}
+4595 = {
+	special_building = rainwood_01
+}
+4628 = {
+	special_building = rainwood_01
+}
+2031 = {
+	special_building = peach_01
+}
+28 = {
+	special_building = mole_01
+}
+426 = {
+	special_building = lazy_01
+}
+1911 = {
+	special_building = goose_01
+}
+4443 = {
+	special_building = gatedun_01
+}
+5211 = {
+	special_building = sandstone_01
+}
+5394 = {
+	special_building = redmountains_01
+}
+1506 = {
+	special_building = flintcliffs_01
+}
+5032 = {
+	special_building = ub_n_socotra_01
+}
+5048 = {
+	special_building = ub_n_socotra_01
+}
+5043 = {
+	special_building = ub_n_socotra_01
+}
+5091 = {
+	special_building = greenblood_01
+}
+5008 = {
+	special_building = greenblood_01
+}
+5013 = {
+	special_building = greenblood_01
+}
+3911 = {
+	special_building = goldfield_01
+}
+4699 = {
+	special_building = harvest_01
+}
+741 = {
+	special_building = aleport_01
+}
+3043 = {
+	special_building = hornvale_01
+}
+1904 = {
+	special_building = quietisle_01
+}
+2740 = {
+	special_building = greatwyk_01
+}
+2709 = {
+	special_building = pirate_sister_01
+}
+4648 = {
+	special_building = stonehelm_01
+}
+2550 = {
+	special_building = starteeth_01
+}
+3097 = {
+	special_building = sarsfield_01
+}
+78 = {
+	special_building = wintertown_01
+}
+2102 = {
+	special_building = pinkmaiden_01
+}
+886 = {
+	special_building = torrhen_01
+}
+3186 = {
+	special_building = tarbeck_hall_02
+}
+3455 = {
+	special_building = three_towers_01
+}
+3461 = {
+	special_building = sunflower_hall_01
+}
+3450 = {
+	special_building = turrkeep_01
+}
+490 = {
+	special_building = oldcastle_01
+}
+534 = {
+	special_building = ramsgate_01
+}
