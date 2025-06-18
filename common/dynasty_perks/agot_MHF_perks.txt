@@ -171,7 +171,7 @@ bracken_legacy_4 = { # Horsing Around
 	}
     
 	character_modifier = {
-        	heavy_cavalry_maintenance_mult = -0.1
+        	heavy_cavalry_maintenance_mult = -0.15
             heavy_cavalry_damage_mult = 0.1
 heavy_cavalry_toughness_mult = 0.05 
 heavy_cavalry_max_size_add = 1
@@ -217,7 +217,7 @@ vypren_legacy_1 = { # Andal Origins
 	effect = {
     	custom_description_no_bullet = {
         	text = vypren_legacy_1_effect
-    	}
+    	}	
 	}
 
 	character_modifier = {
@@ -6304,7 +6304,7 @@ blacktyde_legacy_1 = { # Blood of the Cruel Kings
 	character_modifier = {
     	dread_gain_mult = 0.1
     	dread_loss_mult = -0.1
-    	intrigue = 2
+    	intrigue = 1
     	hostile_scheme_power_mult = 0.05
 	}
 
@@ -6331,7 +6331,7 @@ blacktyde_legacy_2 = { # Maidensbane’s Reavers
 	character_modifier = {
     	raid_speed = 0.15
     	max_loot_mult = 0.25
-    	prowess = 2
+    	prowess = 1
 	}
 
 	traits = {
@@ -6356,9 +6356,8 @@ blacktyde_legacy_3 = { # Ruthless Seafarers
 
 	character_modifier = {
     	naval_movement_speed_mult = 0.25
-    	men_at_arms_recruitment_cost = -0.2
-    	stewardship = 2
-    	martial = 1
+    	men_at_arms_recruitment_cost = -0.1
+    	
 	}
 
 	traits = {
@@ -6382,7 +6381,7 @@ blacktyde_legacy_4 = { # Ironborn Royalty
 
 	character_modifier = {
     	martial = 2
-    	men_at_arms_limit = 2
+    	men_at_arms_limit = 1
     	men_at_arms_cap = 1
 	}
 
