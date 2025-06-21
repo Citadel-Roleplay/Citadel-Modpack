@@ -1449,6 +1449,189 @@ on_birth_child_MHF = {
 					chance = 35
 					add_trait = strong
 				}
+}
+			
+if = {
+				limit = {
+					exists = scope:child.dynasty
+					scope:child.dynasty = { has_dynasty_perk = hayford_legacy_2 }
+					OR = { # The child must have a real parent of the Dynasty...
+						scope:mother.dynasty = scope:child.dynasty
+						scope:real_father.dynasty = scope:child.dynasty
+					}
+				}
+				random = {
+					chance = 40
+					add_trait = stubborn
+				}
+			}
+			if = {
+				limit = {
+					exists = scope:child.dynasty
+					scope:child.dynasty = { has_dynasty_perk = hayford_legacy_2 }
+					OR = { # The child must have a real parent of the Dynasty...
+						scope:mother.dynasty = scope:child.dynasty
+						scope:real_father.dynasty = scope:child.dynasty
+					}
+				}
+				random = {
+					chance = 40
+					add_trait = loyal
+				}
+			}
+			if = {
+				limit = {
+					exists = scope:child.dynasty
+					scope:child.dynasty = { has_dynasty_perk = hayford_legacy_3 }
+					OR = { # The child must have a real parent of the Dynasty...
+						scope:mother.dynasty = scope:child.dynasty
+						scope:real_father.dynasty = scope:child.dynasty
+					}
+				}
+				random = {
+					chance = 25
+					add_trait = greedy
+				}
+			}
+			if = {
+				limit = {
+					exists = scope:child.dynasty
+					scope:child.dynasty = { has_dynasty_perk = hayford_legacy_4 }
+					OR = { # The child must have a real parent of the Dynasty...
+						scope:mother.dynasty = scope:child.dynasty
+						scope:real_father.dynasty = scope:child.dynasty
+					}
+				}
+				random = {
+					chance = 35
+					add_trait = shrewd
+				}
+			}
+			if = {
+				limit = {
+					exists = scope:child.dynasty
+					scope:child.dynasty = { has_dynasty_perk = hayford_legacy_4 }
+					OR = { # The child must have a real parent of the Dynasty...
+						scope:mother.dynasty = scope:child.dynasty
+						scope:real_father.dynasty = scope:child.dynasty
+					}
+				}
+				random = {
+					chance = 50
+					add_trait = ambitious
+				}
+			}
+			if = {
+				limit = {
+					exists = scope:child.dynasty
+					scope:child.dynasty = { has_dynasty_perk = rosby_legacy_3 }
+					OR = { # The child must have a real parent of the Dynasty...
+						scope:mother.dynasty = scope:child.dynasty
+						scope:real_father.dynasty = scope:child.dynasty
+					}
+				}
+				random = {
+					chance = 25
+					add_trait = greedy
+				}
+			}
+			if = {
+				limit = {
+					exists = scope:child.dynasty
+					scope:child.dynasty = { has_dynasty_perk = rosby_legacy_5 }
+					OR = { # The child must have a real parent of the Dynasty...
+						scope:mother.dynasty = scope:child.dynasty
+						scope:real_father.dynasty = scope:child.dynasty
+					}
+				}
+				random = {
+					chance = 40
+					add_trait = brave
+				}
+			}
+			if = {
+				limit = {
+					exists = scope:child.dynasty
+					scope:child.dynasty = { has_dynasty_perk = rosby_legacy_5 }
+					OR = { # The child must have a real parent of the Dynasty...
+						scope:mother.dynasty = scope:child.dynasty
+						scope:real_father.dynasty = scope:child.dynasty
+					}
+				}
+				random = {
+					chance = 40
+					add_trait = cynical
+				}
+			}
+			if = {
+				limit = {
+					exists = scope:child.dynasty
+					scope:child.dynasty = { has_dynasty_perk = stokeworth_legacy_2 }
+					OR = { # The child must have a real parent of the Dynasty...
+						scope:mother.dynasty = scope:child.dynasty
+						scope:real_father.dynasty = scope:child.dynasty
+					}
+				}
+				random = {
+					chance = 50
+					add_trait = beauty_good_1
+				}
+			}
+			if = {
+				limit = {
+					exists = scope:child.dynasty
+					scope:child.dynasty = { has_dynasty_perk = stokeworth_legacy_3 }
+					OR = { # The child must have a real parent of the Dynasty...
+						scope:mother.dynasty = scope:child.dynasty
+						scope:real_father.dynasty = scope:child.dynasty
+					}
+				}
+				random = {
+					chance = 25
+					add_trait = greedy
+				}
+			}
+			if = {
+				limit = {
+					exists = scope:child.dynasty
+					scope:child.dynasty = { has_dynasty_perk = stokeworth_legacy_4 }
+					OR = { # The child must have a real parent of the Dynasty...
+						scope:mother.dynasty = scope:child.dynasty
+						scope:real_father.dynasty = scope:child.dynasty
+					}
+				}
+				random = {
+					chance = 35
+					add_trait = authoritative
+				}
+			}
+			if = {
+				limit = {
+					exists = scope:child.dynasty
+					scope:child.dynasty = { has_dynasty_perk = stokeworth_legacy_4 }
+					OR = { # The child must have a real parent of the Dynasty...
+						scope:mother.dynasty = scope:child.dynasty
+						scope:real_father.dynasty = scope:child.dynasty
+					}
+				}
+				random = {
+					chance = 50
+					add_trait = diligent
+				}
+			}
+			if = {
+				limit = {
+					exists = scope:child.dynasty
+					scope:child.dynasty = { has_dynasty_perk = stokeworth_legacy_5 }
+					OR = { # The child must have a real parent of the Dynasty...
+						scope:mother.dynasty = scope:child.dynasty
+						scope:real_father.dynasty = scope:child.dynasty
+					}
+				}
+				random = {
+					chance = 20
+					add_trait = just
+				}
 			}
 		}
 	}
